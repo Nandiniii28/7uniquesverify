@@ -26,17 +26,18 @@ export default function HomeHero() {
           />
         </div>
         <div className="text-left flex flex-col items-left pt-12 md:pt-0" data-aos="fade-up">
-          <h1 className="font-extrabold text-[#373533] text-3xl xs:text-4xl md:text-5xl lg:text-[48px] leading-tight mb-6">
-            Empowering Your Business
-            <br />
-            with Reliable VOIP and
-            <br />
-            Cloud Services.
-          </h1>
-          <p className="text-[#9c9e99] w-full text-base md:text-lg leading-relaxed tracking-wide mb-8 max-w-lg">
-            The power of VOIP, telecom, and cloud technologies to deliver
-            seamless communication solutions for businesses.
-          </p>
+        <h1 className="font-extrabold text-[#373533] text-3xl xs:text-4xl md:text-5xl lg:text-[48px] leading-tight mb-6">
+  Empowering Your Business
+  <br />
+  with Reliable Identity
+  <br />
+  and Compliance Solutions.
+</h1>
+
+<p className="text-[#9c9e99] w-full text-base md:text-lg leading-relaxed tracking-wide mb-8 max-w-lg">
+  The power of API-driven verification to deliver seamless, secure, and scalable identity and compliance solutions for modern businesses.
+</p>
+
           <div className="flex flex-row gap-5 mb-8 w-full">
             <a
               href="/about-us"

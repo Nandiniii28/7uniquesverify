@@ -81,17 +81,17 @@ export default function ContactUsPage() {
           {
             iconPath1: "bi bi-geo-alt-fill",
             label: "Location:",
-            value: "saaszf@gmail.com",
+            value: "contact@7unique.in",
           },
           {
             iconPath1: "bi bi-envelope-fill",
             label: "Email address:",
-            value: "zaivoip@gmail.com",
+            value: "info@7unique.in",
           },
           {
             iconPath1: "bi bi-telephone-fill",
             label: "Phone number:",
-            value: "(800) 555-0175 5934",
+            value: "91 7878053816",
           },
         ].map((item, i) => (
           <div

@@ -15,8 +15,8 @@ export default function Footer() {
             />
           </Link>
           <p className="mb-6 leading-relaxed">
-            SprintVerify is an innovative solution for verification processes
-            that eliminates the need for extensive paperwork and speeds up the
+          7UniqueVerify is a cutting-edge Indian verification platform that replaces paperwork with instant, secure, and API-powered identity checks.
+
           </p>
           <div className="flex gap-3 mt-2 text-red-600 text-2xl">
             <Link
@@ -128,7 +128,8 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-[#eaeaea] pt-6 text-center text-[#9c9e99] text-sm">
-        <span>© Copyright - All Rights Reserved</span>
+        <span>© Copyright - All Rights Reserved | 7UniqueVerify
+        </span>
       </div>
     </footer>
   );

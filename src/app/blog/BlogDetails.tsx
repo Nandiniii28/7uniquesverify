@@ -41,28 +41,21 @@ export default function BlogDetail() {
       </div>
 
       <h1 className="text-3xl font-bold mb-6">{blog.title}</h1>
-
       <div className="space-y-4 text-gray-700 leading-relaxed">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-          ultricies, nisi non condimentum fermentum, lorem velit bibendum
-          sapien, nec placerat mi lacus vitae nunc.
-        </p>
-        <p>
-          Mauris lacinia, nunc vel dignissim dignissim, massa velit bibendum
-          eros, et finibus nisl nisi sed odio. Donec eleifend leo eu velit
-          tincidunt, vitae suscipit nunc bibendum.
-        </p>
-        <p>
-          Morbi convallis magna eget purus imperdiet, nec pretium nulla
-          dapibus. Sed eu sapien sed purus efficitur fringilla. Sed a volutpat
-          odio, eget ullamcorper risus.
-        </p>
-        <p>
-          Vivamus in orci id sapien vestibulum tempus. Nullam fermentum nisl sed
-          elit volutpat, ut tristique odio lobortis.
-        </p>
-      </div>
+  <p>
+    In 2025, responsive design isn’t just a best practice—it’s a necessity. With over 60% of web traffic coming from mobile devices, brands that fail to optimize for multiple screen sizes risk losing users at first click. Responsive design ensures that websites adapt seamlessly to desktops, tablets, and smartphones without compromising usability or aesthetics.
+  </p>
+  <p>
+    One of the core principles of responsive design is mobile-first development. Start designing for smaller screens and scale up, rather than trying to shrink a desktop experience down. This ensures better performance, faster loading, and a layout tailored for touch navigation.
+  </p>
+  <p>
+    Another crucial strategy is using flexible grid systems and media queries. Tools like CSS Grid and Flexbox help developers build adaptive layouts, while media queries allow fine-tuning based on screen resolution, orientation, and more. Together, they enable tailored experiences across all devices.
+  </p>
+  <p>
+    Lastly, performance plays a pivotal role in responsiveness. Compress images, use lazy loading, and leverage modern file formats like WebP to reduce load time. Combine these practices with a mobile-first mindset and accessibility testing, and your site will be future-ready for the dynamic digital world of 2024.
+  </p>
+</div>
+
 
       <div className="mt-8">
         <Link

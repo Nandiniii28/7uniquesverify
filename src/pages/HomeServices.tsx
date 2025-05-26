@@ -20,10 +20,12 @@ useEffect(() => {
         <div>
           <p className="text-xs font-semibold text-gray-600 mb-1">OUR SERVICES</p>
           <h2 className="text-3xl font-semibold leading-tight max-w-md mb-6">
-            Empowering Businesses with Tailored Service.
+          Customized Identity Verification Services for Every Business Need.
+
           </h2>
           <p className="text-gray-600 max-w-sm" data-aos="zoom-in">
-            We specialize in delivering innovative VOIP, telecom, and cloud solutions designed to enhance the way businesses connect and communicate.
+          We specialize in delivering innovative identity verification and compliance solutions designed to streamline the way businesses onboard, verify, and build trust.
+
           </p>
 
           <div className="mt-10 space-y-4 max-w-md">

@@ -1,27 +1,29 @@
 import { useState } from "react";
 
 const faqs = [
-  {
-    q: "What is VOIP, and how does it work?",
-    a: "VOIP offers several advantages over traditional phone systems, including cost-effectiveness, flexibility, and advanced features like video conferencing and call forwarding.",
-  },
-  {
-    q: "How is VOIP better than traditional phone systems?",
-    a: "VOIP offers several advantages over traditional phone systems, including cost-effectiveness, flexibility, and advanced features like video conferencing and call forwarding.",
-  },
-  {
-    q: "Can I keep my existing phone number with ZaiVOIP?",
-    a: "Yes! VOIP allows you to port your number for seamless transition and continuity.",
-  },
-  {
-    q: "Is VOIP secure for business communication?",
-    a: "VOIP uses encrypted channels and security protocols to keep your communication safe.",
-  },
-  {
-    q: "What kind of support does ZaiVOIP provide?",
-    a: "We offer 24/7 chat, phone, and email support to all customers.",
-  },
-];
+
+    {
+      q: "What is 7UniqueVerify, and how does it work?",
+      a: "7UniqueVerify is a digital verification platform offering APIs for KYC, identity checks, and compliance. It connects with government and financial databases to deliver instant and secure verification results.",
+    },
+    {
+      q: "How is 7UniqueVerify better than traditional verification methods?",
+      a: "Unlike manual processes, 7UniqueVerify provides real-time identity verification using APIs, reducing paperwork, delays, and human error—while increasing security and efficiency.",
+    },
+    {
+      q: "Can I integrate 7UniqueVerify with my existing platform?",
+      a: "Yes! Our APIs are easy to integrate with your mobile app, website, or internal systems, making the transition seamless for your development team.",
+    },
+    {
+      q: "Is 7UniqueVerify secure for handling sensitive data?",
+      a: "Absolutely. We use bank-grade encryption and comply with industry standards to ensure your data and user identities remain secure and private.",
+    },
+    {
+      q: "What kind of support does 7UniqueVerify provide?",
+      a: "We provide 24/7 customer support via chat, phone, and email to ensure smooth onboarding, integration, and operation at every stage.",
+    }
+  ]
+  
 
 export default function HomeFAQ() {
   const [open, setOpen] = useState(0);

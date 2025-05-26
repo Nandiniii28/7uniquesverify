@@ -51,14 +51,15 @@ export default function Services() {
           <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
             {/* Left: Info */}
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold text-[#373533] mb-5">Seamless Integration, Maximum Impact</h2>
-              <p className="text-[#595c5c] mb-7">Our cloud-driven VOIP and telecom technologies integrate effortlessly into your business, scaling with your team, customers, and goals for the future.</p>
-              <ul className="list-disc pl-6 text-[#373533]">
-                <li className="mb-1">Smart unified communications platform</li>
-                <li className="mb-1">HD voice quality & reliability across all devices</li>
-                <li>Advanced data, reporting, and call analytics</li>
-              </ul>
-            </div>
+  <h2 className="text-2xl md:text-3xl font-bold text-[#373533] mb-5">Seamless Integration, Maximum Impact</h2>
+  <p className="text-[#595c5c] mb-7">Our verification APIs integrate effortlessly with your business platforms, helping you scale secure onboarding, compliance, and fraud prevention as you grow.</p>
+  <ul className="list-disc pl-6 text-[#373533]">
+    <li className="mb-1">Plug-and-play KYC & identity verification APIs</li>
+    <li className="mb-1">Real-time Aadhaar, PAN, and document validation</li>
+    <li>Detailed logs, verification reports, and usage insights</li>
+  </ul>
+</div>
+
             {/* Right: Visual asset */}
             <div className="flex justify-center">
               <img src="https://cdn.prod.website-files.com/675a786888260c63ee46dcc4/675e73c31b6bcbf650522673_Macbook%20Mockup%204.png" alt="Tech Process" className="rounded-lg shadow w-[320px]" />

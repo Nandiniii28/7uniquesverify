@@ -133,11 +133,11 @@ export default function HomePricing() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#373533] mb-4">
-            Find the Right Plan for Seamless Communication.
+          Find the Right Plan for Seamless Verification and Compliance.
+
           </h2>
           <p className="text-[#9c9e99] text-lg">
-            The power of VOIP, telecom, and cloud technologies to deliver
-            seamless communication solutions for businesses of all sizes.
+          The power of real-time verification and compliance APIs to deliver secure, scalable identity solutions for businesses of all sizes.
           </p>
         </div>
         <div className="mb-8 flex justify-center gap-4">

@@ -29,8 +29,10 @@ export default function HomeBlog() {
   return (
     <section className="bg-[#f6fafd] py-16">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-[#373533] mb-4 text-center">Insights and Updates from World Communication.</h2>
-        <p className="text-lg text-[#9c9e99] text-center mb-14 max-w-2xl mx-auto">The power of VOIP, telecom, and cloud technologies to deliver seamless communication solutions for businesses of all sizes.</p>
+        <h2 className="text-3xl md:text-4xl font-extrabold text-[#373533] mb-4 text-center">Latest Insights and Updates from 7UniqueVerify.
+        </h2>
+        <p className="text-lg text-[#9c9e99] text-center mb-14 max-w-2xl mx-auto">The power of API-first identity, KYC, and compliance tools to deliver seamless verification solutions for businesses of all sizes.
+        </p>
         <div className="grid md:grid-cols-3 gap-8">
           {blogPosts.map((post) => (
             <a

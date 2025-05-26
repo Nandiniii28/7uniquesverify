@@ -6,42 +6,42 @@ const articleData = [
     title: "How to Create a Cozy Atmosphere",
     slug: "create-cozy-atmosphere",
     category: "Candle Tips",
-    desc: "Simple steps to create your home’s best warm ambiance.",
+    desc: "Transform your space into a warm retreat using lighting, textures, and calming scents.",
   },
   {
     img: "/img/1.2.jpg",
     title: "The Benefits of Aromatherapy in Home",
     slug: "benefits-of-aromatherapy",
     category: "Wellness Tips",
-    desc: "Simple steps to make your home feel warm and inviting.",
+    desc: "Explore how essential oils can enhance mood, reduce stress, and promote restful sleep.",
   },
   {
     img: "/img/1.3.jpg",
     title: "Sustainable Living: Tips for Every Home",
     slug: "sustainable-living-tips",
     category: "Candle Tips",
-    desc: "Simple steps to create your home’s best warm ambiance.",
+    desc: "Adopt eco-friendly habits to create a greener, more conscious home environment.",
   },
   {
     img: "/img/1.4.jpg",
     title: "How to Create a Cozy Atmosphere",
     slug: "create-cozy-atmosphere-2",
     category: "Candle Tips",
-    desc: "Simple steps to create your home’s best warm ambiance.",
+    desc: "Elevate your home's comfort with textures, warm lighting, and personalized decor.",
   },
   {
     img: "/img/1.5.jpg",
     title: "Creating a Relaxing Outdoor Space",
     slug: "relaxing-outdoor-space",
     category: "Wellness Tips",
-    desc: "Simple steps to create your home’s best warm ambiance.",
+    desc: "Design a peaceful backyard or balcony retreat using plants, lighting, and soft furnishings.",
   },
   {
     img: "/img/1.6.jpg",
     title: "Essential Tips for Home Organization",
     slug: "home-organization-tips",
     category: "Candle Tips",
-    desc: "Simple steps to create your home’s best warm ambiance.",
+    desc: "Declutter and arrange your home effectively to boost peace, focus, and efficiency.",
   },
 ];
 
@@ -50,7 +50,7 @@ const MediaArticles = () => {
     <div className="container my-16">
       {/* Header */}
       <header className="mb-10 max-w-7xl mx-auto">
-        <p className="text-sm text-gray-500 uppercase tracking-wide mb-1">thg</p>
+        <p className="text-sm text-gray-500 uppercase tracking-wide mb-1">Insights</p>
         <h1 className="text-3xl sm:text-4xl font-semibold mb-2 leading-tight">
           Explore Our Latest Insights
         </h1>
@@ -74,7 +74,7 @@ const MediaArticles = () => {
                 The Benefits of Aromatherapy in Home
               </h2>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                Simple steps to make your home feel warm and inviting.
+                Explore how essential oils can enhance mood, reduce stress, and promote restful sleep.
               </p>
             </div>
             <div className="flex items-center justify-between text-gray-500 text-sm">
@@ -85,15 +85,15 @@ const MediaArticles = () => {
                 <span>View More</span>
                 <i className="fas fa-arrow-right"></i>
               </Link>
-              <time className="italic" dateTime="2023-11-04">
-                Saturday, 04 Nov 2023
+              <time className="italic" dateTime="2025-05-10">
+                Saturday, 10 May 2025
               </time>
             </div>
           </div>
 
           {/* Category Buttons */}
           <div className="flex flex-wrap gap-3 md:flex-col md:gap-6">
-            {["Candle Tips", "Wellness Tips", "Wellness Tips", "DIY Projects", "TV Show"].map((cat, i) => (
+            {["Candle Tips", "Wellness Tips", "Eco Living", "DIY Projects", "Interior Style"].map((cat, i) => (
               <button
                 key={i}
                 className="px-4 py-1 rounded-full border border-gray-300 text-gray-700 text-sm font-medium hover:bg-gray-100"
@@ -121,7 +121,7 @@ const MediaArticles = () => {
                   {item.category}
                 </p>
 
-                {/* 🟢 Title wrapped with Link using slug */}
+                {/*  Title wrapped with Link using slug */}
                 <Link to={`/articles/${item.slug}`} className="hover:underline">
                   <h3 className="text-lg font-semibold mb-2 leading-snug">
                     {item.title}
@@ -131,8 +131,8 @@ const MediaArticles = () => {
                 <p className="text-gray-700 text-sm flex-grow leading-relaxed">
                   {item.desc}
                 </p>
-                <time className="mt-4 text-xs italic text-gray-500" dateTime="2023-11-04">
-                  Saturday, 04 Nov 2023
+                <time className="mt-4 text-xs italic text-gray-500" dateTime="2025-05-10">
+                  Saturday, 10 May 2025
                 </time>
               </div>
             </article>

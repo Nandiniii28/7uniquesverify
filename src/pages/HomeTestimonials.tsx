@@ -1,29 +1,30 @@
 const testimonials = [
   {
-    name: 'Ronald Richards',
-    location: 'Michigan, US',
-    role: '',
+    name: 'Rohan Mehta',
+    location: 'Mumbai, India',
+    role: 'Operations Head, Fintech Startup',
     quote:
-      "The user interface is seamless, the powerful analytics give us invaluable insights into our campaigns, allowing us to make data-driven decisions effortlessly. It's like having an extra team member who never misses a beat.",
+      "7UniqueVerify's seamless API integration has streamlined our KYC process. It's like having a digital compliance officer—fast, reliable, and always on point.",
     rating: 5,
   },
   {
-    name: 'Devon Lane',
-    location: '',
-    role: 'Junior Marketing Manager',
+    name: 'Anjali Verma',
+    location: 'Delhi, India',
+    role: 'HR Manager',
     quote:
-      'ZaiVOIP has completely transformed our communication systems. Engagement rates are at an all-time high, and our subscribers love the content we’re now able to tailor for them.',
+      "Verifying employee documents is now effortless. 7UniqueVerify helps us onboard faster while staying fully compliant. It’s a must-have for modern HR teams.",
     rating: 5,
   },
   {
-    name: 'Jenny Wilson',
-    location: '',
-    role: 'Junior Marketing Manager',
+    name: 'Manish Gupta',
+    location: 'Bangalore, India',
+    role: 'CTO, Lending Platform',
     quote:
-      'ZaiVOIP has made it easier for our support team to handle calls efficiently. The HD voice quality and auto-attendant features make a big difference.',
+      "Real-time verification with 7UniqueVerify has drastically reduced our fraud rates. The tech is solid and support is responsive. Highly recommended.",
     rating: 5,
   },
 ];
+
 
 function Stars({ count }: { count: number }) {
   return (

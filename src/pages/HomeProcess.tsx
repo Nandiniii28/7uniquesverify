@@ -7,13 +7,12 @@ export default function HomeProcess() {
             OUR PROCESS
           </p>
           <h2 className="text-3xl sm:text-4xl font-semibold text-[#0f172a] leading-tight mb-4">
-            Our Streamlined Process
-            <br className="hidden sm:block" />
-            for Seamless Connectivity.
+          Our Streamlined Process
+<br className="hidden sm:block" />
+for Seamless Verification.
           </h2>
           <p className="text-sm text-[#475569] max-w-xl mx-auto">
-            The power of VOIP, telecom, and cloud technologies to deliver
-            seamless communication solutions for businesses of all sizes.
+          The power of real-time identity verification and compliance APIs to deliver secure, paperless solutions for businesses of all sizes.
           </p>
         </div>
         <nav
@@ -93,8 +92,8 @@ export default function HomeProcess() {
               Testing &amp; Optimization
             </h3>
             <p className="text-[#475569] text-sm leading-relaxed">
-              Simplify and streamline your business communication with
-              Communications from ZaiVOIP. Our solution.
+            Simplify and streamline your business operations with 7UniqueVerify. Our solution makes identity verification fast, secure, and fully compliant.
+
             </p>
           </article>
           <article className="bg-white rounded-xl p-8 flex flex-col items-center text-center">
@@ -111,8 +110,8 @@ export default function HomeProcess() {
               Ongoing Support
             </h3>
             <p className="text-[#475569] text-sm leading-relaxed">
-              Our solution integrates voice, video, messaging, and collaboration
-              tools into a single, seamless platform.
+            Our solution integrates identity verification, document checks, and compliance workflows into a single, seamless API platform.
+
             </p>
           </article>
         </div>

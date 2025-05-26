@@ -9,17 +9,18 @@ export default function HomeFeatures() {
             ABOUT US
           </p>
           <p className="text-[30px] sm:text-[20px] leading-[1.3] text-black max-w-[600px] mx-auto">
-            We specialize
-            <span className="font-bold">
-              in delivering innovative VOIP, telecom, &amp; cloud
-            </span>
+          We specialize
+<span className="font-bold">
+  in delivering innovative identity, KYC, and compliance verification solutions
+</span>
+
             <span className="title-img mx-2">
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-            solutions designed enhance the way businesses connect and
-            communicate.
-            <br />
-            With focus on reliability
+            Solutions designed to enhance the way businesses verify and onboard users.
+<br />
+With a focus on reliability and compliance.
+
             {/* <img alt="person with headset and laptop" className="inline-block mx-1 -mb-[3px] rounded-lg" height="20" src="https://storage.googleapis.com/a1aa/image/16a83f84-e160-48d4-6f54-a64faf163a17.jpg" width="50"/> */}
             <span className="title-img _2 mx-2">
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -41,7 +42,7 @@ export default function HomeFeatures() {
               OUR FEATURES
             </p>
             <h2 className="text-[36px]  leading-tight ">
-              Features Designed to Elevate Communication Experience Success.
+            Powerful Features That Make Digital Verification Faster, Safer, and Smarter.
             </h2>
             <button
               className="mt-6 bg-[#2dc1e3] text-white text-[16px]  px-5 py-2 rounded-full hover:bg-yellow-300 transition"
@@ -64,7 +65,7 @@ export default function HomeFeatures() {
                 Lending
               </h3>
               <p className="our-features-icon-details">
-                Facilitate quick and secure loan approvals by verifying applicant identities and financial information.
+              Enable faster and more secure loan approvals with real-time identity and financial information verification.
               </p>
             </div>
             <div className="bg-white rounded-lg our-features-single shadow-sm flex flex-col items-center text-center">
@@ -75,7 +76,7 @@ export default function HomeFeatures() {
                 Banking
               </h3>
               <p className="our-features-icon-details">
-                Strengthen fraud prevention measures and comply with Know Your Customer (KYC) regulations through robust identity verification.
+              Strengthen fraud prevention and ensure regulatory compliance with powerful KYC and identity verification solutions.
               </p>
             </div>
             <div className="bg-white rounded-lg our-features-single shadow-sm flex flex-col items-center text-center">
@@ -83,10 +84,10 @@ export default function HomeFeatures() {
                 <i className="fas fa-briefcase text-white text-xl"></i>
               </div>
               <h3 className="heading">
-               Staffing & Recruitment
+              Verified Staffing & Recruitment
               </h3>
               <p className="our-features-icon-details">
-                Improves hiring decisions with candidate background verification and streamlines employee onboarding.
+              Improve hiring decisions with accurate background checks and streamline employee onboarding through verified identity data.
               </p>
             </div>
             <div className="bg-white rounded-lg our-features-single shadow-sm flex flex-col items-center text-center">
@@ -97,7 +98,7 @@ export default function HomeFeatures() {
                 Logistics
               </h3>
               <p className="our-features-icon-details">
-                Enhance package delivery security by verifying user identities during login processes.
+              Enhance delivery security by verifying user identities at login and critical handoff points.
               </p>
             </div>
             <div className="bg-white rounded-lg our-features-single shadow-sm flex flex-col items-center text-center">
@@ -108,7 +109,7 @@ export default function HomeFeatures() {
                 FMCG/ FMCD
               </h3>
               <p className="our-features-icon-details">
-               Enhance FMCG/FMCD security and compliance by verifying worker identities, screening for criminal records, and mitigating risks.
+              Enhance FMCG/FMCD workforce security and compliance by verifying employee identities, screening backgrounds, and reducing operational risks.
               </p>
             </div>
           </div>

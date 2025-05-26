@@ -89,54 +89,55 @@ export default function Navbar() {
                       menuOpen ? "relative w-full mt-3" : ""
                     }`}
                   >
-                    <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6">
-                      {[
-                        {
-                          icon: "fas fa-shield-alt",
-                          title: "CANDY",
-                          desc: "Meet SprintVerify: Your AI-Driven Verification Platform for Seamless and Accurate Authentication in real-time.",
-                        },
-                        {
-                          icon: "fas fa-shield-alt",
-                          title: "KYC",
-                          desc: "Verify a diverse array of identities to guarantee the legitimacy of your clients and users.",
-                        },
-                        {
-                          icon: "fas fa-user-friends",
-                          title: "KYB",
-                          desc: "Enhance risk management by thoroughly assessing potential partners, clients, and businesses before integration.",
-                        },
-                        {
-                          icon: "fas fa-building",
-                          title: "Fraud Detection",
-                          desc: "Utilize advanced APIs to detect potential fraud detections, enhancing your security measures.",
-                        },
-                        {
-                          icon: "fas fa-wave-square",
-                          title: "Phone Number Lookup",
-                          desc: "Perform an assessment of the mobile number to authenticate identity and potential digital interaction.",
-                        },
-                        {
-                          icon: "fas fa-share-alt",
-                          title: "Financial Checks",
-                          desc: "Authenticate customers ownership of bank accounts and conduct additional financial verifications.",
-                        },
-                        {
-                          icon: "fas fa-database",
-                          title: "Employee Background Verification",
-                          desc: "Ensure trust with comprehensive employee background checks, fostering a secure work environment for all stakeholders in your organization.",
-                        },
-                        {
-                          icon: "fas fa-database",
-                          title: "AI Driven OCR Software",
-                          desc: "Experience seamless document digitization with AI-driven OCR software, effortlessly prefilling extensive digital paperwork for efficient processes.",
-                        },
-                        {
-                          icon: "fas fa-database",
-                          title: "Utilities",
-                          desc: "Streamline operations with our utilities solutions, simplifying everyday tasks for enhanced efficiency across your organization.",
-                        },
-                      ].map((item, idx) => (
+                   <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6">
+  {[
+    {
+      icon: "fas fa-shield-alt",
+      title: "CANDY Engine",
+      desc: "Customize your KYC journey with CANDY — our intelligent, API-based identity workflow builder for real-time verification.",
+    },
+    {
+      icon: "fas fa-shield-alt",
+      title: "Digital KYC",
+      desc: "Verify Aadhaar, PAN, and other government IDs securely and instantly through seamless API integrations.",
+    },
+    {
+      icon: "fas fa-user-friends",
+      title: "KYB Verification",
+      desc: "Evaluate business entities, directors, and partners to ensure regulatory compliance and reduce onboarding risks.",
+    },
+    {
+      icon: "fas fa-building",
+      title: "Fraud Detection",
+      desc: "Leverage risk signals and data intelligence to identify fraudulent behaviors before they impact your business.",
+    },
+    {
+      icon: "fas fa-wave-square",
+      title: "Phone Number Intelligence",
+      desc: "Validate mobile number status and metadata to ensure genuine users and prevent telecom-based fraud.",
+    },
+    {
+      icon: "fas fa-share-alt",
+      title: "Bank Account Verification",
+      desc: "Instantly match bank account numbers with user identities to ensure ownership and reduce chargeback risks.",
+    },
+    {
+      icon: "fas fa-database",
+      title: "Employee Background Checks",
+      desc: "Verify employee identity, criminal history, and employment records to foster a trustworthy workplace.",
+    },
+    {
+      icon: "fas fa-database",
+      title: "AI-Powered OCR",
+      desc: "Auto-extract document data using smart OCR to accelerate digital KYC and reduce manual errors.",
+    },
+    {
+      icon: "fas fa-database",
+      title: "Utility Verification",
+      desc: "Authenticate customer address and identity using utility data for deeper risk assessment.",
+    },
+  
+  ].map((item, idx) => (
                         <div
                           key={idx}
                           className="flex items-start gap-3 max-w-[280px] cursor-pointer"
