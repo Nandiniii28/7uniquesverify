@@ -1,15 +1,13 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 
+
+
 const navLinks = [
   {
     to: "/product",
     label: "Product",
-    dropdown: [
-      { to: "/product/feature1", label: "Feature 1" },
-      { to: "/product/feature2", label: "Feature 2" },
-      { to: "/product/feature3", label: "Feature 3" },
-    ],
+    dropdown: true,
   },
   { to: "/home", label: "Home" },
   { to: "/blog", label: "Blog" },
@@ -19,9 +17,66 @@ const navLinks = [
 
 export default function Navbar() {
   const location = useLocation();
-  const [hovered, setHovered] = useState(null);
+  const [hovered, setHovered] = useState<string | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const isActive = (path: string) => location.pathname.startsWith(path);
+
+  const productItems = [
+    {
+      icon: "fas fa-shield-alt",
+      title: "CANDY",
+      desc: "Meet SprintVerify: Your AI-Driven Verification Platform for Seamless and Accurate Authentication in real-time.",
+      to: "/candy",
+    },
+    {
+      icon: "fas fa-shield-alt",
+      title: "KYC",
+      desc: "Verify a diverse array of identities to guarantee the legitimacy of your clients and users.",
+      to: "/kyc",
+    },
+    {
+      icon: "fas fa-user-friends",
+      title: "KYB",
+      desc: "Enhance risk management by thoroughly assessing potential partners, clients, and businesses before integration.",
+      to: "/kyb",
+    },
+    {
+      icon: "fas fa-building",
+      title: "Fraud Detection",
+      desc: "Utilize advanced APIs to detect potential fraud detections, enhancing your security measures.",
+      to: "/fraud-detection",
+    },
+    {
+      icon: "fas fa-wave-square",
+      title: "Phone Number Lookup",
+      desc: "Perform an assessment of the mobile number to authenticate identity and potential digital interaction.",
+      to: "/phone-number-lookup",
+    },
+    {
+      icon: "fas fa-share-alt",
+      title: "Financial Checks",
+      desc: "Authenticate customers ownership of bank accounts and conduct additional financial verifications.",
+      to: "/financial-checks",
+    },
+    {
+      icon: "fas fa-database",
+      title: "Employee Background Verification",
+      desc: "Ensure trust with comprehensive employee background checks, fostering a secure work environment for all stakeholders in your organization.",
+      to: "/employee-verification",
+    },
+    {
+      icon: "fas fa-database",
+      title: "AI Driven OCR Software",
+      desc: "Experience seamless document digitization with AI-driven OCR software, effortlessly prefilling extensive digital paperwork for efficient processes.",
+      to: "/ocr",
+    },
+    {
+      icon: "fas fa-database",
+      title: "Utilities",
+      desc: "Streamline operations with our utilities solutions, simplifying everyday tasks for enhanced efficiency across your organization.",
+      to: "/utilities",
+    },
+  ];
 
   return (
     <header className="w-full bg-white shadow-sm sticky top-0 z-50">
@@ -36,13 +91,15 @@ export default function Navbar() {
 
         {/* Hamburger for Mobile */}
         <button
-          className={`md:hidden text-2xl  text-[#373533] transition duration-200 ${
+          className={`md:hidden text-2xl text-[#373533] transition duration-200 ${
             menuOpen ? "text-[#2dc1e3] rotate-90" : ""
           }`}
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <i
-            className={`fas ${menuOpen ? "bi bi-chevron-bar-right" : "bi bi-layout-sidebar-inset"}`}
+            className={`fas ${
+              menuOpen ? "bi bi-chevron-bar-right" : "bi bi-layout-sidebar-inset"
+            }`}
           ></i>
         </button>
 
@@ -55,7 +112,7 @@ export default function Navbar() {
           {navLinks.map((link) => (
             <li
               key={link.to}
-              className=" group"
+              className="group relative"
               onMouseEnter={() => !menuOpen && setHovered(link.to)}
               onMouseLeave={() => !menuOpen && setHovered(null)}
             >
@@ -74,9 +131,7 @@ export default function Navbar() {
                     {link.label}
                     <i
                       className={`fa-solid ${
-                        hovered === link.to
-                          ? "bi bi-chevron-up"
-                          : "bi bi-chevron-down"
+                        hovered === link.to ? "bi bi-chevron-up" : "bi bi-chevron-down"
                       } text-xs`}
                     ></i>
                   </div>
@@ -90,56 +145,12 @@ export default function Navbar() {
                     }`}
                   >
                     <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6">
-                      {[
-                        {
-                          icon: "fas fa-shield-alt",
-                          title: "CANDY",
-                          desc: "Meet SprintVerify: Your AI-Driven Verification Platform for Seamless and Accurate Authentication in real-time.",
-                        },
-                        {
-                          icon: "fas fa-shield-alt",
-                          title: "KYC",
-                          desc: "Verify a diverse array of identities to guarantee the legitimacy of your clients and users.",
-                        },
-                        {
-                          icon: "fas fa-user-friends",
-                          title: "KYB",
-                          desc: "Enhance risk management by thoroughly assessing potential partners, clients, and businesses before integration.",
-                        },
-                        {
-                          icon: "fas fa-building",
-                          title: "Fraud Detection",
-                          desc: "Utilize advanced APIs to detect potential fraud detections, enhancing your security measures.",
-                        },
-                        {
-                          icon: "fas fa-wave-square",
-                          title: "Phone Number Lookup",
-                          desc: "Perform an assessment of the mobile number to authenticate identity and potential digital interaction.",
-                        },
-                        {
-                          icon: "fas fa-share-alt",
-                          title: "Financial Checks",
-                          desc: "Authenticate customers ownership of bank accounts and conduct additional financial verifications.",
-                        },
-                        {
-                          icon: "fas fa-database",
-                          title: "Employee Background Verification",
-                          desc: "Ensure trust with comprehensive employee background checks, fostering a secure work environment for all stakeholders in your organization.",
-                        },
-                        {
-                          icon: "fas fa-database",
-                          title: "AI Driven OCR Software",
-                          desc: "Experience seamless document digitization with AI-driven OCR software, effortlessly prefilling extensive digital paperwork for efficient processes.",
-                        },
-                        {
-                          icon: "fas fa-database",
-                          title: "Utilities",
-                          desc: "Streamline operations with our utilities solutions, simplifying everyday tasks for enhanced efficiency across your organization.",
-                        },
-                      ].map((item, idx) => (
-                        <div
+                      {productItems.map((item, idx) => (
+                        <Link
                           key={idx}
-                          className="flex items-start gap-3 max-w-[280px] cursor-pointer"
+                          to={item.to}
+                          className="flex items-start gap-3 max-w-[280px] cursor-pointer no-underline"
+                          onClick={() => setMenuOpen(false)}
                         >
                           <div className="bg-[#e6f0ff] text-[#2a5db0] text-lg mt-[3px] flex justify-center items-center w-7 h-7 rounded-sm border border-[#2a5db0]">
                             <i className={item.icon}></i>
@@ -152,7 +163,7 @@ export default function Navbar() {
                               {item.desc}
                             </p>
                           </div>
-                        </div>
+                        </Link>
                       ))}
                     </div>
                   </div>
@@ -161,9 +172,7 @@ export default function Navbar() {
                 <Link
                   to={link.to}
                   className={`block py-2 font-medium text-base hover:text-[#2dc1e3] transition-colors ${
-                    location.pathname === link.to
-                      ? "text-[#2dc1e3]"
-                      : "text-[#373533]"
+                    location.pathname === link.to ? "text-[#2dc1e3]" : "text-[#373533]"
                   }`}
                   onClick={() => setMenuOpen(false)}
                 >
