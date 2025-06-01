@@ -5,7 +5,8 @@ const UtilitiesCards: React.FC = () => {
     <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
       <div className="max-w-full mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 px-3 sm:px-5 md:px-20">
-          Explore the Dynamic Capabilities of <span className="text-[#29a9c5]">SprintVerify's</span> Utilities API
+          Explore the Dynamic Capabilities of{" "}
+          <span className="text-[#29a9c5]">SprintVerify's</span> Utilities API
         </h2>
 
         <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
@@ -20,7 +21,7 @@ const UtilitiesCards: React.FC = () => {
               Currency Exchange API
             </h3>
             <p className="text-gray-600">
-              SprintVerify’s API is perfect for handling all your currency exchange rate conversions. Get access to current and historical foreign exchange rates without worrying about uptime or outdated data. Simplify your processes and make informed decisions with our reliable and efficient convergence rate.
+              Get real-time and historical foreign exchange rates through SprintVerify’s Currency Exchange API. Power your international pricing, accounting, and finance systems with trusted and up-to-date currency data—reliable, fast, and always available.
             </p>
           </div>
 
@@ -35,7 +36,7 @@ const UtilitiesCards: React.FC = () => {
               Comprehensive Risk Assessment
             </h3>
             <p className="text-gray-600">
-              SprintVerify’s Utilities API suite offers a comprehensive risk assessment tool to evaluate partners and clients before integration. Assess credibility, reliability, and compliance to minimize risks from fraud, non-compliance, and weak partnerships.
+              Make smarter, safer decisions with our integrated Risk Assessment module. Evaluate the credibility and compliance of customers, vendors, or partners before onboarding — reducing fraud and enhancing trust in every transaction.
             </p>
           </div>
 
@@ -47,10 +48,10 @@ const UtilitiesCards: React.FC = () => {
               className="w-full h-48 object-cover mb-4"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Data Validation
+              Smart Data Validation
             </h3>
             <p className="text-gray-600">
-              SprintVerify's Utilities API includes a robust data validation feature to check IMEI numbers, user information, or transaction details. Ensure accuracy and authenticity while reducing the risk of data errors and fraud.
+              Verify and validate critical information in real time — including IMEI numbers, user IDs, or financial data. SprintVerify’s Utilities API ensures data integrity, prevents fraud, and automates checks at scale with high precision.
             </p>
           </div>
         </div>

@@ -11,25 +11,25 @@ const features: Feature[] = [
     title: "Customizable UI",
     icon: "/img/user-experience.png",
     description:
-      "CANDY offers a flexible front-end design feature, allowing you to tailor the interface to align perfectly with your branding and meet your UI/UX requirements.",
+      "CANDY lets you fully personalize the interface to reflect your brand identity—meeting both design goals and user journey expectations.",
   },
   {
     title: "Downtime Protection",
     icon: "/img/secure-data.png",
     description:
-      "With CANDY, your users are guaranteed a seamless experience, thanks to automated fallback options, which ensure uninterrupted service even during API downtimes.",
+      "Built with resilience, CANDY ensures continuity with automatic fallbacks—your service stays live even when APIs face interruptions.",
   },
   {
     title: "Stronger Security",
     icon: "/img/encrypted.png",
     description:
-      "Security is our top priority. With advanced encryption and multi-factor authentication, CANDY keeps your data safe and secure while monitoring for real-time threats.",
+      "With real-time threat monitoring, encryption, and MFA, CANDY by 7Unique Verify protects every transaction and user session end to end.",
   },
   {
     title: "Smoother Operations",
     icon: "/img/workflow.png",
     description:
-      "By automating repetitive tasks and eliminating manual processes, CANDY enhances productivity and operational efficiency across your organization.",
+      "Automate your identity workflows and reduce manual load. CANDY helps boost speed, accuracy, and internal efficiency.",
   },
 ];
 

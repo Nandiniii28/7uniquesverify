@@ -11,18 +11,20 @@ const FraudDetectionHero: React.FC = () => {
         {/* Left: Text content */}
         <div className="w-full md:w-2/3 text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-           Fraud Detection API
+            Fraud Detection API
           </h1>
           <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-           Fraud Detection APIs: Enhancing Risk Management
+            Stop Fraud Before It Starts – Powered by 7Unique Verify
           </h2>
           <p className="text-lg mb-4 text-white">
-           Thoroughly assess potential partners, clients, and businesses with our Fraud Check API, enhancing risk management and ensuring comprehensive fraud prevention API solutions.
+            Instantly screen individuals, businesses, and partners using our real-time fraud detection APIs—designed to strengthen risk and compliance operations.
           </p>
           <p className="mb-4 text-white">
-           Our Fraud Detection leverages advanced algorithms to provide in-depth assessments of potential partners, clients, and businesses. By analyzing a wide range of fraud indicators, including transactional patterns, behavioural anomalies, and historical data, our API enhances risk management strategies and enables businesses to detect and prevent fraudulent activities effectively.
+            With access to behavioral data, court records, challans, and anomaly patterns, 7Unique Verify helps you identify red flags before they become liabilities.
           </p>
-          
+          <p className="mb-6 text-white">
+            Trusted by fintechs, NBFCs, HR tech, and platforms across India for safe, compliant, and reliable onboarding.
+          </p>
           <a
             href="#"
             className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
@@ -32,11 +34,11 @@ const FraudDetectionHero: React.FC = () => {
         </div>
 
         {/* Right: Image */}
-         <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="https://img.freepik.com/free-vector/virtual-machines-operating-system-data-storage_335657-3133.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740" 
-            alt="KYC Verification Illustration"
-            className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px]  lg:max-w-[700px]"
+            src="https://img.freepik.com/free-vector/virtual-machines-operating-system-data-storage_335657-3133.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+            alt="Fraud Detection Illustration"
+            className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
           />
         </div>
       </div>

@@ -14,16 +14,16 @@ const KycHero: React.FC = () => {
             KYC Verification API
           </h1>
           <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-            KYC API For Identity Verification Solutions - Ensuring Legitimacy, Building Trust
+            Smart KYC API by 7Unique Verify – Fast, Secure & Compliant
           </h2>
           <p className="text-lg mb-4 text-white">
-            Verify a diverse array of identities to guarantee the legitimacy of your clients and users with our advanced KYC verification process. We provide comprehensive KYC solutions tailored to your needs.
+            Instantly validate your users, customers, or employees with 7Unique Verify’s advanced KYC verification suite. Built for fintechs, lenders, HRMS, and onboarding teams.
           </p>
           <p className="mb-4 text-white">
-            Our KYC API process goes beyond traditional methods, leveraging advanced technologies such as artificial intelligence and machine learning to ensure thorough and accurate identity verification.
+            Our KYC APIs leverage AI and machine learning to automate identity checks—reducing manual review and ensuring full regulatory compliance.
           </p>
           <p className="mb-6 text-white">
-            By analyzing a wide range of data points, document validation, and behavioural patterns, we can verify identities with a high degree of precision.
+            From document scanning to behavior pattern analysis, we deliver precision KYC that’s fast, scalable, and secure—built for India’s digital-first businesses.
           </p>
           <a
             href="#"
@@ -34,11 +34,11 @@ const KycHero: React.FC = () => {
         </div>
 
         {/* Right: Image */}
-         <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="/img/11671799_13146-removebg-preview.png" 
+            src="/img/11671799_13146-removebg-preview.png"
             alt="KYC Verification Illustration"
-            className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px]  lg:max-w-[700px]"
+            className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
           />
         </div>
       </div>
@@ -47,4 +47,3 @@ const KycHero: React.FC = () => {
 };
 
 export default KycHero;
-

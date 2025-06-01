@@ -3,7 +3,7 @@ import {
   FaPassport,
   FaIdCard,
   FaCar,
-  FaUniversity, 
+  FaUniversity,
   FaMapMarkerAlt,
   FaQrcode,
   FaFingerprint,
@@ -19,62 +19,62 @@ const APIsUnderKyc: React.FC = () => {
     {
       name: "Passport Verification",
       icon: <FaPassport />,
-      description: "Verify the authenticity of passports for identity validation.",
+      description: "Instantly validate Indian and international passports for identity checks.",
     },
     {
       name: "PAN Verification",
       icon: <FaIdCard />,
-      description: "Authenticate PAN cards to ensure accurate tax records.",
+      description: "Verify PAN details in real-time to ensure legal and tax compliance.",
     },
     {
       name: "Driving Licence Verification",
       icon: <FaCar />,
-      description: "Confirm the validity of driving licenses for legal compliance.",
+      description: "Authenticate DL records via government databases for secure user validation.",
     },
     {
       name: "Bank Account Verification",
       icon: <FaUniversity />,
-      description: "Validate bank account details to prevent fraud.",
+      description: "Confirm beneficiary bank accounts using penny-drop or penny-less methods.",
     },
     {
       name: "Aadhaar Verification",
       icon: <FaMapMarkerAlt />,
-      description: "Authenticate Aadhaar cards for secure identity verification.",
+      description: "Verify Aadhaar number with consent-based checks through UIDAI gateway.",
     },
     {
-      name: "Aadhar QR Search",
+      name: "Aadhaar QR Search",
       icon: <FaQrcode />,
-      description: "Scan and verify Aadhaar QR codes for quick validation.",
+      description: "Scan Aadhaar QR codes and extract demographic info for fast onboarding.",
     },
     {
       name: "Aadhaar Without OTP",
       icon: <FaFingerprint />,
-      description: "Verify Aadhaar details without requiring OTP.",
+      description: "Enable biometric or offline Aadhaar verification without user OTP.",
     },
     {
       name: "EKYC Search",
       icon: <FaSearch />,
-      description: "Perform electronic KYC searches for compliance.",
+      description: "Fetch electronic KYC data using Digilocker consent and secure APIs.",
     },
     {
       name: "UPI / VPA Verification",
       icon: <FaRegCreditCard />,
-      description: "Authenticate UPI IDs and Virtual Payment Addresses.",
+      description: "Validate UPI IDs and VPA handles to ensure ownership and accuracy.",
     },
     {
       name: "CKYC Download",
       icon: <FaDownload />,
-      description: "Download CKYC records for customer due diligence.",
+      description: "Download Central KYC (CKYC) data from the registry for due diligence.",
     },
     {
       name: "RC Verification",
       icon: <FaMapSigns />,
-      description: "Verify Registration Certificates for vehicles.",
+      description: "Check vehicle ownership and RC status with RTO-integrated APIs.",
     },
     {
       name: "UPI Info API",
       icon: <FaInfoCircle />,
-      description: "Retrieve UPI-related information for transactions.",
+      description: "Access UPI-linked details including bank names and VPA meta info.",
     },
   ];
 
@@ -90,10 +90,12 @@ const APIsUnderKyc: React.FC = () => {
               key={index}
               className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
             >
-              <div className="flex justify-center mb-4 text-[#29a9c5] text-4xl ">
+              <div className="flex justify-center mb-4 text-[#29a9c5] text-4xl">
                 {service.icon}
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">{service.name}</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                {service.name}
+              </h3>
               <p className="text-gray-600">{service.description}</p>
             </div>
           ))}

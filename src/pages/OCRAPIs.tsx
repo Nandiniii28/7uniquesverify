@@ -18,47 +18,47 @@ const OCRAPIs: React.FC = () => {
     {
       name: "Passport OCR",
       icon: <FaPassport />,
-      description: "Extract data from passport images using OCR.",
+      description: "Automatically extract personal and travel data from passport images using advanced OCR.",
     },
     {
       name: "PAN OCR",
       icon: <FaAddressCard />,
-      description: "Read and digitize PAN card details from scanned copies.",
+      description: "Digitize and extract key information from PAN card scans for streamlined KYC.",
     },
     {
       name: "Driving License OCR",
       icon: <MdOutlineDriveEta />,
-      description: "OCR solution to extract information from driving licenses.",
+      description: "Capture license number, name, and validity from driving license images.",
     },
     {
       name: "Bank Statement OCR",
       icon: <FaUniversity />,
-      description: "Convert bank statements into structured digital data.",
+      description: "Convert unstructured bank statement PDFs into structured, usable financial data.",
     },
     {
       name: "Cheque OCR",
       icon: <FaMoneyCheckAlt />,
-      description: "Digitally interpret cheque details for automated processing.",
+      description: "Read cheque numbers, account info, and signatures for automated cheque processing.",
     },
     {
       name: "Aadhaar OCR",
       icon: <FaIdCard />,
-      description: "Extract Aadhaar card details with high accuracy.",
+      description: "Extract UIDAI Aadhaar details including name, DOB, and Aadhaar number with high accuracy.",
     },
     {
       name: "Bulk Aadhaar Masking",
       icon: <MdOutlineMarkEmailRead />,
-      description: "Mask Aadhaar numbers in bulk documents for privacy.",
+      description: "Automatically redact Aadhaar numbers in bulk documents for compliance and privacy.",
     },
     {
       name: "Bulk Account Verification",
       icon: <MdOutlineAccountBalanceWallet />,
-      description: "Verify multiple accounts using OCR-enabled data inputs.",
+      description: "OCR-powered bulk account verification using scanned or uploaded documents.",
     },
     {
-      name: "Bulk PAN Verification Services",
+      name: "Bulk PAN Verification",
       icon: <AiOutlineCheckCircle />,
-      description: "OCR-powered validation of multiple PAN cards simultaneously.",
+      description: "Validate multiple PAN cards simultaneously using intelligent OCR processing.",
     },
   ];
 
@@ -66,9 +66,9 @@ const OCRAPIs: React.FC = () => {
     <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-          APIs Under <span className="text-[#29a9c5]">AI-Driven </span> OCR Software
+          APIs Under <span className="text-[#29a9c5]">AI-Powered OCR Suite</span>
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 md:gap-6 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6">
           {ocrServices.map((service, index) => (
             <div
               key={index}
@@ -92,4 +92,3 @@ const OCRAPIs: React.FC = () => {
 };
 
 export default OCRAPIs;
-

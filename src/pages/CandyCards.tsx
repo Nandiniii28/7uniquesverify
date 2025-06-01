@@ -5,7 +5,7 @@ const CandyReasons: React.FC = () => {
     <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
       <div className="max-w-full mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-          Top Reasons to Opt for <span className="text-[#29a9c5]">CANDY</span>
+          Top Reasons to Choose <span className="text-[#29a9c5]">CANDY</span> by 7Unique Verify
         </h2>
 
         <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
@@ -17,10 +17,10 @@ const CandyReasons: React.FC = () => {
               className="w-full h-48 object-cover mb-4"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Personalised Journey: The CANDY Difference
+              Personalized User Flow: The CANDY Advantage
             </h3>
             <p className="text-gray-600">
-              CANDY empowers your business to craft tailored experiences for both users and partners by dynamically adjusting the interaction based on unique preferences, needs, and behaviours.
+              CANDY by 7Unique Verify lets you design user experiences that adapt in real-time—offering dynamic, need-based journeys for your users and partners.
             </p>
           </div>
 
@@ -32,10 +32,10 @@ const CandyReasons: React.FC = () => {
               className="w-full h-48 object-cover mb-4"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Trustworthy Efficiency: Enhancing Solutions with CANDY
+              Real-Time Accuracy: Built to Scale
             </h3>
             <p className="text-gray-600">
-              Our API is built with a robust and reliable platform, ensuring accurate & verified results in real-time. Say goodbye to manual errors and trust in our API’s precise ID verification process.
+              CANDY delivers instant, verified results with every API call. It's reliable, scalable, and eliminates manual effort—trusted by modern Indian businesses.
             </p>
           </div>
 
@@ -50,10 +50,10 @@ const CandyReasons: React.FC = () => {
               className="w-full h-48 object-cover mb-4"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Reliable KYC Verification: Efficiency at its Best
+              Hassle-Free KYC: Verified in Seconds
             </h3>
             <p className="text-gray-600">
-              With CANDY, you can save significant time and resources—no more manual data entry or cross-checking multiple sources for bulk verification. Our API delivers quick and accurate results, allowing you to focus on more critical tasks.
+              Say goodbye to bulk errors. With CANDY’s smart backend, you get fast KYC checks—saving you time, cost, and manual overhead for good.
             </p>
           </div>
         </div>
@@ -63,4 +63,3 @@ const CandyReasons: React.FC = () => {
 };
 
 export default CandyReasons;
-

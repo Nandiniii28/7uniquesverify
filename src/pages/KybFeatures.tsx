@@ -4,21 +4,21 @@ import { FaShieldAlt, FaCheckCircle, FaLaptop } from "react-icons/fa";
 const KybFeatures: React.FC = () => {
   const features = [
     {
-      title: "Safeguarding Against Risks",
+      title: "Safeguard Your Business from Risk",
       description:
-        "Our KYB Business Verification service is designed to verify the authenticity and legitimacy of businesses, allowing organisations to mitigate risks effectively. By conducting comprehensive checks, we ensure that businesses adhere to regulatory requirements and industry standards, providing peace of mind to stakeholders.",
+        "7Unique Verify’s KYB service helps verify the authenticity and legal standing of businesses—preventing fraud, financial risk, and regulatory issues before they occur. With our robust business verification process, your organization can onboard only trustworthy entities.",
       icon: <FaShieldAlt className="text-[#29a9c5] text-xl mr-2" />,
     },
     {
-      title: "Ensuring Compliance and Trustworthiness",
+      title: "Compliance and Transparency Guaranteed",
       description:
-        "With our KYB Check API service, organisations can conduct thorough checks on potential partners and clients. By verifying key business information, ownership details, and regulatory compliance, we help businesses make informed decisions and maintain trustworthiness within their networks.",
+        "Our KYB Check API enables seamless validation of ownership structures, registration numbers, and compliance histories. It helps ensure that your partners meet local laws and global compliance standards, reducing your legal exposure and enhancing business credibility.",
       icon: <FaCheckCircle className="text-[#29a9c5] text-xl mr-2" />,
     },
     {
-      title: "Seamless Digital Solutions for Enhanced Security",
+      title: "Digital-First KYB for Faster Onboarding",
       description:
-        "As a leading eKYB service provider, we offer seamless digital solutions that prioritise convenience and security. Our platform streamlines the KYB process, enabling businesses to verify identities, assess risk factors, and onboard customers efficiently. By leveraging advanced technology and data analytics, we deliver reliable KYB API services that meet the evolving needs of modern businesses.",
+        "As a trusted eKYB provider, 7Unique Verify offers an API-first approach that integrates smoothly with your systems. From automated business document checks to real-time risk scoring, our platform simplifies KYB processes and accelerates business onboarding securely.",
       icon: <FaLaptop className="text-[#29a9c5] text-xl mr-2" />,
     },
   ];
@@ -39,7 +39,7 @@ const KybFeatures: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
             Why Choose Us:{" "}
             <span className="text-[#29a9c5]">
-              Unmatched solutions by SprintVerify&apos;s KYB Verification
+              Trusted KYB Verification by 7Unique Verify
             </span>
           </h2>
 

@@ -1,7 +1,6 @@
 import React from "react";
 import {
   FaPassport,
-  FaNetworkWired,
   FaBroadcastTower,
   FaWallet,
   FaUserCircle,
@@ -12,23 +11,26 @@ const LookupAPIs: React.FC = () => {
     {
       name: "Passport Verification",
       icon: <FaPassport />,
-      description: "Verify the authenticity of passports using linked mobile numbers.",
+      description:
+        "Cross-check passport details using mobile linkage—ideal for identity validation during onboarding.",
     },
-    
     {
       name: "Telecom Details",
       icon: <FaBroadcastTower />,
-      description: "Fetch detailed telecom information like circle, type, and provider.",
+      description:
+        "Instantly retrieve SIM circle, operator type, and provider information linked to a number.",
     },
     {
-      name: "Mobile to UPI/VPA Fetch",
+      name: "Mobile to UPI/VPA",
       icon: <FaWallet />,
-      description: "Retrieve Virtual Payment Address linked to the given mobile number.",
+      description:
+        "Fetch the UPI ID (VPA) tied to a mobile number—perfect for verifying transaction identities.",
     },
     {
       name: "Mobile to UAN",
       icon: <FaUserCircle />,
-      description: "Find the Universal Account Number associated with a mobile number.",
+      description:
+        "Identify the Universal Account Number (UAN) mapped with a mobile—useful in employee and PF-related verifications.",
     },
   ];
 
@@ -36,7 +38,7 @@ const LookupAPIs: React.FC = () => {
     <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-          APIs Under <span className="text-[#29a9c5]">Mobile No. </span> Lookup API
+          Lookup with Confidence via <span className="text-[#29a9c5]">7Unique Verify</span>
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-8">
           {apiServices.map((service, index) => (

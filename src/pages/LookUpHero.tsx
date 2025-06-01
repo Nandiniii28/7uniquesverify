@@ -11,16 +11,16 @@ const LookUpHero: React.FC = () => {
         {/* Left: Text content */}
         <div className="w-full md:w-2/3 text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-           Phone Number Lookup API
+            Phone Number Lookup API
           </h1>
           <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-           Verify & Transform Customer Engagement with Phone Number Lookup APIs
+            Real-Time Identity Checks via Mobile Number Lookup
           </h2>
           <p className="text-lg mb-4 text-white">
-          Elevate your business's capabilities with SprintVerify's Mobile Number Lookup APIs, conducting initial checks to verify the identity and transform customer engagement. Now, Effortlessly access customer data with mobile number retrieval, enabling streamlined verifications, and enhanced communications.
+            Supercharge your verification process with <strong>SprintVerify’s Phone Number Lookup API</strong>. Instantly access accurate user data—like VPA, UAN, and telecom info—directly from a mobile number.
           </p>
           <p className="mb-4 text-white">
-          Now, you can Verify customer identities accurately, validate information from mobile numbers for secure payments, and deliver personalized messages with ease. Unlock the full potential of your business and stay ahead in today's dynamic digital landscape with SprintVerify's innovative Phone Number Lookup APIs.
+            Whether you're enabling secure payments, onboarding users, or personalizing messages, our API ensures accurate, fast, and secure data retrieval—giving your business the edge in customer engagement and fraud prevention.
           </p>
           
           <a
@@ -32,11 +32,11 @@ const LookUpHero: React.FC = () => {
         </div>
 
         {/* Right: Image */}
-         <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="https://img.freepik.com/free-vector/api-concept-illustration_114360-9822.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740" 
-            alt="KYC Verification Illustration"
-            className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px]  lg:max-w-[700px]"
+            src="https://img.freepik.com/free-vector/api-concept-illustration_114360-9822.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+            alt="Phone Number Lookup API Illustration"
+            className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
           />
         </div>
       </div>
