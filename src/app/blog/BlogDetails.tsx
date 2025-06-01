@@ -1,12 +1,27 @@
-// src/pages/BlogDetail.tsx
 import { useParams, Link } from 'react-router-dom';
-import { blogs } from './blogdata'; 
 import { FaUserPen } from 'react-icons/fa6';
 import { FaCalendarAlt } from 'react-icons/fa';
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 
 export default function BlogDetail() {
-  const { slug } = useParams();
-  const blog = blogs.find((b) => b.slug === slug);
+  const [blog, setBlog] = useState(null);
+  const { id } = useParams();
+
+  const fetchData = async () => {
+    try {
+      const response = await axios.get(`http://localhost:5050/api/blog/read?id=${id}`);
+      setBlog(response?.data?.allBlog);
+      console.log(id,"idddddddddddddddddddddddddd")
+      console.log("asc",response?.data?.allBlog);
+    } catch (error) {
+      console.error("Error fetching blog:", error);
+    }
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, [id]);
 
   if (!blog) {
     return (
@@ -24,7 +39,7 @@ export default function BlogDetail() {
   return (
     <section className="py-16 px-4 bg-white max-w-5xl mx-auto">
       <img
-        src={blog.img}
+        src={blog.mainImage}
         alt={blog.title}
         className="w-full h-[400px] object-cover rounded mb-6"
       />
@@ -43,25 +58,9 @@ export default function BlogDetail() {
       <h1 className="text-3xl font-bold mb-6">{blog.title}</h1>
 
       <div className="space-y-4 text-gray-700 leading-relaxed">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-          ultricies, nisi non condimentum fermentum, lorem velit bibendum
-          sapien, nec placerat mi lacus vitae nunc.
-        </p>
-        <p>
-          Mauris lacinia, nunc vel dignissim dignissim, massa velit bibendum
-          eros, et finibus nisl nisi sed odio. Donec eleifend leo eu velit
-          tincidunt, vitae suscipit nunc bibendum.
-        </p>
-        <p>
-          Morbi convallis magna eget purus imperdiet, nec pretium nulla
-          dapibus. Sed eu sapien sed purus efficitur fringilla. Sed a volutpat
-          odio, eget ullamcorper risus.
-        </p>
-        <p>
-          Vivamus in orci id sapien vestibulum tempus. Nullam fermentum nisl sed
-          elit volutpat, ut tristique odio lobortis.
-        </p>
+        {/* You may need to change this if blog.content is already formatted HTML */}
+        <p>{blog.long_description}</p>
+        <p>{blog.short_description}</p>
       </div>
 
       <div className="mt-8">
