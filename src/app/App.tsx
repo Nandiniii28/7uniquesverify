@@ -135,7 +135,7 @@ export default function App() {
         <Route path="/buzzing-for-bharat" element={<BuzzingForBharatPage />} />
 
         <Route path="*" element={<Placeholder name="404 Not Found" />} />
-      </Routes>``
+      </Routes>
       <Footer />
     </>
   )

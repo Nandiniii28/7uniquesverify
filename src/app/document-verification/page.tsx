@@ -2,13 +2,13 @@ import type React from "react"
 
 const DocumentVerificationPage: React.FC = () => {
   return (
-    <main className="max-w-7xl pb-24">
+    <main className="w-full pb-24">
       {/* Hero Section */}
       <section
         className="w-full bg-cover bg-center min-h-[80vh] flex items-center"
         style={{ backgroundImage: "url('/img/bg (2).png')" }}
       >
-        <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+        <div className="container mx-auto px-16 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="w-full md:w-2/3 text-white">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Document Verification API</h1>
             <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
@@ -43,7 +43,7 @@ const DocumentVerificationPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="https://img.freepik.com/free-vector/document-verification-concept-illustration_114360-5830.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="../img/images/gradient-api-illustration.png"
               alt="Document Verification"
               className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
             />
@@ -256,9 +256,9 @@ const DocumentVerificationPage: React.FC = () => {
             </div>
             <div className="w-full md:w-1/2">
               <img
-                src="https://img.freepik.com/free-vector/secure-data-concept-illustration_114360-2510.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+                src="../img/images/2.png"
                 alt="Document Verification Benefits"
-                className="w-full h-auto rounded-lg shadow-lg"
+                className="w-full h-auto rounded-lg"
               />
             </div>
           </div>

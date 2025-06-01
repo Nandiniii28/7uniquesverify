@@ -2,10 +2,10 @@ import type React from "react"
 
 const MCAVerificationPage: React.FC = () => {
   return (
-    <main className="max-w-7xl pb-24">
+    <main className="w-full pb-24">
       {/* Hero Section */}
       <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center"
+        className="w-full bg-cover bg-center min-h-screen flex items-center p-16"
         style={{ backgroundImage: "url('/img/bg (2).png')" }}
       >
         <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
@@ -35,7 +35,7 @@ const MCAVerificationPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="https://img.freepik.com/free-vector/corporate-concept-illustration_114360-1789.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="../img/images/35.png"
               alt="MCA Verification"
               className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
             />
@@ -45,16 +45,16 @@ const MCAVerificationPage: React.FC = () => {
 
       {/* Features Section */}
       <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
-        <div className="max-w-full mx-auto text-center">
+        <div className="max-w-full mx-auto text-center p-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
             <span className="text-[#29a9c5]">MCA Verification</span> Features
           </h2>
           <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
             <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
               <img
-                src="https://img.freepik.com/free-vector/company-concept-illustration_114360-2345.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+                src="../img/images/36.png"
                 alt="Company Verification"
-                className="w-full h-48 object-cover mb-4"
+                className="w-full h-48object-contain mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Complete Company Information</h3>
               <p className="text-gray-600">
@@ -64,9 +64,9 @@ const MCAVerificationPage: React.FC = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
               <img
-                src="https://img.freepik.com/free-vector/director-concept-illustration_114360-5678.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+                src="../img/images/37.png"
                 alt="Director Information"
-                className="w-full h-48 object-cover mb-4"
+                className="w-full h-48object-contain mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Director & Shareholder Details</h3>
               <p className="text-gray-600">
@@ -76,9 +76,9 @@ const MCAVerificationPage: React.FC = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0">
               <img
-                src="https://img.freepik.com/free-vector/compliance-concept-illustration_114360-8062.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+                src="../img/images/30.png"
                 alt="Compliance Status"
-                className="w-full h-48 object-cover mb-4"
+                className="w-full h-48object-contain mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Compliance & Status Check</h3>
               <p className="text-gray-600">
@@ -193,7 +193,7 @@ const MCAVerificationPage: React.FC = () => {
           </div>
           <div className="w-full lg:w-1/2">
             <img
-              src="https://img.freepik.com/free-vector/business-due-diligence-concept-illustration_114360-1534.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="../img/images/38.png"
               alt="MCA Verification Benefits"
               className="w-full h-auto object-contain"
             />
