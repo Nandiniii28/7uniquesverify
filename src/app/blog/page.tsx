@@ -1,6 +1,8 @@
-import { SetStateAction, useState } from "react";
+import { SetStateAction, useEffect, useState } from "react";
 import HomeCTA from "../../pages/HomeCTA";
 import { Link } from 'react-router-dom';
+import axios from "axios";
+
 const blogs = [
   {
     title: "Mastering Responsive Design: Best Practices for 2024.",
@@ -67,8 +69,9 @@ const blogs = [
   },
 ];
 
-export default function BlogPage() {
+export default function   BlogPage() {
   const [currentPage, setCurrentPage] = useState(1);
+  const [getData,setGetData]=useState()
   const blogsPerPage = 8;
 
   const indexOfLastBlog = currentPage * blogsPerPage;
@@ -80,6 +83,22 @@ export default function BlogPage() {
   const handlePageChange = (pageNumber: SetStateAction<number>) => {
     setCurrentPage(pageNumber);
   };
+
+const fetchData = async ()=>{
+try {
+  const response = await axios.get("http://localhost:5050/api/blog/read")
+  setGetData(response?.data?.allBlog)
+  console.log("dfsdgtfhjk",response.data.allBlog)
+} catch (error) {
+  console.log(error)
+}
+}
+
+useEffect(()=>{
+  fetchData()
+},[])
+
+
 
   return (
     <main className="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24 pb-24">
@@ -119,32 +138,32 @@ export default function BlogPage() {
       </section>
 
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
-        {currentBlogs.map((blog, index) => (
+        {getData?.map((blog, index) => (
           <article
             key={index}
             className="bg-[#F5F9FA] rounded-xl overflow-hidden shadow-sm"
           >
             <img
-              src={blog.img}
-              alt={blog.title}
+              src={blog?.mainImage}
+              alt={blog?.title}
               className="w-full h-44 object-cover rounded-t-xl"
               loading="lazy"
             />
             <div className="p-5">
               <div className="flex items-center text-gray-600 text-xs mb-2 space-x-2">
-                <span>
+                {/* <span>
                   <i className="fas fa-pen-nib" /> {blog.author}
                 </span>
-                <span>/</span>
+                <span>/</span> */}
                 <span>
-                  <i className="far fa-calendar-alt" /> {blog.date}
+                  <i className="far fa-calendar-alt" /> {new Date(blog?.createdAt).toLocaleDateString()}
                 </span>
               </div>
               <h3 className="font-semibold text-base leading-snug mb-3">
-                {blog.title}
+                {blog?.title}
               </h3>
               <Link
-                to={`/blog/${blog.slug}`}
+                to={`/blog/${blog._id}`}
                 className="text-xs font-semibold flex items-center space-x-1 text-black"
               >
                 <span>Read More</span>

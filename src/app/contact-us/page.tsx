@@ -1,4 +1,48 @@
+import React, { useState } from "react";
+import axios from "axios";
+import Swal from "sweetalert2";
+
 export default function ContactUsPage() {
+    const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    contact: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await axios.post("http://localhost:5050/api/contact/create", formData); 
+        console.log("response data",response)
+      if (response.status === 200) {
+        Swal.fire({
+          title: "Success!",
+          text: "Your form has been submitted.",
+          icon: "success",
+          confirmButtonColor: "#3085d6",
+        });
+
+        setFormData({ name: "", email: "", contact: "", message: "" });
+      }
+    } catch (error) {
+      Swal.fire({
+        title: "Error!",
+        text: "Something went wrong. Please try again later.",
+        icon: "error",
+        confirmButtonColor: "#d33",
+      });
+    }
+  };
   return (
     <main className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 mt-16 mb-20">
       {/* Contact Us heading */}
@@ -38,38 +82,50 @@ export default function ContactUsPage() {
             <div key={i} className="border border-gray-300 rounded-sm" />
           ))}
         </div>
-        <form className="relative z-10 space-y-6">
-          <div className="flex flex-col sm:flex-row sm:space-x-6 space-y-4 sm:space-y-0">
-            <input
-              className="flex-1 rounded-md border border-gray-200 px-4 py-3 text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-400"
-              placeholder="Your Name*"
-              required
-              type="text"
-            />
-            <input
-              className="flex-1 rounded-md border border-gray-200 px-4 py-3 text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-400"
-              placeholder="Enter Email*"
-              required
-              type="email"
-            />
-          </div>
-          <input
-            className="w-full rounded-md border border-gray-200 px-4 py-3 text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-400"
-            placeholder="Mobile No."
-            type="tel"
-          />
-          <textarea
-            className="w-full rounded-md border border-gray-200 px-4 py-3 text-sm placeholder-gray-500 resize-none focus:outline-none focus:ring-2 focus:ring-green-400"
-            placeholder="Example Text"
-            rows={4}
-          ></textarea>
-          <button
-            className="bg-yellow-400 hover:bg-yellow-300 text-black font-semibold text-xs rounded-full px-5 py-2"
-            type="submit"
-          >
-            Submit Now
-          </button>
-        </form>
+        <form className="relative z-10 space-y-6" onSubmit={handleSubmit}>
+      <div className="flex flex-col sm:flex-row sm:space-x-6 space-y-4 sm:space-y-0">
+        <input
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+          className="flex-1 rounded-md border border-gray-200 px-4 py-3 text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-400"
+          placeholder="Your Name*"
+          required
+          type="text"
+        />
+        <input
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          className="flex-1 rounded-md border border-gray-200 px-4 py-3 text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-400"
+          placeholder="Enter Email*"
+          required
+          type="email"
+        />
+      </div>
+      <input
+        name="contact"
+        value={formData.contact}
+        onChange={handleChange}
+        className="w-full rounded-md border border-gray-200 px-4 py-3 text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-400"
+        placeholder="Mobile No."
+        type="tel"
+      />
+      <textarea
+        name="message"
+        value={formData.message}
+        onChange={handleChange}
+        className="w-full rounded-md border border-gray-200 px-4 py-3 text-sm placeholder-gray-500 resize-none focus:outline-none focus:ring-2 focus:ring-green-400"
+        placeholder="Example Text"
+        rows={4}
+      ></textarea>
+      <button
+        className="bg-yellow-400 hover:bg-yellow-300 text-black font-semibold text-xs rounded-full px-5 py-2"
+        type="submit"
+      >
+        Submit Now
+      </button>
+    </form>
       </section>
 
       {/* Contact information */}
