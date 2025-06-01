@@ -5,7 +5,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 
 export default function BlogDetail() {
-  const [blog, setBlog] = useState(null);
+  const [blog, setBlog] = useState<any>(null);
   const { id } = useParams();
 
   const fetchData = async () => {
