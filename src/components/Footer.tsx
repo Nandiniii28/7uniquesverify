@@ -18,39 +18,39 @@ export default function Footer() {
             SprintVerify is an innovative solution for verification processes
             that eliminates the need for extensive paperwork and speeds up the
           </p>
-          <div className="flex gap-3 mt-2 text-red-600 text-2xl">
+          <div className="flex gap-3 mt-2 text-[#2dc1e3] text-2xl">
             <Link
               to="/contact-us"
               aria-label="Facebook"
-              className="hover:text-red-700"
+              className="hover:text-[#81e7fd]"
             >
               <i className="bi bi-facebook"></i>
             </Link>
             <Link
               to="/contact-us"
               aria-label="LinkedIn"
-              className="hover:text-red-700"
+              className="hover:text-[#81e7fd]"
             >
               <i className="bi bi-linkedin"></i>
             </Link>
             <Link
               to="/contact-us"
               aria-label="X Twitter"
-              className="hover:text-red-700"
+              className="hover:text-[#81e7fd]"
             >
               <i className="bi bi-twitter-x"></i>
             </Link>
             <Link
               to="/contact-us"
               aria-label="YouTube"
-              className="hover:text-red-700"
+              className="hover:text-[#81e7fd]"
             >
               <i className="bi bi-youtube"></i>
             </Link>
           </div>
         </div>
-
         {/* Products */}
+       
         <div>
           <h3 className="font-semibold text-black mb-4">Products</h3>
           <ul className="space-y-4">
@@ -68,12 +68,13 @@ export default function Footer() {
               "Mobile Verification API",
             ].map((item, index) => (
               <li key={index}>
-                <Link to="/contact-us">{item}</Link>
+                <Link to={`/${item.toLowerCase().replace(/ /g, "-")}`}>
+                  {item}
+                </Link>
               </li>
             ))}
           </ul>
         </div>
-
         {/* Single Link */}
         <div>
           <h3 className="font-semibold text-black mb-4">Single Link</h3>
@@ -88,24 +89,26 @@ export default function Footer() {
               "Face Match API",
             ].map((item, index) => (
               <li key={index}>
-                <Link to="/contact-us">{item}</Link>
+                <Link to={`/${item.toLowerCase().replace(/ /g, "-")}`}>
+                  {item}
+                </Link>
               </li>
             ))}
           </ul>
         </div>
-
         {/* Company */}
         <div>
           <h3 className="font-semibold text-black mb-4">Company</h3>
           <ul className="space-y-4">
             {["Products", "Candy", "Disclaimer"].map((item, index) => (
               <li key={index}>
-                <Link to="/contact-us">{item}</Link>
+                <Link to={`/${item.toLowerCase().replace(/ /g, "-")}`}>
+                  {item}
+                </Link>
               </li>
             ))}
           </ul>
         </div>
-
         {/* Resources */}
         <div>
           <h3 className="font-semibold text-black mb-4">Resources</h3>
@@ -128,7 +131,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-[#eaeaea] pt-6 text-center text-[#9c9e99] text-sm">
-        <span>© Copyright - All Rights Reserved</span>
+        <span>© 2025 Seven Unique Verify. All rights reserved.</span>
       </div>
     </footer>
   );
