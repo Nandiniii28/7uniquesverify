@@ -15,54 +15,52 @@ const APIsUnderKyb: React.FC = () => {
     {
       name: "GST Verification",
       icon: <FaFileInvoiceDollar />,
-      description: "Verify GST registration status of businesses.",
+      description: "Instantly verify business GST registration and compliance status.",
     },
     {
       name: "Company Name to CIN",
       icon: <FaBuilding />,
-      description: "Lookup Company Identification Number using company name.",
+      description: "Retrieve Company Identification Number (CIN) using registered business name.",
     },
     {
       name: "TAN to Company Search",
       icon: <FaSearch />,
-      description: "Find company details using TAN (Tax Deduction Account Number).",
+      description: "Find detailed company records via TAN for due diligence or onboarding.",
     },
     {
       name: "TAN Lookup API",
       icon: <FaIdBadge />,
-      description: "Lookup TAN information efficiently for compliance checks.",
+      description: "Get verified TAN details to meet tax-related regulatory requirements.",
     },
     {
-      name: "PAN to GST",
+      name: "PAN to GST Mapping",
       icon: <FaBarcode />,
-      description: "Map PAN numbers to associated GST records for verification.",
+      description: "Fetch GST data mapped to PAN numbers to prevent identity misuse.",
     },
     {
       name: "LEI Verification",
       icon: <FaRegIdCard />,
-      description: "Verify Legal Entity Identifier for financial institutions.",
+      description: "Validate Legal Entity Identifiers for financial or investment institutions.",
     },
     {
-      name: "Udhyam Aadhaar",
+      name: "Udhyam Aadhaar Check",
       icon: <FaClipboardCheck />,
-      description: "Validate MSME registration via Udhyam Aadhaar.",
+      description: "Verify MSME businesses through their official Udhyam Aadhaar registration.",
     },
-   
     {
-      name: "FSSAI Verification",
+      name: "FSSAI License Validation",
       icon: <FaUtensils />,
-      description: "Verify Food Safety and Standards Authority of India registration.",
+      description: "Check authenticity of FSSAI registration for food-related enterprises.",
     },
-   
   ];
 
   return (
     <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-          APIs Under <span className="text-[#29a9c5]">KYB Verification</span>
+          APIs Under <span className="text-[#29a9c5]">KYB (Know Your Business)</span> Verification
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-2  lg:grid-cols-4 gap-3 sm:gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-8">
           {apiServices.map((service, index) => (
             <div
               key={index}

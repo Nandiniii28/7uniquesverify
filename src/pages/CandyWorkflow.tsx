@@ -7,7 +7,7 @@ const CandyWorkflow: React.FC = () => {
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
         <div className="w-full lg:w-1/2 order-1 lg:order-2">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-            How Does <span className="text-[#29a9c5]">CANDY</span> Customize Workflow for Partners?
+            How Does <span className="text-[#29a9c5]">CANDY</span> Automate Workflow for Your Business?
           </h2>
 
           <div className="space-y-6 text-gray-700">
@@ -17,8 +17,7 @@ const CandyWorkflow: React.FC = () => {
                 Create
               </h3>
               <p>
-                With CANDY, you have the flexibility to create a tailored plan that aligns perfectly with your business requirements.
-                You decide how APIs will interact with your clients, customers, or partners in real time while seamlessly conducting ID Checks.
+                Design a verification flow as per your business logic. CANDY allows you to control how each API step behaves—customized for your onboarding, KYC, or vendor screening process.
               </p>
             </div>
 
@@ -28,8 +27,7 @@ const CandyWorkflow: React.FC = () => {
                 Assign
               </h3>
               <p>
-                Once the workflow is created, ID Checks can be assigned to customers or candidates.
-                They can complete onboarding independently—removing the need for manual processing.
+                Assign the process to users, customers, or candidates. They complete the journey independently—no manual follow-ups or repetitive tasks needed.
               </p>
             </div>
 
@@ -39,7 +37,7 @@ const CandyWorkflow: React.FC = () => {
                 Verify IDs
               </h3>
               <p>
-                Results are automatically shared with the workflow creator, allowing real-time decisions on whether to onboard the customer, employee, or partner.
+                As users complete the flow, results sync back to your dashboard instantly. Make real-time onboarding decisions—fast, compliant, and secure.
               </p>
             </div>
           </div>
@@ -58,5 +56,3 @@ const CandyWorkflow: React.FC = () => {
 };
 
 export default CandyWorkflow;
-
-

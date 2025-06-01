@@ -14,19 +14,19 @@ const FinancialHero: React.FC = () => {
             Financial Checks API
           </h1>
           <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-          Transform Your Financial Services with SprintVerify's Financial Checks API 
+            Power Smarter Lending with 7Unique Verify’s Financial APIs
           </h2>
           <p className="text-lg mb-4 text-white">
-           Are you looking to streamline your financial services and provide tailored solutions for your customers?
+            Looking to automate financial verification, reduce manual errors, and enhance decision-making?
           </p>
           <p className="mb-4 text-white">
-            Look no further than SprintVerify’s Financial Checks API.
+            7Unique Verify’s Financial Checks API enables you to instantly retrieve and validate financial details like ITR, credit score, bank account info, and more.
           </p>
           <p className="mb-4 text-white">
-            SprintVerify’s powerful tool allows you to quickly and easily verify vital financial information, such as account balances, transaction history, and more. 
+            Whether you're a lender, NBFC, insurance company, or fintech startup — our API suite helps assess creditworthiness, minimize fraud risk, and stay compliant.
           </p>
-           <p className="mb-6 text-white">
-           SprintVerify’s Financial Checks API is an effective solution for businesses that seek to ensure the completeness and accuracy of their customer’s financial information. It is by integrating this API into your existing systems, that you can fast-track the process of gathering and verifying the financial data, while also enjoying enhanced decision-making and reduced risk. Well, Don’t let outdated manual processes hold you back. Take advantage of the Best Credit Score Check API and revolutionise your financial services. Sounds too good to be true? Wait until you unlock the magic of Best Financial Checks API.
+          <p className="mb-6 text-white">
+            Integrate in minutes. Make informed decisions. Go beyond legacy processes and unlock faster onboarding, safer underwriting, and seamless customer journeys.
           </p>
           <a
             href="#"
@@ -37,11 +37,11 @@ const FinancialHero: React.FC = () => {
         </div>
 
         {/* Right: Image */}
-         <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="https://img.freepik.com/free-vector/hand-drawn-api-infographic_23-2149388657.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740" 
-            alt="KYC Verification Illustration"
-            className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px]  lg:max-w-[700px]"
+            src="https://img.freepik.com/free-vector/hand-drawn-api-infographic_23-2149388657.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+            alt="Financial API Illustration"
+            className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
           />
         </div>
       </div>
@@ -50,4 +50,3 @@ const FinancialHero: React.FC = () => {
 };
 
 export default FinancialHero;
-

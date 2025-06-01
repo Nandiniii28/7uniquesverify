@@ -11,19 +11,19 @@ const UtilitiesHero: React.FC = () => {
         {/* Left: Text Content */}
         <div className="w-full md:w-2/3 text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Utility Verification API
+            Utilities Verification API Suite
           </h1>
           <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-            Streamline Operations with Our Comprehensive Utilities API
+            Verify, Validate & Integrate — Smarter Utilities for Smarter Systems
           </h2>
           <p className="text-lg mb-4 text-white">
-            Optimise risk management and enhance operational efficiency with our Utilities API suite. Seamlessly integrate reliable tools to verify and validate crucial identifiers that support smarter, faster decision-making.
+            Automate compliance, enhance data accuracy, and reduce manual workloads with 7Unique Verify’s advanced Utility APIs. From LEI to IMEI validation, empower your backend with real-time intelligence.
           </p>
           <p className="mb-4 text-white">
-            From LEI (Legal Entity Identifier) checks to IMEI (International Mobile Equipment Identity) validation, our APIs are designed to provide essential data at your fingertips. Whether you're assessing business partners or onboarding customers, accurate verification is key.
+            Designed for industries like fintech, logistics, and telecom, our Utilities API suite helps you verify critical identifiers—instantly and securely. Make onboarding, auditing, and validation faster and smarter.
           </p>
           <p className="mb-6 text-white">
-            Take control of compliance and verification workflows with ease. Our Utilities Verification APIs ensure that your systems remain secure, efficient, and trustworthy — giving your business the foundation it needs to grow confidently.
+            Stay compliant, reduce fraud risks, and accelerate your decision-making processes—all through one integrated API platform. Built for performance, backed by accuracy.
           </p>
           <a
             href="#"

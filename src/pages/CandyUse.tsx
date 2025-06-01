@@ -4,24 +4,24 @@ const CandyUseCases: React.FC = () => {
   return (
     <section className="bg-white pb-10 pt-8 px-4 md:px-8 lg:px-20">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
-    
+
         <div className="w-full lg:w-1/2 order-1">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
             Transforming Verification Across Industries
           </h2>
           <p className="text-lg text-gray-700 mb-4">
-            <strong className="text-[#29a9c5]">CANDY</strong> is engineered to simplify identity verification and compliance across a wide range of sectors. Whether you're onboarding customers, verifying employees, or securing transactions, CANDY ensures accuracy, speed, and security at scale.
+            <strong className="text-[#29a9c5]">CANDY</strong>, a smart solution by 7Unique Verify, helps streamline identity verification for diverse business needs—whether it's user onboarding, workforce validation, or secure customer engagement.
           </p>
           <p className="text-gray-600 mb-4">
-            Trusted by forward-thinking organizations, CANDY is perfectly suited for:
+            Designed to meet sector-specific challenges, CANDY is widely used across:
           </p>
           <ul className="list-disc pl-6 text-gray-600 mb-4 space-y-1">
-            <li><strong>Banking & Finance:</strong> Fast-track KYC and AML compliance while reducing fraud.</li>
-            <li><strong>HR & Staffing:</strong> Seamless background checks and digital onboarding for employees.</li>
-            <li><strong>E-Commerce:</strong> Protect customer accounts with secure identity checks during sign-up or checkout.</li>
+            <li><strong>Banking & Finance:</strong> Simplify KYC, reduce fraud risk, and speed up regulatory checks.</li>
+            <li><strong>HR & Staffing:</strong> Digitize background verification and accelerate candidate onboarding.</li>
+            <li><strong>E-Commerce:</strong> Protect accounts and verify customers during sign-up and payment flows.</li>
           </ul>
           <p className="text-gray-600">
-            With automated workflows, real-time validation, and a user-friendly experience, CANDY empowers your business to scale operations without compromising security or compliance.
+            With fast APIs, intuitive flows, and built-in compliance, CANDY empowers growing teams to scale securely—without adding complexity.
           </p>
         </div>
 

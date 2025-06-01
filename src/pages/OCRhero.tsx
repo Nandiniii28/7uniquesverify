@@ -11,22 +11,22 @@ const OCRHero: React.FC = () => {
         {/* Left: Text content */}
         <div className="w-full md:w-2/3 text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            AI-Driven OCR Software & OCR API
+            AI-Powered OCR Software & API by 7Unique Verify
           </h1>
           <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-            Revolutionizing Verification: AI-Powered OCR Software by SprintVerify
+            Faster. Smarter. Automated Verification at Scale.
           </h2>
           <p className="text-lg mb-4 text-white">
-            As we become a part of the fintech landscape, we understand how businesses always search for means to streamline their verification process and enhance productivity.
+            At 7Unique Verify, we empower businesses with next-gen OCR solutions that simplify data extraction and document verification across KYC, banking, HR, and compliance workflows.
           </p>
           <p className="mb-4 text-white">
-            One such effective method is by leveraging AI-powered OCR API, which enables computers to read and interpret text from scanned documents or images.
+            Our AI-driven OCR API reads and interprets scanned documents, transforming raw images into structured, searchable, and verified data — all in real time.
           </p>
           <p className="mb-4 text-white">
-            With SprintVerify’s technology, businesses can automate the verification process faster and more accurately than ever before.
+            From IDs and passports to invoices and bank statements, automate your document processing with unmatched speed, accuracy, and reliability.
           </p>
           <p className="mb-6 text-white">
-            This robust technology allows you to scan and extract data from documents such as IDs, passports, invoices, and receipts — and verify the extracted information against predefined criteria.
+            Join the leading businesses that trust 7Unique Verify to streamline onboarding, boost compliance, and cut operational delays.
           </p>
           <a
             href="#"

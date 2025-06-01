@@ -6,19 +6,19 @@ const KycFeatures: React.FC = () => {
     {
       title: "Verify and authenticate customer identity documents",
       description:
-        "Our Document Verification service ensures the accurate and secure verification of customer identity documents. Through advanced technologies and automated processes, we authenticate a wide range of documents, including passports, driver's licenses, national IDs, and more.",
+        "Our document verification API securely validates IDs like passports, Aadhaar, PAN, and licenses using automated checks—ensuring trust and legal compliance.",
       icon: <FaIdCard className="text-[#29a9c5] text-xl mr-2" />,
     },
     {
       title: "Authenticate customers using biometric data",
       description:
-        "With Biometric Authentication, businesses can enhance security and streamline user ID Verification processes. Our advanced biometric solutions leverage unique physical characteristics such as fingerprints, facial recognition, voice patterns, and iris scans to verify customer identities accurately.",
+        "Leverage fingerprint, facial recognition, and iris scans to verify users with unmatched accuracy. Our biometric solutions reduce fraud and enable fast onboarding.",
       icon: <FaFingerprint className="text-[#29a9c5] text-xl mr-2" />,
     },
     {
       title: "Validate customer addresses for accuracy",
       description:
-        "Our Address Verification service enables businesses to validate customer addresses with precision and efficiency. By cross-referencing customer-provided address details with authoritative databases and official records, we ensure the accuracy and legitimacy of address information.",
+        "Ensure address legitimacy by matching it with government and financial databases. Perfect for KYC, credit verification, and delivery-critical businesses.",
       icon: <FaMapMarkerAlt className="text-[#29a9c5] text-xl mr-2" />,
     },
   ];
@@ -38,7 +38,7 @@ const KycFeatures: React.FC = () => {
         <div className="w-full lg:w-1/2 space-y-8">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
             Choose Excellence:{" "}
-            <span className="text-[#29a9c5]">Features of SprintVerify's KYC Verification API Solution</span>
+            <span className="text-[#29a9c5]">Features of 7Unique Verify's KYC API Suite</span>
           </h2>
 
           {features.map((feature, index) => (

@@ -13,32 +13,32 @@ const FinancialChecksAPIs: React.FC = () => {
     {
       name: "ITR Compliance Check",
       icon: <FaUserCheck />,
-      description: "Verify the compliance status of filed ITRs for individuals or businesses.",
+      description: "Verify ITR filing compliance for individuals or businesses via PAN-based lookups.",
     },
     {
-      name: "ITR Details Retrieval API",
+      name: "ITR Details Retrieval",
       icon: <FaRegFileAlt />,
-      description: "Retrieve detailed ITR information for financial history analysis.",
+      description: "Fetch complete ITR documents to assess income trends and historical filings.",
     },
     {
-      name: "ITR Profile Retrieval",
+      name: "ITR Profile Summary",
       icon: <MdOutlineAnalytics />,
-      description: "Access summarized ITR profiles to assist in creditworthiness checks.",
+      description: "Access structured financial summaries from ITR data to support credit decisions.",
     },
     {
-      name: "Credit Report Equifax",
+      name: "Credit Report (Equifax)",
       icon: <FaFileInvoiceDollar />,
-      description: "Get comprehensive credit reports directly from Equifax.",
+      description: "Get detailed credit bureau reports from Equifax for lending and underwriting workflows.",
     },
     {
-      name: "Credit Score",
+      name: "Credit Score API",
       icon: <FaChartLine />,
-      description: "Access credit score data to assess financial credibility.",
+      description: "Retrieve real-time credit scores to evaluate financial reliability and eligibility.",
     },
     {
-      name: "Frequently Asked",
+      name: "FAQs & API Guidance",
       icon: <FaQuestionCircle />,
-      description: "Access common queries and their resolutions related to APIs.",
+      description: "Browse frequently asked questions and integration support for all financial APIs.",
     },
   ];
 
