@@ -1,3 +1,4 @@
+'use client'
 import { SetStateAction, useEffect, useState } from "react";
 import HomeCTA from "../../pages/HomeCTA";
 import { Link } from 'react-router-dom';

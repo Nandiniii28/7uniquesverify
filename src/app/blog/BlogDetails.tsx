@@ -1,3 +1,4 @@
+'use client'
 import { useParams, Link } from 'react-router-dom';
 import { FaUserPen } from 'react-icons/fa6';
 import { FaCalendarAlt } from 'react-icons/fa';

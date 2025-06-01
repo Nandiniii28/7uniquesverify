@@ -1,3 +1,4 @@
+'use client'
 export const blogs = [
   {
     title: "Mastering Responsive Design: Best Practices for 2024.",
