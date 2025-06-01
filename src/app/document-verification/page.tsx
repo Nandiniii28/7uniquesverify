@@ -2,7 +2,7 @@ import type React from "react"
 
 const DocumentVerificationPage: React.FC = () => {
   return (
-    <main className="max-w-7xl pb-24">
+    <main className="w-full pb-24">
       {/* Hero Section */}
       <section
         className="w-full bg-cover bg-center min-h-[80vh] flex items-center"

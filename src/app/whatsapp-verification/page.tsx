@@ -43,16 +43,16 @@ const WhatsappVerificationPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="/placeholder.svg?height=400&width=500&text=WhatsApp+Verification"
+              src="/img/image/enter-otp-concept-illustration.png"
               alt="WhatsApp Verification"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px] rounded-lg shadow-xl"
+              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px] rounded-lg"
             />
           </div>
         </div>
       </section>
 
       {/* Features Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="p-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">WhatsApp Verification Features</h2>
@@ -137,7 +137,7 @@ const WhatsappVerificationPage: React.FC = () => {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-16">
+      <section className="p-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">How WhatsApp Verification Works</h2>
@@ -192,7 +192,7 @@ const WhatsappVerificationPage: React.FC = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="p-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
@@ -266,9 +266,9 @@ const WhatsappVerificationPage: React.FC = () => {
             </div>
             <div className="md:w-1/2">
               <img
-                src="/placeholder.svg?height=400&width=500&text=WhatsApp+Benefits"
+                src="/img/image/social-media-whatsapp-app-smartphone.png"
                 alt="WhatsApp Verification Benefits"
-                className="rounded-lg shadow-xl"
+                className="rounded-lg"
               />
             </div>
           </div>
@@ -276,7 +276,7 @@ const WhatsappVerificationPage: React.FC = () => {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-16">
+      <section className="p-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Industry Use Cases</h2>
@@ -428,7 +428,7 @@ const WhatsappVerificationPage: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="p-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">

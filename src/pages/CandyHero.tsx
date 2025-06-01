@@ -36,7 +36,7 @@ export default function CandyHero() {
         {/* Right image section */}
         <div className="md:w-1/3 flex justify-center">
           <img
-            src="https://img.freepik.com/free-vector/endpoint-concept-illustration_114360-2583.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+            src="/img/image/isometric-job-agency-employment-human-resources-resume-hiring-concept.png"
             alt="CANDY Hero Banner"
             className="w-[90%] md:w-[120%] max-w-none h-auto"
           />
