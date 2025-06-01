@@ -49,7 +49,7 @@ const BuzzingForBharatPage: React.FC = () => {
           </div>
           <div className="flex justify-center">
             <img
-              src="https://img.freepik.com/free-vector/india-concept-illustration_114360-1234.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="/img/image/indian-map-floating-smartwatch.png"
               alt="Digital India"
               className="w-full max-w-md h-auto object-contain"
             />
@@ -59,7 +59,7 @@ const BuzzingForBharatPage: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1 flex justify-center">
             <img
-              src="https://img.freepik.com/free-vector/startup-concept-illustration_114360-5678.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="/img/image/robot-handshake-human-background-futuristic-digital-age.png"
               alt="Innovation"
               className="w-full max-w-md h-auto object-contain"
             />
@@ -93,7 +93,7 @@ const BuzzingForBharatPage: React.FC = () => {
           </div>
           <div className="flex justify-center">
             <img
-              src="https://img.freepik.com/free-vector/business-growth-concept-illustration_114360-2345.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="/img/image/business-leader-standing-arrow-holding-flag-flat-vector-illustration-cartoon-people-training-doing-business-plan-leadership-victory-challenge-concept.png"
               alt="Business Growth"
               className="w-full max-w-md h-auto object-contain"
             />

@@ -2,7 +2,7 @@ import type React from "react"
 
 const CrimeCheckAPIPage: React.FC = () => {
   return (
-    <main className="max-w-7xl pb-24">
+    <main className="w-full pb-24">
       {/* Hero Section */}
       <section
         className="w-full bg-cover bg-center min-h-screen flex items-center"
@@ -35,7 +35,7 @@ const CrimeCheckAPIPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="https://img.freepik.com/free-vector/security-concept-illustration_114360-1443.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="/img/image/global-data-security-personal-data-security-cyber-data-security-online-concept-illustration-internet-security-information-privacy-protection.png"
               alt="Crime Check API Illustration"
               className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
             />
@@ -44,7 +44,7 @@ const CrimeCheckAPIPage: React.FC = () => {
       </section>
 
       {/* Features Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
+      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">
         <div className="max-w-full mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
             Key Features of <span className="text-[#29a9c5]">Crime Check API</span>
@@ -52,9 +52,8 @@ const CrimeCheckAPIPage: React.FC = () => {
           <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
             <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
               <img
-                src="https://img.freepik.com/free-vector/data-security-concept-illustration_114360-2851.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
-                alt="Real-time Verification"
-                className="w-full h-48 object-cover mb-4"
+                src="/img/image/10077.jpg"
+                className="w-full h-48 object-contain mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Real-time Criminal Record Verification</h3>
               <p className="text-gray-600">
@@ -64,9 +63,8 @@ const CrimeCheckAPIPage: React.FC = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
               <img
-                src="https://img.freepik.com/free-vector/shield-check-mark-security-protection-concept_1017-31771.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
-                alt="Comprehensive Coverage"
-                className="w-full h-48 object-cover mb-4"
+                src="/img/image/databaseadmin_4.jpg"
+                className="w-full h-48 object-contain mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Comprehensive Database Coverage</h3>
               <p className="text-gray-600">
@@ -76,9 +74,9 @@ const CrimeCheckAPIPage: React.FC = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0">
               <img
-                src="https://img.freepik.com/free-vector/compliance-concept-illustration_114360-8062.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+                src="/img/image/20943399.jpg"
                 alt="Compliance Ready"
-                className="w-full h-48 object-cover mb-4"
+                className="w-full h-48 object-contain mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Compliance & Legal Standards</h3>
               <p className="text-gray-600">
@@ -91,7 +89,7 @@ const CrimeCheckAPIPage: React.FC = () => {
       </section>
 
       {/* How It Works Section */}
-      <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-white py-16 px-16 md:px-8 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
             How <span className="text-[#29a9c5]">Crime Check</span> Works
@@ -138,7 +136,7 @@ const CrimeCheckAPIPage: React.FC = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-20">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full lg:w-1/2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
@@ -193,7 +191,7 @@ const CrimeCheckAPIPage: React.FC = () => {
           </div>
           <div className="w-full lg:w-1/2">
             <img
-              src="https://img.freepik.com/free-vector/criminal-justice-concept-illustration_114360-3157.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="/img/image/8058227.jpg"
               alt="Crime Check Benefits"
               className="w-full h-auto object-contain"
             />
@@ -202,7 +200,7 @@ const CrimeCheckAPIPage: React.FC = () => {
       </section>
 
       {/* Use Cases Section */}
-      <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-white py-16 px-16 md:px-8 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
             <span className="text-[#29a9c5]">Crime Check API</span> Use Cases
@@ -255,7 +253,7 @@ const CrimeCheckAPIPage: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2 space-y-6">

@@ -2,7 +2,7 @@ import type React from "react"
 
 const FaceMatchAPIPage: React.FC = () => {
   return (
-    <main className="max-w-7xl pb-24">
+    <main className="w-full pb-24">
       {/* Hero Section */}
       <section
         className="w-full bg-cover bg-center min-h-screen flex items-center"
@@ -35,7 +35,7 @@ const FaceMatchAPIPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="https://img.freepik.com/free-vector/face-recognition-concept-illustration_114360-1234.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+             src="/img/image/rendering-blender-3d-icon-logo-faciel-recognition-illustration.png"
               alt="Face Match API"
               className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
             />
@@ -44,7 +44,7 @@ const FaceMatchAPIPage: React.FC = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="p-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Powerful Face Matching Features</h2>
@@ -109,7 +109,7 @@ const FaceMatchAPIPage: React.FC = () => {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-16 bg-white">
+      <section className="p-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">How Face Matching Works</h2>
@@ -153,7 +153,7 @@ const FaceMatchAPIPage: React.FC = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="p-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -215,9 +215,9 @@ const FaceMatchAPIPage: React.FC = () => {
             </div>
             <div className="lg:w-1/2">
               <img
-                src="https://img.freepik.com/free-vector/face-recognition-technology-concept_23-2148498289.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+                 src="/img/image/flat-artificial-intelligence-background.png"
                 alt="Face Match Benefits"
-                className="w-full h-auto rounded-lg shadow-lg"
+                className="w-full h-auto rounded-lg"
               />
             </div>
           </div>
@@ -225,7 +225,7 @@ const FaceMatchAPIPage: React.FC = () => {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-16 bg-white">
+      <section className="p-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Industry Use Cases</h2>
@@ -334,7 +334,7 @@ const FaceMatchAPIPage: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="p-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">

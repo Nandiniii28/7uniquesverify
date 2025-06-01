@@ -13,7 +13,7 @@ export default function HomeCTA() {
           </a>
         </div>
         <div className="flex-1 flex justify-center items-center">
-          <img src="https://ext.same-assets.com/1049470090/3005603202.jpeg" alt="Team collaboration" className="rounded-xl shadow w-[340px] lg:w-[400px]" />
+          <img src="/img/image/follow-leader-concept-illustration.png" alt="Team collaboration" className="rounded-xl shadow w-[340px] lg:w-[400px]" />
         </div>
       </div>
     </section>
