@@ -2,7 +2,7 @@ import type React from "react"
 
 const DisclaimerPage: React.FC = () => {
   return (
-    <main className="max-w-4xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24 pb-24 pt-16">
+    <main className=" mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24 pb-24 pt-16">
       <div className="prose prose-lg max-w-none">
         <h1 className="text-3xl font-bold mb-8">Disclaimer</h1>
 

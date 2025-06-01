@@ -2,10 +2,10 @@ import type React from "react"
 
 const DrivingLicenseVerificationPage: React.FC = () => {
   return (
-    <main className="max-w-7xl pb-24">
+    <main className="w-full pb-24">
       {/* Hero Section */}
       <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center"
+        className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
         style={{ backgroundImage: "url('/img/bg (2).png')" }}
       >
         <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
@@ -35,7 +35,7 @@ const DrivingLicenseVerificationPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="https://img.freepik.com/free-vector/driving-license-concept-illustration_114360-3456.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="../img/images/21.png"
               alt="Driving License Verification"
               className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
             />
@@ -44,17 +44,17 @@ const DrivingLicenseVerificationPage: React.FC = () => {
       </section>
 
       {/* Features Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
-        <div className="max-w-full mx-auto text-center">
+      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">
+        <div className="max-w-full mx-auto text-center px-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
             <span className="text-[#29a9c5]">Driving License</span> Verification Features
           </h2>
           <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
             <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
               <img
-                src="https://img.freepik.com/free-vector/license-concept-illustration_114360-2567.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+                src="../img/images/22.png"
                 alt="License Validation"
-                className="w-full h-48 object-cover mb-4"
+                className="w-full h-48 object-contain mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Real-time License Validation</h3>
               <p className="text-gray-600">
@@ -64,9 +64,9 @@ const DrivingLicenseVerificationPage: React.FC = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
               <img
-                src="https://img.freepik.com/free-vector/driver-concept-illustration_114360-1234.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+                src="../img/images/23.png"
                 alt="Driver Details"
-                className="w-full h-48 object-cover mb-4"
+                className="w-full h-48 object-contain mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Comprehensive Driver Information</h3>
               <p className="text-gray-600">
@@ -76,9 +76,9 @@ const DrivingLicenseVerificationPage: React.FC = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0">
               <img
-                src="https://img.freepik.com/free-vector/vehicle-safety-concept-illustration_114360-4567.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+                src="../img/images/24.png"
                 alt="Safety Compliance"
-                className="w-full h-48 object-cover mb-4"
+                className="w-full h-48 object-contain mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Safety & Compliance Check</h3>
               <p className="text-gray-600">
@@ -91,8 +91,8 @@ const DrivingLicenseVerificationPage: React.FC = () => {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-16 px-4 md:px-8 lg:px-15">
-        <div className="max-w-full mx-auto text-center">
+      <section className="py-16 px-16 md:px-8 lg:px-15">
+        <div className="max-w-full mx-auto text-center px-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
             How <span className="text-[#29a9c5]">License Verification</span> Works
           </h2>
@@ -136,8 +136,8 @@ const DrivingLicenseVerificationPage: React.FC = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
-        <div className="max-w-full mx-auto">
+      <section className="bg-gray-50 py-16 px-24 md:px-8 lg:px-15">
+        <div className="max-w-full mx-auto px-16">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
@@ -192,7 +192,7 @@ const DrivingLicenseVerificationPage: React.FC = () => {
             </div>
             <div className="w-full lg:w-1/2">
               <img
-                src="https://img.freepik.com/free-vector/driving-benefits-illustration_114360-6789.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+                src="../img/images/25.png"
                 alt="License Verification Benefits"
                 className="w-full h-auto object-contain"
               />
@@ -202,8 +202,8 @@ const DrivingLicenseVerificationPage: React.FC = () => {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-16 px-4 md:px-8 lg:px-15">
-        <div className="max-w-full mx-auto text-center">
+      <section className="py-16 px-16 md:px-8 lg:px-15">
+        <div className="max-w-full mx-auto text-center px-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
             <span className="text-[#29a9c5]">Industry</span> Applications
           </h2>
@@ -249,7 +249,7 @@ const DrivingLicenseVerificationPage: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
+      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">
         <div className="max-w-full mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2">

@@ -43,16 +43,16 @@ const OCRValidationPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="/placeholder.svg?height=400&width=500&text=OCR+Validation"
+              src="/img/image/flat-design-api-illustration.png"
               alt="OCR Validation"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px] rounded-lg shadow-xl"
+              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px] rounded-lg"
             />
           </div>
         </div>
       </section>
 
       {/* Features Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="p-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -65,11 +65,11 @@ const OCRValidationPage: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="bg-green-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
-              </div>
+              <img
+                src="/img/image/21530023_6435775.jpg"
+                className="w-full h-48 object-contain mb-4"
+              />
+
               <h3 className="text-xl font-semibold mb-3">Multi-Language Support</h3>
               <p className="text-gray-600">
                 Extract text from documents in over 100 languages with high accuracy and support for various scripts and fonts.
@@ -77,11 +77,10 @@ const OCRValidationPage: React.FC = () => {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="bg-green-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
-                </svg>
-              </div>
+              <img
+                src="/img/image/5566766_2892186.jpg"
+                className="w-full h-48 object-contain mb-4"
+              />
               <h3 className="text-xl font-semibold mb-3">Document Structure Recognition</h3>
               <p className="text-gray-600">
                 Identify and extract structured data from forms, tables, invoices, and other formatted documents automatically.
@@ -89,11 +88,11 @@ const OCRValidationPage: React.FC = () => {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="bg-green-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
+
+              <img
+                src="/img/image/11669184_20943801.jpg"
+                className="w-full h-48 object-contain mb-4"
+              />
               <h3 className="text-xl font-semibold mb-3">Real-time Validation</h3>
               <p className="text-gray-600">
                 Validate extracted data against predefined rules, formats, and databases for immediate accuracy verification.
@@ -104,7 +103,7 @@ const OCRValidationPage: React.FC = () => {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-16">
+      <section className="p-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">How OCR Validation Works</h2>
@@ -158,7 +157,7 @@ const OCRValidationPage: React.FC = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="p-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
@@ -197,9 +196,9 @@ const OCRValidationPage: React.FC = () => {
             </div>
             <div className="md:w-1/2">
               <img
-                src="/placeholder.svg?height=400&width=500&text=OCR+Benefits"
+                src="/img/image/work-team-checking-giant-check-list.png"
                 alt="OCR Validation Benefits"
-                className="rounded-lg shadow-xl"
+                className="rounded-lg"
               />
             </div>
           </div>
@@ -207,7 +206,7 @@ const OCRValidationPage: React.FC = () => {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-16">
+      <section className="p-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Industry Use Cases</h2>
@@ -281,7 +280,7 @@ const OCRValidationPage: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="p-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">

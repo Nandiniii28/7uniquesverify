@@ -2,10 +2,10 @@ import type React from "react"
 
 const BankAccountVerificationPage: React.FC = () => {
   return (
-    <main className="max-w-7xl pb-24">
+    <main className="w-full pb-24">
       {/* Hero Section */}
       <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center"
+        className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
         style={{ backgroundImage: "url('/img/bg (2).png')" }}
       >
         <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
@@ -35,7 +35,7 @@ const BankAccountVerificationPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="https://img.freepik.com/free-vector/mobile-banking-concept-illustration_114360-5019.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="../img/images/4.png"
               alt="Bank Account Verification"
               className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
             />
@@ -44,7 +44,7 @@ const BankAccountVerificationPage: React.FC = () => {
       </section>
 
       {/* Features Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
+      <section className="bg-gray-50 p-16 md:px-8 lg:px-15">
         <div className="max-w-full mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
             Features of <span className="text-[#29a9c5]">Bank Account Verification</span>
@@ -54,7 +54,7 @@ const BankAccountVerificationPage: React.FC = () => {
               <img
                 src="https://img.freepik.com/free-vector/account-concept-illustration_114360-399.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
                 alt="Account Validation"
-                className="w-full h-48 object-cover mb-4"
+                className="w-full h-48 object-contain mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Real-time Account Validation</h3>
               <p className="text-gray-600">
@@ -66,7 +66,7 @@ const BankAccountVerificationPage: React.FC = () => {
               <img
                 src="https://img.freepik.com/free-vector/secure-login-concept-illustration_114360-4685.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
                 alt="Name Matching"
-                className="w-full h-48 object-cover mb-4"
+                className="w-full h-48 object-contain mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Account Holder Name Verification</h3>
               <p className="text-gray-600">
@@ -78,7 +78,7 @@ const BankAccountVerificationPage: React.FC = () => {
               <img
                 src="https://img.freepik.com/free-vector/banking-concept-illustration_114360-1373.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
                 alt="Multi-bank Support"
-                className="w-full h-48 object-cover mb-4"
+                className="w-full h-48 object-contain mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Multi-bank Coverage</h3>
               <p className="text-gray-600">
@@ -91,7 +91,7 @@ const BankAccountVerificationPage: React.FC = () => {
       </section>
 
       {/* How It Works Section */}
-      <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-white p-16 md:px-8 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
             How <span className="text-[#29a9c5]">Bank Verification</span> Works
@@ -138,7 +138,7 @@ const BankAccountVerificationPage: React.FC = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-gray-50 p-16 md:px-8 lg:px-20">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full lg:w-1/2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
@@ -193,7 +193,7 @@ const BankAccountVerificationPage: React.FC = () => {
           </div>
           <div className="w-full lg:w-1/2">
             <img
-              src="https://img.freepik.com/free-vector/online-banking-concept-illustration_114360-1234.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="../img/images/5.png"
               alt="Bank Verification Benefits"
               className="w-full h-auto object-contain"
             />
@@ -202,7 +202,7 @@ const BankAccountVerificationPage: React.FC = () => {
       </section>
 
       {/* Industry Applications */}
-      <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-white p-16 md:px-8 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
             Industry <span className="text-[#29a9c5]">Applications</span>
@@ -255,7 +255,7 @@ const BankAccountVerificationPage: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-gray-50 p-16 md:px-8 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2 space-y-6">

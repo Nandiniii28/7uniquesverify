@@ -8,7 +8,7 @@ const EmailAuthenticationPage: React.FC = () => {
         className="w-full bg-cover bg-center min-h-screen flex items-center"
         style={{ backgroundImage: "url('/img/bg (2).png')" }}
       >
-        <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+        <div className="container mx-auto px-16 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="w-full md:w-2/3 text-white">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Email Authentication API</h1>
             <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
@@ -43,9 +43,9 @@ const EmailAuthenticationPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="/placeholder.svg?height=400&width=500&text=Email+Authentication"
+              src="../img/images/3.png"
               alt="Email Authentication"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px] rounded-lg shadow-xl"
+              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px] rounded-lg "
             />
           </div>
         </div>
@@ -53,7 +53,7 @@ const EmailAuthenticationPage: React.FC = () => {
 
       {/* Features Section */}
       <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-16">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Comprehensive Email Verification Features
@@ -105,7 +105,7 @@ const EmailAuthenticationPage: React.FC = () => {
 
       {/* How It Works Section */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-16">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">How Email Authentication Works</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
@@ -159,7 +159,7 @@ const EmailAuthenticationPage: React.FC = () => {
 
       {/* Benefits Section */}
       <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-16">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -208,7 +208,7 @@ const EmailAuthenticationPage: React.FC = () => {
 
       {/* Use Cases Section */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-16">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Industry Use Cases</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
@@ -282,7 +282,7 @@ const EmailAuthenticationPage: React.FC = () => {
 
       {/* API Integration Section */}
       <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-16">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">

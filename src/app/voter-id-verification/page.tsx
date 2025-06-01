@@ -2,10 +2,10 @@ import type React from "react"
 
 const VoterIDVerificationPage: React.FC = () => {
   return (
-    <main className="max-w-7xl pb-24">
+    <main className="w-full pb-24">
       {/* Hero Section */}
       <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center"
+        className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
         style={{ backgroundImage: "url('/img/bg (2).png')" }}
       >
         <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
@@ -35,7 +35,7 @@ const VoterIDVerificationPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="https://img.freepik.com/free-vector/voting-concept-illustration_114360-1234.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="../img/images/31.png"
               alt="Voter ID Verification"
               className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
             />
@@ -44,17 +44,17 @@ const VoterIDVerificationPage: React.FC = () => {
       </section>
 
       {/* Features Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
-        <div className="max-w-full mx-auto text-center">
+      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">
+        <div className="max-w-full mx-auto text-center px-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
             <span className="text-[#29a9c5]">Voter ID</span> Verification Features
           </h2>
           <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
             <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
               <img
-                src="https://img.freepik.com/free-vector/electoral-concept-illustration_114360-5678.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+                src="../img/images/32.png"
                 alt="Electoral Verification"
-                className="w-full h-48 object-cover mb-4"
+                className="w-full h-48 object-contain mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Electoral Database Verification</h3>
               <p className="text-gray-600">
@@ -64,9 +64,9 @@ const VoterIDVerificationPage: React.FC = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
               <img
-                src="https://img.freepik.com/free-vector/address-concept-illustration_114360-2345.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+                src="../img/images/33.png"
                 alt="Address Verification"
-                className="w-full h-48 object-cover mb-4"
+                className="w-full h-48 object-contain mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Address Proof Validation</h3>
               <p className="text-gray-600">
@@ -76,9 +76,9 @@ const VoterIDVerificationPage: React.FC = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0">
               <img
-                src="https://img.freepik.com/free-vector/identity-verification-concept-illustration_114360-4856.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+                src="../img/images/34.png"
                 alt="Identity Verification"
-                className="w-full h-48 object-cover mb-4"
+                className="w-full h-48 object-contain mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Comprehensive Identity Check</h3>
               <p className="text-gray-600">
@@ -91,7 +91,7 @@ const VoterIDVerificationPage: React.FC = () => {
       </section>
 
       {/* How It Works Section */}
-      <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-white py-16 px-16 md:px-8 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
             How <span className="text-[#29a9c5]">Voter ID Verification</span> Works
@@ -138,7 +138,7 @@ const VoterIDVerificationPage: React.FC = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-20">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full lg:w-1/2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
@@ -193,7 +193,7 @@ const VoterIDVerificationPage: React.FC = () => {
           </div>
           <div className="w-full lg:w-1/2">
             <img
-              src="https://img.freepik.com/free-vector/election-concept-illustration_114360-1375.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="../img/images/6.png"
               alt="Voter ID Benefits"
               className="w-full h-auto object-contain"
             />
@@ -202,7 +202,7 @@ const VoterIDVerificationPage: React.FC = () => {
       </section>
 
       {/* Use Cases Section */}
-      <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-white py-16 px-16 md:px-8 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
             <span className="text-[#29a9c5]">Voter ID Verification</span> Use Cases
@@ -255,7 +255,7 @@ const VoterIDVerificationPage: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2 space-y-6">
