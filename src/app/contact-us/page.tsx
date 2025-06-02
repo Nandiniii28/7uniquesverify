@@ -17,7 +17,6 @@ export default function ContactUsPage() {
       [name]: value,
     }));
   };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
