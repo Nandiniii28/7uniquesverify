@@ -3,53 +3,51 @@ import type React from "react"
 const WhatsappVerificationPage: React.FC = () => {
   return (
     <main className="min-h-screen">
-      {/* Hero Section */}
-      <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center"
-        style={{ backgroundImage: "url('/img/bg (2).png')" }}
-      >
-        <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-2/3 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">WhatsApp Verification API</h1>
-            <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-              Secure WhatsApp Number Verification Service
-            </h2>
-            <p className="text-lg mb-4 text-white">
-              Verify WhatsApp numbers instantly with our comprehensive WhatsApp Verification API. Ensure authentic user
-              verification through the world's most popular messaging platform.
-            </p>
-            <p className="mb-4 text-white">
-              Our API provides WhatsApp number validation, OTP delivery via WhatsApp, business account verification, and
-              real-time status checking for reliable user authentication.
-            </p>
-            <p className="mb-6 text-white">
-              Ideal for customer onboarding, two-factor authentication, business verification, and any application
-              requiring WhatsApp-based user verification.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="#"
-                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors text-center"
-              >
-                Get Started
-              </a>
-              <a
-                href="#"
-                className="inline-block border border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#2dc1e3] transition-colors text-center"
-              >
-                View Documentation
-              </a>
-            </div>
-          </div>
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-              src="/img/image/enter-otp-concept-illustration.png"
-              alt="WhatsApp Verification"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px] rounded-lg"
-            />
-          </div>
-        </div>
-      </section>
+{/* Hero Section */}
+<section
+  className="w-full bg-cover bg-center min-h-screen flex items-center"
+  style={{ backgroundImage: "url('/img/bg (2).png')" }}
+>
+  <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+    <div className="w-full md:w-2/3 text-white">
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">7Unique Verify: WhatsApp Number Verification API</h1>
+      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
+        Secure and Instant WhatsApp Verification for Your Business
+      </h2>
+      <p className="text-lg mb-4 text-white">
+        With <strong>7Unique Verify</strong>, you can instantly verify WhatsApp numbers for your users with ease. Our comprehensive WhatsApp Verification API ensures reliable and authentic user verification through the world’s leading messaging platform, WhatsApp.
+      </p>
+      <p className="mb-4 text-white">
+        Our API provides robust features such as WhatsApp number validation, OTP delivery through WhatsApp, business account verification, and real-time status checking, ensuring seamless user authentication for your platform.
+      </p>
+      <p className="mb-6 text-white">
+        <strong>7Unique Verify</strong> is the perfect solution for customer onboarding, two-factor authentication (2FA), business account verification, and any other application that requires secure WhatsApp-based user verification.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-4">
+        <a
+          href="#"
+          className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors text-center"
+        >
+          Get Started with 7Unique Verify
+        </a>
+        <a
+          href="#"
+          className="inline-block border border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#2dc1e3] transition-colors text-center"
+        >
+          View API Documentation
+        </a>
+      </div>
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="/img/image/enter-otp-concept-illustration.png"
+        alt="7Unique Verify WhatsApp Verification"
+        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px] rounded-lg"
+      />
+    </div>
+  </div>
+</section>
+
 
       {/* Features Section */}
       <section className="p-16 bg-gray-50">

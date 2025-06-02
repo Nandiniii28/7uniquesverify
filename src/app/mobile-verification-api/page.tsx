@@ -3,214 +3,233 @@ import type React from "react"
 const MobileVerificationAPIPage: React.FC = () => {
   return (
     <main className="w-full pb-24">
-      {/* Hero Section */}
-      <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
-        style={{ backgroundImage: "url('/img/bg (2).png')" }}
+    {/* Hero Section */}
+<section
+  className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
+  style={{ backgroundImage: "url('/img/bg (2).png')" }}
+>
+  <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+    <div className="w-full md:w-2/3 text-white">
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">7Unique Verify – Mobile Verification API</h1>
+      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
+        Instant & Reliable Mobile Number Authentication
+      </h2>
+      <p className="text-lg mb-4 text-white">
+        Secure your platforms with real-time mobile number verification through our robust API. Whether you're onboarding users or implementing 2FA, our system ensures legitimate mobile access with minimal friction.
+      </p>
+      <p className="mb-4 text-white">
+        Gain access to accurate telecom data, carrier detection, OTP generation & verification, and fraud prevention tools—all in one unified mobile verification service.
+      </p>
+      <p className="mb-6 text-white">
+        Ideal for financial apps, eCommerce platforms, KYC processes, and login verifications. Power your trust layer with <strong>7Unique Verify</strong>.
+      </p>
+      <a
+        href="#"
+        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
-        <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-2/3 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Mobile Verification API</h1>
-            <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-              Secure Mobile Number Verification Service
-            </h2>
-            <p className="text-lg mb-4 text-white">
-              Verify mobile numbers instantly with our comprehensive Mobile Verification API. Ensure authentic user
-              registration and reduce fraud with real-time mobile number validation and OTP verification.
-            </p>
-            <p className="mb-4 text-white">
-              Our API provides mobile number validation, carrier information, OTP generation and verification, and
-              detailed telecom data for reliable user authentication.
-            </p>
-            <p className="mb-6 text-white">
-              Perfect for user onboarding, two-factor authentication, account security, and any application requiring
-              mobile number verification and validation.
-            </p>
-            <a
-              href="#"
-              className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
-            >
-              Get Started
-            </a>
-          </div>
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-              src="../img/images/7.png"
-              alt="Mobile Verification API"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
-            />
-          </div>
-        </div>
-      </section>
+        Get Started
+      </a>
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="../img/images/7.png"
+        alt="Mobile Verification API"
+        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
+      />
+    </div>
+  </div>
+</section>
+
 
       {/* Features Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
-        <div className="max-w-full mx-auto text-center px-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-            <span className="text-[#29a9c5]">Mobile Verification</span> API Features
-          </h2>
-          <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
-            <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
-              <img
-                src="../img/images/39.png"
-                alt="OTP Verification"
-                className="w-full h-48 object-contain mb-4"
-              />
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">OTP Generation & Verification</h3>
+<section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
+  <div className="max-w-full mx-auto text-center px-16">
+    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
+      <span className="text-[#29a9c5]">7Unique Verify</span> – Mobile Verification API Features
+    </h2>
+
+    <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
+      {/* OTP Generation */}
+      <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
+        <img
+          src="../img/images/39.png"
+          alt="OTP Verification"
+          className="w-full h-48 object-contain mb-4"
+        />
+        <h3 className="text-xl font-semibold text-gray-800 mb-2">OTP Generation & Verification</h3>
+        <p className="text-gray-600">
+          Generate and validate secure OTPs for mobile number verification. Ensure user authenticity with seamless
+          integration and real-time response.
+        </p>
+      </div>
+
+      {/* Carrier & Network Info */}
+      <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
+        <img
+          src="../img/images/40.png"
+          alt="Carrier Information"
+          className="w-full h-48 object-contain mb-4"
+        />
+        <h3 className="text-xl font-semibold text-gray-800 mb-2">Carrier & Network Intelligence</h3>
+        <p className="text-gray-600">
+          Instantly fetch telecom insights such as operator name, network circle, SIM type, and connectivity status to
+          aid in verification and fraud analysis.
+        </p>
+      </div>
+
+      {/* Fraud Protection */}
+      <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0">
+        <img
+          src="../img/images/41.png"
+          alt="Fraud Prevention"
+          className="w-full h-48 object-contain mb-4"
+        />
+        <h3 className="text-xl font-semibold text-gray-800 mb-2">Fraud Prevention & Risk Assessment</h3>
+        <p className="text-gray-600">
+          Identify suspicious activity and prevent fake registrations using advanced mobile validation and telecom-level
+          risk scoring techniques.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    {/* How It Works Section */}
+<section className="py-16">
+  <div className="max-w-full mx-auto px-16 md:px-8 lg:px-15">
+    <div className="text-center mb-16">
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+        How <span className="text-[#29a9c5]">7Unique Verify</span> Mobile Verification Works
+      </h2>
+      <p className="text-gray-600 max-w-3xl mx-auto">
+        The 7Unique Verify Mobile Verification API delivers a fast, reliable, and secure number authentication flow—perfectly suited for real-time onboarding and user validation.
+      </p>
+    </div>
+
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      {/* Step 1 */}
+      <div className="text-center">
+        <div className="bg-[#29a9c5] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+          1
+        </div>
+        <h3 className="text-xl font-semibold mb-4">Input Mobile Number</h3>
+        <p className="text-gray-600">
+          The user submits their mobile number. Our API checks format accuracy and identifies carrier metadata.
+        </p>
+      </div>
+
+      {/* Step 2 */}
+      <div className="text-center">
+        <div className="bg-[#29a9c5] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+          2
+        </div>
+        <h3 className="text-xl font-semibold mb-4">OTP Triggered Instantly</h3>
+        <p className="text-gray-600">
+          A secure, time-sensitive OTP is generated and sent to the user’s number via SMS or preferred route.
+        </p>
+      </div>
+
+      {/* Step 3 */}
+      <div className="text-center">
+        <div className="bg-[#29a9c5] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+          3
+        </div>
+        <h3 className="text-xl font-semibold mb-4">User Submits OTP</h3>
+        <p className="text-gray-600">
+          The user inputs the received OTP into your application. It’s validated instantly on our secure backend.
+        </p>
+      </div>
+
+      {/* Step 4 */}
+      <div className="text-center">
+        <div className="bg-[#29a9c5] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+          4
+        </div>
+        <h3 className="text-xl font-semibold mb-4">Verification Status</h3>
+        <p className="text-gray-600">
+          7Unique Verify confirms successful verification and shares detailed mobile and risk insights in the API response.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+  {/* Benefits Section */}
+<section className="py-16 bg-gray-50">
+  <div className="max-w-full mx-auto px-16">
+    <div className="flex flex-col lg:flex-row items-center gap-12">
+      {/* Text Content */}
+      <div className="lg:w-1/2">
+        <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          Why Choose <span className="text-[#29a9c5]">7Unique Verify</span> Mobile Verification
+        </h2>
+        <p className="text-gray-600 mb-8">
+          7Unique Verify offers a robust, scalable, and globally trusted mobile number verification system—backed by secure infrastructure and intelligent delivery routing.
+        </p>
+
+        <div className="space-y-6">
+          <div className="flex items-start">
+            <div className="bg-[#29a9c5] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
+              ✓
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-2">99.9% OTP Delivery Success</h3>
               <p className="text-gray-600">
-                Generate and verify secure OTPs for mobile number authentication, ensuring reliable user verification
-                and account security.
+                Partnered with top-tier global telecom carriers to ensure real-time and dependable OTP delivery worldwide.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
-              <img
-                src="../img/images/40.png"
-                alt="Carrier Information"
-                className="w-full h-48 object-contain mb-4"
-              />
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">Carrier & Network Information</h3>
+          </div>
+
+          <div className="flex items-start">
+            <div className="bg-[#29a9c5] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
+              ✓
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-2">Global Reach, Local Precision</h3>
               <p className="text-gray-600">
-                Access detailed carrier information including network operator, circle, connection type, and other
-                telecom data for comprehensive verification.
+                Seamless mobile number verification in over 200+ countries with intelligent routing for optimized delivery.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0">
-              <img
-                src="../img/images/41.png"
-                alt="Fraud Prevention"
-                className="w-full h-48 object-contain mb-4"
-              />
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">Fraud Prevention & Security</h3>
+          </div>
+
+          <div className="flex items-start">
+            <div className="bg-[#29a9c5] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
+              ✓
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-2">Enterprise-Grade Security</h3>
               <p className="text-gray-600">
-                Prevent fraudulent registrations and enhance security with advanced mobile number validation and risk
-                assessment capabilities.
+                Fully encrypted data pipelines, dynamic fraud protection, and compliance with global data regulations.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-start">
+            <div className="bg-[#29a9c5] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
+              ✓
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-2">Real-Time Analytics Dashboard</h3>
+              <p className="text-gray-600">
+                Access detailed delivery insights, verification logs, and analytics to optimize user flows and KPIs.
               </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      {/* How It Works Section */}
-      <section className="py-16">
-        <div className="max-w-full mx-auto px-16 md:px-8 lg:px-15">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-              How <span className="text-[#29a9c5]">Mobile Verification</span> Works
-            </h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">
-              Our mobile verification process is designed to be simple, secure, and efficient for both developers and end users.
-            </p>
-          </div>
+      {/* Image */}
+      <div className="lg:w-1/2">
+        <img
+          src="../img/images/42.png"
+          alt="7Unique Mobile Verification Benefits"
+          className="w-full h-auto rounded-lg"
+        />
+      </div>
+    </div>
+  </div>
+</section>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="bg-[#29a9c5] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
-                1
-              </div>
-              <h3 className="text-xl font-semibold mb-4">Mobile Number Input</h3>
-              <p className="text-gray-600">
-                User enters their mobile number in your application. Our API validates the format and carrier information.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="bg-[#29a9c5] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
-                2
-              </div>
-              <h3 className="text-xl font-semibold mb-4">OTP Generation</h3>
-              <p className="text-gray-600">
-                Our system generates a secure OTP and sends it via SMS to the provided mobile number instantly.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="bg-[#29a9c5] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
-                3
-              </div>
-              <h3 className="text-xl font-semibold mb-4">User Verification</h3>
-              <p className="text-gray-600">
-                User receives the OTP and enters it in your application for verification within the specified time limit.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="bg-[#29a9c5] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
-                4
-              </div>
-              <h3 className="text-xl font-semibold mb-4">Verification Complete</h3>
-              <p className="text-gray-600">
-                Our API validates the OTP and returns verification status along with detailed mobile number information.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Benefits Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-full mx-auto px-16">
-          <div className="flex flex-col lg:flex-row items-center gap-12">
-            <div className="lg:w-1/2">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Why Choose Our <span className="text-[#29a9c5]">Mobile Verification API</span>
-              </h2>
-              <p className="text-gray-600 mb-8">
-                Our mobile verification solution offers unmatched reliability, security, and global coverage for your business needs.
-              </p>
-              
-              <div className="space-y-6">
-                <div className="flex items-start">
-                  <div className="bg-[#29a9c5] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
-                    ✓
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold mb-2">99.9% Delivery Rate</h3>
-                    <p className="text-gray-600">Industry-leading SMS delivery rates with global carrier partnerships ensuring your OTPs reach users reliably.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="bg-[#29a9c5] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
-                    ✓
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold mb-2">Global Coverage</h3>
-                    <p className="text-gray-600">Support for 200+ countries and territories with local carrier connections for optimal delivery performance.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="bg-[#29a9c5] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
-                    ✓
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold mb-2">Advanced Security</h3>
-                    <p className="text-gray-600">Enterprise-grade security with encrypted communications, fraud detection, and compliance with international standards.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="bg-[#29a9c5] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
-                    ✓
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold mb-2">Real-time Analytics</h3>
-                    <p className="text-gray-600">Comprehensive dashboard with delivery reports, success rates, and detailed analytics for optimization.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="lg:w-1/2">
-              <img
-                src="../img/images/42.png"
-                alt="Mobile Verification Benefits"
-                className="w-full h-auto rounded-lg "
-              />
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Use Cases Section */}
       <section className="py-16">

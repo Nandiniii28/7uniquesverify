@@ -3,139 +3,135 @@ import type React from "react"
 const MCAVerificationPage: React.FC = () => {
   return (
     <main className="w-full pb-24">
-      {/* Hero Section */}
-      <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center p-16"
-        style={{ backgroundImage: "url('/img/bg (2).png')" }}
+     {/* Hero Section */}
+<section
+  className="w-full bg-cover bg-center min-h-screen flex items-center p-16"
+  style={{ backgroundImage: "url('/img/bg (2).png')" }}
+>
+  <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+    <div className="w-full md:w-2/3 text-white">
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">MCA Verification API by 7Unique Verify</h1>
+      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
+        Ministry of Corporate Affairs Verification – Instantly Reliable
+      </h2>
+      <p className="text-lg mb-4 text-white">
+        Seamlessly verify company credentials with our MCA Verification API, powered by 7Unique Verify. Gain real-time access to official corporate data from the Ministry of Corporate Affairs (MCA) database.
+      </p>
+      <p className="mb-4 text-white">
+        Instantly retrieve verified company CIN numbers, director and ROC details, incorporation status, and key compliance insights—all in one secure API.
+      </p>
+      <p className="mb-6 text-white">
+        Ideal for B2B onboarding, vendor validation, KYC automation, fintech applications, and legal due diligence.
+      </p>
+      <a
+        href="#"
+        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
-        <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-2/3 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">MCA Verification API</h1>
-            <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-              Ministry of Corporate Affairs Verification
-            </h2>
-            <p className="text-lg mb-4 text-white">
-              Verify company details instantly with our comprehensive MCA Verification API. Access official corporate
-              information from the Ministry of Corporate Affairs database for reliable business verification.
-            </p>
-            <p className="mb-4 text-white">
-              Our API provides detailed company information including CIN verification, director details, financial
-              status, and compliance records from official MCA databases.
-            </p>
-            <p className="mb-6 text-white">
-              Essential for B2B transactions, vendor verification, due diligence processes, and any business requiring
-              authentic corporate information and compliance verification.
-            </p>
-            <a
-              href="#"
-              className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
-            >
-              Get Started
-            </a>
-          </div>
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-              src="../img/images/35.png"
-              alt="MCA Verification"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
-            />
-          </div>
-        </div>
-      </section>
+        Start Verifying with 7Unique
+      </a>
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="../img/images/35.png"
+        alt="MCA Verification Illustration"
+        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
+      />
+    </div>
+  </div>
+</section>
 
-      {/* Features Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
-        <div className="max-w-full mx-auto text-center p-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-            <span className="text-[#29a9c5]">MCA Verification</span> Features
-          </h2>
-          <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
-            <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
-              <img
-                src="../img/images/36.png"
-                alt="Company Verification"
-                className="w-full h-48object-contain mb-4"
-              />
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">Complete Company Information</h3>
-              <p className="text-gray-600">
-                Access comprehensive company details including CIN, registration status, authorized capital, paid-up
-                capital, and business activities from MCA records.
-              </p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
-              <img
-                src="../img/images/37.png"
-                alt="Director Information"
-                className="w-full h-48object-contain mb-4"
-              />
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">Director & Shareholder Details</h3>
-              <p className="text-gray-600">
-                Verify director information, shareholding patterns, and key management personnel details for
-                comprehensive corporate due diligence.
-              </p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0">
-              <img
-                src="../img/images/30.png"
-                alt="Compliance Status"
-                className="w-full h-48object-contain mb-4"
-              />
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">Compliance & Status Check</h3>
-              <p className="text-gray-600">
-                Monitor company compliance status, filing history, and current standing with regulatory authorities for
-                risk assessment and due diligence.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
+ {/* Features Section */}
+<section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
+  <div className="max-w-full mx-auto text-center p-16">
+    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
+      <span className="text-[#29a9c5]">7Unique Verify</span> MCA API Features
+    </h2>
+    <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
+      <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
+        <img
+          src="../img/images/36.png"
+          alt="Company Verification"
+          className="w-full h-48 object-contain mb-4"
+        />
+        <h3 className="text-xl font-semibold text-gray-800 mb-2">Complete Company Information</h3>
+        <p className="text-gray-600">
+          Access CIN, incorporation date, capital structure, business classification, and more directly from MCA records.
+        </p>
+      </div>
+      <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
+        <img
+          src="../img/images/37.png"
+          alt="Director Information"
+          className="w-full h-48 object-contain mb-4"
+        />
+        <h3 className="text-xl font-semibold text-gray-800 mb-2">Director & Management Insights</h3>
+        <p className="text-gray-600">
+          Get verified director identities, shareholder structure, and key personnel data for business clarity and compliance.
+        </p>
+      </div>
+      <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0">
+        <img
+          src="../img/images/30.png"
+          alt="Compliance Status"
+          className="w-full h-48 object-contain mb-4"
+        />
+        <h3 className="text-xl font-semibold text-gray-800 mb-2">Compliance & Legal Standing</h3>
+        <p className="text-gray-600">
+          Instantly check compliance history, annual filing status, and active/inactive status for accurate decision-making.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* How It Works Section */}
-      <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-            How <span className="text-[#29a9c5]">MCA Verification</span> Works
-          </h2>
-          <div className="grid gap-8 grid-cols-1 md:grid-cols-4">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
-                1
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Submit Company Details</h3>
-              <p className="text-gray-600 text-sm">
-                Provide CIN, company name, or registration number through our secure API interface.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
-                2
-              </div>
-              <h3 className="text-lg font-semibold mb-2">MCA Database Query</h3>
-              <p className="text-gray-600 text-sm">
-                Our system connects to official MCA databases and retrieves company information.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
-                3
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Data Processing</h3>
-              <p className="text-gray-600 text-sm">
-                Company details are processed, structured, and validated for accuracy and completeness.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
-                4
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Comprehensive Report</h3>
-              <p className="text-gray-600 text-sm">
-                Receive detailed company information with registration status, director details, and compliance records.
-              </p>
-            </div>
-          </div>
+<section className="bg-white py-16 px-4 md:px-8 lg:px-20">
+  <div className="max-w-7xl mx-auto">
+    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
+      How <span className="text-[#29a9c5]">7Unique Verify</span> MCA Verification Works
+    </h2>
+    <div className="grid gap-8 grid-cols-1 md:grid-cols-4">
+      <div className="text-center">
+        <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+          1
         </div>
-      </section>
+        <h3 className="text-lg font-semibold mb-2">Input Company Identifiers</h3>
+        <p className="text-gray-600 text-sm">
+          Submit company CIN, name, or registration number securely through our API.
+        </p>
+      </div>
+      <div className="text-center">
+        <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+          2
+        </div>
+        <h3 className="text-lg font-semibold mb-2">Connect to MCA Database</h3>
+        <p className="text-gray-600 text-sm">
+          Our engine queries MCA servers in real-time for official and verified information.
+        </p>
+      </div>
+      <div className="text-center">
+        <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+          3
+        </div>
+        <h3 className="text-lg font-semibold mb-2">Data Validation</h3>
+        <p className="text-gray-600 text-sm">
+          The data is validated, formatted, and enriched before sharing in the response.
+        </p>
+      </div>
+      <div className="text-center">
+        <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+          4
+        </div>
+        <h3 className="text-lg font-semibold mb-2">Get Complete Report</h3>
+        <p className="text-gray-600 text-sm">
+          Receive a structured company report including registration, directors, and compliance records.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Benefits Section */}
       <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">

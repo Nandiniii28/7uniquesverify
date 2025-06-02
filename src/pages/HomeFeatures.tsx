@@ -1,4 +1,6 @@
-export default function HomeFeatures() {
+import type React from "react";
+
+const HomeFeatures: React.FC = () => {
   return (
     <section className="bg-[#f6fafd] py-16 section our-process">
       <div className="mx-auto pb-16 pt-10">
@@ -6,20 +8,12 @@ export default function HomeFeatures() {
         <div className="text-center max-w-3xl mx-auto mb-20" data-aos="fade-up">
           <p className="text-[20px] text-gray-600 mb-2 tracking-wide">ABOUT US</p>
           <p className="text-[30px] sm:text-[20px] leading-[1.3] text-black max-w-[600px] mx-auto">
-            We specialize
-            <span className="font-bold">
-              in delivering innovative VOIP, telecom, &amp; cloud
-            </span>
-            <span className="title-img mx-2">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-            solutions designed enhance the way businesses connect and communicate.
+            We at <span className="font-bold text-[#2dc1e3]">7Unique Verify</span> specialize
+            in delivering innovative <strong>VOIP, telecom, and cloud</strong> solutions —
+            designed to enhance the way businesses connect and communicate.
             <br />
-            With focus on reliability
-            <span className="title-img _2 mx-2">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-            scalability.
+            With a strong focus on <strong>reliability</strong> and{" "}
+            <strong>scalability</strong>, we help teams transform their communication experience.
           </p>
         </div>
 
@@ -28,17 +22,15 @@ export default function HomeFeatures() {
           {/* Left Column */}
           <div
             className="md:w-1/3 mb-10 md:mb-0"
-            style={{
-              borderRight: "1px dashed #d1d5db",
-            }}
+            style={{ borderRight: "1px dashed #d1d5db" }}
             data-aos="fade-right"
           >
             <p className="text-[10px] text-gray-600 mb-2 tracking-wide">OUR FEATURES</p>
             <h2 className="text-[41px] sm:text-[22px] leading-tight">
-              Features Designed to Elevate Communication Experience Success.
+              Features Designed to Elevate <br /> Your Communication Experience
             </h2>
-            <button className="mt-6 bg-[#2dc1e3] text-white text-[16px] px-5 py-2 rounded-full hover:bg-yellow-300 transition">
-              Get Started
+            <button className="mt-6 bg-[#2dc1e3] text-white text-[16px] px-5 py-2 rounded-full hover:bg-yellow-300 transition ease-in-out duration-300">
+              Explore More
             </button>
           </div>
 
@@ -58,31 +50,31 @@ export default function HomeFeatures() {
                   icon: "bi bi-cash-coin",
                   title: "Lending",
                   desc:
-                    "Facilitate quick and secure loan approvals by verifying applicant identities and financial information.",
+                    "Facilitate fast and secure loan approvals using identity verification and financial data APIs.",
                 },
                 {
                   icon: "bi bi-bank",
                   title: "Banking",
                   desc:
-                    "Strengthen fraud prevention measures and comply with KYC regulations through robust identity verification.",
+                    "Enhance compliance and prevent fraud with KYC, account validation, and document checks.",
                 },
                 {
                   icon: "bi bi-emoji-laughing",
                   title: "Staffing & Recruitment",
                   desc:
-                    "Improves hiring decisions with background verification and streamlines onboarding.",
+                    "Improve hiring decisions with Employment BGV verification APIs and faster onboarding.",
                 },
                 {
                   icon: "bi bi-bounding-box",
                   title: "Logistics",
                   desc:
-                    "Enhance package delivery security by verifying user identities during login.",
+                    "Ensure package safety and agent accountability with real-time ID and location verification.",
                 },
                 {
                   icon: "bi bi-cart-check",
-                  title: "FMCG/ FMCD",
+                  title: "FMCG / FMCD",
                   desc:
-                    "Enhance security and compliance by verifying worker identities and mitigating risks.",
+                    "Mitigate risks by verifying delivery agents, field staff, and onboarding contractors easily.",
                 },
               ].map((feature, idx) => (
                 <div
@@ -90,9 +82,9 @@ export default function HomeFeatures() {
                   className="bg-white rounded-lg our-features-single shadow-sm flex flex-col items-center text-center p-5"
                 >
                   <div className="our-features-icon-box mb-3">
-                    <i className={`${feature.icon} text-white text-xl`}></i>
+                    <i className={`${feature.icon} text-[#2dc1e3] text-xl`}></i>
                   </div>
-                  <h3 className="heading mb-2">{feature.title}</h3>
+                  <h3 className="heading mb-2 font-semibold text-gray-800">{feature.title}</h3>
                   <p className="our-features-icon-details text-sm text-gray-600">{feature.desc}</p>
                 </div>
               ))}
@@ -102,4 +94,6 @@ export default function HomeFeatures() {
       </div>
     </section>
   );
-}
+};
+
+export default HomeFeatures;

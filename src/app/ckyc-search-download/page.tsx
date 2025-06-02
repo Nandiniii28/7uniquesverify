@@ -3,92 +3,88 @@ import type React from "react"
 const CKYCSearchPage: React.FC = () => {
   return (
     <main className="w-full pb-24">
-      {/* Hero Section */}
-      <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
-        style={{ backgroundImage: "url('/img/bg (2).png')" }}
+   {/* Hero Section */}
+<section
+  className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
+  style={{ backgroundImage: "url('/img/bg (2).png')" }}
+>
+  <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+    <div className="w-full md:w-2/3 text-white">
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">CKYC Search & Download API</h1>
+      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
+        Central KYC Registry with 7Unique Verify
+      </h2>
+      <p className="text-lg mb-4 text-white">
+        Access and retrieve CKYC records in real-time using 7Unique Verify’s secure API. Streamline KYC operations by integrating verified data from India’s centralized KYC registry.
+      </p>
+      <p className="mb-4 text-white">
+        Built for speed and compliance, our CKYC API empowers banks, NBFCs, and fintechs to verify, download, and store customer KYC records efficiently—minimizing duplication and fraud.
+      </p>
+      <p className="mb-6 text-white">
+        Join 7Unique Verify in modernizing onboarding and compliance with scalable, RBI-compliant solutions.
+      </p>
+      <a
+        href="#"
+        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
-        <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-2/3 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">CKYC Search & Download API</h1>
-            <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-              Central KYC Registry Search & Download
-            </h2>
-            <p className="text-lg mb-4 text-white">
-              Access and download CKYC records instantly with our comprehensive CKYC Search & Download API. Streamline
-              your KYC processes with centralized customer data from the official CKYC registry.
-            </p>
-            <p className="mb-4 text-white">
-              Our API enables financial institutions to search, retrieve, and download CKYC records, reducing duplicate
-              KYC processes and ensuring compliance with RBI regulations.
-            </p>
-            <p className="mb-6 text-white">
-              Perfect for banks, NBFCs, and financial institutions looking to optimize their customer onboarding and KYC
-              compliance processes.
-            </p>
-            <a
-              href="#"
-              className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
-            >
-              Get Started
-            </a>
-          </div>
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-              src="../img/images/13.png"
-              alt="CKYC Search & Download"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
-            />
-          </div>
-        </div>
-      </section>
+        Get Started
+      </a>
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="../img/images/13.png"
+        alt="CKYC Search & Download with 7Unique Verify"
+        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
+      />
+    </div>
+  </div>
+</section>
 
-      {/* Features Section */}
-      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">
-        <div className="max-w-full mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-            <span className="text-[#29a9c5]">CKYC</span> API Features
-          </h2>
-          <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
-            <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
-              <img
-                src="../img/images/14.png"
-                alt="CKYC Search"
-                className="w-full h-48 object-contain mb-4"
-              />
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">Comprehensive CKYC Search</h3>
-              <p className="text-gray-600">
-                Search CKYC records using multiple parameters including PAN, Aadhaar, mobile number, and other
-                identifiers to find existing customer records.
-              </p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
-              <img
-                src="../img/images/15.png"
-                alt="Record Download"
-                className="w-full h-48 object-contain mb-4"
-              />
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">Instant Record Download</h3>
-              <p className="text-gray-600">
-                Download complete CKYC records with all customer information, documents, and verification status for
-                seamless integration into your systems.
-              </p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0">
-              <img
-                src="../img/images/16.png"
-                alt="RBI Compliance"
-                className="w-full h-48 object-contain mb-4"
-              />
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">RBI Compliant Process</h3>
-              <p className="text-gray-600">
-                Fully compliant with RBI guidelines and CKYC regulations, ensuring secure and authorized access to
-                customer KYC information.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+{/* Features Section */}
+<section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">
+  <div className="max-w-full mx-auto text-center">
+    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
+      <span className="text-[#29a9c5]">7Unique Verify CKYC</span> API Features
+    </h2>
+    <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
+      <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
+        <img
+          src="../img/images/14.png"
+          alt="CKYC Search"
+          className="w-full h-48 object-contain mb-4"
+        />
+        <h3 className="text-xl font-semibold text-gray-800 mb-2">Smart CKYC Search</h3>
+        <p className="text-gray-600">
+          Query CKYC data using Aadhaar, PAN, or mobile number. Find verified records instantly from the central registry for seamless customer onboarding.
+        </p>
+      </div>
+      <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
+        <img
+          src="../img/images/15.png"
+          alt="Record Download"
+          className="w-full h-48 object-contain mb-4"
+        />
+        <h3 className="text-xl font-semibold text-gray-800 mb-2">Instant Record Download</h3>
+        <p className="text-gray-600">
+          Download complete CKYC documents and metadata, including customer details, photograph, and KYC verification status—ready for backend use.
+        </p>
+      </div>
+      <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0">
+        <img
+          src="../img/images/16.png"
+          alt="RBI Compliance"
+          className="w-full h-48 object-contain mb-4"
+        />
+        <h3 className="text-xl font-semibold text-gray-800 mb-2">RBI Compliant Architecture</h3>
+        <p className="text-gray-600">
+          Fully aligned with RBI and CKYC norms. Enjoy secure, encrypted access with full audit logging to ensure transparency and compliance.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
       {/* How It Works Section */}
       <section className="py-16 px-16 md:px-8 lg:px-15">

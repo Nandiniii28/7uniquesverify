@@ -4,35 +4,36 @@ const UserManagement = () => {
   return (
     <>
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-indigo-400 to-[#2dc1e3] text-white py-20">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2 mb-10 md:mb-0">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Comprehensive User Management</h1>
-              <p className="text-xl mb-8">
-                Secure, scalable, and flexible user management solutions for businesses of all sizes. Streamline user
-                authentication and identity verification.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-white text-indigo-600 hover:bg-gray-100 px-6 py-3 rounded-md font-medium transition duration-300">
-                  Get Started
-                </button>
-                <button className="border border-white text-white hover:bg-white hover:text-indigo-600 px-6 py-3 rounded-md font-medium transition duration-300">
-                  View Documentation
-                </button>
-              </div>
-            </div>
-            <div className="md:w-1/2">
-              <img
-                src="../img/images/43.png"
-                alt="User Management Dashboard"
-                className="rounded-lg "
-              />
-            </div>
-          </div>
+     {/* Hero Section */}
+<section className="bg-gradient-to-r from-indigo-400 to-[#2dc1e3] text-white py-20">
+  <div className="container mx-auto px-4">
+    <div className="flex flex-col md:flex-row items-center">
+      <div className="md:w-1/2 mb-10 md:mb-0">
+        <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          7Unique Verify – User Management API
+        </h1>
+        <p className="text-xl mb-8">
+          Secure, scalable, and intelligent user management solution. Enable real-time user authentication, KYC, and identity lifecycle handling in one seamless API integration.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4">
+          <button className="bg-white text-indigo-600 hover:bg-gray-100 px-6 py-3 rounded-md font-medium transition duration-300">
+            Get Started
+          </button>
+          <button className="border border-white text-white hover:bg-white hover:text-indigo-600 px-6 py-3 rounded-md font-medium transition duration-300">
+            View Documentation
+          </button>
         </div>
-      </section>
+      </div>
+      <div className="md:w-1/2">
+        <img
+          src="../img/images/43.png"
+          alt="User Management Dashboard"
+          className="rounded-lg"
+        />
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Features Section */}
       <section className="py-16 bg-gray-50">

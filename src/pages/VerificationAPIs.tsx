@@ -13,32 +13,32 @@ const EmployeeBGVAPIs: React.FC = () => {
     {
       name: "Passport Verification",
       icon: <FaPassport />,
-      description: "Validate passport details to ensure identity authenticity.",
+      description: "Instantly verify passport data to confirm employee identity for global onboarding.",
     },
     {
       name: "Email Authentication Solutions",
       icon: <FaEnvelopeOpenText />,
-      description: "Verify email addresses to reduce fraud and enhance communication trust.",
+      description: "Validate email ownership to reduce fraud and improve hiring communication reliability.",
     },
     {
       name: "EPFO without OTP",
       icon: <FaIdBadge />,
-      description: "Access EPFO details without requiring OTP for faster verification.",
+      description: "Retrieve EPFO details directly without OTP for faster background validation.",
     },
     {
       name: "Mobile to UAN",
       icon: <FaPhoneAlt />,
-      description: "Link mobile numbers to Universal Account Numbers for employee validation.",
+      description: "Map mobile numbers to UAN records to validate employee work history securely.",
     },
     {
       name: "ITR Details Get",
       icon: <FaFileInvoiceDollar />,
-      description: "Fetch Income Tax Return data to assess financial credibility.",
+      description: "Fetch Income Tax Return insights to assess candidate's financial stability.",
     },
     {
       name: "PAN to UAN",
       icon: <FaAddressCard />,
-      description: "Map PAN details to UAN to streamline employment background checks.",
+      description: "Connect PAN with UAN to ensure consistent identity mapping across systems.",
     },
   ];
 
@@ -46,9 +46,9 @@ const EmployeeBGVAPIs: React.FC = () => {
     <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-          APIs Under <span className="text-[#29a9c5]">Employee Background </span> Checks
+          APIs Under <span className="text-[#29a9c5]">Employee Background</span> Checks
         </h2>
-        <div className="grid grid-cols-2  md:grid-cols-3 md:gap-6 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-3 md:gap-6 gap-3">
           {apiServices.map((service, index) => (
             <div
               key={index}

@@ -3,42 +3,45 @@ import type React from "react"
 const RCVerificationPage: React.FC = () => {
   return (
     <main className="w-full pb-24">
-      {/* Hero Section */}
-      <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
-        style={{ backgroundImage: "url('/img/bg (2).png')" }}
+     {/* Hero Section */}
+<section
+  className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
+  style={{ backgroundImage: "url('/img/bg (2).png')" }}
+>
+  <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+    <div className="w-full md:w-2/3 text-white">
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">RC Verification API – by 7Unique Verify</h1>
+      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
+        Real-Time Vehicle Registration Certificate Validation
+      </h2>
+      <p className="text-lg mb-4 text-white">
+        Instantly verify vehicle registration details with 7Unique Verify's RC Verification API. Get access to
+        real-time data directly from RTO databases for reliable and official vehicle authentication.
+      </p>
+      <p className="mb-4 text-white">
+        This API delivers accurate vehicle information including owner name, registration status, fuel type,
+        vehicle class, insurance validity, and more — directly sourced from regional transport offices.
+      </p>
+      <p className="mb-6 text-white">
+        Trusted by insurance providers, used car platforms, banks, and fleet operators for fraud prevention,
+        compliance checks, and transparent transactions.
+      </p>
+      <a
+        href="#"
+        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
-        <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-2/3 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">RC Verification API</h1>
-            <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-              Vehicle Registration Certificate Verification
-            </h2>
-            <p className="text-lg mb-4 text-white">
-              Verify vehicle registration details instantly with our comprehensive RC Verification API. Access official vehicle information from RTO databases for reliable vehicle verification.
-            </p>
-            <p className="mb-4 text-white">
-              Our API provides detailed vehicle information including owner details, registration status, vehicle specifications, and compliance records from official RTO databases.
-            </p>
-            <p className="mb-6 text-white">
-              Essential for vehicle insurance, used car transactions, fleet management, and any business requiring authentic vehicle information verification.
-            </p>
-            <a
-              href="#"
-              className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
-            >
-              Get Started
-            </a>
-          </div>
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-              src="../img/images/26.png"
-              alt="RC Verification"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
-            />
-          </div>
-        </div>
-      </section>
+        Get Started
+      </a>
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="../img/images/26.png"
+        alt="RC Verification"
+        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
+      />
+    </div>
+  </div>
+</section>
 
       {/* Features Section */}
       <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">

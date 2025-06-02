@@ -4,44 +4,41 @@ const FaceMatchAPIPage: React.FC = () => {
   return (
     <main className="w-full pb-24">
       {/* Hero Section */}
-      <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center"
-        style={{ backgroundImage: "url('/img/bg (2).png')" }}
+<section
+  className="w-full bg-cover bg-center min-h-screen flex items-center"
+  style={{ backgroundImage: "url('/img/bg (2).png')" }}
+>
+  <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+    <div className="w-full md:w-2/3 text-white">
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">7Unique Verify – Face Match API</h1>
+      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
+        Real-time Facial Recognition & Identity Match
+      </h2>
+      <p className="text-lg mb-4 text-white">
+        Verify identities with precision using 7Unique Verify’s Face Match API. Match faces in real-time using AI-powered facial feature detection and comparison technology.
+      </p>
+      <p className="mb-4 text-white">
+        This API supports live face detection, selfie vs ID photo comparison, and similarity scoring – ensuring secure and contactless identity verification.
+      </p>
+      <p className="mb-6 text-white">
+        Perfect for KYC, user onboarding, attendance systems, fintech apps, and access control where facial biometrics are critical.
+      </p>
+      <a
+        href="#"
+        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
-        <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-2/3 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Face Match API</h1>
-            <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-              Advanced Facial Recognition & Matching
-            </h2>
-            <p className="text-lg mb-4 text-white">
-              Compare and match faces with our advanced Face Match API. Ensure identity verification and authentication
-              with high-accuracy facial recognition technology.
-            </p>
-            <p className="mb-4 text-white">
-              Our API provides facial feature extraction, similarity scoring, identity verification, and real-time face
-              matching capabilities with industry-leading accuracy rates.
-            </p>
-            <p className="mb-6 text-white">
-              Essential for identity verification, access control, attendance systems, and any application requiring
-              secure facial recognition and matching.
-            </p>
-            <a
-              href="#"
-              className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
-            >
-              Get Started
-            </a>
-          </div>
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-             src="/img/image/rendering-blender-3d-icon-logo-faciel-recognition-illustration.png"
-              alt="Face Match API"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
-            />
-          </div>
-        </div>
-      </section>
+        Get Started
+      </a>
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="/img/image/rendering-blender-3d-icon-logo-faciel-recognition-illustration.png"
+        alt="7Unique Verify Face Match API"
+        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
+      />
+    </div>
+  </div>
+</section>
 
       {/* Features Section */}
       <section className="p-16 bg-gray-50">

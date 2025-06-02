@@ -3,63 +3,61 @@ import type React from "react"
 const EmailAuthenticationPage: React.FC = () => {
   return (
     <main className="min-h-screen">
-      {/* Hero Section */}
-      <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center"
-        style={{ backgroundImage: "url('/img/bg (2).png')" }}
-      >
-        <div className="container mx-auto px-16 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-2/3 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Email Authentication API</h1>
-            <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-              Secure Email Verification & Authentication
-            </h2>
-            <p className="text-lg mb-4 text-white">
-              Verify email addresses instantly with our comprehensive Email Authentication API. Ensure valid email
-              communications and reduce bounce rates with real-time email validation.
-            </p>
-            <p className="mb-4 text-white">
-              Our API provides email syntax validation, domain verification, mailbox existence checks, and disposable
-              email detection for reliable email authentication.
-            </p>
-            <p className="mb-6 text-white">
-              Essential for email marketing, user registration, customer onboarding, and any application requiring email
-              verification and validation.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="#"
-                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors text-center"
-              >
-                Get Started
-              </a>
-              <a
-                href="#"
-                className="inline-block border border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#2dc1e3] transition-colors text-center"
-              >
-                View Documentation
-              </a>
-            </div>
-          </div>
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-              src="../img/images/3.png"
-              alt="Email Authentication"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px] rounded-lg "
-            />
-          </div>
-        </div>
-      </section>
+ {/* Hero Section */}
+<section
+  className="w-full bg-cover bg-center min-h-screen flex items-center"
+  style={{ backgroundImage: "url('/img/bg (2).png')" }}
+>
+  <div className="container mx-auto px-16 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+    <div className="w-full md:w-2/3 text-white">
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">Email Authentication API</h1>
+      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
+        Accurate & Secure Email Verification by 7Unique Verify
+      </h2>
+      <p className="text-lg mb-4 text-white">
+        Eliminate invalid, fake, or disposable email addresses with 7Unique Verify's Email Authentication API. Optimize deliverability, reduce spam risks, and protect your digital onboarding process.
+      </p>
+      <p className="mb-4 text-white">
+        Get real-time results through email syntax validation, domain & DNS checks, mailbox ping verification, and disposable email detection—ideal for signup forms, CRMs, and campaigns.
+      </p>
+      <p className="mb-6 text-white">
+        A must-have for marketers, developers, and businesses that rely on clean and verified email lists to ensure effective communication and fraud prevention.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-4">
+        <a
+          href="#"
+          className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors text-center"
+        >
+          Get Started
+        </a>
+        <a
+          href="#"
+          className="inline-block border border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#2dc1e3] transition-colors text-center"
+        >
+          View Documentation
+        </a>
+      </div>
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="../img/images/3.png"
+        alt="Email Authentication - 7Unique Verify"
+        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px] rounded-lg"
+      />
+    </div>
+  </div>
+</section>
 
-      {/* Features Section */}
-      <section className="py-16 bg-gray-50">
+
+        {/* Features Section */}
+        <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-16">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Comprehensive Email Verification Features
+              Email Verification Features by <span className="text-[#29a9c5]">7Unique Verify</span>
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              Our Email Authentication API provides advanced verification capabilities to ensure email deliverability and authenticity.
+              Ensure accuracy, reduce bounce rates, and protect your email communication pipeline with our advanced API capabilities.
             </p>
           </div>
 
@@ -72,7 +70,7 @@ const EmailAuthenticationPage: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Real-time Validation</h3>
               <p className="text-gray-600">
-                Instantly verify email addresses with real-time syntax checking, domain validation, and mailbox existence verification.
+                Validate email addresses instantly with syntax, domain, and mailbox existence checks for maximum accuracy.
               </p>
             </div>
 
@@ -84,7 +82,7 @@ const EmailAuthenticationPage: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Disposable Email Detection</h3>
               <p className="text-gray-600">
-                Identify and filter out temporary, disposable, and fake email addresses to maintain data quality and security.
+                Filter out temporary, fake, or single-use emails to maintain data quality and reduce fraud.
               </p>
             </div>
 
@@ -96,7 +94,7 @@ const EmailAuthenticationPage: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Bulk Verification</h3>
               <p className="text-gray-600">
-                Process thousands of email addresses simultaneously with our high-performance bulk verification capabilities.
+                Verify large batches of emails in one go—ideal for campaigns and database cleanup.
               </p>
             </div>
           </div>
@@ -107,9 +105,9 @@ const EmailAuthenticationPage: React.FC = () => {
       <section className="py-16">
         <div className="container mx-auto px-16">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">How Email Authentication Works</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">How 7Unique Verify Email Authentication Works</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              Our comprehensive email verification process ensures maximum accuracy and deliverability.
+              Our multi-layered process ensures high-quality leads and minimal bounce rates for your campaigns.
             </p>
           </div>
 
@@ -120,7 +118,7 @@ const EmailAuthenticationPage: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Syntax Validation</h3>
               <p className="text-gray-600">
-                Check email format and syntax according to RFC standards to ensure proper email structure.
+                RFC-based format validation to confirm correct email structure before further steps.
               </p>
             </div>
 
@@ -128,9 +126,9 @@ const EmailAuthenticationPage: React.FC = () => {
               <div className="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 2
               </div>
-              <h3 className="text-xl font-semibold mb-3">Domain Verification</h3>
+              <h3 className="text-xl font-semibold mb-3">Domain Check</h3>
               <p className="text-gray-600">
-                Verify domain existence, MX records, and mail server configuration to ensure deliverability.
+                Validate domain's MX records and DNS setup to ensure it's capable of receiving emails.
               </p>
             </div>
 
@@ -138,9 +136,9 @@ const EmailAuthenticationPage: React.FC = () => {
               <div className="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 3
               </div>
-              <h3 className="text-xl font-semibold mb-3">Mailbox Check</h3>
+              <h3 className="text-xl font-semibold mb-3">Mailbox Ping</h3>
               <p className="text-gray-600">
-                Perform SMTP handshake to verify mailbox existence without sending actual emails.
+                Perform a non-intrusive SMTP check to confirm if the email address exists without sending a message.
               </p>
             </div>
 
@@ -148,9 +146,9 @@ const EmailAuthenticationPage: React.FC = () => {
               <div className="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 4
               </div>
-              <h3 className="text-xl font-semibold mb-3">Risk Assessment</h3>
+              <h3 className="text-xl font-semibold mb-3">Reputation Scoring</h3>
               <p className="text-gray-600">
-                Analyze email reputation, detect disposable addresses, and provide risk scoring.
+                Check blacklist status, domain age, and usage pattern to rate the email's risk level.
               </p>
             </div>
           </div>
@@ -163,42 +161,42 @@ const EmailAuthenticationPage: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Benefits of Email Authentication
+                Benefits of <span className="text-[#29a9c5]">7Unique Verify</span> Email Authentication
               </h2>
               <p className="text-gray-600 mb-8">
-                Improve your email marketing effectiveness and protect your sender reputation with verified email addresses.
+                Drive better campaign performance, cut costs, and build trust with a cleaner email database.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span><strong className="font-medium">Reduce Bounce Rates:</strong> Eliminate invalid emails before sending campaigns.</span>
+                  <span><strong className="font-medium">Reduce Bounce Rates:</strong> Only engage with real users by filtering out fake IDs.</span>
                 </li>
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span><strong className="font-medium">Improve Deliverability:</strong> Maintain sender reputation and inbox placement.</span>
+                  <span><strong className="font-medium">Inbox Placement:</strong> Enhance sender score and improve email deliverability.</span>
                 </li>
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span><strong className="font-medium">Cost Savings:</strong> Reduce email marketing costs by targeting valid addresses only.</span>
+                  <span><strong className="font-medium">Lower Costs:</strong> Save on email tools by cleaning your database beforehand.</span>
                 </li>
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span><strong className="font-medium">Data Quality:</strong> Maintain clean and accurate customer databases.</span>
+                  <span><strong className="font-medium">Better Engagement:</strong> Work with high-intent users and valid prospects only.</span>
                 </li>
               </ul>
             </div>
             <div className="md:w-1/2">
               <img
-                src="/placeholder.svg?height=400&width=500&text=Email+Benefits"
-                alt="Email Authentication Benefits"
+                src="/img/image/email-benefits-secure.png"
+                alt="Email Verification Benefits - 7Unique Verify"
                 className="rounded-lg shadow-xl"
               />
             </div>

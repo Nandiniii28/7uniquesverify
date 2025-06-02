@@ -8,7 +8,7 @@ const VerificationFeatures: React.FC = () => {
         {
             title: "Elevate Verification Accuracy",
             description:
-                "Employment Background Screening API provides accurate and current data on employment history, credentials, and education—helping you steer clear of candidates who misrepresent qualifications or experience.",
+                "Our Employment Background Screening API provides accurate and current data on employment history, credentials, and education—helping you steer clear of candidates who misrepresent qualifications or experience.",
             icon: <FaUserCheck className="text-[#4a90e2] text-xl mr-2" />,
         },
         {
@@ -44,7 +44,7 @@ const VerificationFeatures: React.FC = () => {
                         Employee Background Verification API
                     </h2>
                     <p className="text-gray-600">
-                        The Employee Background Verification Screening API is a cutting-edge solution for businesses seeking dependable hiring insights. It integrates advanced technology for fast, accurate, and compliant verifications—making the hiring process smoother and more reliable.
+                        The Employee Background Verification API is a modern solution tailored for organizations looking to hire with confidence. By combining accuracy, speed, and compliance, it streamlines verification and enhances hiring reliability.
                     </p>
 
                     {features.map((feature, index) => (

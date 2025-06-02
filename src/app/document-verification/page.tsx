@@ -3,130 +3,87 @@ import type React from "react"
 const DocumentVerificationPage: React.FC = () => {
   return (
     <main className="w-full pb-24">
-      {/* Hero Section */}
-      <section
-        className="w-full bg-cover bg-center min-h-[80vh] flex items-center"
-        style={{ backgroundImage: "url('/img/bg (2).png')" }}
+    {/* Hero Section */}
+<section
+  className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
+  style={{ backgroundImage: "url('/img/bg (2).png')" }}
+>
+  <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+    <div className="w-full md:w-2/3 text-white">
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">CKYC Search & Download API</h1>
+      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
+        Central KYC Registry with 7Unique Verify
+      </h2>
+      <p className="text-lg mb-4 text-white">
+        Access and retrieve CKYC records in real-time using 7Unique Verify’s secure API. Streamline KYC operations by integrating verified data from India’s centralized KYC registry.
+      </p>
+      <p className="mb-4 text-white">
+        Built for speed and compliance, our CKYC API empowers banks, NBFCs, and fintechs to verify, download, and store customer KYC records efficiently—minimizing duplication and fraud.
+      </p>
+      <p className="mb-6 text-white">
+        Join 7Unique Verify in modernizing onboarding and compliance with scalable, RBI-compliant solutions.
+      </p>
+      <a
+        href="#"
+        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
-        <div className="container mx-auto px-16 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-2/3 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Document Verification API</h1>
-            <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-              Comprehensive Document Authentication Service
-            </h2>
-            <p className="text-lg mb-4 text-white">
-              Verify and authenticate documents instantly with our advanced Document Verification API. Ensure document
-              authenticity and prevent fraud with AI-powered verification technology.
-            </p>
-            <p className="mb-4 text-white">
-              Our API supports multiple document types including identity cards, certificates, licenses, and financial
-              documents with real-time verification and fraud detection capabilities.
-            </p>
-            <p className="mb-6 text-white">
-              Perfect for financial institutions, government agencies, educational institutions, and any organization
-              requiring secure document verification and authentication.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <a
-                href="#"
-                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
-              >
-                Get Started
-              </a>
-              <a
-                href="#features"
-                className="inline-block bg-transparent border border-white text-white font-semibold px-6 py-3 rounded shadow hover:bg-white hover:text-[#2dc1e3] transition-colors"
-              >
-                Learn More
-              </a>
-            </div>
-          </div>
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-              src="../img/images/gradient-api-illustration.png"
-              alt="Document Verification"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
-            />
-          </div>
-        </div>
-      </section>
+        Get Started
+      </a>
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="../img/images/13.png"
+        alt="CKYC Search & Download with 7Unique Verify"
+        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
+      />
+    </div>
+  </div>
+</section>
 
-      {/* Features Section */}
-      <section id="features" className="py-16">
-        <div className="container mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Key Features</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Our Document Verification API offers comprehensive features to ensure accurate and secure document
-              authentication
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="w-12 h-12 bg-[#e6f7fb] rounded-full flex items-center justify-center mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-[#2dc1e3]"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Multi-Document Support</h3>
-              <p className="text-gray-600">
-                Verify a wide range of documents including IDs, passports, driver's licenses, utility bills, bank
-                statements, and more.
-              </p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="w-12 h-12 bg-[#e6f7fb] rounded-full flex items-center justify-center mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-[#2dc1e3]"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Fraud Detection</h3>
-              <p className="text-gray-600">
-                Advanced AI algorithms detect tampering, forgery, and fraudulent documents with high accuracy.
-              </p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="w-12 h-12 bg-[#e6f7fb] rounded-full flex items-center justify-center mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-[#2dc1e3]"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Real-time Processing</h3>
-              <p className="text-gray-600">
-                Get verification results in seconds, enabling seamless user experiences and fast decision-making.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+{/* Features Section */}
+<section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">
+  <div className="max-w-full mx-auto text-center">
+    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
+      <span className="text-[#29a9c5]">7Unique Verify CKYC</span> API Features
+    </h2>
+    <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
+      <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
+        <img
+          src="../img/images/14.png"
+          alt="CKYC Search"
+          className="w-full h-48 object-contain mb-4"
+        />
+        <h3 className="text-xl font-semibold text-gray-800 mb-2">Smart CKYC Search</h3>
+        <p className="text-gray-600">
+          Query CKYC data using Aadhaar, PAN, or mobile number. Find verified records instantly from the central registry for seamless customer onboarding.
+        </p>
+      </div>
+      <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
+        <img
+          src="../img/images/15.png"
+          alt="Record Download"
+          className="w-full h-48 object-contain mb-4"
+        />
+        <h3 className="text-xl font-semibold text-gray-800 mb-2">Instant Record Download</h3>
+        <p className="text-gray-600">
+          Download complete CKYC documents and metadata, including customer details, photograph, and KYC verification status—ready for backend use.
+        </p>
+      </div>
+      <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0">
+        <img
+          src="../img/images/16.png"
+          alt="RBI Compliance"
+          className="w-full h-48 object-contain mb-4"
+        />
+        <h3 className="text-xl font-semibold text-gray-800 mb-2">RBI Compliant Architecture</h3>
+        <p className="text-gray-600">
+          Fully aligned with RBI and CKYC norms. Enjoy secure, encrypted access with full audit logging to ensure transparency and compliance.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* How It Works Section */}
       <section className="py-16 bg-gray-50">

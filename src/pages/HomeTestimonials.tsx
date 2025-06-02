@@ -1,26 +1,26 @@
 const testimonials = [
   {
-    name: 'Ronald Richards',
-    location: 'Michigan, US',
-    role: '',
+    name: 'Chandan Richards',
+    location: 'Pune, India',
+    role: 'Compliance Officer',
     quote:
-      "The user interface is seamless, the powerful analytics give us invaluable insights into our campaigns, allowing us to make data-driven decisions effortlessly. It's like having an extra team member who never misses a beat.",
+      "7Unique Verify has simplified our KYC process completely. Real-time PAN and Aadhaar validation helps us onboard customers faster without compromising compliance.",
     rating: 5,
   },
   {
-    name: 'Devon Lane',
-    location: '',
-    role: 'Junior Marketing Manager',
+    name: 'Deepak Sharma',
+    location: 'Gurgaon, India',
+    role: 'Risk Analyst',
     quote:
-      'ZaiVOIP has completely transformed our communication systems. Engagement rates are at an all-time high, and our subscribers love the content we’re now able to tailor for them.',
+      'We’ve integrated multiple APIs from 7Unique Verify—CKYC, Voter ID, and DL checks. Their platform is reliable, fast, and easy to plug into our existing systems.',
     rating: 5,
   },
   {
-    name: 'Jenny Wilson',
-    location: '',
-    role: 'Junior Marketing Manager',
+    name: 'Sonu Wilson',
+    location: 'Jaipur, India',
+    role: 'Operations Manager',
     quote:
-      'ZaiVOIP has made it easier for our support team to handle calls efficiently. The HD voice quality and auto-attendant features make a big difference.',
+      'Using 7Unique Verify, our employee background checks are now automated and verifiable within seconds. The support team is also very responsive and helpful.',
     rating: 5,
   },
 ];

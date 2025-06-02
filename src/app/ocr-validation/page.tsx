@@ -4,52 +4,49 @@ const OCRValidationPage: React.FC = () => {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center"
-        style={{ backgroundImage: "url('/img/bg (2).png')" }}
-      >
-        <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-2/3 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">OCR Validation API</h1>
-            <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-              Intelligent Document Text Recognition & Validation
-            </h2>
-            <p className="text-lg mb-4 text-white">
-              Extract and validate text from documents with our advanced OCR Validation API. Convert images to text and
-              validate document information with high accuracy and reliability.
-            </p>
-            <p className="mb-4 text-white">
-              Our API provides intelligent text extraction, document structure recognition, data validation, and format
-              verification for various document types and languages.
-            </p>
-            <p className="mb-6 text-white">
-              Perfect for document processing, data entry automation, compliance verification, and any application
-              requiring accurate text extraction and validation.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="#"
-                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors text-center"
-              >
-                Get Started
-              </a>
-              <a
-                href="#"
-                className="inline-block border border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#2dc1e3] transition-colors text-center"
-              >
-                View Documentation
-              </a>
-            </div>
-          </div>
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-              src="/img/image/flat-design-api-illustration.png"
-              alt="OCR Validation"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px] rounded-lg"
-            />
-          </div>
-        </div>
-      </section>
+<section
+  className="w-full bg-cover bg-center min-h-screen flex items-center"
+  style={{ backgroundImage: "url('/img/bg (2).png')" }}
+>
+  <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+    <div className="w-full md:w-2/3 text-white">
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">OCR Validation API – by 7Unique Verify</h1>
+      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
+        Smart Document Recognition & Information Validation
+      </h2>
+      <p className="text-lg mb-4 text-white">
+        Automate text extraction from scanned documents with precision using our advanced OCR Validation API. Designed for high-volume data verification with intelligent accuracy.
+      </p>
+      <p className="mb-4 text-white">
+        7Unique Verify’s API offers multilingual OCR, layout-aware parsing, structured data mapping, and format consistency checks across PAN, Aadhaar, DL, utility bills, and more.
+      </p>
+      <p className="mb-6 text-white">
+        Ideal for banks, fintechs, NBFCs, and digital platforms looking to automate KYC, onboarding, and document compliance with ease.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-4">
+        <a
+          href="#"
+          className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors text-center"
+        >
+          Get Started
+        </a>
+        <a
+          href="#"
+          className="inline-block border border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#2dc1e3] transition-colors text-center"
+        >
+          View Documentation
+        </a>
+      </div>
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="/img/image/flat-design-api-illustration.png"
+        alt="OCR Validation"
+        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px] rounded-lg"
+      />
+    </div>
+  </div>
+</section>
 
       {/* Features Section */}
       <section className="p-16 bg-gray-50">

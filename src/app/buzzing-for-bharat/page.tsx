@@ -38,7 +38,7 @@ const BuzzingForBharatPage: React.FC = () => {
           <div>
             <h3 className="text-2xl font-bold mb-6">Digital India Initiative</h3>
             <p className="text-gray-700 mb-4">
-              SprintVerify is proud to be part of India's digital transformation journey. We are committed to supporting
+              7Unique Verify is proud to be part of India's digital transformation journey. We are committed to supporting
               the Digital India initiative by providing cutting-edge verification and identity solutions that enable
               secure, efficient, and inclusive digital services for all Indians.
             </p>
@@ -105,7 +105,7 @@ const BuzzingForBharatPage: React.FC = () => {
       <section className="bg-[#F4FAFF] rounded-xl p-8 mt-16 text-center">
         <h3 className="text-2xl font-bold mb-4">Join the Digital Revolution</h3>
         <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-          Be part of India's digital transformation. Partner with SprintVerify to build secure, efficient, and inclusive
+          Be part of India's digital transformation. Partner with 7Unique Verify to build secure, efficient, and inclusive
           digital services that serve all of Bharat.
         </p>
         <a

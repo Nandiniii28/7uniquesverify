@@ -25,59 +25,59 @@ export default function Navbar() {
     {
       icon: "bi bi-person-bounding-box",
       title: "CANDY",
-      desc: "Meet SprintVerify: Your AI-Driven Verification Platform for Seamless and Accurate Authentication in real-time.",
+      desc: "Introducing CANDY by 7Unique Verify — a smart verification platform that uses AI to deliver real-time, accurate identity checks.",
       to: "/candy",
     },
     {
       icon: "bi bi-person-vcard-fill",
       title: "KYC",
-      desc: "Verify a diverse array of identities to guarantee the legitimacy of your clients and users.",
+      desc: "Easily verify user identities to ensure compliance and build trust with your customers using secure KYC APIs.",
       to: "/kyc",
     },
     {
       icon: "bi bi-person-rolodex",
       title: "KYB",
-      desc: "Enhance risk management by thoroughly assessing potential partners, clients, and businesses before integration.",
+      desc: "Get in-depth business insights and verify company credentials before onboarding with our KYB solutions.",
       to: "/kyb",
     },
     {
       icon: "bi bi-person-fill-slash",
       title: "Fraud Detection",
-      desc: "Utilize advanced APIs to detect potential fraud detections, enhancing your security measures.",
+      desc: "Use smart API tools to flag and stop fraud attempts before they impact your platform or customers.",
       to: "/fraud-detection",
     },
     {
       icon: "bi bi-check2-circle",
       title: "Phone Number Lookup",
-      desc: "Perform an assessment of the mobile number to authenticate identity and potential digital interaction.",
+      desc: "Verify and validate mobile numbers to ensure accurate user data and prevent fraud in real-time.",
       to: "/phone-number-lookup",
     },
     {
       icon: "bi bi-check2-all",
       title: "Financial Checks",
-      desc: "Authenticate customers ownership of bank accounts and conduct additional financial verifications.",
+      desc: "Confirm bank account ownership and carry out financial verifications with reliable, fast API integrations.",
       to: "/financial-checks",
     },
     {
       icon: "bi bi-person-check",
       title: "Employee Background Verification",
-      desc: "Ensure trust with comprehensive employee background checks, fostering a secure work environment for all stakeholders in your organization.",
+      desc: "Strengthen hiring with complete employee checks and safeguard your company from potential risks.",
       to: "/employee-verification",
     },
     {
       icon: "bi bi-person-lock",
       title: "AI Driven OCR Software",
-      desc: "Experience seamless document digitization with AI-driven OCR software, effortlessly prefilling extensive digital paperwork for efficient processes.",
+      desc: "Digitize and auto-fill documents in seconds with our AI-based OCR software for faster onboarding.",
       to: "/ocr",
     },
     {
       icon: "bi bi-bezier",
       title: "Utilities",
-      desc: "Streamline operations with our utilities solutions, simplifying everyday tasks for enhanced efficiency across your organization.",
+      desc: "Simplify tasks like bill payments and service access using integrated, fast, and scalable utility APIs.",
       to: "/utilities",
     },
   ];
-
+  
   return (
     <header className="w-full bg-white shadow-sm sticky top-0 z-50">
       <nav className="container mx-auto px-4 py-3 flex items-center justify-between relative">

@@ -3,45 +3,42 @@ import type React from "react"
 const PassportVerificationPage: React.FC = () => {
   return (
     <main className="w-full pb-24">
-      {/* Hero Section */}
-      <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center"
-        style={{ backgroundImage: "url('/img/bg (2).png')" }}
+    {/* Hero Section */}
+<section
+  className="w-full bg-cover bg-center min-h-screen flex items-center"
+  style={{ backgroundImage: "url('/img/bg (2).png')" }}
+>
+  <div className="container mx-auto px-16 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+    <div className="w-full md:w-2/3 text-white">
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">Passport Verification API – by 7Unique Verify</h1>
+      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
+        Real-time Passport Validation for Identity Authentication
+      </h2>
+      <p className="text-lg mb-4 text-white">
+        Instantly verify passport details using 7Unique Verify’s secure API. Authenticate identity and confirm document legitimacy within seconds.
+      </p>
+      <p className="mb-4 text-white">
+        Our API checks passport number validity, verifies holder data, and cross-checks authenticity with official sources—helping prevent fraud and ensuring compliance.
+      </p>
+      <p className="mb-6 text-white">
+        Ideal for immigration services, travel agencies, NBFCs, KYC platforms, and any system that needs verified government-issued identity documentation.
+      </p>
+      <a
+        href="#"
+        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
-        <div className="container mx-auto px-16 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-2/3 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Passport Verification API</h1>
-            <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-              Comprehensive Passport Authentication & Validation
-            </h2>
-            <p className="text-lg mb-4 text-white">
-              Verify passport details instantly with our advanced Passport Verification API. Ensure authentic identity
-              verification and travel document validation with real-time passport authentication.
-            </p>
-            <p className="mb-4 text-white">
-              Our API validates passport numbers, verifies holder information, and checks document authenticity against
-              official databases for comprehensive identity verification.
-            </p>
-            <p className="mb-6 text-white">
-              Essential for travel agencies, immigration services, financial institutions, and any organization
-              requiring secure passport verification and identity authentication.
-            </p>
-            <a
-              href="#"
-              className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
-            >
-              Get Started
-            </a>
-          </div>
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-              src="../img/images/18.png"
-              alt="Passport Verification"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
-            />
-          </div>
-        </div>
-      </section>
+        Get Started
+      </a>
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="../img/images/18.png"
+        alt="Passport Verification"
+        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
+      />
+    </div>
+  </div>
+</section>
 
       {/* Features Section */}
       <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">

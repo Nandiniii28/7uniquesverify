@@ -4,44 +4,42 @@ const BankAccountVerificationPage: React.FC = () => {
   return (
     <main className="w-full pb-24">
       {/* Hero Section */}
-      <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
-        style={{ backgroundImage: "url('/img/bg (2).png')" }}
+<section
+  className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
+  style={{ backgroundImage: "url('/img/bg (2).png')" }}
+>
+  <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+    <div className="w-full md:w-2/3 text-white">
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">7Unique Verify – Bank Account Verification API</h1>
+      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
+        Secure & Instant Bank Account Validation
+      </h2>
+      <p className="text-lg mb-4 text-white">
+        Validate bank account details in real time using the trusted 7Unique Verify Bank Account Verification API. Ensure error-free transactions, compliance, and fraud prevention with our advanced verification engine.
+      </p>
+      <p className="mb-4 text-white">
+        Our system confirms account number validity, verifies IFSC codes, and cross-checks account holder names across all major Indian banks, offering seamless API integration for your business.
+      </p>
+      <p className="mb-6 text-white">
+        Ideal for payment gateways, lending platforms, e-commerce stores, salary disbursals, and any process where reliable bank verification is crucial.
+      </p>
+      <a
+        href="#"
+        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
-        <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-2/3 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Bank Account Verification API</h1>
-            <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-              Secure & Instant Bank Account Validation
-            </h2>
-            <p className="text-lg mb-4 text-white">
-              Verify bank account details instantly with our comprehensive Bank Account Verification API. Ensure
-              accurate financial transactions and reduce fraud with real-time account validation.
-            </p>
-            <p className="mb-4 text-white">
-              Our API validates account numbers, IFSC codes, and account holder names across all major banks in India,
-              providing you with reliable verification results in seconds.
-            </p>
-            <p className="mb-6 text-white">
-              Perfect for fintech applications, e-commerce platforms, and any business requiring secure payment
-              processing and account verification capabilities.
-            </p>
-            <a
-              href="#"
-              className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
-            >
-              Get Started
-            </a>
-          </div>
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-              src="../img/images/4.png"
-              alt="Bank Account Verification"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
-            />
-          </div>
-        </div>
-      </section>
+        Get Started
+      </a>
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="../img/images/4.png"
+        alt="7Unique Verify – Bank Account Verification"
+        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
+      />
+    </div>
+  </div>
+</section>
+
 
       {/* Features Section */}
       <section className="bg-gray-50 p-16 md:px-8 lg:px-15">

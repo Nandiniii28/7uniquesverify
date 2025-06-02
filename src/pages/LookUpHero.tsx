@@ -14,13 +14,13 @@ const LookUpHero: React.FC = () => {
             Phone Number Lookup API
           </h1>
           <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-            Real-Time Identity Checks via Mobile Number Lookup
+            Verify Mobile Numbers with Real-Time Identity Insights
           </h2>
           <p className="text-lg mb-4 text-white">
-            Supercharge your verification process with <strong>SprintVerify’s Phone Number Lookup API</strong>. Instantly access accurate user data—like VPA, UAN, and telecom info—directly from a mobile number.
+            Enhance your KYC and user validation with our Phone Number Lookup API. Instantly fetch verified details like UAN, VPA, telecom operator, and more — using just a mobile number.
           </p>
           <p className="mb-4 text-white">
-            Whether you're enabling secure payments, onboarding users, or personalizing messages, our API ensures accurate, fast, and secure data retrieval—giving your business the edge in customer engagement and fraud prevention.
+            Whether you're verifying transactions, onboarding users, or targeting communication campaigns, our API helps you retrieve real-time, reliable data with speed and security. Make smarter decisions, reduce fraud, and personalize customer experiences — all with one powerful API.
           </p>
           
           <a

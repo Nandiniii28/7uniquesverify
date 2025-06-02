@@ -12,15 +12,14 @@ const AadhaarVerificationPage: React.FC = () => {
           <div className="w-full md:w-2/3 text-white">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Aadhaar Verification API</h1>
             <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-              Secure Aadhaar Identity Verification
+            Real-time Aadhaar Validation by 7Unique Verify
             </h2>
             <p className="text-lg mb-4 text-white">
-              Verify Aadhaar identities instantly with our secure and compliant Aadhaar Verification API. Ensure
-              authentic identity verification for your KYC processes with UIDAI-compliant solutions.
+            Instantly verify Aadhaar details with our UIDAI-compliant API.
+             7Unique Verify ensures secure, fast, and accurate identity verification trusted by leading fintechs and telecom brands.
             </p>
             <p className="mb-4 text-white">
-              Our API provides real-time Aadhaar verification with OTP-based authentication, demographic verification,
-              and biometric validation options to meet your specific requirements.
+            Our solution supports OTP-based Aadhaar eKYC, demographic checks, and biometric validations—tailored to meet your onboarding, KYC, and fraud prevention needs.
             </p>
             <p className="mb-6 text-white">
               Perfect for banking, fintech, telecom, and any industry requiring secure identity verification with

@@ -4,52 +4,49 @@ const LivenessCheckAPIPage: React.FC = () => {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center"
-        style={{ backgroundImage: "url('/img/bg (2).png')" }}
-      >
-        <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-2/3 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Liveness Check API</h1>
-            <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-              Advanced Biometric Liveness Detection
-            </h2>
-            <p className="text-lg mb-4 text-white">
-              Detect live human presence with our advanced Liveness Check API. Prevent spoofing attacks and ensure
-              authentic biometric verification with real-time liveness detection technology.
-            </p>
-            <p className="mb-4 text-white">
-              Our API uses advanced AI algorithms to detect live faces, prevent photo and video spoofing, and ensure
-              genuine user presence during biometric authentication.
-            </p>
-            <p className="mb-6 text-white">
-              Critical for secure authentication, digital onboarding, remote verification, and any application requiring
-              anti-spoofing biometric security measures.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="#"
-                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors text-center"
-              >
-                Get Started
-              </a>
-              <a
-                href="#"
-                className="inline-block border border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#2dc1e3] transition-colors text-center"
-              >
-                View Documentation
-              </a>
-            </div>
-          </div>
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-              src="/img/image/mobile-login-concept-illustration.png"
-              alt="Liveness Check API"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px] rounded-lg"
-            />
-          </div>
-        </div>
-      </section>
+<section
+  className="w-full bg-cover bg-center min-h-screen flex items-center"
+  style={{ backgroundImage: "url('/img/bg (2).png')" }}
+>
+  <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+    <div className="w-full md:w-2/3 text-white">
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">Liveness Check API</h1>
+      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
+        Real-Time Biometric Liveness Detection by 7Unique Verify
+      </h2>
+      <p className="text-lg mb-4 text-white">
+        Enhance your digital onboarding with 7Unique Verify’s Liveness Check API. Our technology ensures the user is a live human—not a static image or replayed video—using advanced AI-driven facial motion detection.
+      </p>
+      <p className="mb-4 text-white">
+        This API prevents spoofing attacks, detects deepfakes, and verifies live user presence in real time, making it ideal for sensitive verifications like financial onboarding, KYC, and secure logins.
+      </p>
+      <p className="mb-6 text-white">
+        Power up your applications with robust anti-spoofing technology trusted by fintechs, telecoms, healthcare, and remote verification platforms across India.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-4">
+        <a
+          href="#"
+          className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors text-center"
+        >
+          Get Started
+        </a>
+        <a
+          href="#"
+          className="inline-block border border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#2dc1e3] transition-colors text-center"
+        >
+          View Documentation
+        </a>
+      </div>
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="/img/image/mobile-login-concept-illustration.png"
+        alt="Liveness Check API by 7Unique Verify"
+        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px] rounded-lg"
+      />
+    </div>
+  </div>
+</section>
 
       {/* Features Section */}
       <section className="p-16 bg-gray-50">

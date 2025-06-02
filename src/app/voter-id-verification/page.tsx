@@ -4,44 +4,42 @@ const VoterIDVerificationPage: React.FC = () => {
   return (
     <main className="w-full pb-24">
       {/* Hero Section */}
-      <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
-        style={{ backgroundImage: "url('/img/bg (2).png')" }}
+<section
+  className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
+  style={{ backgroundImage: "url('/img/bg (2).png')" }}
+>
+  <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+    <div className="w-full md:w-2/3 text-white">
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">7Unique Verify – Voter ID Verification API</h1>
+      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
+        Real-time Electoral Identity Check & Address Proof Validation
+      </h2>
+      <p className="text-lg mb-4 text-white">
+        Instantly verify voter identity details using 7Unique Verify's powerful Voter ID Verification API. Ensure trusted onboarding with secure, real-time access to Election Commission records.
+      </p>
+      <p className="mb-4 text-white">
+        The API matches voter IDs, cross-checks personal details, and fetches electoral roll information, helping your platform remain compliant and fraud-free.
+      </p>
+      <p className="mb-6 text-white">
+        Ideal for financial services, digital platforms, KYC processes, and any application needing validated voter identity and residence data.
+      </p>
+      <a
+        href="#"
+        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
-        <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-2/3 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Voter ID Verification API</h1>
-            <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-              Electoral Identity Verification Service
-            </h2>
-            <p className="text-lg mb-4 text-white">
-              Verify Voter ID details instantly with our comprehensive Voter ID Verification API. Ensure authentic
-              electoral identity verification for various compliance and identification purposes.
-            </p>
-            <p className="mb-4 text-white">
-              Our API validates Voter ID numbers, verifies voter information, and provides detailed electoral data from
-              official Election Commission databases for reliable identity verification.
-            </p>
-            <p className="mb-6 text-white">
-              Perfect for government services, financial institutions, and any organization requiring electoral identity
-              verification and address proof validation.
-            </p>
-            <a
-              href="#"
-              className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
-            >
-              Get Started
-            </a>
-          </div>
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-              src="../img/images/31.png"
-              alt="Voter ID Verification"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
-            />
-          </div>
-        </div>
-      </section>
+        Get Started
+      </a>
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="../img/images/31.png"
+        alt="Voter ID Verification"
+        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
+      />
+    </div>
+  </div>
+</section>
+
 
       {/* Features Section */}
       <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">

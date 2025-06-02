@@ -6,7 +6,7 @@ const UtilitiesCards: React.FC = () => {
       <div className="max-w-full mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 px-3 sm:px-5 md:px-20">
           Explore the Dynamic Capabilities of{" "}
-          <span className="text-[#29a9c5]">SprintVerify's</span> Utilities API
+          <span className="text-[#29a9c5]">7Unique Verify's</span> Utilities API
         </h2>
 
         <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
@@ -21,7 +21,7 @@ const UtilitiesCards: React.FC = () => {
               Currency Exchange API
             </h3>
             <p className="text-gray-600">
-              Get real-time and historical foreign exchange rates through SprintVerify’s Currency Exchange API. Power your international pricing, accounting, and finance systems with trusted and up-to-date currency data—reliable, fast, and always available.
+              Access real-time and historical foreign exchange rates with 7Unique Verify’s Currency Exchange API. Ideal for global pricing, invoicing, and accounting — fast, secure, and accurate.
             </p>
           </div>
 
@@ -51,7 +51,7 @@ const UtilitiesCards: React.FC = () => {
               Smart Data Validation
             </h3>
             <p className="text-gray-600">
-              Verify and validate critical information in real time — including IMEI numbers, user IDs, or financial data. SprintVerify’s Utilities API ensures data integrity, prevents fraud, and automates checks at scale with high precision.
+              Instantly verify critical data such as IMEI numbers, user identities, or transaction details. 7Unique Verify’s validation tools help reduce fraud and improve compliance across systems.
             </p>
           </div>
         </div>

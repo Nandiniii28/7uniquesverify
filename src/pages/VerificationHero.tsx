@@ -14,20 +14,16 @@ const VerificationHero: React.FC = () => {
                         Employee Background Verification API
                     </h1>
                     <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-                        Harness the Power of Background Verification Company: Now Hire Trusted Candidates with Employee Background Verification API
+                        Hire Trusted Candidates with Confidence — Power Your HR with Seamless Verification
                     </h2>
                     <p className="text-lg mb-4 text-white">
-                        Welcome to the forefront of employee screening and trust-building with our cutting-edge background verification API.
-                        As a leading background verification API Provider, we offer comprehensive BGV checks services that encourage businesses to hire trusted candidates with confidence. With SprintVerify, you can harness the power of reliable data and streamline your hiring process with our advanced Employee background verification API.
+                        Step into the future of secure hiring with our advanced background verification API. As a trusted BGV API provider, we empower businesses to screen employees quickly, accurately, and with complete reliability.
                     </p>
                     <p className="mb-4 text-white">
-                        In today’s cutthroat market, businesses cannot afford to make hiring mistakes. That is where the Employment Background Check API comes to the rescue. It is a must-have tool that enables you to manage your hiring process efficiently, giving you peace of mind and helping you make informed & reliable decisions with our leading-edge API.
-
+                        In today’s competitive landscape, hiring the wrong candidate can be costly. Our Employee Background Check API ensures you make smart hiring decisions by delivering real-time, verified employment and identity data.
                     </p>
                     <p className="mb-6 text-white">
-                        Sounds interesting?
-                        Now, boost your hiring process with SprintVerify’s Background Verification API. To elaborate, our solution offers unparalleled accuracy, speed, and security while empowering your HR team to conduct thorough pre-employee background Verification with ease.
-                        Trust SprintVerify to enhance your HR operations and build a workforce you can rely on.
+                        Ready to take control of your hiring process? Our solution offers unmatched accuracy, compliance, and automation — allowing HR teams to conduct thorough background verifications with minimal effort. Build a trusted team, faster and smarter.
                     </p>
                     <a
                         href="#"
@@ -41,8 +37,8 @@ const VerificationHero: React.FC = () => {
                 <div className="w-full md:w-1/2 flex justify-center">
                     <img
                         src="https://img.freepik.com/premium-vector/summer-flat-illustration-beachfront-with-umbrellas-beach-gear_428731-153.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
-                        alt="KYC Verification Illustration"
-                        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px]  lg:max-w-[700px]"
+                        alt="Background Verification Illustration"
+                        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
                     />
                 </div>
             </div>

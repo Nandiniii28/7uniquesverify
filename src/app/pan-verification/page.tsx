@@ -3,45 +3,43 @@ import type React from "react"
 const PANVerificationPage: React.FC = () => {
   return (
     <main className="w-full  pb-24">
-      {/* Hero Section */}
-      <section
-        className="w-full bg-cover bg-center min-h-screen flex items-center p-16"
-        style={{ backgroundImage: "url('/img/bg (2).png')" }}
+     {/* Hero Section */}
+<section
+  className="w-full bg-cover bg-center min-h-screen flex items-center p-16"
+  style={{ backgroundImage: "url('/img/bg (2).png')" }}
+>
+  <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+    <div className="w-full md:w-2/3 text-white">
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">PAN Verification API – by 7Unique Verify</h1>
+      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
+        Real-time PAN Card Authentication & Status Check
+      </h2>
+      <p className="text-lg mb-4 text-white">
+        Instantly validate PAN card numbers, match names, and verify status with 7Unique Verify's secure and accurate API integration.
+      </p>
+      <p className="mb-4 text-white">
+        Our PAN Verification API fetches real-time details from the Income Tax database, ensuring error-free KYC,
+        fraud detection, and regulatory compliance across industries.
+      </p>
+      <p className="mb-6 text-white">
+        Ideal for fintech platforms, NBFCs, e-commerce apps, loan providers, and any business requiring valid tax identification and customer onboarding.
+      </p>
+      <a
+        href="#"
+        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
-        <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-2/3 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">PAN Verification API</h1>
-            <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-              Instant PAN Card Verification & Validation
-            </h2>
-            <p className="text-lg mb-4 text-white">
-              Verify PAN card details instantly with our comprehensive PAN Verification API. Ensure accurate tax
-              identification and compliance with real-time PAN validation services.
-            </p>
-            <p className="mb-4 text-white">
-              Our API validates PAN numbers, verifies cardholder names, and provides detailed information about PAN
-              status, helping you maintain compliance and reduce fraud.
-            </p>
-            <p className="mb-6 text-white">
-              Essential for financial services, e-commerce, and any business requiring tax compliance verification and
-              customer onboarding processes.
-            </p>
-            <a
-              href="#"
-              className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
-            >
-              Get Started
-            </a>
-          </div>
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-              src="../img/images/8.png"
-              alt="PAN Verification"
-              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
-            />
-          </div>
-        </div>
-      </section>
+        Get Started
+      </a>
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="../img/images/8.png"
+        alt="PAN Verification"
+        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
+      />
+    </div>
+  </div>
+</section>
 
       {/* Features Section */}
       <section className="bg-gray-50 p-16 md:px-8 lg:px-15">
