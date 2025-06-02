@@ -1,3 +1,4 @@
+'use client'
 import { useParams, Link } from 'react-router-dom';
 import { FaUserPen } from 'react-icons/fa6';
 import { FaCalendarAlt } from 'react-icons/fa';
@@ -5,7 +6,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 
 export default function BlogDetail() {
-  const [blog, setBlog] = useState(null);
+  const [blog, setBlog] = useState<any>(null);
   const { id } = useParams();
 
   const fetchData = async () => {
