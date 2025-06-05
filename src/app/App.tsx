@@ -20,7 +20,6 @@ import FinancialCheckPage from "./financial-checks/page"
 import EmployeeVarificationPage from "./employee-verification/page"
 import OCRPage from "./ocr/page"
 import UtilitiesPage from "./utilities/page"
-
 import CrimeCheckAPIPage from "./crime-check-api/page"
 import BankAccountVerificationPage from "./bank-account-verification/page"
 import AadhaarVerificationPage from "./aadhaar-verification/page"
@@ -45,6 +44,15 @@ import TermsConditionsPage from "./terms-and-conditions/page"
 import PrivacyPolicyPage from "./privacy-policy/page"
 import RefundCancellationPage from "./refund-cancellation/page"
 import BuzzingForBharatPage from "./buzzing-for-bharat/page"
+import APICatalogPage from "./api-catalog/page"
+import PANVerificationPageApi from "./pan-verification-api/page"
+import AadhaarVerificationPageAPI from "../pages/Aadhaar-Verification"
+import NameMatchPageAPI from "../pages/Name-Match"
+import VoterIDVerificationPageAPI from "../pages/voter-id-verification-api"
+import DrivingLicenseVerificationPageAPI from "../pages/driving-license-verification-api"
+import PassportVerificationPageAPI from "../pages/passport-verification-api"
+import CKYCSearchDownloadPageAPI from "../pages/ckyc-search-download-api"
+import LivenessCheckAPIPages from "../pages/liveness-check-api"
 
 function Placeholder({ name }: { name: string }) {
   return (
@@ -133,6 +141,18 @@ export default function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route path="/refund-cancellation" element={<RefundCancellationPage />} />
         <Route path="/buzzing-for-bharat" element={<BuzzingForBharatPage />} />
+        {/* API Pages */}
+        <Route path="/api-catalog" element={<APICatalogPage />} />
+        <Route path="/pan-verification-api" element={<PANVerificationPageApi />} />
+        <Route path="/aadhaar-verification-api" element={<AadhaarVerificationPageAPI />} />
+        <Route path="/name-match-api" element={<NameMatchPageAPI />} />
+        <Route path="/liveness-check-api-pages" element={<LivenessCheckAPIPages />} />
+        <Route path="/voter-id-verification-api" element={<VoterIDVerificationPageAPI />} />
+        <Route path="/driving-license-verification-api" element={<DrivingLicenseVerificationPageAPI />} />
+        <Route path="/passport-verification-api" element={<PassportVerificationPageAPI />} />
+        <Route path="/ckyc-search-download-api" element={<CKYCSearchDownloadPageAPI />} />
+        <Route path="/face-match-page-api" element={<FaceMatchAPIPage />} />
+
 
         <Route path="*" element={<Placeholder name="404 Not Found" />} />
       </Routes>

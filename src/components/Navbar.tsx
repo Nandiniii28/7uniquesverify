@@ -80,7 +80,7 @@ export default function Navbar() {
   
   return (
     <header className="w-full bg-white shadow-sm sticky top-0 z-50">
-      <nav className="container mx-auto px-4 py-3 flex items-center justify-between relative">
+      <nav className="container mx-auto px-16 py-6 flex items-center justify-between relative">
         {/* Logo */}
         <Link
           to="/home"

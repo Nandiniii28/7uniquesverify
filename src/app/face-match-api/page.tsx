@@ -5,10 +5,10 @@ const FaceMatchAPIPage: React.FC = () => {
     <main className="w-full pb-24">
       {/* Hero Section */}
 <section
-  className="w-full bg-cover bg-center min-h-screen flex items-center"
+  className="w-full bg-cover bg-center min-h-screen flex items-center px-4 py-10"
   style={{ backgroundImage: "url('/img/bg (2).png')" }}
 >
-  <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+  <div className="container mx-auto  flex flex-col md:flex-row items-center justify-between gap-12">
     <div className="w-full md:w-2/3 text-white">
       <h1 className="text-4xl md:text-5xl font-bold mb-6">7Unique Verify – Face Match API</h1>
       <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">

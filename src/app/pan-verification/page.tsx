@@ -1,4 +1,5 @@
 import type React from "react"
+import { Link } from "react-router-dom"
 
 const PANVerificationPage: React.FC = () => {
   return (
@@ -24,12 +25,12 @@ const PANVerificationPage: React.FC = () => {
       <p className="mb-6 text-white">
         Ideal for fintech platforms, NBFCs, e-commerce apps, loan providers, and any business requiring valid tax identification and customer onboarding.
       </p>
-      <a
-        href="#"
+      <Link
+        to="/pan-verification-api"
         className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
         Get Started
-      </a>
+      </Link>
     </div>
     <div className="w-full md:w-1/2 flex justify-center">
       <img

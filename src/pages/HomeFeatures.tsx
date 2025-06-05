@@ -5,7 +5,7 @@ const HomeFeatures: React.FC = () => {
     <section className="bg-[#f6fafd] py-16 section our-process">
       <div className="mx-auto pb-16 pt-10">
         {/* Header Section */}
-        <div className="text-center max-w-3xl mx-auto mb-20" data-aos="fade-up">
+        <div className="text-center max-w-3xl mx-auto mb-20" >
           <p className="text-[20px] text-gray-600 mb-2 tracking-wide">ABOUT US</p>
           <p className="text-[30px] sm:text-[20px] leading-[1.3] text-black max-w-[600px] mx-auto">
             We at <span className="font-bold text-[#2dc1e3]">7Unique Verify</span> specialize
@@ -23,7 +23,7 @@ const HomeFeatures: React.FC = () => {
           <div
             className="md:w-1/3 mb-10 md:mb-0"
             style={{ borderRight: "1px dashed #d1d5db" }}
-            data-aos="fade-right"
+            
           >
             <p className="text-[10px] text-gray-600 mb-2 tracking-wide">OUR FEATURES</p>
             <h2 className="text-[41px] sm:text-[22px] leading-tight">
@@ -37,7 +37,6 @@ const HomeFeatures: React.FC = () => {
           {/* Scrollable Card Grid */}
           <div
             className="md:w-2/3"
-            data-aos="fade-left"
             style={{
               height: "calc(100vh - 176px)",
               overflowY: "auto",

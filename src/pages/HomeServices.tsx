@@ -15,7 +15,7 @@ useEffect(() => {
   });
 }, []);
   return (
-    <section className="max-w-7xl mx-auto px-6 py-12">
+    <section className="mx-auto px-6 py-12">
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-10">
         <div>
           <p className="text-xs font-semibold text-gray-600 mb-1">OUR SERVICES</p>
@@ -41,7 +41,6 @@ useEffect(() => {
         <div>
           <div
             className="bg-blue-50 rounded-2xl p-6 flex justify-center items-center"
-            data-aos="fade-left"
           >
             <img
               alt="Laptop screen"
