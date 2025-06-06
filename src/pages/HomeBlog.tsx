@@ -28,7 +28,7 @@ const blogPosts = [
 export default function HomeBlog() {
   return (
     <section className="bg-[#f6fafd] py-16">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="w-full mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-extrabold text-[#373533] mb-4 text-center">
           Latest Tech Insights & Communication Trends
         </h2>

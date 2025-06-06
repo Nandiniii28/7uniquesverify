@@ -27,7 +27,7 @@ export default function HomeFAQ() {
   const [open, setOpen] = useState<number | null>(null);
 
   return (
-    <div className="max-w-7xl mx-auto px-6 pt-16 sm:py-20 md:pt-24 lg:pt-28 flex flex-col md:flex-row gap-12 md:gap-24">
+    <div className="w-full mx-auto px-6 pt-16 sm:py-20 md:pt-24 lg:pt-28 flex flex-col md:flex-row gap-12 md:gap-24">
       {/* Left Section */}
       <section className="md:w-1/3 flex flex-col gap-6">
         <p className="font-semibold text-sm text-[#2dc1e3] uppercase">FAQ</p>

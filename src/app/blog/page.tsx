@@ -102,7 +102,7 @@ useEffect(()=>{
 
 
   return (
-    <main className="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24 pb-24">
+    <main className="w-full mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24 pb-24">
       <section className="text-center all-banner-section mx-auto relative">
         <h2 className="text-3xl sm:text-4xl font-semibold leading-tight relative z-10">
           News &amp; Articles

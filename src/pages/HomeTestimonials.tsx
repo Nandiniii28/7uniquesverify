@@ -38,7 +38,7 @@ function Stars({ count }: { count: number }) {
 export default function HomeTestimonials() {
   return (
     <section className="bg-white py-16 section our-process">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="w-full mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-extrabold text-[#373533] mb-4 text-center">Real Stories from Satisfied Customers.</h2>
         <p className="text-lg text-[#9c9e99] text-center mb-10 max-w-2xl mx-auto">Our clients’ satisfaction is at the heart of everything we do. We take pride in delivering exceptional communication.</p>
         {/* Stars rating summary */}

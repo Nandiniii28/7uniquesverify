@@ -3,7 +3,7 @@ import React from "react";
 const FraudPrevention: React.FC = () => {
   return (
     <section className="bg-white pb-10 pt-8 px-4 md:px-8 lg:px-20">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+      <div className="w-full mx-auto flex flex-col lg:flex-row items-center gap-12">
         
         {/* Left: Content */}
         <div className="w-full lg:w-1/2 order-1">

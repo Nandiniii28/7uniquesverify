@@ -56,7 +56,7 @@ const DrivingLicenseVerificationPageAPI: React.FC = () => {
 
       {/* Use Cases Section */}
       <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
             Where Can You Use <span className="text-[#29a9c5]">Driving License Verification</span>?
           </h2>
@@ -115,7 +115,7 @@ const DrivingLicenseVerificationPageAPI: React.FC = () => {
 
       {/* Verification Types Section */}
       <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
             Choose Your <span className="text-[#29a9c5]">Verification Method</span>
           </h2>
@@ -206,7 +206,7 @@ const DrivingLicenseVerificationPageAPI: React.FC = () => {
 
       {/* How It Works Section */}
       <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
             How <span className="text-[#29a9c5]">Driving License Verification</span> Works
           </h2>
@@ -278,7 +278,7 @@ const DrivingLicenseVerificationPageAPI: React.FC = () => {
 
       {/* Benefits Section */}
       <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
             Why Use Our <span className="text-[#29a9c5]">Driving License Verification API</span>?
           </h2>
@@ -360,7 +360,7 @@ const DrivingLicenseVerificationPageAPI: React.FC = () => {
 
       {/* Integration Section */}
       <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2 space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800">

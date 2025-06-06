@@ -27,7 +27,7 @@ const FinancialFeatures: React.FC = () => {
 
   return (
     <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-      <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-start gap-12">
+      <div className="w-full mx-auto flex flex-col-reverse lg:flex-row items-start gap-12">
         <div className="w-full lg:w-1/2">
           <img
             src="https://img.freepik.com/free-vector/hand-drawn-cardano-illustration_23-2149214816.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"

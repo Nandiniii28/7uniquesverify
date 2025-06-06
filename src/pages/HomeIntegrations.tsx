@@ -1,7 +1,7 @@
 export default function HomeIntegrations() {
   return (
     <section className="bg-white py-16">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="w-full mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8">
           {/* Instant Messaging Integration (col 1) */}
           <div className="bg-[#f9fbfb] rounded-2xl shadow-sm px-6 py-8 mb-8 md:mb-0 flex flex-col items-start border-t-[4px] border-[#2dc1e3]">

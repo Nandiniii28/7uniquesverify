@@ -6,7 +6,7 @@ const VoterIDVerificationPageAPI: React.FC = () => {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-purple-600 via-purple-700 to-indigo-800 text-white py-20">
         <div className="absolute inset-0 bg-black/20"></div>
-        <div className="relative max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
+        <div className="relative w-full mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">Voter ID Verification API</h1>
             <p className="text-xl md:text-2xl mb-8 text-purple-100">
@@ -30,7 +30,7 @@ const VoterIDVerificationPageAPI: React.FC = () => {
 
       {/* API Overview */}
       <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
+        <div className="w-full mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Voter ID Verification Plans</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -201,7 +201,7 @@ const VoterIDVerificationPageAPI: React.FC = () => {
 
       {/* Use Cases */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
+        <div className="w-full mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Use Cases</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -245,7 +245,7 @@ const VoterIDVerificationPageAPI: React.FC = () => {
 
       {/* How It Works */}
       <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
+        <div className="w-full mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">How It Works</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Simple 4-step process to verify Voter ID details</p>
@@ -289,7 +289,7 @@ const VoterIDVerificationPageAPI: React.FC = () => {
 
       {/* API Integration */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
+        <div className="w-full mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Easy API Integration</h2>
@@ -359,7 +359,7 @@ const VoterIDVerificationPageAPI: React.FC = () => {
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-purple-600 to-indigo-700 text-white">
-        <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24 text-center">
+        <div className="w-full mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Get Started?</h2>
           <p className="text-xl mb-10 text-purple-100 max-w-3xl mx-auto">
             Join thousands of businesses using our Voter ID verification API to streamline their identity verification

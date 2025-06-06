@@ -2,7 +2,7 @@ import type React from "react";
 
 const APICatalogPage: React.FC = () => {
     return (
-        <main className="max-w-7xl mx-auto ">
+        <main className="w-full mx-auto ">
             <section
                 className="w-full bg-cover bg-center min-h-screen flex items-center px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24 pb-24"
                 style={{ backgroundImage: "url('/img/bg (2).png')" }}
@@ -58,7 +58,7 @@ const APICatalogPage: React.FC = () => {
 
             {/* Use Cases Section - Where Can You Use It? */}
             <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-                <div className="max-w-7xl mx-auto">
+                <div className="w-full mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
                         Where Can You Use{" "}
                         <span className="text-[#29a9c5]">Bank Account Verification</span>?
@@ -148,7 +148,7 @@ const APICatalogPage: React.FC = () => {
 
             {/* Verification Types Section - Choose the Right Method */}
             <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
-                <div className="max-w-7xl mx-auto">
+                <div className="w-full mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
                         Choose the Right{" "}
                         <span className="text-[#29a9c5]">Verification Method</span>
@@ -295,7 +295,7 @@ const APICatalogPage: React.FC = () => {
 
             {/* How It Works Section - Step-by-Step Flow */}
             <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-                <div className="max-w-7xl mx-auto">
+                <div className="w-full mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
                         How <span className="text-[#29a9c5]">Bank Verification</span> Works
                     </h2>
@@ -378,7 +378,7 @@ const APICatalogPage: React.FC = () => {
 
             {/* Benefits Section - Why Use Our API? */}
             <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
-                <div className="max-w-7xl mx-auto">
+                <div className="w-full mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
                         Why Use Our{" "}
                         <span className="text-[#29a9c5]">Bank Verification API</span>?
@@ -479,7 +479,7 @@ const APICatalogPage: React.FC = () => {
 
             {/* Integration Section - Developer Info */}
             <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-                <div className="max-w-7xl mx-auto">
+                <div className="w-full mx-auto">
                     <div className="flex flex-col lg:flex-row items-center gap-12">
                         <div className="w-full lg:w-1/2 space-y-6">
                             <h2 className="text-3xl md:text-4xl font-bold text-gray-800">

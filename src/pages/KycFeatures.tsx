@@ -25,7 +25,7 @@ const KycFeatures: React.FC = () => {
 
   return (
     <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-      <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-start gap-12">
+      <div className="w-full mx-auto flex flex-col-reverse lg:flex-row items-start gap-12">
         
         <div className="w-full lg:w-1/2">
           <img

@@ -43,7 +43,7 @@ export default function ContactUsPage() {
     }
   };
   return (
-    <main className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 mt-16 mb-20">
+    <main className="w-full mx-auto px-6 sm:px-8 lg:px-10 mt-16 mb-20">
       {/* Contact Us heading */}
       <section className="text-center max-w-2xl mx-auto mb-16 relative">
         <h1 className="text-3xl sm:text-4xl font-semibold text-gray-900 relative z-10 inline-block">

@@ -92,7 +92,7 @@ const AadhaarVerificationPage: React.FC = () => {
 
       {/* How It Works Section */}
       <section className="bg-white p-16 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
             How <span className="text-[#29a9c5]">Aadhaar Verification</span> Works
           </h2>
@@ -139,7 +139,7 @@ const AadhaarVerificationPage: React.FC = () => {
 
       {/* Compliance & Security Section */}
       <section className="bg-gray-50 p-16 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+        <div className="w-full mx-auto flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full lg:w-1/2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
               <span className="text-[#29a9c5]">UIDAI Compliant</span> & Secure
@@ -207,7 +207,7 @@ const AadhaarVerificationPage: React.FC = () => {
 
       {/* Use Cases Section */}
       <section className="bg-white p-16 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
             <span className="text-[#29a9c5]">Aadhaar Verification</span> Use Cases
           </h2>
@@ -258,7 +258,7 @@ const AadhaarVerificationPage: React.FC = () => {
 
       {/* API Integration Section */}
       <section className="bg-gray-50 p-16 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2 space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800">

@@ -36,7 +36,7 @@ const features: Feature[] = [
 const CandySolutions: React.FC = () => {
   return (
     <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-      <div className="max-w-7xl mx-auto text-center mb-12">
+      <div className="w-full mx-auto text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
           Why Stay Ahead of the Pack with
           <br />

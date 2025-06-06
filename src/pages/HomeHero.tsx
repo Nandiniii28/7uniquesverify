@@ -61,7 +61,7 @@ export default function HomeHero() {
       </div>
 
       <div className="border-t border-b border-gray-200 bg-[#f7fbff]">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="w-full mx-auto px-6 sm:px-8 lg:px-12">
           <div className="flex flex-col sm:flex-row items-center sm:items-stretch border-r border-gray-200">
             <div className="w-full sm:w-48 border-b sm:border-b-0 sm:border-r border-gray-200 py-6 flex items-center justify-center sm:justify-start">
               <p className="text-gray-700 text-[13px] leading-5 font-normal text-center sm:text-left max-w-[120px]">

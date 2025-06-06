@@ -49,7 +49,7 @@ const MediaArticles = () => {
   return (
     <div className="container my-16">
       {/* Header */}
-      <header className="mb-10 max-w-7xl mx-auto">
+      <header className="mb-10 w-full mx-auto">
         <p className="text-sm text-gray-500 uppercase tracking-wide mb-1">thg</p>
         <h1 className="text-3xl sm:text-4xl font-semibold mb-2 leading-tight">
           Explore Our Latest Insights
@@ -60,7 +60,7 @@ const MediaArticles = () => {
       </header>
 
       {/* Featured Section */}
-      <main className="max-w-7xl mx-auto">
+      <main className="w-full mx-auto">
         <section className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
           <div className="md:col-span-2 bg-white rounded-xl shadow-md p-6 flex flex-col justify-between">
             <div>

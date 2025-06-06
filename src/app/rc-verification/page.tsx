@@ -136,7 +136,7 @@ const RCVerificationPage: React.FC = () => {
 
       {/* Benefits Section */}
       <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto  px-16 flex flex-col lg:flex-row items-center gap-12">
+        <div className="w-full mx-auto  px-16 flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full lg:w-1/2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
               Benefits of <span className="text-[#29a9c5]">RC Verification</span>

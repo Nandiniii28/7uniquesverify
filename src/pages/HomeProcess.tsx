@@ -1,7 +1,7 @@
 export default function HomeProcess() {
   return (
     <section className="bg-[#f6fafd] py-16 section our-process pb-16">
-      <section className="relative max-w-7xl mx-auto px-6">
+      <section className="relative w-full mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center" data-aos="zoom-in-down">
           <p className="text-xs font-semibold text-[#0f172a] mb-2 tracking-widest">
             OUR PROCESS
@@ -42,7 +42,7 @@ export default function HomeProcess() {
           </div>
         </nav>
 
-        <div className="mt-10 max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" data-aos="zoom-out">
+        <div className="mt-10 w-full mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" data-aos="zoom-out">
           <article className="bg-white rounded-xl p-8 flex flex-col items-center text-center">
             <div className="bg-[#2dc1e3] rounded-full w-16 h-16 flex items-center justify-center mb-6">
               <img src="/img/icons/form.png" alt="Step 1" className="w-6 h-6" />
