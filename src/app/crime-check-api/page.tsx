@@ -1,5 +1,5 @@
 import type React from "react"
-
+import { Link } from "react-router-dom"
 const CrimeCheckAPIPage: React.FC = () => {
   return (
     <main className="w-full pb-24">
@@ -26,12 +26,12 @@ const CrimeCheckAPIPage: React.FC = () => {
         Ideal for HR background checks, tenant screening, legal due diligence, and fintech onboarding—7Unique Verify
         ensures trust and transparency at every step.
       </p>
-      <a
-        href="#"
+      <Link
+        to="/crime-check-page-api"
         className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
         Get Started with 7Unique Verify
-      </a>
+      </Link>
     </div>
     <div className="w-full md:w-1/2 flex justify-center">
       <img

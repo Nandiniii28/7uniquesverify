@@ -1,4 +1,5 @@
 import type React from "react"
+import { Link } from "react-router-dom"
 
 const PassportVerificationPage: React.FC = () => {
   return (
@@ -23,12 +24,12 @@ const PassportVerificationPage: React.FC = () => {
       <p className="mb-6 text-white">
         Ideal for immigration services, travel agencies, NBFCs, KYC platforms, and any system that needs verified government-issued identity documentation.
       </p>
-      <a
-        href="#"
+      <Link
+        to="/passport-verification-page-api"
         className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
         Get Started
-      </a>
+      </Link>
     </div>
     <div className="w-full md:w-1/2 flex justify-center">
       <img

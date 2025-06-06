@@ -1,4 +1,5 @@
 import type React from "react"
+import { Link } from "react-router-dom"
 
 const WhatsappVerificationPage: React.FC = () => {
   return (
@@ -24,12 +25,12 @@ const WhatsappVerificationPage: React.FC = () => {
         <strong>7Unique Verify</strong> is the perfect solution for customer onboarding, two-factor authentication (2FA), business account verification, and any other application that requires secure WhatsApp-based user verification.
       </p>
       <div className="flex flex-col sm:flex-row gap-4">
-        <a
-          href="#"
+        <Link
+          to="/whatsapp-verification-page-api"
           className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors text-center"
         >
           Get Started with 7Unique Verify
-        </a>
+        </Link>
         <a
           href="#"
           className="inline-block border border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#2dc1e3] transition-colors text-center"

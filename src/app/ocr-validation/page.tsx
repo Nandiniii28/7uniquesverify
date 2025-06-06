@@ -25,7 +25,7 @@ const OCRValidationPage: React.FC = () => {
       </p>
       <div className="flex flex-col sm:flex-row gap-4">
         <a
-          href="#"
+          href="/ocr-validation-page-api"
           className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors text-center"
         >
           Get Started

@@ -1,4 +1,5 @@
 import type React from "react"
+import { Link } from "react-router-dom"
 
 const MCAVerificationPage: React.FC = () => {
   return (
@@ -23,12 +24,12 @@ const MCAVerificationPage: React.FC = () => {
       <p className="mb-6 text-white">
         Ideal for B2B onboarding, vendor validation, KYC automation, fintech applications, and legal due diligence.
       </p>
-      <a
-        href="#"
+      <Link
+        to="/mca-verification-api"
         className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
         Start Verifying with 7Unique
-      </a>
+      </Link>
     </div>
     <div className="w-full md:w-1/2 flex justify-center">
       <img

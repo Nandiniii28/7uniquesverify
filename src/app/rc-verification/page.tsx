@@ -27,7 +27,7 @@ const RCVerificationPage: React.FC = () => {
         compliance checks, and transparent transactions.
       </p>
       <a
-        href="#"
+        href="/rc-verification-page-api"
         className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
         Get Started

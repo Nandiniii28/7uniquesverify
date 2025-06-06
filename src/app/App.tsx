@@ -50,9 +50,19 @@ import AadhaarVerificationPageAPI from "../pages/Aadhaar-Verification"
 import NameMatchPageAPI from "../pages/Name-Match"
 import VoterIDVerificationPageAPI from "../pages/voter-id-verification-api"
 import DrivingLicenseVerificationPageAPI from "../pages/driving-license-verification-api"
-import PassportVerificationPageAPI from "../pages/passport-verification-api"
-import CKYCSearchDownloadPageAPI from "../pages/ckyc-search-download-api"
+import PassportVerificationPageAPI from "../pages/passport-verification-page-api"
 import LivenessCheckAPIPages from "../pages/liveness-check-api"
+import CrimeCheckPageAPI from "../pages/crime-check-page-api"
+import MCAVerificationPageAPI from "../pages/mca-verification-api"
+import MobileVerificationPageAPI from "../pages/mobile-verification-page-api"
+import DocumentVerificationPageAPI from "../pages/document-verification-page-api"
+import EmailAuthenticationPageAPI from "../pages/email-authentication-page-api"
+import OCRValidationPageAPI from "../pages/ocr-validation-page-api"
+import WhatsAppVerificationPageAPI from "../pages/whatsapp-verification-page-api"
+import FaceMatchPageAPI from "../pages/face-match-page-api"
+import CKYCSearchDownloadPageAPI from "../pages/ckyc-search-download-page-api"
+import RCVerificationPageAPI from "../pages/rc-verification-page-api"
+
 
 function Placeholder({ name }: { name: string }) {
   return (
@@ -149,10 +159,18 @@ export default function App() {
         <Route path="/liveness-check-api-pages" element={<LivenessCheckAPIPages />} />
         <Route path="/voter-id-verification-api" element={<VoterIDVerificationPageAPI />} />
         <Route path="/driving-license-verification-api" element={<DrivingLicenseVerificationPageAPI />} />
-        <Route path="/passport-verification-api" element={<PassportVerificationPageAPI />} />
-        <Route path="/ckyc-search-download-api" element={<CKYCSearchDownloadPageAPI />} />
-        <Route path="/face-match-page-api" element={<FaceMatchAPIPage />} />
-
+        <Route path="/passport-verification-page-api" element={<PassportVerificationPageAPI />} />
+        <Route path="/ckyc-search-download-page-api" element={<CKYCSearchDownloadPageAPI />} />
+        <Route path="/face-match-api" element={<FaceMatchAPIPage />} />
+        <Route path="/crime-check-page-api" element={<CrimeCheckPageAPI />} />
+        <Route path="/mca-verification-api" element={<MCAVerificationPageAPI />} />
+        <Route path="/mobile-verification-page-api" element={<MobileVerificationPageAPI />} />
+        <Route path="/document-verification-page-api" element={<DocumentVerificationPageAPI />} />
+        <Route path="/email-authentication-page-api" element={<EmailAuthenticationPageAPI />} />
+        <Route path="/ocr-validation-page-api" element={<OCRValidationPageAPI />} />
+        <Route path="/whatsapp-verification-page-api" element={<WhatsAppVerificationPageAPI />} />
+        <Route path="/face-match-page-api" element={<FaceMatchPageAPI/>} />
+        <Route path="/rc-verification-page-api" element={<RCVerificationPageAPI/>} />
 
         <Route path="*" element={<Placeholder name="404 Not Found" />} />
       </Routes>
