@@ -24,7 +24,7 @@ const CKYCSearchPage: React.FC = () => {
         Join 7Unique Verify in modernizing onboarding and compliance with scalable, RBI-compliant solutions.
       </p>
       <a
-        href="#"
+        href="/ckyc-search-download-page-api"
         className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
         Get Started

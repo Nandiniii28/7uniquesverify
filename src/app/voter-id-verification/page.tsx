@@ -1,4 +1,5 @@
 import type React from "react"
+import { Link } from "react-router-dom"
 
 const VoterIDVerificationPage: React.FC = () => {
   return (
@@ -23,12 +24,12 @@ const VoterIDVerificationPage: React.FC = () => {
       <p className="mb-6 text-white">
         Ideal for financial services, digital platforms, KYC processes, and any application needing validated voter identity and residence data.
       </p>
-      <a
-        href="#"
+      <Link
+        to="/voter-id-verification-api"
         className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
         Get Started
-      </a>
+      </Link>
     </div>
     <div className="w-full md:w-1/2 flex justify-center">
       <img

@@ -49,6 +49,7 @@ export default function Footer() {
               "Voter ID Verification",
               "MCA Verification",
               "Mobile Verification API",
+              
             ].map((item, index) => (
               <li key={index}>
                 <Link to={`/${item.toLowerCase().replace(/ /g, "-")}`}>{item}</Link>
@@ -69,6 +70,7 @@ export default function Footer() {
               "OCR Validation",
               "Whatsapp Verification",
               "Face Match API",
+              "Name Match API"
             ].map((item, index) => (
               <li key={index}>
                 <Link to={`/${item.toLowerCase().replace(/ /g, "-")}`}>{item}</Link>

@@ -1,4 +1,5 @@
 import type React from "react"
+import { Link } from "react-router-dom"
 
 const DocumentVerificationPage: React.FC = () => {
   return (
@@ -23,12 +24,12 @@ const DocumentVerificationPage: React.FC = () => {
       <p className="mb-6 text-white">
         Join 7Unique Verify in modernizing onboarding and compliance with scalable, RBI-compliant solutions.
       </p>
-      <a
-        href="#"
+      <Link
+        to="/document-verification-page-api"
         className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
         Get Started
-      </a>
+      </Link>
     </div>
     <div className="w-full md:w-1/2 flex justify-center">
       <img

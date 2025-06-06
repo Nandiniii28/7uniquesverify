@@ -1,6 +1,6 @@
     import type React from "react"
 
-const FaceMatchAPIPage: React.FC = () => {
+const FaceMatchPageAPI: React.FC = () => {
   return (
     <main className="max-w-7xl mx-auto">
       {/* Hero Section - What is Face Match API? */}
@@ -518,4 +518,4 @@ const FaceMatchAPIPage: React.FC = () => {
   )
 }
 
-export default FaceMatchAPIPage
+export default FaceMatchPageAPI

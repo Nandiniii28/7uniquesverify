@@ -1,5 +1,5 @@
 import type React from "react"
-
+import { Link } from "react-router-dom"
 const EmailAuthenticationPage: React.FC = () => {
   return (
     <main className="min-h-screen">
@@ -24,12 +24,12 @@ const EmailAuthenticationPage: React.FC = () => {
         A must-have for marketers, developers, and businesses that rely on clean and verified email lists to ensure effective communication and fraud prevention.
       </p>
       <div className="flex flex-col sm:flex-row gap-4">
-        <a
-          href="#"
+        <Link
+          to="/email-authentication-page-api"
           className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors text-center"
         >
           Get Started
-        </a>
+        </Link>
         <a
           href="#"
           className="inline-block border border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#2dc1e3] transition-colors text-center"

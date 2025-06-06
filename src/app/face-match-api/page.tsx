@@ -1,4 +1,5 @@
 import type React from "react"
+import { Link } from "react-router-dom"
 
 const FaceMatchAPIPage: React.FC = () => {
   return (
@@ -23,12 +24,12 @@ const FaceMatchAPIPage: React.FC = () => {
       <p className="mb-6 text-white">
         Perfect for KYC, user onboarding, attendance systems, fintech apps, and access control where facial biometrics are critical.
       </p>
-      <a
-        href="#"
+      <Link
+        to="/face-match-page-api"
         className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
       >
         Get Started
-      </a>
+      </Link>
     </div>
     <div className="w-full md:w-1/2 flex justify-center">
       <img
