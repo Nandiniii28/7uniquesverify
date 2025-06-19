@@ -26,7 +26,7 @@ const FaceMatchAPIPage: React.FC = () => {
       </p>
       <Link
         to="/face-match-page-api"
-        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+        className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
       >
         Get Started
       </Link>
@@ -42,7 +42,16 @@ const FaceMatchAPIPage: React.FC = () => {
 </section>
 
       {/* Features Section */}
-      <section className="p-16 bg-gray-50">
+      <section className="p-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Powerful Face Matching Features</h2>
@@ -53,8 +62,17 @@ const FaceMatchAPIPage: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-[#b7603d]  " fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -76,8 +94,17 @@ const FaceMatchAPIPage: React.FC = () => {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+   rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-[#b7603d]  " fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
@@ -87,8 +114,17 @@ const FaceMatchAPIPage: React.FC = () => {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-[#b7603d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -117,14 +153,14 @@ const FaceMatchAPIPage: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#b7603d]   text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 1
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Upload Images</h3>
               <p className="text-gray-600">Submit two facial images through our secure API endpoint for comparison</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#b7603d]   text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 2
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Face Detection</h3>
@@ -133,14 +169,14 @@ const FaceMatchAPIPage: React.FC = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#b7603d]   text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 3
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Feature Analysis</h3>
               <p className="text-gray-600">Advanced algorithms analyze and compare facial landmarks and features</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#b7603d]   text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 4
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Match Results</h3>
@@ -151,14 +187,23 @@ const FaceMatchAPIPage: React.FC = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="p-16 bg-gray-50">
+      <section className="p-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Why Choose Our Face Match API?</h2>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-8 h-8 bg-[#d38769] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
@@ -171,7 +216,7 @@ const FaceMatchAPIPage: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-8 h-8 bg-[#d38769] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
@@ -184,7 +229,7 @@ const FaceMatchAPIPage: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-8 h-8 bg-[#d38769] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
@@ -197,7 +242,7 @@ const FaceMatchAPIPage: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-8 h-8 bg-[#d38769] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
@@ -234,7 +279,7 @@ const FaceMatchAPIPage: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg">
-              <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#b7603d]   rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
@@ -250,7 +295,7 @@ const FaceMatchAPIPage: React.FC = () => {
               </p>
             </div>
             <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg">
-              <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#b7603d]   rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
@@ -266,7 +311,7 @@ const FaceMatchAPIPage: React.FC = () => {
               </p>
             </div>
             <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg">
-              <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#b7603d] rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
@@ -282,7 +327,7 @@ const FaceMatchAPIPage: React.FC = () => {
               </p>
             </div>
             <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-lg">
-              <div className="w-12 h-12 bg-orange-600 rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#b7603d] rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
@@ -298,7 +343,7 @@ const FaceMatchAPIPage: React.FC = () => {
               </p>
             </div>
             <div className="bg-gradient-to-br from-red-50 to-red-100 p-6 rounded-lg">
-              <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#b7603d] rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
@@ -314,7 +359,7 @@ const FaceMatchAPIPage: React.FC = () => {
               </p>
             </div>
             <div className="bg-gradient-to-br from-teal-50 to-teal-100 p-6 rounded-lg">
-              <div className="w-12 h-12 bg-teal-600 rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#b7603d] rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
@@ -332,7 +377,16 @@ const FaceMatchAPIPage: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="p-16 bg-gray-50">
+      <section className="p-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -343,7 +397,7 @@ const FaceMatchAPIPage: React.FC = () => {
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
-                  <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+                  <div className="w-6 h-6 bg-[#d38769] rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
@@ -351,7 +405,7 @@ const FaceMatchAPIPage: React.FC = () => {
                   <span className="text-gray-700">RESTful API with JSON responses</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+                  <div className="w-6 h-6 bg-[#d38769] rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
@@ -359,7 +413,7 @@ const FaceMatchAPIPage: React.FC = () => {
                   <span className="text-gray-700">SDKs for popular programming languages</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+                  <div className="w-6 h-6 bg-[#d38769] rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
@@ -367,7 +421,7 @@ const FaceMatchAPIPage: React.FC = () => {
                   <span className="text-gray-700">Comprehensive documentation and examples</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+                  <div className="w-6 h-6 bg-[#d38769] rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>

@@ -30,7 +30,7 @@ const FinancialHero: React.FC = () => {
           </p>
           <a
             href="#"
-            className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+            className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
           >
             Get Started
           </a>

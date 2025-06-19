@@ -7,8 +7,8 @@ export default function FinancialCheckPage() {
   return (
  <>
  <FinancialHero></FinancialHero>
- <FinancialCards></FinancialCards>
  <FinancialFeatures></FinancialFeatures>
+ <FinancialCards></FinancialCards>
  <FinancialChecksAPIs></FinancialChecksAPIs>
  <HomeFAQ></HomeFAQ>
  </>

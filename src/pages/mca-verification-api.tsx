@@ -28,13 +28,13 @@ const MCAVerificationPageAPI: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#"
-                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors text-center"
+                className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors text-center"
               >
                 Get Started
               </a>
               <a
                 href="#"
-                className="inline-block bg-transparent border-2 border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#2dc1e3] transition-colors text-center"
+                className="inline-block bg-transparent border-2 border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#b7603d] transition-colors text-center"
               >
                 View API Docs
               </a>
@@ -54,7 +54,7 @@ const MCAVerificationPageAPI: React.FC = () => {
       <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
         <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-            Where Can You Use <span className="text-[#29a9c5]">MCA Verification</span>?
+            Where Can You Use <span className="text-[#b7603d]">MCA Verification</span>?
           </h2>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
@@ -63,7 +63,7 @@ const MCAVerificationPageAPI: React.FC = () => {
               <p className="text-gray-600 text-sm mb-3">
                 Verify company registration and director details for loan applications.
               </p>
-              <div className="text-xs text-blue-600 font-medium">"Reduce fraud risk!"</div>
+              <div className="text-xs text-[#b7603d]   font-medium">"Reduce fraud risk!"</div>
             </div>
             <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-4">🤝</div>
@@ -71,7 +71,7 @@ const MCAVerificationPageAPI: React.FC = () => {
               <p className="text-gray-600 text-sm mb-3">
                 Validate new vendors and suppliers before doing business.
               </p>
-              <div className="text-xs text-green-600 font-medium">"Trusted partners!"</div>
+              <div className="text-xs text-[#b7603d]   font-medium">"Trusted partners!"</div>
             </div>
             <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-4">🔍</div>
@@ -79,7 +79,7 @@ const MCAVerificationPageAPI: React.FC = () => {
               <p className="text-gray-600 text-sm mb-3">
                 Conduct thorough background checks for mergers and acquisitions.
               </p>
-              <div className="text-xs text-purple-600 font-medium">"Informed decisions!"</div>
+              <div className="text-xs text-[#b7603d] font-medium">"Informed decisions!"</div>
             </div>
             <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-4">📈</div>
@@ -110,20 +110,38 @@ const MCAVerificationPageAPI: React.FC = () => {
       </section>
 
       {/* Verification Types Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-4 md:px-8 lg:px-20">
         <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-            Choose Your <span className="text-[#29a9c5]">Verification Method</span>
+            Choose Your <span className="text-[#b7603d]">Verification Method</span>
           </h2>
           <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
             <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-blue-500">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-blue-600 font-bold">🏢</span>
+                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ rounded-full flex items-center justify-center mr-4">
+                  <span className="text-[#b7603d]   font-bold">🏢</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800">Basic Company Check</h3>
-                  <span className="text-sm text-blue-600 font-medium">Registration Validation</span>
+                  <span className="text-sm text-[#b7603d]   font-medium">Registration Validation</span>
                 </div>
               </div>
               <p className="text-gray-600 mb-4">
@@ -147,12 +165,21 @@ const MCAVerificationPageAPI: React.FC = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-green-500">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-green-600 font-bold">👔</span>
+                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+   rounded-full flex items-center justify-center mr-4">
+                  <span className="text-[#b7603d]   font-bold">👔</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800">Detailed Company Report</h3>
-                  <span className="text-sm text-green-600 font-medium">Comprehensive Check</span>
+                  <span className="text-sm text-[#b7603d]   font-medium">Comprehensive Check</span>
                 </div>
               </div>
               <p className="text-gray-600 mb-4">
@@ -206,43 +233,44 @@ const MCAVerificationPageAPI: React.FC = () => {
       <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
         <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-            How <span className="text-[#29a9c5]">MCA Verification</span> Works
+            How <span className="text-[#b7603d]">MCA Verification</span> Works
           </h2>
           <div className="relative">
             <div className="hidden md:block absolute top-8 left-0 w-full h-0.5 bg-gray-200"></div>
-            <div className="hidden md:block absolute top-8 left-0 w-full h-0.5 bg-gradient-to-r from-[#29a9c5] to-transparent"></div>
+            <div className="hidden md:block absolute top-8 left-0 w-full h-0.5 bg-gradient-to-r from-[#b7603d]
+ to-transparent"></div>
 
             <div className="grid gap-8 grid-cols-1 md:grid-cols-5">
               <div className="text-center relative">
-                <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
+                <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
                   1
                 </div>
                 <h3 className="text-lg font-semibold mb-2">Input CIN/Name</h3>
                 <p className="text-gray-600 text-sm">Enter company CIN or name for verification</p>
               </div>
               <div className="text-center relative">
-                <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
+                <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
                   2
                 </div>
                 <h3 className="text-lg font-semibold mb-2">Data Validation</h3>
                 <p className="text-gray-600 text-sm">System validates company information</p>
               </div>
               <div className="text-center relative">
-                <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
+                <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
                   3
                 </div>
                 <h3 className="text-lg font-semibold mb-2">MCA Database Query</h3>
                 <p className="text-gray-600 text-sm">API queries official MCA databases</p>
               </div>
               <div className="text-center relative">
-                <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
+                <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
                   4
                 </div>
                 <h3 className="text-lg font-semibold mb-2">Record Matching</h3>
                 <p className="text-gray-600 text-sm">Cross-reference with MCA records</p>
               </div>
               <div className="text-center relative">
-                <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
+                <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
                   5
                 </div>
                 <h3 className="text-lg font-semibold mb-2">Detailed Results</h3>
@@ -251,10 +279,19 @@ const MCAVerificationPageAPI: React.FC = () => {
             </div>
           </div>
 
-          <div className="mt-12 bg-gray-50 p-6 rounded-lg">
+          <div className="mt-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg">
             <div className="flex flex-wrap justify-center gap-6 text-sm">
               <div className="flex items-center space-x-2">
-                <span className="w-3 h-3 bg-green-500 rounded-full"></span>
+                <span className="w-3 h-3 bg-[#d38769] rounded-full"></span>
                 <span>Official MCA Data</span>
               </div>
               <div className="flex items-center space-x-2">
@@ -275,16 +312,34 @@ const MCAVerificationPageAPI: React.FC = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-4 md:px-8 lg:px-20">
         <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-            Why Use Our <span className="text-[#29a9c5]">MCA Verification API</span>?
+            Why Use Our <span className="text-[#b7603d]">MCA Verification API</span>?
           </h2>
           <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-green-600 text-xl">⚡</span>
+                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+   rounded-full flex items-center justify-center mr-4">
+                  <span className="text-[#b7603d]   text-xl">⚡</span>
                 </div>
                 <h3 className="text-lg font-semibold text-gray-800">Instant Results</h3>
               </div>
@@ -295,8 +350,17 @@ const MCAVerificationPageAPI: React.FC = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-blue-600 text-xl">🛡️</span>
+                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ rounded-full flex items-center justify-center mr-4">
+                  <span className="text-[#b7603d]   text-xl">🛡️</span>
                 </div>
                 <h3 className="text-lg font-semibold text-gray-800">Fraud Prevention</h3>
               </div>
@@ -307,8 +371,17 @@ const MCAVerificationPageAPI: React.FC = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-purple-600 text-xl">📋</span>
+                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  rounded-full flex items-center justify-center mr-4">
+                  <span className="text-[#b7603d] text-xl">📋</span>
                 </div>
                 <h3 className="text-lg font-semibold text-gray-800">Compliance Ready</h3>
               </div>
@@ -362,36 +435,36 @@ const MCAVerificationPageAPI: React.FC = () => {
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2 space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-                Simple <span className="text-[#29a9c5]">API Integration</span>
+                Simple <span className="text-[#b7603d]">API Integration</span>
               </h2>
               <p className="text-gray-600">
                 Integrate MCA verification seamlessly into your applications with our developer-friendly API and comprehensive documentation.
               </p>
               <div className="space-y-3">
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>RESTful API with JSON responses</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>All India company coverage</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>Real-time verification results</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>Comprehensive error handling</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>Sandbox environment for testing</span>
                 </div>
               </div>
               <a
                 href="#"
-                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+                className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
               >
                 Read Full API Docs
               </a>

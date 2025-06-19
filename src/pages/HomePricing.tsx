@@ -83,10 +83,10 @@ const yearlyPlans = [
 function PlanCard({ title, price, period, features, link, highlight }: any) {
   return (
     <div
-      className={`flex flex-col items-center justify-between bg-white p-7 rounded-2xl shadow-md border border-gray-100 ${highlight ? "ring-2 ring-[#2dc1e3]" : ""}`}
+      className={`flex flex-col items-center justify-between bg-white p-7 rounded-2xl shadow-md border border-gray-100 ${highlight ? "ring-2 ring-[#b7603d]" : ""}`}
     >
       <div className="mb-2">
-        <span className="inline-block bg-[#f9fbfb] text-[#2dc1e3] font-bold px-3 py-1 rounded-full text-xs mb-2">
+        <span className="inline-block bg-[#f9fbfb] text-[#b7603d] font-bold px-3 py-1 rounded-full text-xs mb-2">
           {title}
         </span>
       </div>
@@ -116,12 +116,12 @@ function PlanCard({ title, price, period, features, link, highlight }: any) {
       </ul>
       <a
         href={link}
-        className="w-full bg-[#2dc1e3] hover:bg-[#79d9ef] text-[#ffffff] font-bold text-center py-3 rounded mt-auto transition"
+        className="w-full bg-[#b7603d] hover:bg-[#d19983] text-[#ffffff] font-bold text-center py-3 rounded mt-auto transition"
       >
         Start 7-day free trial
       </a>
       {highlight && (
-        <span className="text-xs text-[#2dc1e3] font-bold mt-1">Best Deal</span>
+        <span className="text-xs text-[#b7603d] font-bold mt-1">Best Deal</span>
       )}
     </div>
   );
@@ -129,7 +129,7 @@ function PlanCard({ title, price, period, features, link, highlight }: any) {
 
 export default function HomePricing() {
   return (
-    <section className="bg-[#f6fafd] py-16">
+    <section className="bg-[#f1e8e5] py-16">
       <div className="w-full mx-auto px-6">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#373533] mb-4">
@@ -141,7 +141,7 @@ export default function HomePricing() {
           </p>
         </div>
         <div className="mb-8 flex justify-center gap-4">
-          <button className="px-6 py-3 rounded-lg bg-[#2dc1e3] text-[#373533] font-semibold shadow">
+          <button className="px-6 py-3 rounded-lg bg-[#b7603d] text-[#373533] font-semibold shadow">
             Monthly
           </button>
           <button className="px-6 py-3 rounded-lg bg-white text-[#373533] font-semibold border border-gray-200 hover:bg-[#f9fbfb]">

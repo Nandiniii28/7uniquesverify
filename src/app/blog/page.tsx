@@ -102,7 +102,7 @@ useEffect(()=>{
 
 
   return (
-    <main className="w-full mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24 pb-24">
+    <main className="w-full mx-auto px-6 sm:px-10 bg-[#faf8f8] md:px-16 lg:px-20 xl:px-24 pb-24">
       <section className="text-center all-banner-section mx-auto relative">
         <h2 className="text-3xl sm:text-4xl font-semibold leading-tight relative z-10">
           News &amp; Articles
@@ -168,7 +168,7 @@ useEffect(()=>{
                 className="text-xs font-semibold flex items-center space-x-1 text-black"
               >
                 <span>Read More</span>
-                <span className="bg-[#2dc1e3] text-white rounded-full w-5 h-5 flex items-center justify-center text-sm font-bold leading-none">
+                <span className="bg-[#b7603d] text-white rounded-full w-5 h-5 flex items-center justify-center text-sm font-bold leading-none">
                   ›
                 </span>
               </Link>
@@ -189,7 +189,7 @@ useEffect(()=>{
         {Array.from({ length: totalPages }, (_, index) => (
           <button
             key={index}
-            className={`px-3 py-1 rounded ${currentPage === index + 1 ? "bg-[#2dc1e3] text-white font-bold" : "bg-gray-100"}`}
+            className={`px-3 py-1 rounded ${currentPage === index + 1 ? "bg-[#b7603d] text-white font-bold" : "bg-gray-100"}`}
             onClick={() => handlePageChange(index + 1)}
           >
             {index + 1}
@@ -203,7 +203,7 @@ useEffect(()=>{
           Next
         </button>
       </div>
-      <HomeCTA />
+      <HomeCTA />   
     </main>
   );
 }

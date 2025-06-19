@@ -2,10 +2,19 @@ import React from "react";
 
 const FinancialCards: React.FC = () => {
   return (
-    <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
-      <div className="max-w-full mx-auto text-center">
+    <section className="py-16 px-1 md:px-8 lg:px-15 ">
+      <div className="max-w-full bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ rounded-3xl py-6 px-4 sm:px-6x md:py-12 md:px-20 lg:mx-30 xl:mx-20 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 px-3 sm:px-5 md:px-20">
-          Key Capabilities of <span className="text-[#29a9c5]">Financial Checks</span> API Solutions
+          Key Capabilities of <span className="text-[#b7603d]">Financial Checks</span> API Solutions
         </h2>
 
         <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">

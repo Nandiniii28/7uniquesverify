@@ -26,7 +26,7 @@ const MCAVerificationPage: React.FC = () => {
       </p>
       <Link
         to="/mca-verification-api"
-        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+        className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
       >
         Start Verifying with 7Unique
       </Link>
@@ -43,10 +43,19 @@ const MCAVerificationPage: React.FC = () => {
 
 
  {/* Features Section */}
-<section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
-  <div className="max-w-full mx-auto text-center p-16">
+<section className="py-16 px-1 md:px-8 lg:px-15">
+  <div className="max-w-full bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ rounded-3xl py-6 px-4 sm:px-6x md:py-12 md:px-20 lg:mx-30 xl:mx-20 text-center">
     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-      <span className="text-[#29a9c5]">7Unique Verify</span> MCA API Features
+      <span className="text-[#b7603d]">7Unique Verify</span> MCA API Features
     </h2>
     <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
       <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
@@ -91,11 +100,11 @@ const MCAVerificationPage: React.FC = () => {
 <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
   <div className="w-full mx-auto">
     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-      How <span className="text-[#29a9c5]">7Unique Verify</span> MCA Verification Works
+      How <span className="text-[#b7603d]">7Unique Verify</span> MCA Verification Works
     </h2>
     <div className="grid gap-8 grid-cols-1 md:grid-cols-4">
       <div className="text-center">
-        <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+        <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
           1
         </div>
         <h3 className="text-lg font-semibold mb-2">Input Company Identifiers</h3>
@@ -104,7 +113,7 @@ const MCAVerificationPage: React.FC = () => {
         </p>
       </div>
       <div className="text-center">
-        <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+        <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
           2
         </div>
         <h3 className="text-lg font-semibold mb-2">Connect to MCA Database</h3>
@@ -113,7 +122,7 @@ const MCAVerificationPage: React.FC = () => {
         </p>
       </div>
       <div className="text-center">
-        <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+        <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
           3
         </div>
         <h3 className="text-lg font-semibold mb-2">Data Validation</h3>
@@ -122,7 +131,7 @@ const MCAVerificationPage: React.FC = () => {
         </p>
       </div>
       <div className="text-center">
-        <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+        <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
           4
         </div>
         <h3 className="text-lg font-semibold mb-2">Get Complete Report</h3>
@@ -135,15 +144,24 @@ const MCAVerificationPage: React.FC = () => {
 </section>
 
       {/* Benefits Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-4 md:px-8 lg:px-20">
         <div className="w-full mx-auto flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full lg:w-1/2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-              Benefits of <span className="text-[#29a9c5]">MCA Verification</span>
+              Benefits of <span className="text-[#b7603d]">MCA Verification</span>
             </h2>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-sm">
+                <div className="w-6 h-6 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-sm">
                   ✓
                 </div>
                 <div>
@@ -154,7 +172,7 @@ const MCAVerificationPage: React.FC = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-sm">
+                <div className="w-6 h-6 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-sm">
                   ✓
                 </div>
                 <div>
@@ -165,7 +183,7 @@ const MCAVerificationPage: React.FC = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-sm">
+                <div className="w-6 h-6 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-sm">
                   ✓
                 </div>
                 <div>
@@ -176,7 +194,7 @@ const MCAVerificationPage: React.FC = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-sm">
+                <div className="w-6 h-6 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-sm">
                   ✓
                 </div>
                 <div>
@@ -202,45 +220,99 @@ const MCAVerificationPage: React.FC = () => {
       <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
         <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-            <span className="text-[#29a9c5]">MCA Verification</span> Use Cases
+            <span className="text-[#b7603d]">MCA Verification</span> Use Cases
           </h2>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">🏦</div>
               <h3 className="text-lg font-semibold mb-2">Banking & Finance</h3>
               <p className="text-gray-600 text-sm">
                 Verify company details for corporate account opening, loan processing, and financial services.
               </p>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">🤝</div>
               <h3 className="text-lg font-semibold mb-2">B2B Partnerships</h3>
               <p className="text-gray-600 text-sm">
                 Validate potential business partners and verify corporate credentials before collaboration.
               </p>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">💼</div>
               <h3 className="text-lg font-semibold mb-2">Vendor Management</h3>
               <p className="text-gray-600 text-sm">
                 Verify vendor company information for procurement processes and supply chain management.
               </p>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">📊</div>
               <h3 className="text-lg font-semibold mb-2">Investment Due Diligence</h3>
               <p className="text-gray-600 text-sm">
                 Conduct thorough company verification before making investment decisions and acquisitions.
               </p>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">⚖️</div>
               <h3 className="text-lg font-semibold mb-2">Legal & Compliance</h3>
               <p className="text-gray-600 text-sm">
                 Verify company status and compliance history for legal proceedings and regulatory requirements.
               </p>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">🔍</div>
               <h3 className="text-lg font-semibold mb-2">Market Research</h3>
               <p className="text-gray-600 text-sm">
@@ -252,12 +324,21 @@ const MCAVerificationPage: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-4 md:px-8 lg:px-20">
         <div className="w-full mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2 space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-                Simple <span className="text-[#29a9c5]">API Integration</span>
+                Simple <span className="text-[#b7603d]">API Integration</span>
               </h2>
               <p className="text-gray-600">
                 Integrate our MCA Verification API seamlessly into your applications with comprehensive documentation
@@ -265,19 +346,19 @@ const MCAVerificationPage: React.FC = () => {
               </p>
               <div className="space-y-3">
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>RESTful API with JSON responses</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>SDKs for popular programming languages</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>Comprehensive documentation and examples</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>Sandbox environment for testing</span>
                 </div>
               </div>

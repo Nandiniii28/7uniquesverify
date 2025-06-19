@@ -148,13 +148,13 @@ body {
 .title-img._2 {
     background-image: url(/public/img/headingimg1.jpg);
 }
-.section.our-process {
+/* .section.our-process {
     background-image: url(/public/img/ServicesBg.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 60px;
-}
+} */
 .navborder::after {
     border-bottom: 1px dashed #191e261f;
     width: 100%;
@@ -210,7 +210,7 @@ body {
     padding: 40px 34px 34px;
 }
 .our-features-icon-box {
-    background-color: #2dc1e3;
+    background-color: #b7603d;
     border-radius: 100%;
     justify-content: center;
     align-items: center;

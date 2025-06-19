@@ -27,7 +27,7 @@ const PANVerificationPage: React.FC = () => {
       </p>
       <Link
         to="/pan-verification-api"
-        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+        className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
       >
         Get Started
       </Link>
@@ -43,10 +43,19 @@ const PANVerificationPage: React.FC = () => {
 </section>
 
       {/* Features Section */}
-      <section className="bg-gray-50 p-16 md:px-8 lg:px-15">
-        <div className="max-w-full mx-auto text-center">
+      <section className="py-16 px-1 md:px-8 lg:px-15">
+        <div className="max-w-full bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ rounded-3xl py-6 px-4 sm:px-6x md:py-12 md:px-20 lg:mx-30 xl:mx-20 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-            <span className="text-[#29a9c5]">PAN Verification</span> Capabilities
+            <span className="text-[#b7603d]">PAN Verification</span> Capabilities
           </h2>
           <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
             <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
@@ -93,32 +102,32 @@ const PANVerificationPage: React.FC = () => {
       <section className="p-16 md:px-8 lg:px-15">
         <div className="max-w-full mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-            How <span className="text-[#29a9c5]">PAN Verification</span> Works
+            How <span className="text-[#b7603d]">PAN Verification</span> Works
           </h2>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
             <div className="text-center">
-              <div className="bg-[#2dc1e3] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 1
               </div>
               <h3 className="text-lg font-semibold mb-2">Submit PAN Number</h3>
               <p className="text-gray-600">Enter the PAN number you want to verify through our secure API endpoint.</p>
             </div>
             <div className="text-center">
-              <div className="bg-[#2dc1e3] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 2
               </div>
               <h3 className="text-lg font-semibold mb-2">Database Validation</h3>
               <p className="text-gray-600">Our system validates the PAN against official Income Tax Department records.</p>
             </div>
             <div className="text-center">
-              <div className="bg-[#2dc1e3] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 3
               </div>
               <h3 className="text-lg font-semibold mb-2">Name Matching</h3>
               <p className="text-gray-600">Verify the name associated with the PAN for complete identity validation.</p>
             </div>
             <div className="text-center">
-              <div className="bg-[#2dc1e3] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 4
               </div>
               <h3 className="text-lg font-semibold mb-2">Instant Results</h3>
@@ -129,16 +138,25 @@ const PANVerificationPage: React.FC = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="bg-gray-50 px-24  md:px-8 lg:px-15">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ px-24  md:px-8 lg:px-15">
         <div className="max-w-full mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-                Benefits of <span className="text-[#29a9c5]">PAN Verification</span>
+                Benefits of <span className="text-[#b7603d]">PAN Verification</span>
               </h2>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <div className="bg-[#2dc1e3] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
                     ✓
                   </div>
                   <div>
@@ -147,7 +165,7 @@ const PANVerificationPage: React.FC = () => {
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="bg-[#2dc1e3] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
                     ✓
                   </div>
                   <div>
@@ -156,7 +174,7 @@ const PANVerificationPage: React.FC = () => {
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="bg-[#2dc1e3] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
                     ✓
                   </div>
                   <div>
@@ -165,7 +183,7 @@ const PANVerificationPage: React.FC = () => {
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="bg-[#2dc1e3] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
                     ✓
                   </div>
                   <div>
@@ -190,7 +208,7 @@ const PANVerificationPage: React.FC = () => {
       <section className="p-16 md:px-8 lg:px-15">
         <div className="max-w-full mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-            <span className="text-[#29a9c5]">Industry</span> Applications
+            <span className="text-[#b7603d]">Industry</span> Applications
           </h2>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -222,37 +240,46 @@ const PANVerificationPage: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="bg-gray-50 p-16 md:px-8 lg:px-15">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-16 md:px-8 lg:px-15">
         <div className="max-w-full mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-                Easy <span className="text-[#29a9c5]">API Integration</span>
+                Easy <span className="text-[#b7603d]">API Integration</span>
               </h2>
               <p className="text-gray-600 mb-6">
                 Integrate PAN verification into your application with just a few lines of code. Our RESTful API is designed for developers with comprehensive documentation and support.
               </p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-center">
-                  <span className="bg-[#2dc1e3] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">✓</span>
+                  <span className="bg-[#b7603d] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">✓</span>
                   RESTful API with JSON responses
                 </li>
                 <li className="flex items-center">
-                  <span className="bg-[#2dc1e3] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">✓</span>
+                  <span className="bg-[#b7603d] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">✓</span>
                   Comprehensive API documentation
                 </li>
                 <li className="flex items-center">
-                  <span className="bg-[#2dc1e3] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">✓</span>
+                  <span className="bg-[#b7603d] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">✓</span>
                   Multiple programming language SDKs
                 </li>
                 <li className="flex items-center">
-                  <span className="bg-[#2dc1e3] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">✓</span>
+                  <span className="bg-[#b7603d] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">✓</span>
                   24/7 developer support
                 </li>
               </ul>
               <a
                 href="#"
-                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+                className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
               >
                 View API Documentation
               </a>

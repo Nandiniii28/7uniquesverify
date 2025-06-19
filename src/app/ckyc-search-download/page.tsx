@@ -25,7 +25,7 @@ const CKYCSearchPage: React.FC = () => {
       </p>
       <a
         href="/ckyc-search-download-page-api"
-        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+        className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
       >
         Get Started
       </a>
@@ -41,10 +41,19 @@ const CKYCSearchPage: React.FC = () => {
 </section>
 
 {/* Features Section */}
-<section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">
-  <div className="max-w-full mx-auto text-center">
+<section className="py-16 px-1 md:px-8 lg:px-15">
+  <div className="max-w-full bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ rounded-3xl py-6 px-4 sm:px-6x md:py-12 md:px-20 lg:mx-30 xl:mx-20 text-center">
     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-      <span className="text-[#29a9c5]">7Unique Verify CKYC</span> API Features
+      <span className="text-[#b7603d]">7Unique Verify CKYC</span> API Features
     </h2>
     <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
       <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
@@ -90,11 +99,11 @@ const CKYCSearchPage: React.FC = () => {
       <section className="py-16 px-16 md:px-8 lg:px-15">
         <div className="max-w-full mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-            How <span className="text-[#29a9c5]">CKYC Search</span> Works
+            How <span className="text-[#b7603d]">CKYC Search</span> Works
           </h2>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
             <div className="text-center">
-              <div className="bg-[#2dc1e3] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 1
               </div>
               <h3 className="text-lg font-semibold mb-2">Search Parameters</h3>
@@ -103,7 +112,7 @@ const CKYCSearchPage: React.FC = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="bg-[#2dc1e3] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 2
               </div>
               <h3 className="text-lg font-semibold mb-2">Registry Search</h3>
@@ -112,7 +121,7 @@ const CKYCSearchPage: React.FC = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="bg-[#2dc1e3] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 3
               </div>
               <h3 className="text-lg font-semibold mb-2">Record Retrieval</h3>
@@ -121,7 +130,7 @@ const CKYCSearchPage: React.FC = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="bg-[#2dc1e3] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 4
               </div>
               <h3 className="text-lg font-semibold mb-2">Secure Download</h3>
@@ -134,16 +143,25 @@ const CKYCSearchPage: React.FC = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-16 md:px-8 lg:px-15">
         <div className="max-w-full mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-                Benefits of <span className="text-[#29a9c5]">CKYC Integration</span>
+                Benefits of <span className="text-[#b7603d]">CKYC Integration</span>
               </h2>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <div className="bg-[#2dc1e3] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
                     ✓
                   </div>
                   <div>
@@ -154,7 +172,7 @@ const CKYCSearchPage: React.FC = () => {
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="bg-[#2dc1e3] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
                     ✓
                   </div>
                   <div>
@@ -163,7 +181,7 @@ const CKYCSearchPage: React.FC = () => {
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="bg-[#2dc1e3] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
                     ✓
                   </div>
                   <div>
@@ -172,7 +190,7 @@ const CKYCSearchPage: React.FC = () => {
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="bg-[#2dc1e3] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
                     ✓
                   </div>
                   <div>
@@ -197,7 +215,7 @@ const CKYCSearchPage: React.FC = () => {
       <section className="py-16 px-16 md:px-8 lg:px-15">
         <div className="max-w-full mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-            <span className="text-[#29a9c5]">CKYC</span> Use Cases
+            <span className="text-[#b7603d]">CKYC</span> Use Cases
           </h2>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -231,12 +249,21 @@ const CKYCSearchPage: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-16 md:px-8 lg:px-15">
         <div className="max-w-full mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-                Simple <span className="text-[#29a9c5]">CKYC API</span> Integration
+                Simple <span className="text-[#b7603d]">CKYC API</span> Integration
               </h2>
               <p className="text-gray-600 mb-6">
                 Integrate CKYC search and download functionality with our robust API. Built for financial institutions
@@ -244,25 +271,25 @@ const CKYCSearchPage: React.FC = () => {
               </p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-center">
-                  <span className="bg-[#2dc1e3] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
+                  <span className="bg-[#b7603d] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
                     ✓
                   </span>
                   RBI compliant API endpoints
                 </li>
                 <li className="flex items-center">
-                  <span className="bg-[#2dc1e3] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
+                  <span className="bg-[#b7603d] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
                     ✓
                   </span>
                   Secure data transmission with encryption
                 </li>
                 <li className="flex items-center">
-                  <span className="bg-[#2dc1e3] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
+                  <span className="bg-[#b7603d] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
                     ✓
                   </span>
                   Real-time search and download
                 </li>
                 <li className="flex items-center">
-                  <span className="bg-[#2dc1e3] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
+                  <span className="bg-[#b7603d] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
                     ✓
                   </span>
                   Complete audit trail and logging
@@ -270,7 +297,7 @@ const CKYCSearchPage: React.FC = () => {
               </ul>
               <a
                 href="#"
-                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+                className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
               >
                 Access API Documentation
               </a>

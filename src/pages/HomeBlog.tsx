@@ -27,7 +27,7 @@ const blogPosts = [
 
 export default function HomeBlog() {
   return (
-    <section className="bg-[#f6fafd] py-16">
+    <section className="bg-[#f1e8e5] py-16">
       <div className="w-full mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-extrabold text-[#373533] mb-4 text-center">
           Latest Tech Insights & Communication Trends
@@ -51,7 +51,7 @@ export default function HomeBlog() {
                 <div className="text-sm text-[#9c9e99] mb-1">{post.author} / {post.date}</div>
                 <div className="font-bold text-lg text-[#373533] mb-3">{post.title}</div>
                 <div className="text-[#595c5c] text-base mb-4">{post.excerpt}</div>
-                <span className="inline-flex items-center text-[#2dc1e3] font-bold hover:underline mt-auto">
+                <span className="inline-flex items-center text-[#b7603d] font-bold hover:underline mt-auto">
                   Read more
                   <img
                     src="https://ext.same-assets.com/1049470090/3253856763.svg"

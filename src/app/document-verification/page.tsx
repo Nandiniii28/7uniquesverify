@@ -4,90 +4,108 @@ import { Link } from "react-router-dom"
 const DocumentVerificationPage: React.FC = () => {
   return (
     <main className="w-full pb-24">
-    {/* Hero Section */}
-<section
-  className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
-  style={{ backgroundImage: "url('/img/bg (2).png')" }}
->
-  <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
-    <div className="w-full md:w-2/3 text-white">
-      <h1 className="text-4xl md:text-5xl font-bold mb-6">CKYC Search & Download API</h1>
-      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
-        Central KYC Registry with 7Unique Verify
-      </h2>
-      <p className="text-lg mb-4 text-white">
-        Access and retrieve CKYC records in real-time using 7Unique Verify’s secure API. Streamline KYC operations by integrating verified data from India’s centralized KYC registry.
-      </p>
-      <p className="mb-4 text-white">
-        Built for speed and compliance, our CKYC API empowers banks, NBFCs, and fintechs to verify, download, and store customer KYC records efficiently—minimizing duplication and fraud.
-      </p>
-      <p className="mb-6 text-white">
-        Join 7Unique Verify in modernizing onboarding and compliance with scalable, RBI-compliant solutions.
-      </p>
-      <Link
-        to="/document-verification-page-api"
-        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+      {/* Hero Section */}
+      <section
+        className="w-full bg-cover bg-center min-h-screen flex items-center px-16"
+        style={{ backgroundImage: "url('/img/bg (2).png')" }}
       >
-        Get Started
-      </Link>
-    </div>
-    <div className="w-full md:w-1/2 flex justify-center">
-      <img
-        src="../img/images/13.png"
-        alt="CKYC Search & Download with 7Unique Verify"
-        className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
-      />
-    </div>
-  </div>
-</section>
+        <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-12">
+          <div className="w-full md:w-2/3 text-white">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">CKYC Search & Download API</h1>
+            <h2 className="text-xl md:text-2xl font-semibold mb-6 text-[#f6fbfc]">
+              Central KYC Registry with 7Unique Verify
+            </h2>
+            <p className="text-lg mb-4 text-white">
+              Access and retrieve CKYC records in real-time using 7Unique Verify’s secure API. Streamline KYC operations by integrating verified data from India’s centralized KYC registry.
+            </p>
+            <p className="mb-4 text-white">
+              Built for speed and compliance, our CKYC API empowers banks, NBFCs, and fintechs to verify, download, and store customer KYC records efficiently—minimizing duplication and fraud.
+            </p>
+            <p className="mb-6 text-white">
+              Join 7Unique Verify in modernizing onboarding and compliance with scalable, RBI-compliant solutions.
+            </p>
+            <Link
+              to="/document-verification-page-api"
+              className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
+            >
+              Get Started
+            </Link>
+          </div>
+          <div className="w-full md:w-1/2 flex justify-center">
+            <img
+              src="../img/images/13.png"
+              alt="CKYC Search & Download with 7Unique Verify"
+              className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
+            />
+          </div>
+        </div>
+      </section>
 
-{/* Features Section */}
-<section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">
-  <div className="max-w-full mx-auto text-center">
-    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-      <span className="text-[#29a9c5]">7Unique Verify CKYC</span> API Features
-    </h2>
-    <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
-      <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
-        <img
-          src="../img/images/14.png"
-          alt="CKYC Search"
-          className="w-full h-48 object-contain mb-4"
-        />
-        <h3 className="text-xl font-semibold text-gray-800 mb-2">Smart CKYC Search</h3>
-        <p className="text-gray-600">
-          Query CKYC data using Aadhaar, PAN, or mobile number. Find verified records instantly from the central registry for seamless customer onboarding.
-        </p>
-      </div>
-      <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
-        <img
-          src="../img/images/15.png"
-          alt="Record Download"
-          className="w-full h-48 object-contain mb-4"
-        />
-        <h3 className="text-xl font-semibold text-gray-800 mb-2">Instant Record Download</h3>
-        <p className="text-gray-600">
-          Download complete CKYC documents and metadata, including customer details, photograph, and KYC verification status—ready for backend use.
-        </p>
-      </div>
-      <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0">
-        <img
-          src="../img/images/16.png"
-          alt="RBI Compliance"
-          className="w-full h-48 object-contain mb-4"
-        />
-        <h3 className="text-xl font-semibold text-gray-800 mb-2">RBI Compliant Architecture</h3>
-        <p className="text-gray-600">
-          Fully aligned with RBI and CKYC norms. Enjoy secure, encrypted access with full audit logging to ensure transparency and compliance.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+      {/* Features Section */}
+      <section className="py-16 px-1 md:px-8 lg:px-15">
+        <div className="max-w-full bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ rounded-3xl py-6 px-4 sm:px-6x md:py-12 md:px-20 lg:mx-30 xl:mx-20 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
+            <span className="text-[#b7603d]">7Unique Verify CKYC</span> API Features
+          </h2>
+          <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
+            <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
+              <img
+                src="../img/images/14.png"
+                alt="CKYC Search"
+                className="w-full h-48 object-contain mb-4"
+              />
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">Smart CKYC Search</h3>
+              <p className="text-gray-600">
+                Query CKYC data using Aadhaar, PAN, or mobile number. Find verified records instantly from the central registry for seamless customer onboarding.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
+              <img
+                src="../img/images/15.png"
+                alt="Record Download"
+                className="w-full h-48 object-contain mb-4"
+              />
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">Instant Record Download</h3>
+              <p className="text-gray-600">
+                Download complete CKYC documents and metadata, including customer details, photograph, and KYC verification status—ready for backend use.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0">
+              <img
+                src="../img/images/16.png"
+                alt="RBI Compliance"
+                className="w-full h-48 object-contain mb-4"
+              />
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">RBI Compliant Architecture</h3>
+              <p className="text-gray-600">
+                Fully aligned with RBI and CKYC norms. Enjoy secure, encrypted access with full audit logging to ensure transparency and compliance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
       {/* How It Works Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">How It Works</h2>
@@ -97,28 +115,28 @@ const DocumentVerificationPage: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#2dc1e3] rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
+              <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
                 1
               </div>
               <h3 className="text-lg font-semibold mb-2">Document Upload</h3>
               <p className="text-gray-600">User uploads document image through your application</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#2dc1e3] rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
+              <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
                 2
               </div>
               <h3 className="text-lg font-semibold mb-2">Data Extraction</h3>
               <p className="text-gray-600">Our API extracts relevant information from the document</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#2dc1e3] rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
+              <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
                 3
               </div>
               <h3 className="text-lg font-semibold mb-2">Verification</h3>
               <p className="text-gray-600">Multiple checks validate document authenticity and data accuracy</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#2dc1e3] rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
+              <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
                 4
               </div>
               <h3 className="text-lg font-semibold mb-2">Results</h3>
@@ -138,7 +156,7 @@ const DocumentVerificationPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#2dc1e3] mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d] mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -153,7 +171,7 @@ const DocumentVerificationPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#2dc1e3] mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d] mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -168,7 +186,7 @@ const DocumentVerificationPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#2dc1e3] mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d] mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -183,7 +201,7 @@ const DocumentVerificationPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#2dc1e3] mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d] mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -198,7 +216,7 @@ const DocumentVerificationPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#2dc1e3] mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d] mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -224,7 +242,16 @@ const DocumentVerificationPage: React.FC = () => {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Industry Use Cases</h2>
@@ -237,7 +264,7 @@ const DocumentVerificationPage: React.FC = () => {
               <div className="w-12 h-12 bg-[#e6f7fb] rounded-full flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-[#2dc1e3]"
+                  className="h-6 w-6 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -260,7 +287,7 @@ const DocumentVerificationPage: React.FC = () => {
               <div className="w-12 h-12 bg-[#e6f7fb] rounded-full flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-[#2dc1e3]"
+                  className="h-6 w-6 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -283,7 +310,7 @@ const DocumentVerificationPage: React.FC = () => {
               <div className="w-12 h-12 bg-[#e6f7fb] rounded-full flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-[#2dc1e3]"
+                  className="h-6 w-6 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -306,7 +333,7 @@ const DocumentVerificationPage: React.FC = () => {
               <div className="w-12 h-12 bg-[#e6f7fb] rounded-full flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-[#2dc1e3]"
+                  className="h-6 w-6 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -329,7 +356,7 @@ const DocumentVerificationPage: React.FC = () => {
               <div className="w-12 h-12 bg-[#e6f7fb] rounded-full flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-[#2dc1e3]"
+                  className="h-6 w-6 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -351,7 +378,7 @@ const DocumentVerificationPage: React.FC = () => {
               <div className="w-12 h-12 bg-[#e6f7fb] rounded-full flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-[#2dc1e3]"
+                  className="h-6 w-6 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -387,7 +414,7 @@ const DocumentVerificationPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#2dc1e3] mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d] mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -399,7 +426,7 @@ const DocumentVerificationPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#2dc1e3] mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d] mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -411,7 +438,7 @@ const DocumentVerificationPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#2dc1e3] mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d] mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -423,7 +450,7 @@ const DocumentVerificationPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#2dc1e3] mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d] mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -435,7 +462,7 @@ const DocumentVerificationPage: React.FC = () => {
               </ul>
               <a
                 href="#"
-                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+                className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
               >
                 View Documentation
               </a>
@@ -485,12 +512,12 @@ console.log(result);
         </div>
       </section>
 
-    
+
 
       {/* CTA Section */}
       {/* <section className="py-16">
         <div className="container mx-auto">
-          <div className="bg-gradient-to-r from-[#2dc1e3] to-[#79d9ef] rounded-xl p-12 text-center text-white">
+          <div className="bg-gradient-to-r from-[#b7603d] to-[#79d9ef] rounded-xl p-12 text-center text-white">
             <h2 className="text-3xl font-bold mb-6">Ready to Get Started?</h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
               Join thousands of businesses that trust our Document Verification API for secure and reliable identity
@@ -499,13 +526,13 @@ console.log(result);
             <div className="flex flex-wrap justify-center gap-4">
               <a
                 href="#"
-                className="inline-block bg-white text-[#2dc1e3] font-semibold px-8 py-3 rounded shadow hover:bg-gray-100 transition-colors"
+                className="inline-block bg-white text-[#b7603d] font-semibold px-8 py-3 rounded shadow hover:bg-gray-100 transition-colors"
               >
                 Sign Up Free
               </a>
               <a
                 href="#"
-                className="inline-block bg-transparent border border-white text-white font-semibold px-8 py-3 rounded shadow hover:bg-white hover:text-[#2dc1e3] transition-colors"
+                className="inline-block bg-transparent border border-white text-white font-semibold px-8 py-3 rounded shadow hover:bg-white hover:text-[#b7603d] transition-colors"
               >
                 Request Demo
               </a>

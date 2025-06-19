@@ -224,8 +224,9 @@ export default function App() {
         <Route path="/card-validator-page-api" element={<CardValidatorPageAPI />} />
         <Route path="/currency-exchange-page-api" element={<CurrencyExchangePageAPI />} />
         <Route path="/telecom-operator-fetch-page-api" element={<TelecomOperatorFetchPageAPI />} />
+        
 
-
+         
 
         <Route path="*" element={<Placeholder name="404 Not Found" />} />
       </Routes>

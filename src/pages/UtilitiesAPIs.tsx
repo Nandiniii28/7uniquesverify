@@ -35,11 +35,20 @@ const UtilitiesAPISection: React.FC = () => {
   ];
 
   return (
-    <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
+    <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-4 md:px-8 lg:px-20">
       <div className="w-full mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
           Empower Your Business with{" "}
-          <span className="text-[#29a9c5]">Next-Gen Utilities APIs</span>
+          <span className="text-[#b7603d]">Next-Gen Utilities APIs</span>
         </h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 md:gap-6 gap-3">
           {utilitiesAPIs.map((api, index) => (
@@ -47,7 +56,7 @@ const UtilitiesAPISection: React.FC = () => {
               key={index}
               className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300"
             >
-              <div className="flex justify-center mb-4 text-[#29a9c5] text-4xl">
+              <div className="flex justify-center mb-4 text-[#b7603d] text-4xl">
                 {api.icon}
               </div>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">

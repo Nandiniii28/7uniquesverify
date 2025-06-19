@@ -1,5 +1,6 @@
 import React from "react";
 import { FaIdCard, FaFingerprint, FaMapMarkerAlt } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const KycFeatures: React.FC = () => {
   const features = [
@@ -7,50 +8,118 @@ const KycFeatures: React.FC = () => {
       title: "Verify and authenticate customer identity documents",
       description:
         "Our document verification API securely validates IDs like passports, Aadhaar, PAN, and licenses using automated checks—ensuring trust and legal compliance.",
-      icon: <FaIdCard className="text-[#29a9c5] text-xl mr-2" />,
+      icon: <FaIdCard className="text-[#b7603d] text-2xl" />,
     },
     {
       title: "Authenticate customers using biometric data",
       description:
         "Leverage fingerprint, facial recognition, and iris scans to verify users with unmatched accuracy. Our biometric solutions reduce fraud and enable fast onboarding.",
-      icon: <FaFingerprint className="text-[#29a9c5] text-xl mr-2" />,
+      icon: <FaFingerprint className="text-[#b7603d] text-2xl" />,
     },
     {
       title: "Validate customer addresses for accuracy",
       description:
         "Ensure address legitimacy by matching it with government and financial databases. Perfect for KYC, credit verification, and delivery-critical businesses.",
-      icon: <FaMapMarkerAlt className="text-[#29a9c5] text-xl mr-2" />,
+      icon: <FaMapMarkerAlt className="text-[#b7603d] text-2xl" />,
     },
   ];
 
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
+  const item = {
+    hidden: { opacity: 0, y: 20 },
+    show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+  };
+
   return (
-    <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-      <div className="w-full mx-auto flex flex-col-reverse lg:flex-row items-start gap-12">
-        
-        <div className="w-full lg:w-1/2">
-          <img
-            src="/img/freepik_br_ad7a40c4-1811-4984-813f-920647999df1.png"
-            alt="KYC Verification Illustration"
-            className="w-full h-auto object-contain"
-          />
-        </div>
-
-        <div className="w-full lg:w-1/2 space-y-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-            Choose Excellence:{" "}
-            <span className="text-[#29a9c5]">Features of 7Unique Verify's KYC API Suite</span>
-          </h2>
-
-          {features.map((feature, index) => (
-            <div key={index}>
-              <h3 className="text-xl font-semibold text-gray-800 mb-2 flex items-center">
-                {feature.icon}
-                {feature.title}
-              </h3>
-              <p className="text-gray-600">{feature.description}</p>
+    <section className="bg-gradient-to-b from-white to-gray-50 py-20 px-4 md:px-8 lg:px-20 overflow-hidden">
+      <div className="max-w-7xl mx-auto">
+        <motion.div
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, margin: "-100px" }}
+          variants={container}
+          className="w-full flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-16"
+        >
+          {/* Image Section */}
+          <motion.div 
+            variants={item}
+            className="w-full lg:w-1/2 relative"
+          >
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <motion.img
+                src="/img/freepik_br_ad7a40c4-1811-4984-813f-920647999df1.png"
+                alt="KYC Verification Illustration"
+                className="w-full h-auto object-contain"
+                whileHover={{ scale: 1.03 }}
+                transition={{ duration: 0.3 }}
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-[#b7603d]/10 to-transparent pointer-events-none" />
             </div>
-          ))}
-        </div>
+            <div className="absolute -z-10 -bottom-8 -left-8 w-64 h-64 rounded-full bg-[#b7603d]/10 blur-3xl" />
+          </motion.div>
+
+          {/* Content Section */}
+          <motion.div 
+            variants={item}
+            className="w-full lg:w-1/2 space-y-10"
+          >
+            <motion.div variants={item}>
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                Choose Excellence:{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#b7603d] to-[#d88a6e]">
+                  7Unique Verify's KYC API Suite
+                </span>
+              </h2>
+              <motion.div 
+                className="w-32 h-1.5 bg-gradient-to-r from-[#b7603d] to-[#d88a6e] mt-6 mb-8 rounded-full"
+                initial={{ scaleX: 0 }}
+                whileInView={{ scaleX: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+              />
+            </motion.div>
+
+            <motion.div 
+              className="space-y-8"
+              variants={container}
+            >
+              {features.map((feature, index) => (
+                <motion.div
+                  key={index}
+                  variants={item}
+                  whileHover={{ 
+                    y: -5,
+                    transition: { duration: 0.2 }
+                  }}
+                  className="group flex gap-5 p-5 rounded-xl bg-white hover:bg-gray-50 transition-all duration-300 shadow-sm hover:shadow-md"
+                >
+                  <div className="flex-shrink-0 mt-1">
+                    <div className="p-3 rounded-lg bg-[#b7603d]/10 group-hover:bg-[#b7603d]/20 transition-colors duration-300">
+                      {feature.icon}
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                      {feature.title}
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      {feature.description}
+                    </p>
+                  </div>
+                </motion.div>
+              ))}
+            </motion.div>
+          </motion.div>
+        </motion.div>
       </div>
     </section>
   );
