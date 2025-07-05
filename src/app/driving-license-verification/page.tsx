@@ -27,7 +27,7 @@ const DrivingLicenseVerificationPage: React.FC = () => {
             </p>
             <Link
               to="/driving-license-verification-api"
-              className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+              className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
             >
               Get Started
             </Link>
@@ -43,10 +43,19 @@ const DrivingLicenseVerificationPage: React.FC = () => {
       </section>
 
       {/* Features Section */}
-      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">
-        <div className="max-w-full mx-auto text-center px-16">
+      <section className="py-16 px-1 md:px-8 lg:px-15">
+        <div className="max-w-full bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ rounded-3xl py-6 px-4 sm:px-6x md:py-12 md:px-20 lg:mx-30 xl:mx-20 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-            Powerful <span className="text-[#29a9c5]">Driving License</span> Verification Features
+            Powerful <span className="text-[#b7603d]">Driving License</span> Verification Features
           </h2>
           <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
 
@@ -96,13 +105,13 @@ const DrivingLicenseVerificationPage: React.FC = () => {
       <section className="py-16 px-16 md:px-8 lg:px-15">
         <div className="max-w-full mx-auto text-center px-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-            How <span className="text-[#29a9c5]">7Unique Verify's</span> License Verification Works
+            How <span className="text-[#b7603d]">7Unique Verify's</span> License Verification Works
           </h2>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
 
             {/* Step 1 */}
             <div className="text-center">
-              <div className="bg-[#2dc1e3] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 1
               </div>
               <h3 className="text-lg font-semibold mb-2">Submit DL Details</h3>
@@ -113,7 +122,7 @@ const DrivingLicenseVerificationPage: React.FC = () => {
 
             {/* Step 2 */}
             <div className="text-center">
-              <div className="bg-[#2dc1e3] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 2
               </div>
               <h3 className="text-lg font-semibold mb-2">Verify via RTO Databases</h3>
@@ -124,7 +133,7 @@ const DrivingLicenseVerificationPage: React.FC = () => {
 
             {/* Step 3 */}
             <div className="text-center">
-              <div className="bg-[#2dc1e3] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 3
               </div>
               <h3 className="text-lg font-semibold mb-2">Status Check & Validation</h3>
@@ -135,7 +144,7 @@ const DrivingLicenseVerificationPage: React.FC = () => {
 
             {/* Step 4 */}
             <div className="text-center">
-              <div className="bg-[#2dc1e3] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 4
               </div>
               <h3 className="text-lg font-semibold mb-2">Get Real-Time Report</h3>
@@ -150,16 +159,25 @@ const DrivingLicenseVerificationPage: React.FC = () => {
 
 
       {/* Benefits Section */}
-      <section className="bg-gray-50 py-16 px-24 md:px-8 lg:px-15">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-24 md:px-8 lg:px-15">
         <div className="max-w-full mx-auto px-16">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-                Benefits of Using <span className="text-[#29a9c5]">7Unique Verify</span> for License Verification
+                Benefits of Using <span className="text-[#b7603d]">7Unique Verify</span> for License Verification
               </h2>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <div className="bg-[#2dc1e3] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
                     ✓
                   </div>
                   <div>
@@ -170,7 +188,7 @@ const DrivingLicenseVerificationPage: React.FC = () => {
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="bg-[#2dc1e3] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
                     ✓
                   </div>
                   <div>
@@ -181,7 +199,7 @@ const DrivingLicenseVerificationPage: React.FC = () => {
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="bg-[#2dc1e3] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
                     ✓
                   </div>
                   <div>
@@ -192,7 +210,7 @@ const DrivingLicenseVerificationPage: React.FC = () => {
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="bg-[#2dc1e3] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
                     ✓
                   </div>
                   <div>
@@ -219,7 +237,7 @@ const DrivingLicenseVerificationPage: React.FC = () => {
       <section className="py-16 px-16 md:px-8 lg:px-15">
         <div className="max-w-full mx-auto text-center px-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-            <span className="text-[#29a9c5]">Industry</span> Applications
+            <span className="text-[#b7603d]">Industry</span> Applications
           </h2>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -263,12 +281,21 @@ const DrivingLicenseVerificationPage: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-16 md:px-8 lg:px-15">
         <div className="max-w-full mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-                Seamless <span className="text-[#29a9c5]">7Unique Verify</span> API Integration
+                Seamless <span className="text-[#b7603d]">7Unique Verify</span> API Integration
               </h2>
               <p className="text-gray-600 mb-6">
                 Integrate 7Unique Verify’s Driving License Verification API into your platform effortlessly. Our solution
@@ -276,25 +303,25 @@ const DrivingLicenseVerificationPage: React.FC = () => {
               </p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-center">
-                  <span className="bg-[#2dc1e3] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
+                  <span className="bg-[#b7603d] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
                     ✓
                   </span>
                   PAN-India RTO database integration
                 </li>
                 <li className="flex items-center">
-                  <span className="bg-[#2dc1e3] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
+                  <span className="bg-[#b7603d] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
                     ✓
                   </span>
                   Instant license status and validation
                 </li>
                 <li className="flex items-center">
-                  <span className="bg-[#2dc1e3] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
+                  <span className="bg-[#b7603d] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
                     ✓
                   </span>
                   Full driver profile with license details
                 </li>
                 <li className="flex items-center">
-                  <span className="bg-[#2dc1e3] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
+                  <span className="bg-[#b7603d] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-3">
                     ✓
                   </span>
                   High-speed, secure JSON responses
@@ -302,7 +329,7 @@ const DrivingLicenseVerificationPage: React.FC = () => {
               </ul>
               <a
                 href="#"
-                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+                className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
               >
                 View API Documentation
               </a>

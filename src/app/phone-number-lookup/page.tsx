@@ -8,8 +8,8 @@ export default function PhoneLookUpPage() {
   return (
  <>
  <LookUpHero></LookUpHero>
- <LookUpCards></LookUpCards>
  <LookupFeatures></LookupFeatures>
+ <LookUpCards></LookUpCards>
  <LookupAPIs></LookupAPIs>
  <HomeFAQ></HomeFAQ>
  </>

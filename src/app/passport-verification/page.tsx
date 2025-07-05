@@ -26,7 +26,7 @@ const PassportVerificationPage: React.FC = () => {
       </p>
       <Link
         to="/passport-verification-page-api"
-        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+        className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
       >
         Get Started
       </Link>
@@ -42,10 +42,19 @@ const PassportVerificationPage: React.FC = () => {
 </section>
 
       {/* Features Section */}
-      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-15">
-        <div className="max-w-full mx-auto text-center">
+      <section className="py-16 px-1 md:px-8 lg:px-15">
+        <div className="max-w-full bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ rounded-3xl py-6 px-4 sm:px-6x md:py-12 md:px-20 lg:mx-30 xl:mx-20 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-            <span className="text-[#29a9c5]">Passport Verification</span> Features
+            <span className="text-[#b7603d]">Passport Verification</span> Features
           </h2>
           <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
             <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
@@ -90,13 +99,13 @@ const PassportVerificationPage: React.FC = () => {
 
       {/* How It Works Section */}
       <section className="bg-white py-16 px-16 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-            How <span className="text-[#29a9c5]">Passport Verification</span> Works
+            How <span className="text-[#b7603d]">Passport Verification</span> Works
           </h2>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-4">
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
                 1
               </div>
               <h3 className="text-lg font-semibold mb-2">Submit Passport Details</h3>
@@ -105,7 +114,7 @@ const PassportVerificationPage: React.FC = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
                 2
               </div>
               <h3 className="text-lg font-semibold mb-2">Database Validation</h3>
@@ -114,7 +123,7 @@ const PassportVerificationPage: React.FC = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
                 3
               </div>
               <h3 className="text-lg font-semibold mb-2">Security Check</h3>
@@ -123,7 +132,7 @@ const PassportVerificationPage: React.FC = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
                 4
               </div>
               <h3 className="text-lg font-semibold mb-2">Verification Results</h3>
@@ -136,15 +145,24 @@ const PassportVerificationPage: React.FC = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-16 md:px-8 lg:px-20">
+        <div className="w-full mx-auto flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full lg:w-1/2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-              Benefits of <span className="text-[#29a9c5]">Passport Verification</span>
+              Benefits of <span className="text-[#b7603d]">Passport Verification</span>
             </h2>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-sm">
+                <div className="w-6 h-6 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-sm">
                   ✓
                 </div>
                 <div>
@@ -155,7 +173,7 @@ const PassportVerificationPage: React.FC = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-sm">
+                <div className="w-6 h-6 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-sm">
                   ✓
                 </div>
                 <div>
@@ -166,7 +184,7 @@ const PassportVerificationPage: React.FC = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-sm">
+                <div className="w-6 h-6 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-sm">
                   ✓
                 </div>
                 <div>
@@ -177,7 +195,7 @@ const PassportVerificationPage: React.FC = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-sm">
+                <div className="w-6 h-6 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-sm">
                   ✓
                 </div>
                 <div>
@@ -201,47 +219,101 @@ const PassportVerificationPage: React.FC = () => {
 
       {/* Use Cases Section */}
       <section className="bg-white py-16 px-16 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-            <span className="text-[#29a9c5]">Passport Verification</span> Use Cases
+            <span className="text-[#b7603d]">Passport Verification</span> Use Cases
           </h2>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">✈️</div>
               <h3 className="text-lg font-semibold mb-2">Travel & Tourism</h3>
               <p className="text-gray-600 text-sm">
                 Verify customer passports for travel bookings, visa applications, and tourism services.
               </p>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">🏨</div>
               <h3 className="text-lg font-semibold mb-2">Hospitality</h3>
               <p className="text-gray-600 text-sm">
                 Validate guest passports for hotel check-ins and international visitor registration.
               </p>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">🏦</div>
               <h3 className="text-lg font-semibold mb-2">Banking</h3>
               <p className="text-gray-600 text-sm">
                 Verify international customer identities for account opening and financial services.
               </p>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">🏛️</div>
               <h3 className="text-lg font-semibold mb-2">Immigration</h3>
               <p className="text-gray-600 text-sm">
                 Authenticate passport documents for visa processing and immigration services.
               </p>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">🏢</div>
               <h3 className="text-lg font-semibold mb-2">Corporate</h3>
               <p className="text-gray-600 text-sm">
                 Verify employee passports for international assignments and business travel.
               </p>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">🎓</div>
               <h3 className="text-lg font-semibold mb-2">Education</h3>
               <p className="text-gray-600 text-sm">
@@ -253,12 +325,21 @@ const PassportVerificationPage: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="bg-gray-50 py-16 px-16 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-16 md:px-8 lg:px-20">
+        <div className="w-full mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2 space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-                Simple <span className="text-[#29a9c5]">API Integration</span>
+                Simple <span className="text-[#b7603d]">API Integration</span>
               </h2>
               <p className="text-gray-600">
                 Integrate passport verification seamlessly into your applications with our developer-friendly API and
@@ -266,19 +347,19 @@ const PassportVerificationPage: React.FC = () => {
               </p>
               <div className="space-y-3">
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>RESTful API with JSON responses</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>International passport support</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>Real-time verification results</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>Comprehensive error handling</span>
                 </div>
               </div>

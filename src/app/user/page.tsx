@@ -5,7 +5,7 @@ const UserManagement = () => {
     <>
 
      {/* Hero Section */}
-<section className="bg-gradient-to-r from-indigo-400 to-[#2dc1e3] text-white py-20">
+<section className="bg-gradient-to-r from-indigo-400 to-[#b7603d] text-white py-20">
   <div className="container mx-auto px-4">
     <div className="flex flex-col md:flex-row items-center">
       <div className="md:w-1/2 mb-10 md:mb-0">
@@ -16,10 +16,10 @@ const UserManagement = () => {
           Secure, scalable, and intelligent user management solution. Enable real-time user authentication, KYC, and identity lifecycle handling in one seamless API integration.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <button className="bg-white text-indigo-600 hover:bg-gray-100 px-6 py-3 rounded-md font-medium transition duration-300">
+          <button className="bg-white text-[#b7603d] hover:bg-gray-100 px-6 py-3 rounded-md font-medium transition duration-300">
             Get Started
           </button>
-          <button className="border border-white text-white hover:bg-white hover:text-indigo-600 px-6 py-3 rounded-md font-medium transition duration-300">
+          <button className="border border-white text-white hover:bg-white hover:text-[#b7603d] px-6 py-3 rounded-md font-medium transition duration-300">
             View Documentation
           </button>
         </div>
@@ -36,7 +36,16 @@ const UserManagement = () => {
 </section>
 
       {/* Features Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Key Features of Our User Management System</h2>
@@ -47,10 +56,19 @@ const UserManagement = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="bg-indigo-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-3 rounded-full w-16 h-16 flex items-center justify-center mb-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8 text-indigo-600"
+                  className="h-8 w-8 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -71,10 +89,19 @@ const UserManagement = () => {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="bg-indigo-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-3 rounded-full w-16 h-16 flex items-center justify-center mb-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8 text-indigo-600"
+                  className="h-8 w-8 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -95,10 +122,19 @@ const UserManagement = () => {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="bg-indigo-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-3 rounded-full w-16 h-16 flex items-center justify-center mb-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8 text-indigo-600"
+                  className="h-8 w-8 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -133,7 +169,7 @@ const UserManagement = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-indigo-600 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+              <div className="bg-[#b7603d] text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 1
               </div>
               <h3 className="text-xl font-semibold mb-3">User Registration</h3>
@@ -143,7 +179,7 @@ const UserManagement = () => {
             </div>
 
             <div className="text-center">
-              <div className="bg-indigo-600 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+              <div className="bg-[#b7603d] text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 2
               </div>
               <h3 className="text-xl font-semibold mb-3">Identity Verification</h3>
@@ -153,7 +189,7 @@ const UserManagement = () => {
             </div>
 
             <div className="text-center">
-              <div className="bg-indigo-600 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+              <div className="bg-[#b7603d] text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 3
               </div>
               <h3 className="text-xl font-semibold mb-3">Profile Completion</h3>
@@ -163,7 +199,7 @@ const UserManagement = () => {
             </div>
 
             <div className="text-center">
-              <div className="bg-indigo-600 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+              <div className="bg-[#b7603d] text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 4
               </div>
               <h3 className="text-xl font-semibold mb-3">Ongoing Authentication</h3>
@@ -176,7 +212,16 @@ const UserManagement = () => {
       </section>
 
       {/* Security Features Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+">
         <div className="container mx-auto px-16">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
@@ -189,7 +234,7 @@ const UserManagement = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-green-500 mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d]   mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -204,7 +249,7 @@ const UserManagement = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-green-500 mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d]   mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -219,7 +264,7 @@ const UserManagement = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-green-500 mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d]   mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -234,7 +279,7 @@ const UserManagement = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-green-500 mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d]   mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -272,10 +317,19 @@ const UserManagement = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-              <div className="bg-indigo-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 text-indigo-600"
+                  className="h-7 w-7 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -295,10 +349,19 @@ const UserManagement = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-              <div className="bg-indigo-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 text-indigo-600"
+                  className="h-7 w-7 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -318,10 +381,19 @@ const UserManagement = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-              <div className="bg-indigo-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 text-indigo-600"
+                  className="h-7 w-7 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -341,10 +413,19 @@ const UserManagement = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-              <div className="bg-indigo-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 text-indigo-600"
+                  className="h-7 w-7 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -367,7 +448,16 @@ const UserManagement = () => {
       </section>
 
       {/* User Analytics Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Comprehensive User Analytics</h2>
@@ -379,10 +469,19 @@ const UserManagement = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8 text-blue-600"
+                  className="h-8 w-8 text-[#b7603d]  "
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -402,10 +501,19 @@ const UserManagement = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="bg-green-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+   p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8 text-green-600"
+                  className="h-8 w-8 text-[#b7603d]  "
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -425,10 +533,19 @@ const UserManagement = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="bg-purple-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8 text-purple-600"
+                  className="h-8 w-8 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

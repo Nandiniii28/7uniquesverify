@@ -29,7 +29,7 @@ export default function BlogDetail() {
       <div className="py-16 px-4 text-center">
         <h2 className="text-2xl text-red-600 font-semibold">Blog not found.</h2>
         <div className="mt-4">
-          <Link to="/blog" className="inline-block px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+          <Link to="/blog" className="inline-block px-6 py-2 bg-[#b7603d]   text-white rounded hover:bg-blue-700">
             Back to Blog List
           </Link>
         </div>
@@ -67,7 +67,7 @@ export default function BlogDetail() {
       <div className="mt-8">
         <Link
           to="/blog"
-          className="inline-block border border-[#2dc1e3] text-blue-600 hover:bg-[#2dc1e3] hover:text-white transition px-6 py-2 rounded"
+          className="inline-block border border-[#b7603d] text-[#b7603d]   hover:bg-[#b7603d] hover:text-white transition px-6 py-2 rounded"
         >
           ← Back to All Blogs
         </Link>

@@ -26,7 +26,7 @@ const MobileVerificationAPIPage: React.FC = () => {
       </p>
       <Link
         to="/mobile-verification-page-api"
-        className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+        className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
       >
         Get Started
       </Link>
@@ -43,10 +43,19 @@ const MobileVerificationAPIPage: React.FC = () => {
 
 
       {/* Features Section */}
-<section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
-  <div className="max-w-full mx-auto text-center px-16">
+<section className="py-16 px-1 md:px-8 lg:px-15">
+  <div className="max-w-full bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ rounded-3xl py-6 px-4 sm:px-6x md:py-12 md:px-20 lg:mx-30 xl:mx-20 text-center">
     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-      <span className="text-[#29a9c5]">7Unique Verify</span> – Mobile Verification API Features
+      <span className="text-[#b7603d]">7Unique Verify</span> – Mobile Verification API Features
     </h2>
 
     <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
@@ -101,7 +110,7 @@ const MobileVerificationAPIPage: React.FC = () => {
   <div className="max-w-full mx-auto px-16 md:px-8 lg:px-15">
     <div className="text-center mb-16">
       <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-        How <span className="text-[#29a9c5]">7Unique Verify</span> Mobile Verification Works
+        How <span className="text-[#b7603d]">7Unique Verify</span> Mobile Verification Works
       </h2>
       <p className="text-gray-600 max-w-3xl mx-auto">
         The 7Unique Verify Mobile Verification API delivers a fast, reliable, and secure number authentication flow—perfectly suited for real-time onboarding and user validation.
@@ -111,7 +120,7 @@ const MobileVerificationAPIPage: React.FC = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       {/* Step 1 */}
       <div className="text-center">
-        <div className="bg-[#29a9c5] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+        <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
           1
         </div>
         <h3 className="text-xl font-semibold mb-4">Input Mobile Number</h3>
@@ -122,7 +131,7 @@ const MobileVerificationAPIPage: React.FC = () => {
 
       {/* Step 2 */}
       <div className="text-center">
-        <div className="bg-[#29a9c5] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+        <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
           2
         </div>
         <h3 className="text-xl font-semibold mb-4">OTP Triggered Instantly</h3>
@@ -133,7 +142,7 @@ const MobileVerificationAPIPage: React.FC = () => {
 
       {/* Step 3 */}
       <div className="text-center">
-        <div className="bg-[#29a9c5] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+        <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
           3
         </div>
         <h3 className="text-xl font-semibold mb-4">User Submits OTP</h3>
@@ -144,7 +153,7 @@ const MobileVerificationAPIPage: React.FC = () => {
 
       {/* Step 4 */}
       <div className="text-center">
-        <div className="bg-[#29a9c5] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+        <div className="bg-[#b7603d] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
           4
         </div>
         <h3 className="text-xl font-semibold mb-4">Verification Status</h3>
@@ -156,13 +165,22 @@ const MobileVerificationAPIPage: React.FC = () => {
   </div>
 </section>
   {/* Benefits Section */}
-<section className="py-16 bg-gray-50">
+<section className="py-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+">
   <div className="max-w-full mx-auto px-16">
     <div className="flex flex-col lg:flex-row items-center gap-12">
       {/* Text Content */}
       <div className="lg:w-1/2">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
-          Why Choose <span className="text-[#29a9c5]">7Unique Verify</span> Mobile Verification
+          Why Choose <span className="text-[#b7603d]">7Unique Verify</span> Mobile Verification
         </h2>
         <p className="text-gray-600 mb-8">
           7Unique Verify offers a robust, scalable, and globally trusted mobile number verification system—backed by secure infrastructure and intelligent delivery routing.
@@ -170,7 +188,7 @@ const MobileVerificationAPIPage: React.FC = () => {
 
         <div className="space-y-6">
           <div className="flex items-start">
-            <div className="bg-[#29a9c5] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
+            <div className="bg-[#b7603d] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
               ✓
             </div>
             <div>
@@ -182,7 +200,7 @@ const MobileVerificationAPIPage: React.FC = () => {
           </div>
 
           <div className="flex items-start">
-            <div className="bg-[#29a9c5] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
+            <div className="bg-[#b7603d] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
               ✓
             </div>
             <div>
@@ -194,7 +212,7 @@ const MobileVerificationAPIPage: React.FC = () => {
           </div>
 
           <div className="flex items-start">
-            <div className="bg-[#29a9c5] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
+            <div className="bg-[#b7603d] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
               ✓
             </div>
             <div>
@@ -206,7 +224,7 @@ const MobileVerificationAPIPage: React.FC = () => {
           </div>
 
           <div className="flex items-start">
-            <div className="bg-[#29a9c5] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
+            <div className="bg-[#b7603d] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
               ✓
             </div>
             <div>
@@ -237,7 +255,7 @@ const MobileVerificationAPIPage: React.FC = () => {
         <div className="max-w-full mx-auto px-4 md:px-8 lg:px-15">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-              <span className="text-[#29a9c5]">Use Cases</span> Across Industries
+              <span className="text-[#b7603d]">Use Cases</span> Across Industries
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
               Our mobile verification API serves diverse industries with tailored solutions for various business needs.
@@ -246,8 +264,17 @@ const MobileVerificationAPIPage: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
-              <div className="bg-blue-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-[#b7603d]  " fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                 </svg>
               </div>
@@ -256,8 +283,17 @@ const MobileVerificationAPIPage: React.FC = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
-              <div className="bg-green-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+   p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-[#b7603d]  " fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                 </svg>
               </div>
@@ -266,8 +302,17 @@ const MobileVerificationAPIPage: React.FC = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
-              <div className="bg-purple-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-[#b7603d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                 </svg>
               </div>
@@ -296,8 +341,17 @@ const MobileVerificationAPIPage: React.FC = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
-              <div className="bg-indigo-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-[#b7603d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
@@ -310,12 +364,21 @@ const MobileVerificationAPIPage: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+">
         <div className="max-w-full mx-auto px-4 md:px-8 lg:px-15">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Easy <span className="text-[#29a9c5]">API Integration</span>
+                Easy <span className="text-[#b7603d]">API Integration</span>
               </h2>
               <p className="text-gray-600 mb-8">
                 Get started with our mobile verification API in minutes. Simple REST endpoints, comprehensive documentation, and multiple SDK options.
@@ -323,26 +386,26 @@ const MobileVerificationAPIPage: React.FC = () => {
               
               <div className="space-y-4 mb-8">
                 <div className="flex items-center">
-                  <div className="bg-[#29a9c5] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 text-sm">✓</div>
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 text-sm">✓</div>
                   <span className="text-gray-700">RESTful API with JSON responses</span>
                 </div>
                 <div className="flex items-center">
-                  <div className="bg-[#29a9c5] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 text-sm">✓</div>
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 text-sm">✓</div>
                   <span className="text-gray-700">SDKs for popular programming languages</span>
                 </div>
                 <div className="flex items-center">
-                  <div className="bg-[#29a9c5] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 text-sm">✓</div>
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 text-sm">✓</div>
                   <span className="text-gray-700">Webhook support for real-time updates</span>
                 </div>
                 <div className="flex items-center">
-                  <div className="bg-[#29a9c5] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 text-sm">✓</div>
+                  <div className="bg-[#b7603d] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 text-sm">✓</div>
                   <span className="text-gray-700">Comprehensive API documentation</span>
                 </div>
               </div>
 
               <a
                 href="#"
-                className="inline-block bg-[#29a9c5] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+                className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
               >
                 View API Documentation
               </a>

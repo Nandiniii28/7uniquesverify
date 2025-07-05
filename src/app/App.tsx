@@ -62,6 +62,32 @@ import WhatsAppVerificationPageAPI from "../pages/whatsapp-verification-page-api
 import FaceMatchPageAPI from "../pages/face-match-page-api"
 import CKYCSearchDownloadPageAPI from "../pages/ckyc-search-download-page-api"
 import RCVerificationPageAPI from "../pages/rc-verification-page-api"
+import VPAUPIIDVerificationPageAPI from "../pages/vpa-upi-id-verification-page-api"
+import MobiletoUPIPageAPI from "../pages/mobile-to-upi-page-api"
+import BankStatementAnalyzerPageAPI from "../pages/bank-statement-analyzer-page-api"
+import IFSCCodeLookupPageAPI from "../pages/ifsc-code-lookup-page-api"
+import GSTVerificationPageAPI from "../pages/gst-verification-page-api"
+import DINVerificationPageAPI from "../pages/din-verification"
+import ShopAndEstablishmentActVerificationPageAPI from "../pages/shop-and-establishment-act-verification-page-api"
+import FSSAIVerificationPageAPI from "../pages/fssai-verification-page-api"
+import LEIVerificationPageAPI from "../pages/lei-verification-page-api"
+import CompanyNameToCINTANPageAPI from "../pages/company-name-to-cin-page-api"
+import PANOCRPageAPI from "../pages/pan-ocr-page-api"
+import AadhaarOCRPageAPI from "../pages/aadhar-ocr-page-api"
+import PassportOCRPageAPI from "../pages/passport-ocr-page-api"
+import VoterIDOCRPageAPI from "../pages/voter-id-ocr-page-api"
+import ChequeOCRPageAPI from "../pages/cheque-ocr-page-api"
+import GSTINOCRPageAPI from "../pages/gstin-ocr-page-api"
+import CreditReportCIBILEquifaxPageAPI from "../pages/credit-report-cibil-page-api"
+import PANToUANMobileToUANFetchPageAPI from "../pages/pan-uan-mobile-fetch-page-api"
+import EPFODetailsPageAPI from "../pages/epfo-detail-page-api"
+import ITRComplianceProfilePageAPI from "../pages/itr-compliance-page-api"
+import ReverseGeoCodeVerificationPageAPI from "../pages/reverse-geo-code-verification-page-api"
+import PincodeInfoPageAPI from "../pages/pincode-info-page-api"
+import IMEIValidatorPageAPI from "../pages/imei-validator-page-api"
+import CardValidatorPageAPI from "../pages/card-validator-page-api"
+import CurrencyExchangePageAPI from "../pages/currency-exchange-page-api"
+import TelecomOperatorFetchPageAPI from "../pages/telecom-operator-fetch-page-api"
 
 
 function Placeholder({ name }: { name: string }) {
@@ -169,8 +195,38 @@ export default function App() {
         <Route path="/email-authentication-page-api" element={<EmailAuthenticationPageAPI />} />
         <Route path="/ocr-validation-page-api" element={<OCRValidationPageAPI />} />
         <Route path="/whatsapp-verification-page-api" element={<WhatsAppVerificationPageAPI />} />
-        <Route path="/face-match-page-api" element={<FaceMatchPageAPI/>} />
-        <Route path="/rc-verification-page-api" element={<RCVerificationPageAPI/>} />
+        <Route path="/face-match-page-api" element={<FaceMatchPageAPI />} />
+        <Route path="/rc-verification-page-api" element={<RCVerificationPageAPI />} />
+        <Route path="/vpa-upi-id-verification-page-api" element={<VPAUPIIDVerificationPageAPI />} />
+        <Route path="/mobile-to-upi-page-api" element={<MobiletoUPIPageAPI />} />
+        <Route path="/bank-statement-analyzer-page-api" element={<BankStatementAnalyzerPageAPI />} />
+        <Route path="/ifsc-code-lookup-page-api" element={<IFSCCodeLookupPageAPI />} />
+        <Route path="/gst-verification-page-api" element={<GSTVerificationPageAPI />} />
+        <Route path="/din-verification-page-api" element={<DINVerificationPageAPI />} />
+        <Route path="/shop-and-establishment-act-verification-page-api" element={<ShopAndEstablishmentActVerificationPageAPI />} />
+        <Route path="/fssai-verification-page-api" element={<FSSAIVerificationPageAPI />} />
+        <Route path="/lei-verification-page-api" element={<LEIVerificationPageAPI />} />
+        <Route path="/company-name-to-cin-page-api" element={<CompanyNameToCINTANPageAPI/>} />
+        <Route path="/pan-ocr-page-api" element={<PANOCRPageAPI />} />
+        <Route path="/aadhar-ocr-page-api" element={<AadhaarOCRPageAPI />} />
+        <Route path="/driving-license-verification-page-api" element={<DrivingLicenseVerificationPageAPI />} />
+        <Route path="/passport-ocr-page-api" element={<PassportOCRPageAPI />} />
+        <Route path="/voter-id-ocr-page-api" element={<VoterIDOCRPageAPI />} />
+        <Route path="/cheque-ocr-page-api" element={<ChequeOCRPageAPI />} />
+        <Route path="/gstin-ocr-page-api" element={<GSTINOCRPageAPI />} />
+        <Route path="/credit-report-cibil-page-api" element={<CreditReportCIBILEquifaxPageAPI />} />
+        <Route path="/pan-uan-mobile-fetch-page-api" element={<PANToUANMobileToUANFetchPageAPI />} />
+        <Route path="/epfo-detail-page-api" element={<EPFODetailsPageAPI />} />
+        <Route path="/itr-compliance-page-api" element={<ITRComplianceProfilePageAPI />} />
+        <Route path="/reverse-geo-code-verification-page-api" element={<ReverseGeoCodeVerificationPageAPI />} />
+        <Route path="/pincode-info-page-api" element={<PincodeInfoPageAPI />} />
+        <Route path="/imei-validator-page-api" element={<IMEIValidatorPageAPI />} />
+        <Route path="/card-validator-page-api" element={<CardValidatorPageAPI />} />
+        <Route path="/currency-exchange-page-api" element={<CurrencyExchangePageAPI />} />
+        <Route path="/telecom-operator-fetch-page-api" element={<TelecomOperatorFetchPageAPI />} />
+        
+
+         
 
         <Route path="*" element={<Placeholder name="404 Not Found" />} />
       </Routes>

@@ -28,7 +28,7 @@ const WhatsAppVerificationPageAPI: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#"
-                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#128C7E] transition-colors text-center"
+                className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#128C7E] transition-colors text-center"
               >
                 Get Started
               </a>
@@ -52,9 +52,9 @@ const WhatsAppVerificationPageAPI: React.FC = () => {
 
       {/* Use Cases Section */}
       <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-            Where Can You Use <span className="text-[#2dc1e3]">WhatsApp Verification</span>?
+            Where Can You Use <span className="text-[#b7603d]">WhatsApp Verification</span>?
           </h2>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
@@ -63,7 +63,7 @@ const WhatsAppVerificationPageAPI: React.FC = () => {
               <p className="text-gray-600 text-sm mb-3">
                 Secure login and account verification via WhatsApp OTP.
               </p>
-              <div className="text-xs text-green-600 font-medium">"Passwordless login!"</div>
+              <div className="text-xs text-[#b7603d]   font-medium">"Passwordless login!"</div>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-4">🛒</div>
@@ -71,7 +71,7 @@ const WhatsAppVerificationPageAPI: React.FC = () => {
               <p className="text-gray-600 text-sm mb-3">
                 Verify customer numbers for orders and transactions.
               </p>
-              <div className="text-xs text-blue-600 font-medium">"Reduce fraud!"</div>
+              <div className="text-xs text-[#b7603d]   font-medium">"Reduce fraud!"</div>
             </div>
             <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-4">🏦</div>
@@ -79,7 +79,7 @@ const WhatsAppVerificationPageAPI: React.FC = () => {
               <p className="text-gray-600 text-sm mb-3">
                 Secure transaction confirmations and account changes.
               </p>
-              <div className="text-xs text-purple-600 font-medium">"Enhanced security!"</div>
+              <div className="text-xs text-[#b7603d] font-medium">"Enhanced security!"</div>
             </div>
             <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-4">🏥</div>
@@ -110,20 +110,38 @@ const WhatsAppVerificationPageAPI: React.FC = () => {
       </section>
 
       {/* Verification Types Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-4 md:px-8 lg:px-20">
+        <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-            Choose Your <span className="text-[#2dc1e3]">Verification Method</span>
+            Choose Your <span className="text-[#b7603d]">Verification Method</span>
           </h2>
           <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
             <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-green-500">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-green-600 font-bold">✓</span>
+                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+   rounded-full flex items-center justify-center mr-4">
+                  <span className="text-[#b7603d]   font-bold">✓</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800">Basic OTP Verification</h3>
-                  <span className="text-sm text-green-600 font-medium">Standard Verification</span>
+                  <span className="text-sm text-[#b7603d]   font-medium">Standard Verification</span>
                 </div>
               </div>
               <p className="text-gray-600 mb-4">
@@ -147,12 +165,21 @@ const WhatsAppVerificationPageAPI: React.FC = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-blue-500">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-blue-600 font-bold">🔍</span>
+                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ rounded-full flex items-center justify-center mr-4">
+                  <span className="text-[#b7603d]   font-bold">🔍</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800">Advanced Verification</h3>
-                  <span className="text-sm text-blue-600 font-medium">AI-Powered</span>
+                  <span className="text-sm text-[#b7603d]   font-medium">AI-Powered</span>
                 </div>
               </div>
               <p className="text-gray-600 mb-4">
@@ -204,45 +231,45 @@ const WhatsAppVerificationPageAPI: React.FC = () => {
 
       {/* How It Works Section */}
       <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-            How <span className="text-[#2dc1e3]">WhatsApp Verification</span> Works
+            How <span className="text-[#b7603d]">WhatsApp Verification</span> Works
           </h2>
           <div className="relative">
             <div className="hidden md:block absolute top-8 left-0 w-full h-0.5 bg-gray-200"></div>
-            <div className="hidden md:block absolute top-8 left-0 w-full h-0.5 bg-gradient-to-r from-[#2dc1e3] to-transparent"></div>
+            <div className="hidden md:block absolute top-8 left-0 w-full h-0.5 bg-gradient-to-r from-[#b7603d] to-transparent"></div>
 
             <div className="grid gap-8 grid-cols-1 md:grid-cols-5">
               <div className="text-center relative">
-                <div className="w-16 h-16 bg-[#2dc1e3] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
+                <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
                   1
                 </div>
                 <h3 className="text-lg font-semibold mb-2">User Initiation</h3>
                 <p className="text-gray-600 text-sm">User requests verification</p>
               </div>
               <div className="text-center relative">
-                <div className="w-16 h-16 bg-[#2dc1e3] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
+                <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
                   2
                 </div>
                 <h3 className="text-lg font-semibold mb-2">OTP Generation</h3>
                 <p className="text-gray-600 text-sm">System creates unique code</p>
               </div>
               <div className="text-center relative">
-                <div className="w-16 h-16 bg-[#2dc1e3] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
+                <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
                   3
                 </div>
                 <h3 className="text-lg font-semibold mb-2">WhatsApp Delivery</h3>
                 <p className="text-gray-600 text-sm">Code sent via WhatsApp</p>
               </div>
               <div className="text-center relative">
-                <div className="w-16 h-16 bg-[#2dc1e3] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
+                <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
                   4
                 </div>
                 <h3 className="text-lg font-semibold mb-2">User Input</h3>
                 <p className="text-gray-600 text-sm">User enters received code</p>
               </div>
               <div className="text-center relative">
-                <div className="w-16 h-16 bg-[#2dc1e3] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
+                <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
                   5
                 </div>
                 <h3 className="text-lg font-semibold mb-2">Validation</h3>
@@ -251,10 +278,19 @@ const WhatsAppVerificationPageAPI: React.FC = () => {
             </div>
           </div>
 
-          <div className="mt-12 bg-gray-50 p-6 rounded-lg">
+          <div className="mt-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg">
             <div className="flex flex-wrap justify-center gap-6 text-sm">
               <div className="flex items-center space-x-2">
-                <span className="w-3 h-3 bg-green-500 rounded-full"></span>
+                <span className="w-3 h-3 bg-[#d38769] rounded-full"></span>
                 <span>99.9% Delivery Rate</span>
               </div>
               <div className="flex items-center space-x-2">
@@ -275,16 +311,34 @@ const WhatsAppVerificationPageAPI: React.FC = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-4 md:px-8 lg:px-20">
+        <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-            Why Use Our <span className="text-[#2dc1e3]">WhatsApp Verification API</span>?
+            Why Use Our <span className="text-[#b7603d]">WhatsApp Verification API</span>?
           </h2>
           <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-green-600 text-xl">⏱️</span>
+                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+   rounded-full flex items-center justify-center mr-4">
+                  <span className="text-[#b7603d]   text-xl">⏱️</span>
                 </div>
                 <h3 className="text-lg font-semibold text-gray-800">Faster Delivery</h3>
               </div>
@@ -295,8 +349,17 @@ const WhatsAppVerificationPageAPI: React.FC = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-blue-600 text-xl">💰</span>
+                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ rounded-full flex items-center justify-center mr-4">
+                  <span className="text-[#b7603d]   text-xl">💰</span>
                 </div>
                 <h3 className="text-lg font-semibold text-gray-800">Cost Effective</h3>
               </div>
@@ -307,8 +370,17 @@ const WhatsAppVerificationPageAPI: React.FC = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-purple-600 text-xl">🌎</span>
+                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  rounded-full flex items-center justify-center mr-4">
+                  <span className="text-[#b7603d] text-xl">🌎</span>
                 </div>
                 <h3 className="text-lg font-semibold text-gray-800">Global Reach</h3>
               </div>
@@ -358,40 +430,40 @@ const WhatsAppVerificationPageAPI: React.FC = () => {
 
       {/* Integration Section */}
       <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2 space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-                Simple <span className="text-[#2dc1e3]">API Integration</span>
+                Simple <span className="text-[#b7603d]">API Integration</span>
               </h2>
               <p className="text-gray-600">
                 Integrate WhatsApp verification seamlessly into your applications with our developer-friendly API.
               </p>
               <div className="space-y-3">
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#2dc1e3]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>RESTful API with JSON responses</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#2dc1e3]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>Support for multiple languages</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#2dc1e3]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>Webhooks for real-time updates</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#2dc1e3]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>Pre-built SDKs</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#2dc1e3]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>Detailed documentation</span>
                 </div>
               </div>
               <a
                 href="#"
-                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#128C7E] transition-colors"
+                className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#128C7E] transition-colors"
               >
                 Read Full API Docs
               </a>

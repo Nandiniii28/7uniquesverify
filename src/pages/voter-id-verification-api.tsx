@@ -6,7 +6,7 @@ const VoterIDVerificationPageAPI: React.FC = () => {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-purple-600 via-purple-700 to-indigo-800 text-white py-20">
         <div className="absolute inset-0 bg-black/20"></div>
-        <div className="relative max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
+        <div className="relative w-full mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">Voter ID Verification API</h1>
             <p className="text-xl md:text-2xl mb-8 text-purple-100">
@@ -29,8 +29,17 @@ const VoterIDVerificationPageAPI: React.FC = () => {
       </section>
 
       {/* API Overview */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
+      <section className="py-20 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+">
+        <div className="w-full mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Voter ID Verification Plans</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -42,8 +51,17 @@ const VoterIDVerificationPageAPI: React.FC = () => {
             {/* Basic Plan */}
             <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-200">
               <div className="text-center mb-8">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-[#b7603d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -53,39 +71,39 @@ const VoterIDVerificationPageAPI: React.FC = () => {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Basic</h3>
-                <div className="text-4xl font-bold text-purple-600 mb-4">
+                <div className="text-4xl font-bold text-[#b7603d] mb-4">
                   ₹2<span className="text-lg text-gray-500">/verification</span>
                 </div>
               </div>
 
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Up to 1,000 verifications/month</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Basic voter information</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Email support</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Standard response time</span>
                 </li>
               </ul>
 
-              <button className="w-full bg-purple-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+              <button className="w-full bg-[#b7603d] text-white py-3 px-6 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                 Get Started
               </button>
             </div>
@@ -98,51 +116,60 @@ const VoterIDVerificationPageAPI: React.FC = () => {
                 </span>
               </div>
               <div className="text-center mb-8">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-[#b7603d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Professional</h3>
-                <div className="text-4xl font-bold text-purple-600 mb-4">
+                <div className="text-4xl font-bold text-[#b7603d] mb-4">
                   ₹1.5<span className="text-lg text-gray-500">/verification</span>
                 </div>
               </div>
 
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Up to 10,000 verifications/month</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Detailed voter information</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Priority support</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Fast response time</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Analytics dashboard</span>
                 </li>
               </ul>
 
-              <button className="w-full bg-purple-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+              <button className="w-full bg-[#b7603d] text-white py-3 px-6 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                 Start Free Trial
               </button>
             </div>
@@ -150,8 +177,17 @@ const VoterIDVerificationPageAPI: React.FC = () => {
             {/* Enterprise Plan */}
             <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-200">
               <div className="text-center mb-8">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-[#b7603d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -161,30 +197,30 @@ const VoterIDVerificationPageAPI: React.FC = () => {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Enterprise</h3>
-                <div className="text-4xl font-bold text-purple-600 mb-4">Custom</div>
+                <div className="text-4xl font-bold text-[#b7603d] mb-4">Custom</div>
               </div>
 
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Unlimited verifications</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Complete voter database</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>24/7 dedicated support</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Custom integrations</span>
@@ -201,7 +237,7 @@ const VoterIDVerificationPageAPI: React.FC = () => {
 
       {/* Use Cases */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
+        <div className="w-full mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Use Cases</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -211,7 +247,16 @@ const VoterIDVerificationPageAPI: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center p-6">
-              <div className="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-20 h-20 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-3xl">🏛️</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Government Services</h3>
@@ -221,7 +266,16 @@ const VoterIDVerificationPageAPI: React.FC = () => {
             </div>
 
             <div className="text-center p-6">
-              <div className="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-20 h-20 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-3xl">🏦</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Financial Services</h3>
@@ -231,7 +285,16 @@ const VoterIDVerificationPageAPI: React.FC = () => {
             </div>
 
             <div className="text-center p-6">
-              <div className="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-20 h-20 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-3xl">📱</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Digital Platforms</h3>
@@ -244,8 +307,17 @@ const VoterIDVerificationPageAPI: React.FC = () => {
       </section>
 
       {/* How It Works */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
+      <section className="py-20 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+">
+        <div className="w-full mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">How It Works</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Simple 4-step process to verify Voter ID details</p>
@@ -289,7 +361,7 @@ const VoterIDVerificationPageAPI: React.FC = () => {
 
       {/* API Integration */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
+        <div className="w-full mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Easy API Integration</h2>
@@ -300,32 +372,32 @@ const VoterIDVerificationPageAPI: React.FC = () => {
 
               <div className="space-y-4 mb-8">
                 <div className="flex items-center">
-                  <svg className="w-6 h-6 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span className="text-gray-700">RESTful API with JSON responses</span>
                 </div>
                 <div className="flex items-center">
-                  <svg className="w-6 h-6 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span className="text-gray-700">Real-time verification results</span>
                 </div>
                 <div className="flex items-center">
-                  <svg className="w-6 h-6 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span className="text-gray-700">Comprehensive error handling</span>
                 </div>
                 <div className="flex items-center">
-                  <svg className="w-6 h-6 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-[#b7603d]   mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span className="text-gray-700">SDKs for popular languages</span>
                 </div>
               </div>
 
-              <button className="bg-purple-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-purple-700 transition-colors">
+              <button className="bg-[#b7603d] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-purple-700 transition-colors">
                 View Documentation
               </button>
             </div>
@@ -359,7 +431,7 @@ const VoterIDVerificationPageAPI: React.FC = () => {
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-purple-600 to-indigo-700 text-white">
-        <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24 text-center">
+        <div className="w-full mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Get Started?</h2>
           <p className="text-xl mb-10 text-purple-100 max-w-3xl mx-auto">
             Join thousands of businesses using our Voter ID verification API to streamline their identity verification

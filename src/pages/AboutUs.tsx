@@ -10,7 +10,7 @@ export default function AboutUs() {
           </p>
           <a
             href="/contact-us"
-            className="inline-block px-6 py-2 sm:px-8 sm:py-3 bg-[#2dc1e3] text-[#373533] font-bold rounded-lg shadow hover:bg-[#79d9ef] transition"
+            className="inline-block px-6 py-2 sm:px-8 sm:py-3 bg-[#b7603d] text-[#373533] font-bold rounded-lg shadow hover:bg-[#d19983] transition"
           >
             Contact Us
           </a>
@@ -30,15 +30,15 @@ export default function AboutUs() {
             </p>
             <ul className="space-y-3 text-sm sm:text-base">
               <li className="flex items-start">
-                <span className="inline-block w-3 h-3 mr-3 mt-1 rounded-full bg-[#2dc1e3]" />
+                <span className="inline-block w-3 h-3 mr-3 mt-1 rounded-full bg-[#b7603d]" />
                 Real-time identity verification with 99.9% accuracy
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-3 h-3 mr-3 mt-1 rounded-full bg-[#2dc1e3]" />
+                <span className="inline-block w-3 h-3 mr-3 mt-1 rounded-full bg-[#b7603d]" />
                 Modular APIs built for scale, compliance, and ease
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-3 h-3 mr-3 mt-1 rounded-full bg-[#2dc1e3]" />
+                <span className="inline-block w-3 h-3 mr-3 mt-1 rounded-full bg-[#b7603d]" />
                 Responsive support, fast deployment, and plug-and-play setup
               </li>
             </ul>

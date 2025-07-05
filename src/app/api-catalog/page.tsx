@@ -2,7 +2,7 @@ import type React from "react";
 
 const APICatalogPage: React.FC = () => {
     return (
-        <main className="max-w-7xl mx-auto ">
+        <main className="w-full mx-auto ">
             <section
                 className="w-full bg-cover bg-center min-h-screen flex items-center px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24 pb-24"
                 style={{ backgroundImage: "url('/img/bg (2).png')" }}
@@ -34,13 +34,13 @@ const APICatalogPage: React.FC = () => {
                         <div className="flex flex-col sm:flex-row gap-4">
                             <a
                                 href="#"
-                                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors text-center"
+                                className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors text-center"
                             >
                                 Get Started
                             </a>
                             <a
                                 href="#"
-                                className="inline-block bg-transparent border-2 border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#2dc1e3] transition-colors text-center"
+                                className="inline-block bg-transparent border-2 border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#b7603d] transition-colors text-center"
                             >
                                 View API Docs
                             </a>
@@ -58,10 +58,10 @@ const APICatalogPage: React.FC = () => {
 
             {/* Use Cases Section - Where Can You Use It? */}
             <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-                <div className="max-w-7xl mx-auto">
+                <div className="w-full mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
                         Where Can You Use{" "}
-                        <span className="text-[#29a9c5]">Bank Account Verification</span>?
+                        <span className="text-[#b7603d]">Bank Account Verification</span>?
                     </h2>
                     <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                         <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
@@ -73,7 +73,7 @@ const APICatalogPage: React.FC = () => {
                                 Verify borrower accounts before loan disbursal to ensure
                                 accurate fund transfers.
                             </p>
-                            <div className="text-xs text-blue-600 font-medium">
+                            <div className="text-xs text-[#b7603d]   font-medium">
                                 "Avoid failed loan disbursals!"
                             </div>
                         </div>
@@ -86,7 +86,7 @@ const APICatalogPage: React.FC = () => {
                                 Validate seller and customer accounts for refunds, settlements,
                                 and marketplace payments.
                             </p>
-                            <div className="text-xs text-green-600 font-medium">
+                            <div className="text-xs text-[#b7603d]   font-medium">
                                 "Streamline seller settlements!"
                             </div>
                         </div>
@@ -99,7 +99,7 @@ const APICatalogPage: React.FC = () => {
                                 Verify employee bank accounts to ensure accurate salary payments
                                 and avoid bounced transfers.
                             </p>
-                            <div className="text-xs text-purple-600 font-medium">
+                            <div className="text-xs text-[#b7603d] font-medium">
                                 "Avoid failed payouts in payrolls!"
                             </div>
                         </div>
@@ -147,23 +147,41 @@ const APICatalogPage: React.FC = () => {
             </section>
 
             {/* Verification Types Section - Choose the Right Method */}
-            <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
-                <div className="max-w-7xl mx-auto">
+            <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-4 md:px-8 lg:px-20">
+                <div className="w-full mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
                         Choose the Right{" "}
-                        <span className="text-[#29a9c5]">Verification Method</span>
+                        <span className="text-[#b7603d]">Verification Method</span>
                     </h2>
                     <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
                         <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-blue-500">
                             <div className="flex items-center mb-4">
-                                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                                    <span className="text-blue-600 font-bold">₹</span>
+                                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ rounded-full flex items-center justify-center mr-4">
+                                    <span className="text-[#b7603d]   font-bold">₹</span>
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-semibold text-gray-800">
                                         Penny Drop Verification
                                     </h3>
-                                    <span className="text-sm text-blue-600 font-medium">
+                                    <span className="text-sm text-[#b7603d]   font-medium">
                                         Traditional Method
                                     </span>
                                 </div>
@@ -190,14 +208,23 @@ const APICatalogPage: React.FC = () => {
 
                         <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-green-500">
                             <div className="flex items-center mb-4">
-                                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
-                                    <span className="text-green-600 font-bold">⚡</span>
+                                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+   rounded-full flex items-center justify-center mr-4">
+                                    <span className="text-[#b7603d]   font-bold">⚡</span>
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-semibold text-gray-800">
                                         Penny-Less Verification
                                     </h3>
-                                    <span className="text-sm text-green-600 font-medium">
+                                    <span className="text-sm text-[#b7603d]   font-medium">
                                         NSDL / Yes Bank
                                     </span>
                                 </div>
@@ -224,14 +251,23 @@ const APICatalogPage: React.FC = () => {
 
                         <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-purple-500">
                             <div className="flex items-center mb-4">
-                                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
-                                    <span className="text-purple-600 font-bold">UPI</span>
+                                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  rounded-full flex items-center justify-center mr-4">
+                                    <span className="text-[#b7603d] font-bold">UPI</span>
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-semibold text-gray-800">
                                         UPI/VPA Verification
                                     </h3>
-                                    <span className="text-sm text-purple-600 font-medium">
+                                    <span className="text-sm text-[#b7603d] font-medium">
                                         Digital Payment
                                     </span>
                                 </div>
@@ -295,18 +331,19 @@ const APICatalogPage: React.FC = () => {
 
             {/* How It Works Section - Step-by-Step Flow */}
             <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-                <div className="max-w-7xl mx-auto">
+                <div className="w-full mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-                        How <span className="text-[#29a9c5]">Bank Verification</span> Works
+                        How <span className="text-[#b7603d]">Bank Verification</span> Works
                     </h2>
                     <div className="relative">
                         {/* Timeline line */}
                         <div className="hidden md:block absolute top-8 left-0 w-full h-0.5 bg-gray-200"></div>
-                        <div className="hidden md:block absolute top-8 left-0 w-full h-0.5 bg-gradient-to-r from-[#29a9c5] to-transparent"></div>
+                        <div className="hidden md:block absolute top-8 left-0 w-full h-0.5 bg-gradient-to-r from-[#b7603d]
+ to-transparent"></div>
 
                         <div className="grid gap-8 grid-cols-1 md:grid-cols-5">
                             <div className="text-center relative">
-                                <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
+                                <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
                                     1
                                 </div>
                                 <h3 className="text-lg font-semibold mb-2">User Input</h3>
@@ -315,7 +352,7 @@ const APICatalogPage: React.FC = () => {
                                 </p>
                             </div>
                             <div className="text-center relative">
-                                <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
+                                <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
                                     2
                                 </div>
                                 <h3 className="text-lg font-semibold mb-2">API Request</h3>
@@ -324,7 +361,7 @@ const APICatalogPage: React.FC = () => {
                                 </p>
                             </div>
                             <div className="text-center relative">
-                                <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
+                                <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
                                     3
                                 </div>
                                 <h3 className="text-lg font-semibold mb-2">Bank Response</h3>
@@ -333,7 +370,7 @@ const APICatalogPage: React.FC = () => {
                                 </p>
                             </div>
                             <div className="text-center relative">
-                                <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
+                                <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
                                     4
                                 </div>
                                 <h3 className="text-lg font-semibold mb-2">Name Matching</h3>
@@ -342,7 +379,7 @@ const APICatalogPage: React.FC = () => {
                                 </p>
                             </div>
                             <div className="text-center relative">
-                                <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
+                                <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4 relative z-10">
                                     5
                                 </div>
                                 <h3 className="text-lg font-semibold mb-2">Instant Results</h3>
@@ -353,10 +390,19 @@ const APICatalogPage: React.FC = () => {
                         </div>
                     </div>
 
-                    <div className="mt-12 bg-gray-50 p-6 rounded-lg">
+                    <div className="mt-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg">
                         <div className="flex flex-wrap justify-center gap-6 text-sm">
                             <div className="flex items-center space-x-2">
-                                <span className="w-3 h-3 bg-green-500 rounded-full"></span>
+                                <span className="w-3 h-3 bg-[#d38769] rounded-full"></span>
                                 <span>Supports Webhooks</span>
                             </div>
                             <div className="flex items-center space-x-2">
@@ -377,17 +423,35 @@ const APICatalogPage: React.FC = () => {
             </section>
 
             {/* Benefits Section - Why Use Our API? */}
-            <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
-                <div className="max-w-7xl mx-auto">
+            <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-4 md:px-8 lg:px-20">
+                <div className="w-full mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
                         Why Use Our{" "}
-                        <span className="text-[#29a9c5]">Bank Verification API</span>?
+                        <span className="text-[#b7603d]">Bank Verification API</span>?
                     </h2>
                     <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                         <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                             <div className="flex items-center mb-4">
-                                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
-                                    <span className="text-green-600 text-xl">⚡</span>
+                                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+   rounded-full flex items-center justify-center mr-4">
+                                    <span className="text-[#b7603d]   text-xl">⚡</span>
                                 </div>
                                 <h3 className="text-lg font-semibold text-gray-800">
                                     Fast & Real-Time Results
@@ -401,8 +465,17 @@ const APICatalogPage: React.FC = () => {
 
                         <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                             <div className="flex items-center mb-4">
-                                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                                    <span className="text-blue-600 text-xl">🔒</span>
+                                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ rounded-full flex items-center justify-center mr-4">
+                                    <span className="text-[#b7603d]   text-xl">🔒</span>
                                 </div>
                                 <h3 className="text-lg font-semibold text-gray-800">
                                     PCI-DSS Compliant & Secure
@@ -416,8 +489,17 @@ const APICatalogPage: React.FC = () => {
 
                         <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                             <div className="flex items-center mb-4">
-                                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
-                                    <span className="text-purple-600 text-xl">💰</span>
+                                <div className="w-12 h-12 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  rounded-full flex items-center justify-center mr-4">
+                                    <span className="text-[#b7603d] text-xl">💰</span>
                                 </div>
                                 <h3 className="text-lg font-semibold text-gray-800">
                                     Cost-Effective Penny-less Option
@@ -479,11 +561,11 @@ const APICatalogPage: React.FC = () => {
 
             {/* Integration Section - Developer Info */}
             <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-                <div className="max-w-7xl mx-auto">
+                <div className="w-full mx-auto">
                     <div className="flex flex-col lg:flex-row items-center gap-12">
                         <div className="w-full lg:w-1/2 space-y-6">
                             <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-                                Simple <span className="text-[#29a9c5]">API Integration</span>
+                                Simple <span className="text-[#b7603d]">API Integration</span>
                             </h2>
                             <p className="text-gray-600">
                                 Get started with our Bank Account Verification API in minutes.
@@ -492,33 +574,33 @@ const APICatalogPage: React.FC = () => {
                             </p>
                             <div className="space-y-3">
                                 <div className="flex items-center space-x-2">
-                                    <span className="text-[#29a9c5]">✓</span>
+                                    <span className="text-[#b7603d]">✓</span>
                                     <span>RESTful API with JSON responses</span>
                                 </div>
                                 <div className="flex items-center space-x-2">
-                                    <span className="text-[#29a9c5]">✓</span>
+                                    <span className="text-[#b7603d]">✓</span>
                                     <span>SDKs for Node.js, PHP, Python</span>
                                 </div>
                                 <div className="flex items-center space-x-2">
-                                    <span className="text-[#29a9c5]">✓</span>
+                                    <span className="text-[#b7603d]">✓</span>
                                     <span>Comprehensive documentation and examples</span>
                                 </div>
                                 <div className="flex items-center space-x-2">
-                                    <span className="text-[#29a9c5]">✓</span>
+                                    <span className="text-[#b7603d]">✓</span>
                                     <span>Sandbox environment for testing</span>
                                 </div>
                                 <div className="flex items-center space-x-2">
-                                    <span className="text-[#29a9c5]">✓</span>
+                                    <span className="text-[#b7603d]">✓</span>
                                     <span>Webhook support for async responses</span>
                                 </div>
                                 <div className="flex items-center space-x-2">
-                                    <span className="text-[#29a9c5]">✓</span>
+                                    <span className="text-[#b7603d]">✓</span>
                                     <span>API key authentication model</span>
                                 </div>
                             </div>
                             <a
                                 href="#"
-                                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+                                className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
                             >
                                 Read Full API Docs
                             </a>

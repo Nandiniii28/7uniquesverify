@@ -37,13 +37,13 @@ const LivenessCheckAPIPage: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 to="/liveness-check-api-pages"
-                className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors text-center"
+                className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors text-center"
               >
                 Get Started
               </Link>
               <a
                 href="#"
-                className="inline-block border border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#2dc1e3] transition-colors text-center"
+                className="inline-block border border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-[#b7603d] transition-colors text-center"
               >
                 View Documentation
               </a>
@@ -60,7 +60,16 @@ const LivenessCheckAPIPage: React.FC = () => {
       </section>
 
       {/* Features Section */}
-      <section className="p-16 bg-gray-50">
+      <section className="p-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -74,10 +83,19 @@ const LivenessCheckAPIPage: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="bg-purple-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  p-3 rounded-full w-16 h-16 flex items-center justify-center mb-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8 text-purple-600"
+                  className="h-8 w-8 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -106,10 +124,19 @@ const LivenessCheckAPIPage: React.FC = () => {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="bg-purple-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  p-3 rounded-full w-16 h-16 flex items-center justify-center mb-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8 text-purple-600"
+                  className="h-8 w-8 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -132,10 +159,19 @@ const LivenessCheckAPIPage: React.FC = () => {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="bg-purple-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  p-3 rounded-full w-16 h-16 flex items-center justify-center mb-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8 text-purple-600"
+                  className="h-8 w-8 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -173,7 +209,7 @@ const LivenessCheckAPIPage: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-purple-600 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+              <div className="bg-[#b7603d] text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 1
               </div>
               <h3 className="text-xl font-semibold mb-3">Face Detection</h3>
@@ -184,7 +220,7 @@ const LivenessCheckAPIPage: React.FC = () => {
             </div>
 
             <div className="text-center">
-              <div className="bg-purple-600 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+              <div className="bg-[#b7603d] text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 2
               </div>
               <h3 className="text-xl font-semibold mb-3">Liveness Analysis</h3>
@@ -195,7 +231,7 @@ const LivenessCheckAPIPage: React.FC = () => {
             </div>
 
             <div className="text-center">
-              <div className="bg-purple-600 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+              <div className="bg-[#b7603d] text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 3
               </div>
               <h3 className="text-xl font-semibold mb-3">Spoofing Detection</h3>
@@ -206,7 +242,7 @@ const LivenessCheckAPIPage: React.FC = () => {
             </div>
 
             <div className="text-center">
-              <div className="bg-purple-600 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+              <div className="bg-[#b7603d] text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 4
               </div>
               <h3 className="text-xl font-semibold mb-3">
@@ -222,7 +258,16 @@ const LivenessCheckAPIPage: React.FC = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="p-16 bg-gray-50">
+      <section className="p-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
@@ -237,7 +282,7 @@ const LivenessCheckAPIPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-green-500 mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d]   mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -260,7 +305,7 @@ const LivenessCheckAPIPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-green-500 mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d]   mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -281,7 +326,7 @@ const LivenessCheckAPIPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-green-500 mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d]   mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -303,7 +348,7 @@ const LivenessCheckAPIPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-green-500 mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d]   mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -348,10 +393,19 @@ const LivenessCheckAPIPage: React.FC = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-              <div className="bg-purple-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 text-purple-600"
+                  className="h-7 w-7 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -372,10 +426,19 @@ const LivenessCheckAPIPage: React.FC = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-              <div className="bg-purple-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 text-purple-600"
+                  className="h-7 w-7 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -396,10 +459,19 @@ const LivenessCheckAPIPage: React.FC = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-              <div className="bg-purple-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 text-purple-600"
+                  className="h-7 w-7 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -420,10 +492,19 @@ const LivenessCheckAPIPage: React.FC = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-              <div className="bg-purple-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 text-purple-600"
+                  className="h-7 w-7 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -444,10 +525,19 @@ const LivenessCheckAPIPage: React.FC = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-              <div className="bg-purple-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 text-purple-600"
+                  className="h-7 w-7 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -468,10 +558,19 @@ const LivenessCheckAPIPage: React.FC = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-              <div className="bg-purple-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+              <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+  p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 text-purple-600"
+                  className="h-7 w-7 text-[#b7603d]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -497,7 +596,16 @@ const LivenessCheckAPIPage: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="p-16 bg-gray-50">
+      <section className="p-16 bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
@@ -513,7 +621,7 @@ const LivenessCheckAPIPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-green-500 mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d]   mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -530,7 +638,7 @@ const LivenessCheckAPIPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-green-500 mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d]   mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -547,7 +655,7 @@ const LivenessCheckAPIPage: React.FC = () => {
                 <li className="flex items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-green-500 mr-2 flex-shrink-0"
+                    className="h-6 w-6 text-[#b7603d]   mr-2 flex-shrink-0"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"

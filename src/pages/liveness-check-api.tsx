@@ -2,7 +2,7 @@ import type React from "react"
 
 const LivenessCheckAPIPages: React.FC = () => {
   return (
-    <main className="max-w-7xl mx-auto">
+    <main className="w-full mx-auto">
       {/* Hero Section */}
       <section
         className="w-full bg-cover bg-center min-h-screen flex items-center  px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24 pb-24"
@@ -28,7 +28,7 @@ const LivenessCheckAPIPages: React.FC = () => {
             </p>
             <a
               href="#"
-              className="inline-block bg-[#2dc1e3] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#79d9ef] transition-colors"
+              className="inline-block bg-[#b7603d] text-white font-semibold px-6 py-3 rounded shadow hover:bg-[#d19983] transition-colors"
             >
               Get Started
             </a>
@@ -44,10 +44,19 @@ const LivenessCheckAPIPages: React.FC = () => {
       </section>
 
       {/* Features Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-15">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-4 md:px-8 lg:px-15">
         <div className="max-w-full mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-            <span className="text-[#29a9c5]">Liveness Check</span> Features
+            <span className="text-[#b7603d]">Liveness Check</span> Features
           </h2>
           <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left">
             <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
@@ -91,13 +100,13 @@ const LivenessCheckAPIPages: React.FC = () => {
 
       {/* How It Works Section */}
       <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-            How <span className="text-[#29a9c5]">Liveness Check</span> Works
+            How <span className="text-[#b7603d]">Liveness Check</span> Works
           </h2>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-4">
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
                 1
               </div>
               <h3 className="text-lg font-semibold mb-2">Image Capture</h3>
@@ -106,7 +115,7 @@ const LivenessCheckAPIPages: React.FC = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
                 2
               </div>
               <h3 className="text-lg font-semibold mb-2">AI Analysis</h3>
@@ -115,7 +124,7 @@ const LivenessCheckAPIPages: React.FC = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
                 3
               </div>
               <h3 className="text-lg font-semibold mb-2">Depth Detection</h3>
@@ -124,7 +133,7 @@ const LivenessCheckAPIPages: React.FC = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
                 4
               </div>
               <h3 className="text-lg font-semibold mb-2">Verification Results</h3>
@@ -137,15 +146,24 @@ const LivenessCheckAPIPages: React.FC = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-4 md:px-8 lg:px-20">
+        <div className="w-full mx-auto flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full lg:w-1/2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-              Benefits of <span className="text-[#29a9c5]">Liveness Check</span>
+              Benefits of <span className="text-[#b7603d]">Liveness Check</span>
             </h2>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-sm">
+                <div className="w-6 h-6 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-sm">
                   ✓
                 </div>
                 <div>
@@ -156,7 +174,7 @@ const LivenessCheckAPIPages: React.FC = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-sm">
+                <div className="w-6 h-6 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-sm">
                   ✓
                 </div>
                 <div>
@@ -167,7 +185,7 @@ const LivenessCheckAPIPages: React.FC = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-sm">
+                <div className="w-6 h-6 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-sm">
                   ✓
                 </div>
                 <div>
@@ -178,7 +196,7 @@ const LivenessCheckAPIPages: React.FC = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-[#29a9c5] rounded-full flex items-center justify-center text-white text-sm">
+                <div className="w-6 h-6 bg-[#b7603d] rounded-full flex items-center justify-center text-white text-sm">
                   ✓
                 </div>
                 <div>
@@ -202,47 +220,101 @@ const LivenessCheckAPIPages: React.FC = () => {
 
       {/* Use Cases Section */}
       <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
-            <span className="text-[#29a9c5]">Liveness Check</span> Use Cases
+            <span className="text-[#b7603d]">Liveness Check</span> Use Cases
           </h2>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">🏦</div>
               <h3 className="text-lg font-semibold mb-2">Financial Services</h3>
               <p className="text-gray-600 text-sm">
                 Secure customer onboarding and authentication for banking apps and financial services.
               </p>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">🔐</div>
               <h3 className="text-lg font-semibold mb-2">Access Control</h3>
               <p className="text-gray-600 text-sm">
                 Enhance security for physical and digital access control systems with liveness verification.
               </p>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">📱</div>
               <h3 className="text-lg font-semibold mb-2">Mobile Authentication</h3>
               <p className="text-gray-600 text-sm">
                 Secure login and transaction authorization for mobile applications with biometric verification.
               </p>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">🏥</div>
               <h3 className="text-lg font-semibold mb-2">Healthcare</h3>
               <p className="text-gray-600 text-sm">
                 Verify patient identity for telemedicine services and secure access to medical records.
               </p>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">🎓</div>
               <h3 className="text-lg font-semibold mb-2">Education</h3>
               <p className="text-gray-600 text-sm">
                 Ensure exam integrity with student verification for online testing and certification.
               </p>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg text-center">
+            <div className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">🏢</div>
               <h3 className="text-lg font-semibold mb-2">Government Services</h3>
               <p className="text-gray-600 text-sm">
@@ -254,12 +326,21 @@ const LivenessCheckAPIPages: React.FC = () => {
       </section>
 
       {/* API Integration Section */}
-      <section className="bg-gray-50 py-16 px-4 md:px-8 lg:px-20">
-        <div className="max-w-7xl mx-auto">
+      <section className="bg-[#f7f1ef]
+
+
+
+
+
+
+
+
+ py-16 px-4 md:px-8 lg:px-20">
+        <div className="w-full mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="w-full lg:w-1/2 space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-                Easy <span className="text-[#29a9c5]">API Integration</span>
+                Easy <span className="text-[#b7603d]">API Integration</span>
               </h2>
               <p className="text-gray-600">
                 Integrate liveness detection seamlessly into your applications with our developer-friendly API and
@@ -267,19 +348,19 @@ const LivenessCheckAPIPages: React.FC = () => {
               </p>
               <div className="space-y-3">
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>RESTful API with JSON responses</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>Mobile SDKs for iOS and Android</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>Web SDK for browser integration</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-[#29a9c5]">✓</span>
+                  <span className="text-[#b7603d]">✓</span>
                   <span>Comprehensive error handling</span>
                 </div>
               </div>
