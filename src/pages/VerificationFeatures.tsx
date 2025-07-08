@@ -101,7 +101,7 @@ const VerificationFeatures: React.FC = () => {
                 </div>
                 <div className="md:w-1/2">
                   <img
-                    src="https://img.freepik.com/free-vector/business-team-putting-together-jigsaw-puzzle-isolated-flat-vector-illustration-cartoon-partners-working-connection-teamwork-partnership-cooperation-concept_74855-9814.jpg"
+                    src="/img/Employee Background Verification API/Employee5.png"
                     alt="Team collaboration"
                     className="w-full h-auto rounded-lg"
                   />

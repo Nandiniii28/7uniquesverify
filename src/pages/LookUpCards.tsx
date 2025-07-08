@@ -29,9 +29,9 @@ const LookUpCards: React.FC = () => {
           {/* Block 1 */}
           <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
             <img
-              src="https://img.freepik.com/premium-vector/two-steps-verification-illustration-flat-design-illustration_108061-441.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="/img/phone number1.png"
               alt="Two-Step Verification Illustration"
-              className="w-full h-48 object-cover mb-4"
+              className="w-full  object-cover mb-4 group-hover:scale-105 transition-transform duration-500"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Seamless Identity Match in One API Call
@@ -46,9 +46,9 @@ const LookUpCards: React.FC = () => {
           {/* Block 2 */}
           <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
             <img
-              src="https://img.freepik.com/premium-photo/3d-illustration-data-phishing-concept-hacker-cyber-criminals-phishing-stealing-private-personal-data-password-email-credit-card-online-scam-malware-password-phishing_68971-1744.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="/img/Phone Number Lookup API/Phone Number4.png"
               alt="Data Phishing Prevention"
-              className="w-full h-48 object-cover mb-4"
+              className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Filter Out Fake Identities in Real-Time
@@ -66,9 +66,9 @@ const LookUpCards: React.FC = () => {
                           md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0"
           >
             <img
-              src="https://img.freepik.com/premium-vector/illustration-vector-graphic-cartoon-character-document-protection_516790-2134.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="/img/Phone Number Lookup API/Phone Number5.png"
               alt="Secure Document Verification"
-              className="w-full h-48 object-cover mb-4"
+              className="w-full object-contain mb-4 group-hover:scale-105 transition-transform duration-500"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Government-Linked Cross-Verification

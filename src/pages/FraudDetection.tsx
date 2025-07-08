@@ -36,7 +36,7 @@ const FraudDetectionHero: React.FC = () => {
         {/* Right: Image */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="https://img.freepik.com/free-vector/virtual-machines-operating-system-data-storage_335657-3133.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+            src="/img/Fraud Detection/Fraud Detection1.png"
             alt="Fraud Detection Illustration"
             className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
           />

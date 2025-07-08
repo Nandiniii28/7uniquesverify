@@ -36,7 +36,7 @@ const KycHero: React.FC = () => {
         {/* Right: Image */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="/img/11671799_13146-removebg-preview.png"
+            src="/img/KYC/KYC1.png"
             alt="KYC Verification Illustration"
             className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
           />

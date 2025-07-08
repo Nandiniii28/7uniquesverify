@@ -5,19 +5,19 @@ import React from "react"
 const UtilitiesCards: React.FC = () => {
   const utilitiesFeatures = [
     {
-      image: "https://img.freepik.com/premium-vector/insurance-concept-life-buoy-lifebelt-with-cash-money-dollar-stack-coins-isolated-white-background-vector-3d-isometric-business-finance-illustration-thin-line-design_570429-31457.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740",
+      image: "/img/Utilities/Utilities2.png",
       alt: "Currency Exchange API",
       title: "Currency Exchange API",
       description: "Access real-time and historical foreign exchange rates with 7Unique Verify's Currency Exchange API. Ideal for global pricing, invoicing, and accounting — fast, secure, and accurate.",
     },
     {
-      image: "https://img.freepik.com/premium-vector/vector-illustration-about-risk-assessment-concept-with-speedometer-risk-management_675567-8478.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740",
+      image: "/img/Utilities/Utilities3.png",
       alt: "Comprehensive Risk Assessment",
       title: "Comprehensive Risk Assessment",
       description: "Make smarter, safer decisions with our integrated Risk Assessment module. Evaluate the credibility and compliance of customers, vendors, or partners before onboarding — reducing fraud and enhancing trust in every transaction.",
     },
     {
-      image: "https://img.freepik.com/free-vector/authentication-concept-illustration_114360-773.jpg?t=st=1716750116~exp=1716753716~hmac=aa0f5aa2f493b0cc2fcf62e1be8a419bce10e93dc1e627401304d7d585fb66e2&w=740",
+      image: "/img/Utilities/Utilities4.png",
       alt: "Smart Data Validation",
       title: "Smart Data Validation",
       description: "Instantly verify critical data such as IMEI numbers, user identities, or transaction details. 7Unique Verify's validation tools help reduce fraud and improve compliance across systems.",

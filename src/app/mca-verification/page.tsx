@@ -75,7 +75,7 @@ const MCAVerificationPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="../img/images/35.png"
+              src="../img/PAN1.png"
               alt="MCA Verification Illustration"
               className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
             />
@@ -110,7 +110,7 @@ const MCAVerificationPage: React.FC = () => {
                   >
                     <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                       <motion.img
-                        src="../img/images/35.png"
+                        src="../img/Bank2.png"
                         alt="MCA Verification Illustration"
                         className="w-full h-auto object-contain"
                         whileHover={{ scale: 1.03 }}
@@ -346,7 +346,7 @@ const MCAVerificationPage: React.FC = () => {
                 className="w-full lg:w-1/2"
               >
                 <img
-                  src="../img/images/38.png"
+                  src="../img/Aadhaar5.png"
                   alt="MCA Verification Benefits"
                   className="w-full h-auto rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300"
                 />

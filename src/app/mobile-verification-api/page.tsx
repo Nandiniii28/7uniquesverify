@@ -76,7 +76,7 @@ const MobileVerificationAPIPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="../img/images/7.png"
+              src="../img/Mobile Verification API/Mobile1.png"
               alt="Mobile Verification API"
               className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
             />
@@ -111,7 +111,7 @@ const MobileVerificationAPIPage: React.FC = () => {
                   >
                     <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                       <motion.img
-                        src="../img/images/39.png"
+                        src="../img/Blog2.png"
                         alt="Mobile Verification Illustration"
                         className="w-full h-auto object-contain"
                         whileHover={{ scale: 1.03 }}
@@ -354,7 +354,7 @@ const MobileVerificationAPIPage: React.FC = () => {
                 className="w-full lg:w-1/2"
               >
                 <img
-                  src="../img/images/42.png"
+                  src="../img/Mobile Verification API/Mobile12png"
                   alt="Mobile Verification Benefits"
                   className="w-full h-auto rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300"
                 />

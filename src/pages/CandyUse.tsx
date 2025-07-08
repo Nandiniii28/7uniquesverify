@@ -87,7 +87,7 @@ const CandyUseCases: React.FC = () => {
           >
             <div className="relative">
               <img
-                src="/img/20943595.jpg"
+                src="/img/CANDY/CANDY2.png"
                 alt="CANDY Use Cases"
                 className="w-full h-auto rounded-lg sm:rounded-xl shadow-md sm:shadow-lg"
               />

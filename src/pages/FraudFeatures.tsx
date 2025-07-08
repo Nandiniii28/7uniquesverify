@@ -70,7 +70,7 @@ const FraudFeatures: React.FC = () => {
                 >
                   <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                     <motion.img
-                      src="https://img.freepik.com/free-vector/secure-data-concept-illustration_114360-8966.jpg"
+                      src="/img/Fraud Detection/Fraud Detection5.png"
                       alt="Fraud Protection Illustration"
                       className="w-full h-auto object-contain"
                       whileHover={{ scale: 1.03 }}

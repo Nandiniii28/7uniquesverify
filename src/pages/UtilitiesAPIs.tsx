@@ -68,6 +68,21 @@ const UtilitiesAPISection: React.FC = () => {
         >
           <div className="bg-gradient-to-r from-orange-50 to-red-50 px-6 py-4">
             <h2 className="flex items-center gap-3 text-2xl font-semibold">
+              <div className="rounded-full bg-[#b7603d]/10 p-2">
+                  <svg
+                    className="h-6 w-6 text-[#b7603d]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    />
+                  </svg>
+                </div>
               Empower Your Business with Next-Gen Utilities APIs
             </h2>
           </div>

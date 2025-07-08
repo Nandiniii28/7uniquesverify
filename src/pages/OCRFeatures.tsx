@@ -82,7 +82,7 @@ const OCRFeatures: React.FC = () => {
               <motion.div className="w-full lg:w-1/2" variants={itemVariants}>
                 <div className="relative">
                   <img
-                    src="https://img.freepik.com/free-vector/api-concept-illustration_114360-9822.jpg"
+                    src="/img/AI-Driven OCR/AI-Driven5.png"
                     alt="AI OCR Document Automation"
                     className="w-full h-auto object-contain rounded-xl"
                   />

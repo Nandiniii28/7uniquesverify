@@ -5,21 +5,21 @@ import type React from "react"
 const KycCards: React.FC = () => {
   const kycFeatures = [
     {
-      image: "/img/11669264_20945843.jpg",
+      image: "/img/KYC/KYC2.png",
       alt: "Simplifying Identity Verification",
       title: "Simplifying Identity Verification",
       description:
         "Our KYC APIs are designed for fast integration and high accuracy—making it easy for developers and businesses to validate users in real time with a seamless experience.",
     },
     {
-      image: "/img/8268971_3833777.jpg",
+      image: "/img/KYC/KYC3.png",
       alt: "Fraud Prevention",
       title: "Strengthen Fraud Prevention",
       description:
         "Built to combat fake identities, our KYC suite empowers banks, fintechs, and marketplaces to detect fraud before it enters the system—boosting trust and compliance.",
     },
     {
-      image: "/img/20289398_6272280.jpg",
+      image: "/img/KYC/KYC4.png",
       alt: "Reliable KYC Verification",
       title: "Accurate and Compliant KYC",
       description:

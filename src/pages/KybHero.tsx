@@ -33,7 +33,7 @@ const KybHero: React.FC = () => {
         {/* Right: Image */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="/img/recruit-agent-analyzing-candidates.png"
+            src="/img/KYB/KYB1.png"
             alt="KYB Verification Illustration"
             className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
           />

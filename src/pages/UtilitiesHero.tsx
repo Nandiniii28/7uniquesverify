@@ -36,7 +36,7 @@ const UtilitiesHero: React.FC = () => {
         {/* Right: Image */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="https://img.freepik.com/free-vector/settings-concept-illustration_114360-2051.jpg?t=st=1716747691~exp=1716751291~hmac=816228d9bb61668f315ad7d6e16cd5ad720763cbb3aa64f09ed94f1875c7c0f7&w=740"
+            src="/img/Utilities/Utilities1.png"
             alt="Utilities API Illustration"
             className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
           />

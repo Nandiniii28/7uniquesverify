@@ -78,7 +78,7 @@ const CKYCSearchPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="../img/images/13.png"
+              src="../img/CKYC1.png"
               alt="CKYC Search & Download with 7Unique Verify"
               className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
             />
@@ -199,6 +199,7 @@ const CKYCSearchPage: React.FC = () => {
       {/* How It Works Section */}
       <section className="container mx-auto px-4 py-12 ">
         <div className="mx-auto max-w-6xl space-y-8">
+<div className="bg-white rounded-lg shadow-lg overflow-hidden">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -208,6 +209,21 @@ const CKYCSearchPage: React.FC = () => {
           >
             <div className="bg-gradient-to-r from-orange-50 to-red-50 px-6 py-4">
               <h2 className="flex items-center gap-3 text-2xl font-semibold">
+                 <div className="rounded-full bg-[#b7603d]/10 p-2">
+                  <svg
+                    className="h-6 w-6 text-[#b7603d]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    />
+                  </svg>
+                </div>
                 How CKYC Search Works
               </h2>
             </div>
@@ -219,7 +235,7 @@ const CKYCSearchPage: React.FC = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-5"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-5"
           >
             {[
               {
@@ -282,6 +298,7 @@ const CKYCSearchPage: React.FC = () => {
               </motion.div>
             ))}
           </motion.div>
+        </div>
         </div>
       </section>
 
@@ -350,7 +367,7 @@ const CKYCSearchPage: React.FC = () => {
                 className="w-full lg:w-1/2"
               >
                 <img
-                  src="../img/images/17.png"
+                  src="../img/CKYC5.png"
                   alt="CKYC Benefits"
                   className="w-full h-auto rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300"
                 />
@@ -473,7 +490,7 @@ const CKYCSearchPage: React.FC = () => {
             <div className="p-8">
               <div className="grid gap-10 grid-cols-1 md:grid-cols-2 text-left">
                 <div className="bg-white p-6 rounded-lg shadow-xl transition duration-300 hover:shadow-2xl border border-gray-100 hover:border-[#b7603d]/30">
-                  <div className="mb-2 text-sm font-semibold text-[#b7603d] flex items-center gap-2">
+                  {/* <div className="mb-2 text-sm font-semibold text-[#b7603d] flex items-center gap-2">
                     <svg
                       className="h-4 w-4"
                       fill="none"
@@ -488,7 +505,7 @@ const CKYCSearchPage: React.FC = () => {
                       />
                     </svg>
                     01
-                  </div>
+                  </div> */}
                   <h3 className="text-xl font-semibold text-gray-800 mb-2 flex items-center gap-2">
                     <FaServer className="h-5 w-5 text-[#b7603d]" />
                     Simple Integration

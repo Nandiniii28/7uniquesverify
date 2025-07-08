@@ -33,9 +33,9 @@ const OCRCards: React.FC = () => {
           <div className="group relative bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 overflow-hidden">
             <div className="relative overflow-hidden h-60">
               <img
-                src="https://img.freepik.com/free-vector/ocr-optical-character-recognition-technology-concept_23-2148649550.jpg"
+                src="/img/AI-Driven OCR/AI-Driven2.png"
                 alt="AI-based OCR reduces manual errors"
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute top-4 right-4 bg-[#b7603d] text-white text-xs font-bold px-3 py-2 rounded-full shadow-md z-10">
                 Precision
@@ -56,9 +56,9 @@ const OCRCards: React.FC = () => {
           <div className="group relative bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 overflow-hidden">
             <div className="relative overflow-hidden h-60">
               <img
-                src="https://img.freepik.com/free-vector/identity-verification-concept-illustration_114360-4856.jpg"
+                src="/img/AI-Driven OCR/AI-Driven3.png"
                 alt="OCR for KYC fraud prevention"
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute top-4 right-4 bg-[#b7603d] text-white text-xs font-bold px-3 py-2 rounded-full shadow-md z-10">
                 Security
@@ -79,9 +79,9 @@ const OCRCards: React.FC = () => {
           <div className="group relative bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 overflow-hidden">
             <div className="relative overflow-hidden h-60">
               <img
-                src="https://img.freepik.com/free-vector/artificial-intelligence-concept-illustration_114360-7295.jpg"
+                src="/img/AI-Driven OCR/AI-Driven4.png"
                 alt="Real-time OCR document processing"
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute top-4 right-4 bg-[#b7603d] text-white text-xs font-bold px-3 py-2 rounded-full shadow-md z-10">
                 Speed

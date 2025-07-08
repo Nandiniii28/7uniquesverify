@@ -26,9 +26,9 @@ const FinancialCards: React.FC = () => {
           {/* Block 1 */}
           <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
             <img
-              src="https://img.freepik.com/free-vector/steal-data-illustrated-concept_23-2148544484.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="/img/Financial Checks API/Financial3.png"
               alt="Fraud Detection"
-              className="w-full h-48 object-cover mb-4"
+              className="w-full h-48 object-contain mb-4"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Detect Financial Fraud Before It Hits
@@ -41,9 +41,9 @@ const FinancialCards: React.FC = () => {
           {/* Block 2 */}
           <div className="bg-white p-6 rounded-lg shadow-xl text-center transition duration-300 hover:shadow-2xl">
             <img
-              src="https://img.freepik.com/premium-vector/bitcoin-crypto-currency-falling-graph-cracked-floor-with-frustrated-businessman-losing-money_251139-627.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="/img/Financial Checks API/Financial4.png"
               alt="Credit Risk Analysis"
-              className="w-full h-48 object-cover mb-4"
+              className="w-full h-48 object-contain mb-4"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Credit Risk Intelligence Made Easy
@@ -59,7 +59,7 @@ const FinancialCards: React.FC = () => {
                           md:col-span-2 md:mx-auto lg:col-span-1 lg:mx-0"
           >
             <img
-              src="https://img.freepik.com/premium-vector/vector-illustration-account-security-concept-with-person-signing-document_675567-2429.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+              src="/img/Financial Checks API/Financial5.png"
               alt="Regulatory Compliance"
               className="w-full h-48 object-cover mb-4"
             />

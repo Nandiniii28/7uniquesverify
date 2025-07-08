@@ -40,9 +40,9 @@ const KybCards: React.FC = () => {
             <div className="absolute top-6 -left-2 w-4 h-4 bg-[#b7603d] rounded-full"></div>
             <div className="mb-6 h-40 overflow-hidden rounded-lg">
               <img
-                src="/img/9930925_4270272.jpg"
+                src="/img/KYB/KYB2.png"
                 alt="Streamlined User Experience"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
               />
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-3 flex items-center">
@@ -65,9 +65,9 @@ const KybCards: React.FC = () => {
             </div>
             <div className="mb-6 h-40 overflow-hidden rounded-lg relative">
               <img
-                src="/img/8268971_3833777.jpg"
+                src="/img/KYB/KYB3.png"
                 alt="Fraud Prevention"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
@@ -87,9 +87,9 @@ const KybCards: React.FC = () => {
           <div className="group relative bg-gradient-to-br from-[#f9f3f0] to-white rounded-xl p-6 border border-[#f0d9d0] shadow-sm hover:shadow-md transition-all duration-300">
             <div className="mb-6 h-40 overflow-hidden rounded-lg relative">
               <img
-                src="/img/133748214_10221134.jpg"
+                src="/img/KYB/KYB4.png"
                 alt="Reliable Business Verification"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="flex justify-between items-start mb-4">

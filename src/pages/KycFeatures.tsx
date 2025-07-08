@@ -70,7 +70,7 @@ const KycFeatures: React.FC = () => {
               >
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                   <motion.img
-                    src="/img/freepik_br_ad7a40c4-1811-4984-813f-920647999df1.png"
+                    src="/img/KYC/KYC5.png"
                     alt="KYC Verification Illustration"
                     className="w-full h-auto object-contain"
                     whileHover={{ scale: 1.03 }}

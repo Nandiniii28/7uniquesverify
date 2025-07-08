@@ -85,7 +85,7 @@ const CrimeCheckAPIPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="../img/images/4.png"
+              src="../img/crime3.png"
               alt="7Unique Verify – Bank Account Verification"
               className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
             />
@@ -120,7 +120,7 @@ const CrimeCheckAPIPage: React.FC = () => {
                   >
                     <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                       <motion.img
-                        src="/img/image/10077.jpg"
+                        src="/img/crime5.png"
                         alt="Crime Check Illustration"
                         className="w-full h-auto object-contain"
                         whileHover={{ scale: 1.03 }}
@@ -205,6 +205,7 @@ const CrimeCheckAPIPage: React.FC = () => {
 
       <section className="container mx-auto px-4 py-12 ">
         <div className="mx-auto max-w-6xl space-y-8">
+          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -214,6 +215,21 @@ const CrimeCheckAPIPage: React.FC = () => {
           >
             <div className="bg-gradient-to-r from-orange-50 to-red-50 px-6 py-4">
               <h2 className="flex items-center gap-3 text-2xl font-semibold">
+                <div className="rounded-full bg-[#b7603d]/10 p-2">
+                  <svg
+                    className="h-6 w-6 text-[#b7603d]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    />
+                  </svg>
+                </div>
                 How Crime Check Works
               </h2>
             </div>
@@ -225,7 +241,7 @@ const CrimeCheckAPIPage: React.FC = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-5"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-5"
           >
             {[
               {
@@ -297,6 +313,7 @@ const CrimeCheckAPIPage: React.FC = () => {
               </motion.div>
             ))}
           </motion.div>
+        </div>
         </div>
       </section>
 
@@ -371,7 +388,7 @@ const CrimeCheckAPIPage: React.FC = () => {
                 className="w-full lg:w-1/2"
               >
                 <img
-                  src="/img/image/8058227.jpg"
+                  src="/img/crime4.png"
                   alt="Crime Check Benefits"
                   className="w-full h-auto rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300"
                 />

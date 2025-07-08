@@ -79,7 +79,7 @@ const VoterIDVerificationPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="../img/images/31.png"
+              src="../img/Voter4.png"
               alt="Voter ID Verification"
               className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
             />
@@ -350,7 +350,7 @@ const VoterIDVerificationPage: React.FC = () => {
                 className="w-full lg:w-1/2"
               >
                 <img
-                  src="../img/images/6.png"
+                  src="../img/Voter2.png"
                   alt="Voter ID Benefits"
                   className="w-full h-auto rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300"
                 />

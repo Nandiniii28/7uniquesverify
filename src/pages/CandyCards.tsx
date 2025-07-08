@@ -5,21 +5,21 @@ import type React from "react"
 const CandyCards: React.FC = () => {
   const candyReasons = [
     {
-      image: "/img/2302_i402_024_f_m004_c9_smartphone_data_protection_flat_composition.jpg",
+      image: "/img/CANDY/CANDY4.png",
       alt: "Personalised Journey",
       title: "Personalized User Flow: The CANDY Advantage",
       description:
         "CANDY by 7Unique Verify lets you design user experiences that adapt in real-time—offering dynamic, need-based journeys for your users and partners.",
     },
     {
-      image: "/img/5041145.jpg",
+      image: "/img/CANDY/CANDY5.png",
       alt: "Trustworthy Efficiency",
       title: "Real-Time Accuracy: Built to Scale",
       description:
         "CANDY delivers instant, verified results with every API call. It's reliable, scalable, and eliminates manual effort—trusted by modern Indian businesses.",
     },
     {
-      image: "/img/freepik_br_2a54e175-a781-46e8-a102-8aaf0ab9f2b9 (1).png",
+      image: "/img/CANDY/CANDY6.png",
       alt: "Reliable KYC Verification",
       title: "Hassle-Free KYC: Verified in Seconds",
       description:
@@ -64,7 +64,7 @@ const CandyCards: React.FC = () => {
                       <img
                         src={reason.image || "/placeholder.svg"}
                         alt={reason.alt}
-                        className="w-full h-48 object-cover rounded-lg"
+                        className="w-75 h-48  rounded-lg align-self-center"
                       />
                       <div className="absolute top-2 right-2 bg-white/90 p-2 rounded-full shadow-md">
                         {index === 0 && (

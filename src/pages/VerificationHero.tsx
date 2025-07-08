@@ -36,7 +36,7 @@ const VerificationHero: React.FC = () => {
                 {/* Right: Image */}
                 <div className="w-full md:w-1/2 flex justify-center">
                     <img
-                        src="https://img.freepik.com/premium-vector/summer-flat-illustration-beachfront-with-umbrellas-beach-gear_428731-153.jpg?uid=R200786995&ga=GA1.1.1683687550.1747121644&semt=ais_hybrid&w=740"
+                        src="/img/Employee Background Verification API/Employee1.png"
                         alt="Background Verification Illustration"
                         className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
                     />

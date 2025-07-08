@@ -81,7 +81,7 @@ const LookupFeatures: React.FC = () => {
             </div>
             <div className="lg:w-1/2 bg-[#f9f0ec] flex items-center justify-center p-8">
               <img
-                src="https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-135.jpg?w=740&t=st=1718456783~exp=1718457383~hmac=6c4d5c8d1b3b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5"
+                src="/img/Phone Number Lookup API/Phone Number3.png"
                 alt="API Integration"
                 className="w-full h-auto max-w-md object-contain"
               />

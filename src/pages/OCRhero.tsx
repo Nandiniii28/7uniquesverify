@@ -117,7 +117,7 @@ const OCRHero: React.FC = () => {
             
             <div className="relative bg-white/5 backdrop-blur-md rounded-2xl overflow-hidden border border-[#b36648] shadow-2xl">
               <img
-                src="https://img.freepik.com/free-vector/hand-drawn-flat-design-api-illustration_23-2149365021.jpg?w=1380&t=st=1718456321~exp=1718456921~hmac=1a5f1b6a5d2a8e4a8a5b5e5c5d5e5f5a5d5e5f5a5d5e5f5a5d5e5f5a5d5e5f5a"
+                src="/img/AI-Driven OCR/AI-Driven1.png"
                 alt="OCR API Illustration"
                 className="w-full h-auto object-cover"
               />

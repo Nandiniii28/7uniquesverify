@@ -90,7 +90,7 @@ const CandyWorkflow: React.FC = () => {
                 >
                   <div className="relative w-full">
                     <img
-                      src="/img/worksflow.jpg"
+                      src="/img/CANDY/CANDY3.png"
                       alt="Workflow Illustration"
                       className="w-full h-auto rounded-2xl shadow-2xl border-8 border-white"
                     />

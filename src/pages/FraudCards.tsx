@@ -4,21 +4,21 @@ import { motion } from "framer-motion";
 const FraudCards: React.FC = () => {
   const fraudFeatures = [
     {
-      image: "https://seon.io/wp-content/uploads/2020/05/Fraud-prevention-workflow-with-data-enrichment-1.svg",
+      image: "/img/Fraud Detection/Fraud Detection2.png",
       alt: "Effortless Fraud Detection",
       title: "Effortless Fraud Detection",
       description:
         "7Unique Verify's fraud prevention APIs streamline the process of identifying fake users and suspicious activities. With quick integration and smart insights, businesses can stay protected without heavy infrastructure.",
     },
     {
-      image: "/img/8268971_3833777.jpg",
+      image: "/img/Fraud Detection/Fraud Detection3.png",
       alt: "AI-Powered Identification",
       title: "AI-Powered Identification",
       description:
         "Our APIs use data analytics and pattern recognition to detect fraud attempts in real-time. Prevent impersonation, duplicate entries, and synthetic ID fraud with confidence.",
     },
     {
-      image: "https://img.freepik.com/free-vector/global-data-security-personal-data-security-cyber-data-security-online-concept-illustration-internet-security-information-privacy-protection_1150-37373.jpg",
+      image: "/img/Fraud Detection/Fraud Detection4.png",
       alt: "Trusted Risk Scoring",
       title: "Trusted Risk Scoring",
       description:
@@ -64,7 +64,7 @@ const FraudCards: React.FC = () => {
                       <img
                         src={feature.image}
                         alt={feature.alt}
-                        className="w-full h-48 object-cover mb-4 rounded-lg"
+                        className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                       />
                       <div className="absolute top-2 right-2 bg-white/90 p-2 rounded-full shadow-md">
                         {index === 0 && (

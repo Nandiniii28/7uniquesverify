@@ -82,7 +82,7 @@ const RCVerificationPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="../img/images/26.png"
+              src="../img/RC1.png"
               alt="RC Verification"
               className="w-full h-auto object-contain max-w-[500px] md:max-w-[600px] lg:max-w-[700px]"
             />
@@ -354,7 +354,7 @@ const RCVerificationPage: React.FC = () => {
                 className="w-full lg:w-1/2"
               >
                 <img
-                  src="../img/images/27.png"
+                  src="../img/RC4.png"
                   alt="RC Verification Benefits"
                   className="w-full h-auto rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300"
                 />

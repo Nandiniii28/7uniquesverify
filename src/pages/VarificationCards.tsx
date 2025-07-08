@@ -73,7 +73,7 @@ const VerificationCards: React.FC = () => {
           >
             <div className="relative overflow-hidden rounded-lg h-48 mb-6">
               <img
-                src="https://img.freepik.com/premium-vector/two-steps-verification-illustration-flat-design-illustration_108061-441.jpg"
+                src="/img/Employee Background Verification API/Employee2.png"
                 alt="Seamless Integration"
                 className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
               />
@@ -98,7 +98,7 @@ const VerificationCards: React.FC = () => {
           >
             <div className="relative overflow-hidden rounded-lg h-48 mb-6">
               <img
-                src="https://img.freepik.com/premium-photo/3d-illustration-data-phishing-concept-hacker-cyber-criminals-phishing-stealing-private-personal-data-password-email-credit-card-online-scam-malware-password-phishing_68971-1744.jpg"
+                src="/img/Employee Background Verification API/Employee3.png"
                 alt="Accurate and Trusted"
                 className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
               />
@@ -123,7 +123,7 @@ const VerificationCards: React.FC = () => {
           >
             <div className="relative overflow-hidden rounded-lg h-48 mb-6">
               <img
-                src="https://img.freepik.com/premium-vector/illustration-vector-graphic-cartoon-character-document-protection_516790-2134.jpg"
+                src="/img/Employee Background Verification API/Employee4.png"
                 alt="Fraud Prevention"
                 className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
               />
