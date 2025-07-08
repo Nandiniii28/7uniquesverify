@@ -2,21 +2,33 @@ import React from "react";
 
 const OCRCards: React.FC = () => {
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#f9f5f3] to-white">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Unlocking the Power of{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#c6693c] to-[#d88c6b]">
-              AI-Driven OCR
-            </span>
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+    <section className="container mx-auto px-4 py-12">
+      <div className="mx-auto max-w-6xl space-y-8">
+        <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div className="bg-gradient-to-r from-orange-50 to-red-50 px-6 py-4">
+              <h2 className="flex items-center gap-3 text-2xl font-semibold">
+                <div className="rounded-full bg-[#b7603d]/10 p-2">
+                  <svg className="h-6 w-6 text-[#b7603d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 12l2 2 4-4m5.25-4.5a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 7.5v9a2.25 2.25 0 002.25 2.25h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25H12"
+                    />
+                  </svg>
+                </div>
+                Unlocking the Power of AI-Driven OCR
+              </h2>
+            </div>
+
+
+
+          <p className="text-xl text-gray-600 max-w-2xl p-4">
             Transform your document processing with cutting-edge optical character recognition powered by AI
           </p>
-        </div>
 
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
+        <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5">
           {/* Card 1 */}
           <div className="group relative bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 overflow-hidden">
             <div className="relative overflow-hidden h-60">
@@ -87,11 +99,12 @@ const OCRCards: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-16 text-center">
+        <div className="mt-16 text-center mb-5">
           <button className="bg-gradient-to-r from-[#b7603d] to-[#d88c6b] text-white font-medium py-3 px-8 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105">
             Explore All Features
           </button>
         </div>
+      </div>
       </div>
     </section>
   );

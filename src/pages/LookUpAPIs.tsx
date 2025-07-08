@@ -57,8 +57,8 @@ const LookupAPIs: React.FC = () => {
   };
 
   return (
-    <section className="bg-gradient-to-br from-[#fffefd] to-[#f0e6e1] py-20 px-4 md:px-8 lg:px-20">
-      <div className="max-w-7xl mx-auto">
+    <section className="container mx-auto px-4 py-12">
+      <div className="mx-auto max-w-6xl space-y-8">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -66,13 +66,24 @@ const LookupAPIs: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Lookup with Confidence via{" "}
-            <span className="text-[#b7603d] bg-clip-text bg-gradient-to-r from-[#b7603d] to-[#d48b6a]">
-              7Unique Verify
-            </span>
-          </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+           <div className="bg-gradient-to-r from-orange-50 to-red-50 px-6 py-4">
+            <h2 className="flex items-center gap-3 text-2xl font-semibold">
+              <div className="rounded-full bg-[#b7603d]/10 p-2">
+                  <svg className="h-6 w-6 text-[#b7603d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 12l2 2 4-4m5.25-4.5a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 7.5v9a2.25 2.25 0 002.25 2.25h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25H12"
+                    />
+                  </svg>
+                </div>
+              Lookup with Confidence via 7Unique Verify
+            </h2>
+          </div>
+
+          <p className="text-lg text-gray-600 max-w-2xl mt-5">
+
             Powerful verification APIs to enhance your onboarding and KYC processes
           </p>
         </motion.div>

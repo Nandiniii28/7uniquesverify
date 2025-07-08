@@ -38,24 +38,28 @@ const VerificationCards: React.FC = () => {
   };
 
   return (
-    <section className="py-16 px-4 md:px-8 lg:px-16 xl:px-24">
-      <div className="max-w-7xl mx-auto bg-gradient-to-br from-[#f9f5f3] to-[#f0e4dd] rounded-3xl py-12 px-6 md:px-12 lg:px-16 xl:px-20 text-center shadow-lg">
-        <motion.h2
-          className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-12 px-4 sm:px-6 md:px-12"
-          variants={titleVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-        >
-          Unlock Success:{" "}
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#b7603d] to-[#d48a6c]">
-            7Unique Verify's
-          </span>{" "}
-          Employment BGV Verification API
-        </motion.h2>
+    <section className="container mx-auto px-4 py-12">
+      <div className="mx-auto max-w-6xl space-y-8">
+        <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="bg-gradient-to-r from-orange-50 to-red-50 px-6 py-4">
+              <h2 className="flex items-center gap-3 text-2xl font-semibold">
+                <div className="rounded-full bg-[#b7603d]/10 p-2">
+                  <svg className="h-6 w-6 text-[#b7603d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 12l2 2 4-4m5.25-4.5a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 7.5v9a2.25 2.25 0 002.25 2.25h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25H12"
+                    />
+                  </svg>
+                </div>
+               Unlock Success: 7UniqueVerify's Employment BGV Verification API
+              </h2>
+            </div>
+
 
         <motion.div
-          className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left"
+          className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left p-5"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -136,6 +140,7 @@ const VerificationCards: React.FC = () => {
             </div>
           </motion.div>
         </motion.div>
+      </div>
       </div>
     </section>
   );

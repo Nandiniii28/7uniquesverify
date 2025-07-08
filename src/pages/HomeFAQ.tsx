@@ -29,7 +29,7 @@ export default function HomeFAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 bg-gradient-to-b from-[#f9f9f9] to-white relative overflow-hidden">
+    <div className="w-full mx-auto px-4 sm:px-6 lg:px-8  sm:py-28 bg-gradient-to-b from-[#f9f9f9] to-white relative overflow-hidden ">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-r from-[#f9f0eb]/20 to-[#f3f8fb]/20 -z-10"></div>
       <div className="absolute -right-20 -top-20 w-80 h-80 rounded-full bg-[#b7603d]/10 blur-3xl -z-10"></div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import {
   FaMoneyCheckAlt,
   FaMobileAlt,
@@ -34,38 +35,88 @@ const UtilitiesAPISection: React.FC = () => {
     },
   ];
 
+  const container = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+  };
+
+  const item = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
+
   return (
-    <section className="bg-[#f7f1ef]
+    <section className="container mx-auto px-4 py-12">
+      <div className="mx-auto max-w-6xl space-y-8">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-16"
+        >
+          <div className="bg-gradient-to-r from-orange-50 to-red-50 px-6 py-4">
+            <h2 className="flex items-center gap-3 text-2xl font-semibold">
+              Empower Your Business with Next-Gen Utilities APIs
+            </h2>
+          </div>
+          <div className="w-24 h-1.5 bg-gradient-to-r from-[#b7603d] to-[#d88a6e] mx-auto rounded-full" />
+        </motion.div>
 
-
-
-
-
-
-
-
- py-16 px-4 md:px-8 lg:px-20">
-      <div className="w-full mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-          Empower Your Business with{" "}
-          <span className="text-[#b7603d]">Next-Gen Utilities APIs</span>
-        </h2>
-        <div className="grid grid-cols-2 lg:grid-cols-4 md:gap-6 gap-3">
+        <motion.div
+          variants={container}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-100px" }}
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+        >
           {utilitiesAPIs.map((api, index) => (
-            <div
+            <motion.div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300"
+              variants={item}
+              whileHover={{
+                y: -10,
+                boxShadow:
+                  "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+              }}
+              transition={{ duration: 0.3 }}
+              className="group relative bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden"
             >
-              <div className="flex justify-center mb-4 text-[#b7603d] text-4xl">
+              {/* Gradient background on hover */}
+              <div className="absolute inset-0 bg-gradient-to-br from-[#f7f1ef] to-[#f0e4df] opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10" />
+
+              {/* Icon with animation */}
+              <motion.div
+                className="flex justify-center mb-6 text-[#b7603d] text-4xl"
+                whileHover={{ scale: 1.1 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              >
                 {api.icon}
-              </div>
-              <h3 className="text-lg font-semibold text-gray-800 mb-2">
+              </motion.div>
+
+              <h3 className="text-xl font-semibold text-gray-800 mb-3 group-hover:text-[#b7603d] transition-colors duration-300">
                 {api.name}
               </h3>
-              <p className="text-gray-600 text-sm">{api.description}</p>
-            </div>
+              <p className="text-gray-600 group-hover:text-gray-800 transition-colors duration-300">
+                {api.description}
+              </p>
+
+              {/* Decorative elements */}
+              <div className="absolute -bottom-4 -right-4 w-16 h-16 rounded-full bg-[#b7603d]/10 group-hover:bg-[#b7603d]/20 transition-all duration-500" />
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

@@ -26,23 +26,24 @@ const LookupFeatures: React.FC = () => {
   ];
 
   return (
-    <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
+    <section className="relative py-10 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
       {/* Decorative elements */}
       
       <div className="hidden lg:block absolute top-1/4 -right-20 w-96 h-96 rounded-full bg-[#f9f0ec] -z-10"></div>
       
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <span className="inline-block mb-4 px-3 py-1 text-sm font-medium text-[#b7603d] bg-[#f9f0ec] rounded-full">
-            Powerful Features
-          </span>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Explore Our <span className="text-[#b7603d]">Mobile Lookup</span> Capabilities
-          </h2>
-          
-        </div>
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+       <div className="bg-gradient-to-r from-orange-50 to-red-50 px-6 py-4">
+            <h2 className="flex items-center gap-3 text-2xl font-semibold">
+              <div className="rounded-full bg-[#b7603d]/10 p-2">
+                <svg className="h-6 w-6 text-[#b7603d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+            Explore Our Mobile Lookup Capabilities
+            </h2>
+          </div>
 
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3 p-8">
           {features.map((feature, index) => (
             <div 
               key={index}

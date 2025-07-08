@@ -44,7 +44,8 @@ const KybFeatures: React.FC = () => {
 
   return (
     <section className="bg-white py-20 px-4 md:px-8 lg:px-20">
-      <div className="max-w-7xl mx-auto">
+     <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -52,14 +53,17 @@ const KybFeatures: React.FC = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Why <span className="text-[#b7603d]">Choose</span> Our{" "}
-            <span className="relative inline-block">
-              <span className="relative z-10">KYB Verification</span>
-              <span className="absolute bottom-0 left-0 w-full h-3 bg-[#b7603d]/30 -z-0"></span>
-            </span>
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+           <div className="bg-gradient-to-r from-orange-50 to-red-50 px-6 py-4">
+            <h2 className="flex items-center gap-3 text-2xl font-semibold">
+              <div className="rounded-full bg-[#b7603d]/10 p-2">
+                <svg className="h-6 w-6 text-[#b7603d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+             Choose Excellence: 7UniqueVerify's KYC API Suite
+            </h2>
+          </div>
+          <p className="text-xl text-gray-600 max-w-2xl mt-5">
             Trusted by businesses worldwide to streamline compliance and reduce risk
           </p>
         </motion.div>
@@ -88,7 +92,7 @@ const KybFeatures: React.FC = () => {
                   </button>
                 </div>
               </div>
-              
+
               {/* Decorative elements */}
               <div className="absolute -bottom-20 -right-20 w-40 h-40 rounded-full bg-white/10 group-hover:bg-white/20 transition-all duration-500"></div>
               <div className="absolute -top-10 -left-10 w-20 h-20 rounded-full bg-white/10 group-hover:bg-white/20 transition-all duration-500"></div>
@@ -113,6 +117,7 @@ const KybFeatures: React.FC = () => {
           </div>
         </motion.div>
       </div>
+     </div>
     </section>
   );
 };

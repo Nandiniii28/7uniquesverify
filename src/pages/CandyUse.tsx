@@ -30,7 +30,7 @@ const CandyUseCases: React.FC = () => {
     <section className="bg-gradient-to-b from-[#f9f9f9] to-white py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -78,7 +78,7 @@ const CandyUseCases: React.FC = () => {
           </div>
 
           {/* Image Section - Now comes second on mobile */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
@@ -87,7 +87,7 @@ const CandyUseCases: React.FC = () => {
           >
             <div className="relative">
               <img
-                src="/img/20943595.jpg" 
+                src="/img/20943595.jpg"
                 alt="CANDY Use Cases"
                 className="w-full h-auto rounded-lg sm:rounded-xl shadow-md sm:shadow-lg"
               />

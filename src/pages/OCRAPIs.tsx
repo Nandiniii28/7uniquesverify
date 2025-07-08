@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import {
   FaPassport,
   FaAddressCard,
@@ -17,94 +18,132 @@ const OCRAPIs: React.FC = () => {
   const ocrServices = [
     {
       name: "Passport OCR",
-      icon: <FaPassport className="text-3xl" />,
+      icon: <FaPassport />,
       description: "Automatically extract personal and travel data from passport images using advanced OCR.",
-      gradient: "from-[#b7603d] to-[#e8915e]"
     },
     {
       name: "PAN OCR",
-      icon: <FaAddressCard className="text-3xl" />,
+      icon: <FaAddressCard />,
       description: "Digitize and extract key information from PAN card scans for streamlined KYC.",
-      gradient: "from-[#9c4d2f] to-[#b7603d]"
     },
     {
       name: "Driving License OCR",
-      icon: <MdOutlineDriveEta className="text-3xl" />,
+      icon: <MdOutlineDriveEta />,
       description: "Capture license number, name, and validity from driving license images.",
-      gradient: "from-[#d47a4a] to-[#f0a87a]"
     },
     {
       name: "Bank Statement OCR",
-      icon: <FaUniversity className="text-3xl" />,
+      icon: <FaUniversity />,
       description: "Convert unstructured bank statement PDFs into structured, usable financial data.",
-      gradient: "from-[#b7603d] to-[#e8915e]"
     },
     {
       name: "Cheque OCR",
-      icon: <FaMoneyCheckAlt className="text-3xl" />,
+      icon: <FaMoneyCheckAlt />,
       description: "Read cheque numbers, account info, and signatures for automated cheque processing.",
-      gradient: "from-[#9c4d2f] to-[#b7603d]"
     },
     {
       name: "Aadhaar OCR",
-      icon: <FaIdCard className="text-3xl" />,
+      icon: <FaIdCard />,
       description: "Extract UIDAI Aadhaar details including name, DOB, and Aadhaar number with high accuracy.",
-      gradient: "from-[#d47a4a] to-[#f0a87a]"
     },
     {
       name: "Bulk Aadhaar Masking",
-      icon: <MdOutlineMarkEmailRead className="text-3xl" />,
+      icon: <MdOutlineMarkEmailRead />,
       description: "Automatically redact Aadhaar numbers in bulk documents for compliance and privacy.",
-      gradient: "from-[#b7603d] to-[#e8915e]"
     },
     {
       name: "Bulk Account Verification",
-      icon: <MdOutlineAccountBalanceWallet className="text-3xl" />,
+      icon: <MdOutlineAccountBalanceWallet />,
       description: "OCR-powered bulk account verification using scanned or uploaded documents.",
-      gradient: "from-[#9c4d2f] to-[#b7603d]"
     },
     {
       name: "Bulk PAN Verification",
-      icon: <AiOutlineCheckCircle className="text-3xl" />,
+      icon: <AiOutlineCheckCircle />,
       description: "Validate multiple PAN cards simultaneously using intelligent OCR processing.",
-      gradient: "from-[#d47a4a] to-[#f0a87a]"
     },
   ];
 
+  const container = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+  };
+
+  const item = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
+
   return (
-    <section className="bg-gradient-to-b from-[#f7f1ef] to-[#f0e6e2] py-20 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Our <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#b7603d] to-[#e8915e]">AI-Powered OCR</span> Suite
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Advanced document scanning and data extraction APIs for seamless digital transformation
-          </p>
-        </div>
+    <section className="container mx-auto px-4 py-12">
+      <div className="mx-auto max-w-6xl space-y-8">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-16"
+        >
+          <div className="bg-gradient-to-r from-orange-50 to-red-50 px-6 py-4">
+            <h2 className="flex items-center gap-3 text-2xl font-semibold">
+              APIs Under OCR Verification
+            </h2>
+          </div>
+          <div className="w-24 h-1.5 bg-gradient-to-r from-[#b7603d] to-[#d88a6e] mx-auto rounded-full" />
+        </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <motion.div
+          variants={container}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-100px" }}
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+        >
           {ocrServices.map((service, index) => (
-            <div
+            <motion.div
               key={index}
-              className="group relative overflow-hidden rounded-2xl bg-white shadow-xl hover:shadow-2xl transition-all duration-300"
+              variants={item}
+              whileHover={{
+                y: -10,
+                boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
+              }}
+              transition={{ duration: 0.3 }}
+              className="group relative bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden"
             >
-              <div className={`absolute top-0 left-0 w-full h-1 bg-gradient-to-r ${service.gradient}`}></div>
-              <div className="p-8 h-full">
-                <div className={`mb-6 w-16 h-16 rounded-xl bg-gradient-to-br ${service.gradient} flex items-center justify-center text-white`}>
-                  {service.icon}
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{service.name}</h3>
-                <p className="text-gray-600 mb-6">{service.description}</p>
-                <div className="mt-auto">
-                 
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+              {/* Gradient background on hover */}
+              <div className="absolute inset-0 bg-gradient-to-br from-[#f7f1ef] to-[#f0e4df] opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10" />
 
-        
+              {/* Icon with animation */}
+              <motion.div
+                className="flex justify-center mb-6 text-[#b7603d] text-4xl"
+                whileHover={{ scale: 1.1 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              >
+                {service.icon}
+              </motion.div>
+
+              <h3 className="text-xl font-semibold text-gray-800 mb-3 group-hover:text-[#b7603d] transition-colors duration-300">
+                {service.name}
+              </h3>
+              <p className="text-gray-600 group-hover:text-gray-800 transition-colors duration-300">
+                {service.description}
+              </p>
+
+              {/* Decorative elements */}
+              <div className="absolute -bottom-4 -right-4 w-16 h-16 rounded-full bg-[#b7603d]/10 group-hover:bg-[#b7603d]/20 transition-all duration-500" />
+            </motion.div>
+          ))}
+        </motion.div>
       </div>
     </section>
   );

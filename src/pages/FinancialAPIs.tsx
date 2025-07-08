@@ -65,8 +65,12 @@ const FinancialChecksAPIs: React.FC = () => {
   };
 
   return (
-    <section className="bg-gradient-to-b from-[#f9f5f3] to-white py-20 px-4 md:px-8 lg:px-20">
-      <div className="max-w-7xl mx-auto">
+    <section className="container mx-auto px-4 py-12">
+      <div className="mx-auto max-w-6xl space-y-8">
+          <span className="text-sm font-semibold text-[#b7603d] uppercase tracking-wider">
+            Financial Services
+          </span>
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -74,12 +78,14 @@ const FinancialChecksAPIs: React.FC = () => {
           viewport={{ once: true, margin: "-100px" }}
           className="text-center mb-16"
         >
-          <span className="text-sm font-semibold text-[#b7603d] uppercase tracking-wider">
-            Financial Services
-          </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mt-3">
-            APIs Under <span className="text-[#b7603d]">Financial Checks</span>
-          </h2>
+          <div className="bg-gradient-to-r from-orange-50 to-red-50 px-6 py-4">
+            <h2 className="flex items-center gap-3 text-2xl font-semibold">
+              APIs Under Financial Checks
+            </h2>
+          </div>
+
+
+
           <div className="mx-auto mt-4 h-1 w-24 bg-[#b7603d] rounded-full"></div>
         </motion.div>
 
@@ -88,7 +94,7 @@ const FinancialChecksAPIs: React.FC = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 px-5"
         >
           {financialAPIs.map((api, index) => (
             <motion.div
@@ -117,6 +123,7 @@ const FinancialChecksAPIs: React.FC = () => {
             </motion.div>
           ))}
         </motion.div>
+      </div>
       </div>
     </section>
   );

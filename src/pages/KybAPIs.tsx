@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import {
   FaFileInvoiceDollar,
   FaBuilding,
@@ -29,17 +30,17 @@ const APIsUnderKyb: React.FC = () => {
     },
     {
       name: "TAN Lookup API",
-      icon: <FaIdBadge  />,
+      icon: <FaIdBadge />,
       description: "Get verified TAN details to meet tax-related regulatory requirements.",
     },
     {
       name: "PAN to GST Mapping",
-      icon: <FaBarcode  />,
+      icon: <FaBarcode />,
       description: "Fetch GST data mapped to PAN numbers to prevent identity misuse.",
     },
     {
       name: "LEI Verification",
-      icon: <FaRegIdCard  />,
+      icon: <FaRegIdCard />,
       description: "Validate Legal Entity Identifiers for financial or investment institutions.",
     },
     {
@@ -54,50 +55,87 @@ const APIsUnderKyb: React.FC = () => {
     },
   ];
 
+  const container = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+  };
+
+  const item = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
+
   return (
-    <section className="bg-white py-16 px-4 md:px-8 lg:px-20">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            APIs Under <span className="text-[#b7603d]">KYB Verification</span>
-          </h2>
-          <div className="w-20 h-1 bg-[#b7603d] mx-auto mb-6"></div>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Comprehensive business verification solutions to streamline your compliance processes
-          </p>
-        </div>
-        
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    <section className="container mx-auto px-4 py-12">
+      <div className="mx-auto max-w-6xl space-y-8">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-16"
+        >
+          <div className="bg-gradient-to-r from-orange-50 to-red-50 px-6 py-4">
+            <h2 className="flex items-center gap-3 text-2xl font-semibold">
+              APIs Under KYB Verification
+            </h2>
+          </div>
+          <div className="w-24 h-1.5 bg-gradient-to-r from-[#b7603d] to-[#d88a6e] mx-auto rounded-full" />
+        </motion.div>
+
+        <motion.div
+          variants={container}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-100px" }}
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+        >
           {apiServices.map((service, index) => (
-            <div
+            <motion.div
               key={index}
-              className="relative bg-white rounded-lg border border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group"
+              variants={item}
+              whileHover={{
+                y: -10,
+                boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
+              }}
+              transition={{ duration: 0.3 }}
+              className="group relative bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden"
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-[#f8f2f0] to-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              
-              <div className="relative z-10 p-6 h-full flex flex-col">
-                <div className="w-12 h-12 rounded-lg text-[#b7603d] hover:text-white bg-[#f8f2f0] flex items-center justify-center mb-6 group-hover:bg-[#b7603d] group-hover:text-white transition-colors duration-300">
-                  {service.icon}
-                </div>
-                
-                <h3 className="text-xl font-semibold text-gray-800 mb-3 group-hover:text-[#b7603d] transition-colors duration-200">
-                  {service.name}
-                </h3>
-                <p className="text-gray-600 mb-6 flex-grow">{service.description}</p>
-                
-                <div className="mt-auto">
-                  
-                </div>
-              </div>
-              
-              <div className="absolute bottom-0 left-0 right-0 h-1 bg-[#f8f2f0] group-hover:bg-[#b7603d] transition-colors duration-300"></div>
-            </div>
+              {/* Gradient background on hover */}
+              <div className="absolute inset-0 bg-gradient-to-br from-[#f7f1ef] to-[#f0e4df] opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10" />
+
+              {/* Icon with animation */}
+              <motion.div
+                className="flex justify-center mb-6 text-[#b7603d] text-4xl"
+                whileHover={{ scale: 1.1 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              >
+                {service.icon}
+              </motion.div>
+
+              <h3 className="text-xl font-semibold text-gray-800 mb-3 group-hover:text-[#b7603d] transition-colors duration-300">
+                {service.name}
+              </h3>
+              <p className="text-gray-600 group-hover:text-gray-800 transition-colors duration-300">
+                {service.description}
+              </p>
+
+              {/* Decorative elements */}
+              <div className="absolute -bottom-4 -right-4 w-16 h-16 rounded-full bg-[#b7603d]/10 group-hover:bg-[#b7603d]/20 transition-all duration-500" />
+            </motion.div>
           ))}
-        </div>
-        
-        <div className="text-center mt-16">
-          
-        </div>
+        </motion.div>
       </div>
     </section>
   );

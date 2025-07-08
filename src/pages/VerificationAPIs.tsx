@@ -43,21 +43,25 @@ const EmployeeBGVAPIs: React.FC = () => {
   ];
 
   return (
-    <section className="bg-[#f7f1ef]
+    <section className="bg-gradient-to-b from-white to-gray-50 py-20 px-4 md:px-8 lg:px-20 overflow-hidden">
+      <div className="container mx-auto px-4 py-12">
+      <div className="mx-auto max-w-7xl space-y-12">
+         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+
+         <div className="bg-gradient-to-r from-orange-50 to-red-50 px-6 py-4">
+            <h2 className="flex items-center gap-3 text-2xl font-semibold">
+              <div className="rounded-full bg-[#b7603d]/10 p-2">
+                <svg className="h-6 w-6 text-[#b7603d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+             APIs Under Employee Background Checks
+            </h2>
+          </div>
 
 
 
-
-
-
-
-
- py-16 px-4 md:px-8 lg:px-20">
-      <div className="w-full mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-          APIs Under <span className="text-[#b7603d]">Employee Background</span> Checks
-        </h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 md:gap-6 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-3 md:gap-6 gap-3 p-5">
           {apiServices.map((service, index) => (
             <div
               key={index}
@@ -73,6 +77,8 @@ const EmployeeBGVAPIs: React.FC = () => {
             </div>
           ))}
         </div>
+      </div>
+      </div>
       </div>
     </section>
   );
