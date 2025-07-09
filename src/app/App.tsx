@@ -131,7 +131,7 @@ export default function App() {
         <Route path="/employee-verification" element={<EmployeeVarificationPage />} />
         <Route path="/ocr" element={<OCRPage />} />
         <Route path="/utilities" element={<UtilitiesPage />} />
-        <Route path="/blog/:id" element={<BlogDetail />} />
+        <Route path="/blog/:slug" element={<BlogDetail />} />
         <Route path="/contact-us" element={<ContactUsPage />} />
         <Route path="/media-articles" element={<MediaArticles />} />
         <Route path="/articles/:slug" element={<ArticleDetail />} />

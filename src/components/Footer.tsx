@@ -10,10 +10,53 @@ export default function Footer() {
     setActiveLink(location.pathname);
   }, [location]);
 
+  const [contactDetails, setContactDetails] = useState(null);
+  const [socailDetails, setSocailDetails] = useState([]);
+
+  useEffect(() => {
+    const fetchContactDetails = async () => {
+      try {
+        const [contactDtails, socialLink] = await Promise.all([
+          fetch(
+            "https://cms.sevenunique.com/apis/contact/get-contact-details.php?website_id=7",
+            {
+              method: "GET",
+              headers: {
+                "Content-Type": "application/json",
+                Authorization: "Bearer jibhfiugh84t3324fefei#*fef",
+              },
+            }
+          ),
+          fetch(
+            "https://cms.sevenunique.com/apis/social-media/get-social-accounts.php?website_id=7 ",
+            {
+              method: "GET",
+              headers: {
+                "Content-Type": "application/json",
+                Authorization: "Bearer jibhfiugh84t3324fefei#*fef",
+              },
+            }
+          ),
+        ]);
+        const contactjson = await contactDtails.json();
+        const socialjson = await socialLink.json();
+        // console.log("contact", contactjson?.data);
+        // console.log("social", socialjson?.data);
+        setContactDetails(contactjson?.data);
+        setSocailDetails(socialjson?.data);
+      } catch (error) {
+        console.error("Error fetching contact details:", error);
+      }
+    };
+    fetchContactDetails();
+  }, []);
   return (
     <footer
       className="border-t border-[#eaeaea] pt-12 pb-6 bg-cover bg-center"
-      style={{ backgroundImage: "url('https://img.freepik.com/premium-vector/abstract-background-wallpaper-design-vector-image-with-curve-line-backdrop-presentation_1110513-430.jpg?ga=GA1.1.389685255.1745228264&semt=ais_hybrid&w=740')" }}
+      style={{
+        backgroundImage:
+          "url('https://img.freepik.com/premium-vector/abstract-background-wallpaper-design-vector-image-with-curve-line-backdrop-presentation_1110513-430.jpg?ga=GA1.1.389685255.1745228264&semt=ais_hybrid&w=740')",
+      }}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-5 gap-5 pb-10">
         {/* Products - moved to first column */}
@@ -41,10 +84,12 @@ export default function Footer() {
                 <li key={index}>
                   <Link
                     to={path}
-                    className={`inline-block py-1 text-gray-700 hover:text-[#b7603d] transition-colors duration-300 relative group ${activeLink === path ? 'text-[#b7603d]' : ''}`}
+                    className={`inline-block py-1 text-gray-700 hover:text-[#b7603d] transition-colors duration-300 relative group ${activeLink === path ? "text-[#b7603d]" : ""}`}
                   >
                     {item}
-                    <span className={`absolute bottom-0 left-0 h-0.5 bg-[#b7603d] transition-all duration-300 ${activeLink === path ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
+                    <span
+                      className={`absolute bottom-0 left-0 h-0.5 bg-[#b7603d] transition-all duration-300 ${activeLink === path ? "w-full" : "w-0 group-hover:w-full"}`}
+                    ></span>
                   </Link>
                 </li>
               );
@@ -67,17 +112,19 @@ export default function Footer() {
               "OCR Validation",
               "Whatsapp Verification",
               "Face Match API",
-              "Name Match API"
+              "Name Match API",
             ].map((item, index) => {
               const path = `/${item.toLowerCase().replace(/ /g, "-")}`;
               return (
                 <li key={index}>
                   <Link
                     to={path}
-                    className={`inline-block py-1 text-gray-700 hover:text-[#b7603d] transition-colors duration-300 relative group ${activeLink === path ? 'text-[#b7603d]' : ''}`}
+                    className={`inline-block py-1 text-gray-700 hover:text-[#b7603d] transition-colors duration-300 relative group ${activeLink === path ? "text-[#b7603d]" : ""}`}
                   >
                     {item}
-                    <span className={`absolute bottom-0 left-0 h-0.5 bg-[#b7603d] transition-all duration-300 ${activeLink === path ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
+                    <span
+                      className={`absolute bottom-0 left-0 h-0.5 bg-[#b7603d] transition-all duration-300 ${activeLink === path ? "w-full" : "w-0 group-hover:w-full"}`}
+                    ></span>
                   </Link>
                 </li>
               );
@@ -104,10 +151,12 @@ export default function Footer() {
               <li key={index}>
                 <Link
                   to={item.path}
-                  className={`inline-block py-1 text-gray-700 hover:text-[#b7603d] transition-colors duration-300 relative group ${activeLink === item.path ? 'text-[#b7603d]' : ''}`}
+                  className={`inline-block py-1 text-gray-700 hover:text-[#b7603d] transition-colors duration-300 relative group ${activeLink === item.path ? "text-[#b7603d]" : ""}`}
                 >
                   {item.name}
-                  <span className={`absolute bottom-0 left-0 h-0.5 bg-[#b7603d] transition-all duration-300 ${activeLink === item.path ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
+                  <span
+                    className={`absolute bottom-0 left-0 h-0.5 bg-[#b7603d] transition-all duration-300 ${activeLink === item.path ? "w-full" : "w-0 group-hover:w-full"}`}
+                  ></span>
                 </Link>
               </li>
             ))}
@@ -127,10 +176,12 @@ export default function Footer() {
                 <li key={index}>
                   <Link
                     to={path}
-                    className={`inline-block py-1 text-gray-700 hover:text-[#b7603d] transition-colors duration-300 relative group ${activeLink === path ? 'text-[#b7603d]' : ''}`}
+                    className={`inline-block py-1 text-gray-700 hover:text-[#b7603d] transition-colors duration-300 relative group ${activeLink === path ? "text-[#b7603d]" : ""}`}
                   >
                     {item}
-                    <span className={`absolute bottom-0 left-0 h-0.5 bg-[#b7603d] transition-all duration-300 ${activeLink === path ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
+                    <span
+                      className={`absolute bottom-0 left-0 h-0.5 bg-[#b7603d] transition-all duration-300 ${activeLink === path ? "w-full" : "w-0 group-hover:w-full"}`}
+                    ></span>
                   </Link>
                 </li>
               );
@@ -148,37 +199,81 @@ export default function Footer() {
             />
           </Link>
           <p className="mb-4 leading-relaxed text-sm text-gray-700">
-            7Unique Verify is your trusted partner for simplified and fast identity verification solutions. Eliminate paperwork, reduce fraud, and verify users with ease using our robust API stack.
+            7Unique Verify is your trusted partner for simplified and fast
+            identity verification solutions. Eliminate paperwork, reduce fraud,
+            and verify users with ease using our robust API stack.
           </p>
 
           {/* Support Information */}
           <div className="mb-4">
             <h4 className="font-semibold text-black mb-2 text-md">Support</h4>
             <div className="text-sm text-gray-700 space-y-1">
-              <p className="hover:text-[#b7603d] transition-colors duration-300 inline-block">080-69489510</p>
-              <p className="hover:text-[#b7603d] transition-colors duration-300 inline-block">support@digio.in</p>
+              {(contactDetails?.address || "").split("|").map((addr, index) => (
+                <p key={index} className="text-sm text-gray-700">
+                  {addr.trim()}
+                </p>
+              ))}
+
+              <p className="hover:text-[#b7603d] transition-colors duration-300 inline-block">
+                {contactDetails?.phone}
+              </p>
+              {(contactDetails?.email || "").split(",").map((email, i) => (
+                <a
+                  key={i}
+                  href={`mailto:${email.trim()}`}
+                  className="text-sm text-gray-700 hover:underline block"
+                >
+                  {email.trim()}
+                </a>
+              ))}
             </div>
           </div>
 
           {/* Social Icons */}
           <div className="flex gap-3 text-[#b7603d] text-2xl">
-            <Link to="/contact-us" aria-label="Facebook" className="hover:text-[#d19983] transition-colors duration-300">
+            {socailDetails?.map((social, index) => (
+              <a
+                key={index}
+                href={social.account_link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block"
+                dangerouslySetInnerHTML={{ __html: social.icon_class }}
+              />
+            ))}
+            {/* <Link
+              to="/contact-us"
+              aria-label="Facebook"
+              className="hover:text-[#d19983] transition-colors duration-300"
+            >
               <i className="bi bi-facebook"></i>
             </Link>
-            <Link to="/contact-us" aria-label="LinkedIn" className="hover:text-[#d19983] transition-colors duration-300">
+            <Link
+              to="/contact-us"
+              aria-label="LinkedIn"
+              className="hover:text-[#d19983] transition-colors duration-300"
+            >
               <i className="bi bi-linkedin"></i>
             </Link>
-            <Link to="/contact-us" aria-label="X Twitter" className="hover:text-[#d19983] transition-colors duration-300">
+            <Link
+              to="/contact-us"
+              aria-label="X Twitter"
+              className="hover:text-[#d19983] transition-colors duration-300"
+            >
               <i className="bi bi-twitter-x"></i>
             </Link>
-            <Link to="/contact-us" aria-label="YouTube" className="hover:text-[#d19983] transition-colors duration-300">
+            <Link
+              to="/contact-us"
+              aria-label="YouTube"
+              className="hover:text-[#d19983] transition-colors duration-300"
+            >
               <i className="bi bi-youtube"></i>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 border-t border-[#eaeaea] pt-6 text-center text-[#9c9e99] text-sm">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 border-t border-[#eaeaea] pt-6 text-center text-[#080808] text-sm">
         <span>© 2025 7Unique Verify. All rights reserved.</span>
       </div>
     </footer>

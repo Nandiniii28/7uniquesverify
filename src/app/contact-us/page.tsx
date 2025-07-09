@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
 import { motion } from "framer-motion";
@@ -10,6 +10,32 @@ export default function ContactUsPage() {
     contact: "",
     message: "",
   });
+  const [contactDetails, setContactDetails] = useState(null);
+
+  useEffect(() => {
+    const fetchContactDetails = async () => {
+      try {
+        const [contactDtails] = await Promise.all([
+          fetch(
+            "https://cms.sevenunique.com/apis/contact/get-contact-details.php?website_id=7",
+            {
+              method: "GET",
+              headers: {
+                "Content-Type": "application/json",
+                Authorization: "Bearer jibhfiugh84t3324fefei#*fef",
+              },
+            }
+          ),
+        ]);
+        const contactjson = await contactDtails.json();
+        setContactDetails(contactjson?.data);
+        // console.log(contactjson?.data);
+      } catch (error) {
+        console.error("Error fetching contact details:", error);
+      }
+    };
+    fetchContactDetails();
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -21,11 +47,25 @@ export default function ContactUsPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    const payload = {
+      name: formData.name,
+      email: formData.email,
+      phone: formData.contact,
+      message: formData.message,
+      service: "N/A",
+      website_id: 7,
+    };
     try {
-      const response = await axios.post(
-        "http://localhost:5050/api/contact/create",
-        formData
+      const response = await fetch(
+        "https://cms.sevenunique.com/apis/contact-query/set-contact-details.php",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: "Bearer jibhfiugh84t3324fefei#*fef",
+          },
+          body: JSON.stringify(payload),
+        }
       );
       console.log("response data", response);
 
@@ -187,7 +227,13 @@ export default function ContactUsPage() {
               <input
                 name="name"
                 value={formData.name}
-                onChange={handleChange}
+                onChange={(e) => {
+                  const onlyLetters = e.target.value.replace(
+                    /[^a-zA-Z\s]/g,
+                    ""
+                  );
+                  setFormData({ ...formData, name: onlyLetters });
+                }}
                 className="flex-1 rounded-md border border-[#e8c4b0] px-4 py-3 text-sm placeholder-[#b7603d] focus:outline-none focus:ring-2 focus:ring-[#b7603d] bg-white"
                 placeholder="Your Name*"
                 required
@@ -207,10 +253,18 @@ export default function ContactUsPage() {
               <input
                 name="contact"
                 value={formData.contact}
-                onChange={handleChange}
+                onChange={(e) => {
+                  const val = e.target.value;
+                  if (!/^\d*$/.test(val)) return;
+                  if (val.length === 1 && /^[0-5]/.test(val)) return;
+                  if (val.length > 10) return;
+
+                  setFormData({ ...formData, contact: val });
+                }}
                 className="w-full rounded-md border border-[#e8c4b0] px-4 py-3 text-sm placeholder-[#b7603d] focus:outline-none focus:ring-2 focus:ring-[#b7603d] bg-white"
                 placeholder="Mobile No."
                 type="tel"
+                required
               />
             </motion.div>
             <motion.div variants={item}>
@@ -256,7 +310,10 @@ export default function ContactUsPage() {
                 </svg>
               ),
               label: "Location:",
-              value: "info@7unique.in",
+              value: (contactDetails?.address || "")
+                .split("|")
+                .map((addr) => addr.trim())
+                .filter((addr) => addr.length > 0),
             },
             {
               icon: (
@@ -271,7 +328,17 @@ export default function ContactUsPage() {
                 </svg>
               ),
               label: "Email address:",
-              value: "support@7unique.in",
+              value: (contactDetails?.email || "")
+                .split(",")
+                .map((email, i) => (
+                  <a
+                    key={i}
+                    href={`mailto:${email.trim()}`}
+                    className="block text-sm text-gray-700 hover:underline"
+                  >
+                    {email.trim()}
+                  </a>
+                )),
             },
             {
               icon: (
@@ -286,7 +353,7 @@ export default function ContactUsPage() {
                 </svg>
               ),
               label: "Phone number:",
-              value: "7878053816",
+              value: contactDetails?.phone,
             },
           ].map((item, i) => (
             <motion.div
@@ -294,9 +361,7 @@ export default function ContactUsPage() {
               whileHover={{ y: -5 }}
               className="bg-[#f7f1ef] rounded-xl p-6 flex flex-col items-start space-y-4 border border-[#e8c4b0] hover:border-[#b7603d] transition-all duration-300"
             >
-              <div className="p-2 rounded-full bg-[#f0d9cc]">
-                {item.icon}
-              </div>
+              <div className="p-2 rounded-full bg-[#f0d9cc]">{item.icon}</div>
               <div className="text-sm text-[#8c4a2e]">
                 <p className="font-semibold mb-1">{item.label}</p>
                 <p className="font-bold">{item.value}</p>
@@ -331,8 +396,8 @@ export default function ContactUsPage() {
               With our team.
             </h2>
             <p className="text-[#8c4a2e] text-sm sm:text-base max-w-md mb-6">
-              We are passionate about transforming the way businesses communicate.
-              Specializing in VOIP, telecom.
+              We are passionate about transforming the way businesses
+              communicate. Specializing in VOIP, telecom.
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
