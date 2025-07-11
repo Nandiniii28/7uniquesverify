@@ -77,7 +77,7 @@ export default function BlogPage() {
     const fetchBlogs = async () => {
       try {
         const res = await fetch(
-          "https://cms.sevenunique.com/apis/blogs/get-blogs.php?website_id=6&status=2",
+          "https://cms.sevenunique.com/apis/blogs/get-blogs.php?website_id=7&status=2",
           {
             method: "GET",
             headers: {
@@ -141,36 +141,37 @@ export default function BlogPage() {
               key={index}
               className="bg-[#F5F9FA] rounded-xl overflow-hidden shadow-sm"
             >
-              <img
-                src={blog?.image}
-                alt={blog?.title}
-                className="w-full h-44 object-cover rounded-t-xl"
-                loading="lazy"
-              />
-              <div className="p-5">
-                <div className="flex items-center text-gray-600 text-xs mb-2 space-x-2">
-                  <span>
-                    <i className="far fa-calendar-alt" />{" "}
-                    {new Date(blog?.created_at).toLocaleDateString("en-IN", {
-                      day: "numeric",
-                      month: "long",
-                      year: "numeric",
-                    })}
-                  </span>
+              <Link to={`/blog/${blog?.slug}`}>
+                <img
+                  src={blog?.image}
+                  alt={blog?.title}
+                  className="w-full h-44 object-cover rounded-t-xl"
+                  loading="lazy"
+                />
+                <div className="p-5">
+                  <div className="flex items-center text-gray-600 text-xs mb-2 space-x-2">
+                    <span>
+                      <i className="far fa-calendar-alt" />{" "}
+                      {new Date(blog?.created_at).toLocaleDateString("en-IN", {
+                        day: "numeric",
+                        month: "long",
+                        year: "numeric",
+                      })}
+                    </span>
+                  </div>
+                  <h3 className="font-semibold text-base leading-snug mb-3">
+                    {blog?.title}
+                  </h3>
+                  <div
+                    className="text-xs font-semibold flex items-center space-x-1 text-black"
+                  >
+                    <span>Read More</span>
+                    <span className="bg-[#b7603d] text-white rounded-full w-5 h-5 flex items-center justify-center text-sm font-bold leading-none">
+                      ▹
+                    </span>
+                  </div>
                 </div>
-                <h3 className="font-semibold text-base leading-snug mb-3">
-                  {blog?.title}
-                </h3>
-                <Link
-                  to={`/blog/${blog?.slug}`}
-                  className="text-xs font-semibold flex items-center space-x-1 text-black"
-                >
-                  <span>Read More</span>
-                  <span className="bg-[#b7603d] text-white rounded-full w-5 h-5 flex items-center justify-center text-sm font-bold leading-none">
-                    ▹
-                  </span>
-                </Link>
-              </div>
+              </Link>
             </article>
           ))
         ) : (

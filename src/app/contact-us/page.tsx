@@ -11,6 +11,7 @@ export default function ContactUsPage() {
     message: "",
   });
   const [contactDetails, setContactDetails] = useState(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
     const fetchContactDetails = async () => {
@@ -47,6 +48,7 @@ export default function ContactUsPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
     const payload = {
       name: formData.name,
       email: formData.email,
@@ -86,6 +88,8 @@ export default function ContactUsPage() {
         icon: "error",
         confirmButtonColor: "#d33",
       });
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -281,8 +285,35 @@ export default function ContactUsPage() {
               <button
                 className="bg-[#b7603d] hover:bg-[#8c4a2e] text-white font-semibold text-sm rounded-full px-8 py-3 transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg"
                 type="submit"
+                disabled={isSubmitting}
               >
-                Submit Now
+                {isSubmitting ? (
+                  <span className="flex items-center gap-2">
+                    <svg
+                      className="animate-spin h-4 w-4 text-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        className="opacity-25"
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        stroke="currentColor"
+                        strokeWidth="4"
+                      />
+                      <path
+                        className="opacity-75"
+                        fill="currentColor"
+                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
+                      />
+                    </svg>
+                    Submitting...
+                  </span>
+                ) : (
+                  "Submit Now"
+                )}
               </button>
             </motion.div>
           </motion.form>
@@ -364,7 +395,17 @@ export default function ContactUsPage() {
               <div className="p-2 rounded-full bg-[#f0d9cc]">{item.icon}</div>
               <div className="text-sm text-[#8c4a2e]">
                 <p className="font-semibold mb-1">{item.label}</p>
-                <p className="font-bold">{item.value}</p>
+                <div className="font-bold space-y-1">
+                  {Array.isArray(item.value) ? (
+                    item.value.map((line, idx) => (
+                      <p key={idx} className="leading-snug">
+                        {line}
+                      </p>
+                    ))
+                  ) : (
+                    <p>{item.value}</p>
+                  )}
+                </div>
               </div>
             </motion.div>
           ))}

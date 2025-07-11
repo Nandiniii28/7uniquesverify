@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { useEffect, useState } from "react";
-
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 export default function Footer() {
   const location = useLocation();
   const [activeLink, setActiveLink] = useState("");
@@ -28,7 +28,7 @@ export default function Footer() {
             }
           ),
           fetch(
-            "https://cms.sevenunique.com/apis/social-media/get-social-accounts.php?website_id=7 ",
+            "https://cms.sevenunique.com/apis/social-media/get-social-accounts.php?website_id=7",
             {
               method: "GET",
               headers: {
@@ -205,30 +205,39 @@ export default function Footer() {
           </p>
 
           {/* Support Information */}
+
           <div className="mb-4">
             <h4 className="font-semibold text-black mb-2 text-md">Support</h4>
             <div className="text-sm text-gray-700 space-y-1">
               {(contactDetails?.address || "").split("|").map((addr, index) => (
-                <p key={index} className="text-sm text-gray-700">
+                <p
+                  key={index}
+                  className="flex items-start gap-2 leading-snug text-sm text-gray-800"
+                >
+                  <FaMapMarkerAlt className="text-[#b7603d] w-4 h-4 mt-0.5 flex-shrink-0" />
                   {addr.trim()}
                 </p>
               ))}
 
-              <p className="hover:text-[#b7603d] transition-colors duration-300 inline-block">
-                {contactDetails?.phone}
-              </p>
+              {contactDetails?.phone && (
+                <p className="flex items-center gap-2 text-sm text-gray-800">
+                  <FaPhoneAlt className="text-[#b7603d] w-4 h-4 mt-0.5 flex-shrink-0" />
+                  {contactDetails.phone}
+                </p>
+              )}
+
               {(contactDetails?.email || "").split(",").map((email, i) => (
                 <a
                   key={i}
                   href={`mailto:${email.trim()}`}
-                  className="text-sm text-gray-700 hover:underline block"
+                  className="flex items-center gap-2 text-sm text-gray-800 hover:underline"
                 >
+                  <FaEnvelope className="text-[#b7603d] w-4 h-4 mt-0.5 flex-shrink-0" />
                   {email.trim()}
                 </a>
               ))}
             </div>
           </div>
-
           {/* Social Icons */}
           <div className="flex gap-3 text-[#b7603d] text-2xl">
             {socailDetails?.map((social, index) => (
