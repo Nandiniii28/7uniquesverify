@@ -16,7 +16,7 @@ const cleanContent = (html) => {
 export default function BlogDetail() {
   const { slug } = useParams();
   const [post, setPost] = useState(null);
-  console.log(slug);
+  const [catergory, setCategory] = useState();
 
   useEffect(() => {
     setPost(null);
@@ -24,7 +24,7 @@ export default function BlogDetail() {
       try {
         const [postRes, relatedRes, categoryapi] = await Promise.all([
           fetch(
-            `https://cms.sevenunique.com/apis/blogs/get-blogs.php?status=2&slug=${slug}&website_id=6`,
+            `https://cms.sevenunique.com/apis/blogs/get-blogs.php?status=2&slug=${slug}&website_id=7`,
             {
               method: "GET",
               headers: {
@@ -34,7 +34,7 @@ export default function BlogDetail() {
             }
           ),
           fetch(
-            `https://cms.sevenunique.com/apis/blogs/get-blogs.php?status=2&limit=3&website_id=6`,
+            `https://cms.sevenunique.com/apis/blogs/get-blogs.php?status=2&limit=3&website_id=7`,
             {
               method: "GET",
               headers: {
@@ -44,7 +44,7 @@ export default function BlogDetail() {
             }
           ),
           fetch(
-            `https://cms.sevenunique.com/apis/category/get_category_by_id.php?category_id=6 `,
+            `https://cms.sevenunique.com/apis/category/get_category_by_id.php?category_id=${post?.category_id}`,
             {
               method: "GET",
               headers: {
@@ -58,6 +58,7 @@ export default function BlogDetail() {
         const postJson = await postRes.json();
         const relatedJson = await relatedRes.json();
         const categoryapijson = await categoryapi.json();
+        setCategory(categoryapijson.data);
         // console.log(postJson);
         // console.log(relatedJson);
         // console.log(categoryapijson);
@@ -67,6 +68,7 @@ export default function BlogDetail() {
           if (matchedPost) {
             matchedPost.content = cleanContent(matchedPost.content);
             setPost(matchedPost);
+            // console.log(matchedPost.category_id);
           } else {
             setPost(null);
           }
@@ -102,13 +104,18 @@ export default function BlogDetail() {
         alt={post?.title}
         className="w-full h-[400px] object-cover rounded mb-6"
       />
-      <span className="flex items-center">
-        <FaCalendarAlt className="mr-2 text-cyan-500" />
-        {new Date(post?.created_at).toLocaleDateString("en-IN", {
-          day: "numeric",
-          month: "long",
-          year: "numeric",
-        })}
+      <span className="flex items-center gap-5">
+        <span className="flex items-center">
+          <FaCalendarAlt className="mr-2 text-cyan-500" />
+          {new Date(post?.created_at).toLocaleDateString("en-IN", {
+            day: "numeric",
+            month: "long",
+            year: "numeric",
+          })}
+        </span>
+        <span className=" rounded-lg bg-slate-300 px-3 text-sm">
+          {catergory?.name}
+        </span>
       </span>
 
       <h1 className="text-3xl font-bold mb-6">{post?.title}</h1>
