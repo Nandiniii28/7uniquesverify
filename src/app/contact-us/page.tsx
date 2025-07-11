@@ -78,7 +78,7 @@ export default function ContactUsPage() {
       if (response.status === 200) {
         Swal.fire({
           title: "Success!",
-          text: "Your form has been submitted.",
+          text: "team will contact you soon",
           icon: "success",
           confirmButtonColor: "#b7603d",
         });

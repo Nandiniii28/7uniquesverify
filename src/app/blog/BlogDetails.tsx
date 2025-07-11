@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import DOMPurify from "dompurify";
 const cleanContent = (html) => {
   return DOMPurify.sanitize(html, {
-    FORBID_ATTR: ["style"], // removes inline styles
+    FORBID_ATTR: [""], // removes inline styles
   });
 };
 
@@ -118,7 +118,7 @@ export default function BlogDetail() {
         </span>
       </span>
 
-      <h1 className="text-3xl font-bold mb-6">{post?.title}</h1>
+      <h1 className="text-3xl font-bold my-6">{post?.title}</h1>
 
       <div
         className="space-y-4 text-gray-700 leading-relaxed"
