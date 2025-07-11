@@ -1,7 +1,20 @@
 import { Link } from "react-router-dom";
 import { motion, useAnimation } from "framer-motion";
-import { FaArrowRight, FaCalendarAlt, FaBookmark, FaRegBookmark } from "react-icons/fa";
-import { RiHomeHeartLine, RiFlaskLine, RiPlantLine, RiSparklingLine } from "react-icons/ri";
+import {
+  FaArrowRight,
+  FaCalendarAlt,
+  FaBookmark,
+  FaRegBookmark,
+} from "react-icons/fa";
+import {
+  RiHomeHeartLine,
+  RiFlaskLine,
+  RiPlantLine,
+  RiSparklingLine,
+} from "react-icons/ri";
+import { useContext } from "react";
+import { ContextData } from "../../config/context";
+import SEO from "../Helmet/helment";
 
 // Color palette with richer tones
 const colors = {
@@ -11,7 +24,7 @@ const colors = {
   accent: "#5d8a66",
   background: "#faf7f5",
   text: "#2d2d2d",
-  lightText: "#6d6d6d"
+  lightText: "#6d6d6d",
 };
 
 // Premium vector components
@@ -26,7 +39,7 @@ const FloatingOrbs = () => (
       transition={{
         duration: 12,
         repeat: Infinity,
-        ease: "linear"
+        ease: "linear",
       }}
       className="absolute top-1/4 left-1/4 w-16 h-16 rounded-full"
       style={{ backgroundColor: colors.primary, opacity: 0.1 }}
@@ -41,7 +54,7 @@ const FloatingOrbs = () => (
         duration: 15,
         repeat: Infinity,
         ease: "linear",
-        delay: 3
+        delay: 3,
       }}
       className="absolute bottom-1/3 right-1/4 w-24 h-24 rounded-full"
       style={{ backgroundColor: colors.accent, opacity: 0.1 }}
@@ -73,7 +86,7 @@ const articleData = [
     category: "Candle Tips",
     desc: "Simple steps to create your home's best warm ambiance.",
     date: "Saturday, 04 Nov 2023",
-    premium: false
+    premium: false,
   },
   {
     img: "/img/1.2.jpg",
@@ -82,7 +95,7 @@ const articleData = [
     category: "Wellness Tips",
     desc: "Simple steps to make your home feel warm .",
     date: "Saturday, 04 Nov 2023",
-    premium: false
+    premium: false,
   },
   {
     img: "/img/1.3.jpg",
@@ -91,7 +104,7 @@ const articleData = [
     category: "Candle Tips",
     desc: "Simple steps to create your home's best warm ambiance.",
     date: "Saturday, 04 Nov 2023",
-    premium: false
+    premium: false,
   },
   {
     img: "/img/1.4.jpg",
@@ -100,7 +113,7 @@ const articleData = [
     category: "Candle Tips",
     desc: "Simple steps to create your home's best warm ambiance.",
     date: "Saturday, 04 Nov 2023",
-    premium: false
+    premium: false,
   },
   {
     img: "/img/1.5.jpg",
@@ -109,7 +122,7 @@ const articleData = [
     category: "Wellness Tips",
     desc: "Simple steps to create your home's best warm ambiance.",
     date: "Saturday, 04 Nov 2023",
-    premium: false
+    premium: false,
   },
   {
     img: "/img/1.6.jpg",
@@ -118,7 +131,7 @@ const articleData = [
     category: "Candle Tips",
     desc: "Simple steps to create your home's best warm ambiance.",
     date: "Saturday, 04 Nov 2023",
-    premium: false
+    premium: false,
   },
 ];
 const categoryButtons = [
@@ -126,106 +139,125 @@ const categoryButtons = [
   { name: "Candle Craft", icon: <RiFlaskLine /> },
   { name: "Wellness", icon: <RiSparklingLine /> },
   { name: "Eco Living", icon: <RiPlantLine /> },
-  { name: "Lifestyle", icon: <RiSparklingLine /> }
+  { name: "Lifestyle", icon: <RiSparklingLine /> },
 ];
 
 const ArticleCard = ({ article, index }) => {
   const controls = useAnimation();
+  const { seo } = useContext(ContextData);
 
   return (
-    <motion.article
-      initial={{ opacity: 0, y: 40 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, delay: index * 0.1 }}
-      whileHover={{
-        y: -10,
-        boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
-      }}
-      onHoverStart={() => controls.start("hover")}
-      onHoverEnd={() => controls.start("initial")}
-      className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group relative"
-      style={{ height: "420px" }}
-    >
-
-
-      {/* Image container with parallax effect */}
-      <motion.div
-        className="relative h-56 overflow-hidden"
-        initial={{ scale: 1 }}
-        animate={controls}
-        variants={{
-          initial: { scale: 1 },
-          hover: { scale: 1.05 }
+    <>
+      <SEO seo={seo} />
+      <motion.article
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: index * 0.1 }}
+        whileHover={{
+          y: -10,
+          boxShadow:
+            "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
         }}
-        transition={{ duration: 0.5 }}
+        onHoverStart={() => controls.start("hover")}
+        onHoverEnd={() => controls.start("initial")}
+        className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group relative"
+        style={{ height: "420px" }}
       >
-        <img
-          src={article.img}
-          alt={article.title}
-          className="w-full h-full object-cover"
-        />
-        {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
-      </motion.div>
+        {/* Image container with parallax effect */}
+        <motion.div
+          className="relative h-56 overflow-hidden"
+          initial={{ scale: 1 }}
+          animate={controls}
+          variants={{
+            initial: { scale: 1 },
+            hover: { scale: 1.05 },
+          }}
+          transition={{ duration: 0.5 }}
+        >
+          <img
+            src={article.img}
+            alt={article.title}
+            className="w-full h-full object-cover"
+          />
+          {/* Gradient overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
+        </motion.div>
 
-      <div className="p-6 flex flex-col h-44">
-        <div className="flex justify-between items-start mb-3">
-          <span className="text-xs font-medium px-3 py-1 rounded-full"
-            style={{
-              backgroundColor: colors.primaryLight,
-              color: colors.primaryDark
-            }}>
-            {article.category}
-          </span>
-          <span className="text-xs" style={{ color: colors.lightText }}>
-            {article.readTime}
-          </span>
-        </div>
-
-        <Link to={`/articles/${article.slug}`}>
-          <h3 className="text-xl font-semibold mb-3 leading-tight group-hover:underline"
-            style={{ color: colors.text }}>
-            {article.title}
-          </h3>
-        </Link>
-
-        <p className="text-sm mb-4 flex-grow" style={{ color: colors.lightText }}>
-          {article.desc}
-        </p>
-
-        <div className="flex items-center justify-between">
-          <div className="flex items-center text-xs" style={{ color: colors.lightText }}>
-            <FaCalendarAlt className="mr-2" style={{ color: colors.primary }} />
-            <span>Nov 04, 2023</span>
+        <div className="p-6 flex flex-col h-44">
+          <div className="flex justify-between items-start mb-3">
+            <span
+              className="text-xs font-medium px-3 py-1 rounded-full"
+              style={{
+                backgroundColor: colors.primaryLight,
+                color: colors.primaryDark,
+              }}
+            >
+              {article.category}
+            </span>
+            <span className="text-xs" style={{ color: colors.lightText }}>
+              {article.readTime}
+            </span>
           </div>
-          <motion.button
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            className="text-gray-400 hover:text-amber-500 transition-colors"
-          >
-            {article.premium ? <FaBookmark /> : <FaRegBookmark />}
-          </motion.button>
-        </div>
-      </div>
 
-      {/* Hover shine effect */}
-      <motion.div
-        initial={{ opacity: 0, x: "-100%" }}
-        animate={controls}
-        variants={{
-          initial: { opacity: 0, x: "-100%" },
-          hover: { opacity: 0.4, x: "200%" }
-        }}
-        transition={{ duration: 0.8 }}
-        className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/80 to-transparent"
-      />
-    </motion.article>
+          <Link to={`/articles/${article.slug}`}>
+            <h3
+              className="text-xl font-semibold mb-3 leading-tight group-hover:underline"
+              style={{ color: colors.text }}
+            >
+              {article.title}
+            </h3>
+          </Link>
+
+          <p
+            className="text-sm mb-4 flex-grow"
+            style={{ color: colors.lightText }}
+          >
+            {article.desc}
+          </p>
+
+          <div className="flex items-center justify-between">
+            <div
+              className="flex items-center text-xs"
+              style={{ color: colors.lightText }}
+            >
+              <FaCalendarAlt
+                className="mr-2"
+                style={{ color: colors.primary }}
+              />
+              <span>Nov 04, 2023</span>
+            </div>
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="text-gray-400 hover:text-amber-500 transition-colors"
+            >
+              {article.premium ? <FaBookmark /> : <FaRegBookmark />}
+            </motion.button>
+          </div>
+        </div>
+
+        {/* Hover shine effect */}
+        <motion.div
+          initial={{ opacity: 0, x: "-100%" }}
+          animate={controls}
+          variants={{
+            initial: { opacity: 0, x: "-100%" },
+            hover: { opacity: 0.4, x: "200%" },
+          }}
+          transition={{ duration: 0.8 }}
+          className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/80 to-transparent"
+        />
+      </motion.article>
+    </>
   );
 };
 
 const MediaArticles = () => {
   return (
-    <div className="relative overflow-hidden" style={{ backgroundColor: colors.background }}>
+    <div
+      className="relative overflow-hidden"
+      style={{ backgroundColor: colors.background }}
+    >
       {/* Decorative elements */}
       <CornerVector position="top-0 right-0" />
       <CornerVector position="bottom-0 left-0 rotate-180" />
@@ -245,7 +277,6 @@ const MediaArticles = () => {
             animate={{ scaleX: 1 }}
             transition={{ delay: 0.4, duration: 0.8 }}
             className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-32 h-1"
-          
           />
           <motion.p
             initial={{ opacity: 0 }}
@@ -263,7 +294,8 @@ const MediaArticles = () => {
             className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
             style={{ color: colors.text }}
           >
-            Explore  <span style={{ color: colors.primary }}>Our Latest</span> Insights
+            Explore <span style={{ color: colors.primary }}>Our Latest</span>{" "}
+            Insights
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
@@ -305,8 +337,12 @@ const MediaArticles = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3 }}
                     className="inline-block px-4 py-2 text-xs font-bold rounded-full mb-4 shadow-sm"
-                    style={{ backgroundColor: colors.primaryLight, color: colors.primaryDark }}
-                  >Online Guide
+                    style={{
+                      backgroundColor: colors.primaryLight,
+                      color: colors.primaryDark,
+                    }}
+                  >
+                    Online Guide
                   </motion.span>
 
                   <motion.h2
@@ -338,12 +374,14 @@ const MediaArticles = () => {
                       className="flex items-center text-sm font-medium group"
                       style={{ color: colors.primaryLight }}
                     >
-                      <span className="mr-2 group-hover:underline">Explore the Collection</span>
+                      <span className="mr-2 group-hover:underline">
+                        Explore the Collection
+                      </span>
                       <motion.span
                         animate={{ x: [0, 4, 0] }}
                         transition={{
                           duration: 1.5,
-                          repeat: Infinity
+                          repeat: Infinity,
                         }}
                       >
                         <FaArrowRight />
@@ -384,26 +422,33 @@ const MediaArticles = () => {
                   transition={{ delay: 0.5 + i * 0.1 }}
                   whileHover={{
                     x: 8,
-                    backgroundColor: i === 0 ? colors.primaryDark : colors.primaryLight
+                    backgroundColor:
+                      i === 0 ? colors.primaryDark : colors.primaryLight,
                   }}
                   whileTap={{ scale: 0.98 }}
-                  className={`flex items-center px-6 py-4 rounded-xl text-left transition-all ${i === 0 ?
-                    `text-white shadow-lg` :
-                    `bg-white hover:shadow-md`}`}
+                  className={`flex items-center px-6 py-4 rounded-xl text-left transition-all ${
+                    i === 0
+                      ? `text-white shadow-lg`
+                      : `bg-white hover:shadow-md`
+                  }`}
                   style={{
-                    backgroundColor: i === 0 ? colors.primary : 'white',
-                    color: i === 0 ? 'white' : colors.text,
-                    border: i === 0 ? 'none' : `1px solid ${colors.primaryLight}`
+                    backgroundColor: i === 0 ? colors.primary : "white",
+                    color: i === 0 ? "white" : colors.text,
+                    border:
+                      i === 0 ? "none" : `1px solid ${colors.primaryLight}`,
                   }}
                 >
-                  <span className="mr-4 text-lg" style={{ color: i === 0 ? 'white' : colors.primary }}>
+                  <span
+                    className="mr-4 text-lg"
+                    style={{ color: i === 0 ? "white" : colors.primary }}
+                  >
                     {cat.icon}
                   </span>
                   <span>{cat.name}</span>
                   {i === 0 && (
                     <motion.span
                       className="ml-auto text-xs px-2 py-1 rounded-full"
-                      style={{ backgroundColor: 'rgba(255,255,255,0.2)' }}
+                      style={{ backgroundColor: "rgba(255,255,255,0.2)" }}
                       whileHover={{ scale: 1.05 }}
                     >
                       24 articles
@@ -417,7 +462,6 @@ const MediaArticles = () => {
 
         {/* Article Grid */}
         <section className="mb-10 sm:mb-16 md:mb-24">
-          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {articleData.map((article, i) => (
               <ArticleCard key={i} article={article} index={i} />
@@ -466,7 +510,13 @@ const MediaArticles = () => {
                 stroke-width="2"
                 fill-opacity="0"
               />
-              <circle cx="100" cy="100" r="40" fill={colors.primary} fill-opacity="0.1" />
+              <circle
+                cx="100"
+                cy="100"
+                r="40"
+                fill={colors.primary}
+                fill-opacity="0.1"
+              />
             </svg>
           </div>
 
@@ -480,7 +530,13 @@ const MediaArticles = () => {
               viewport={{ once: true }}
               className="inline-flex items-center justify-center mb-6 px-4 py-2 rounded-full bg-white shadow-sm border border-gray-100"
             >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" className="mr-2">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                className="mr-2"
+              >
                 <path
                   d="M12 1L15.09 7.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 7.26L12 1Z"
                   fill={colors.primary}
@@ -488,7 +544,9 @@ const MediaArticles = () => {
                   stroke-width="1.5"
                 />
               </svg>
-              <span className="font-medium" style={{ color: colors.primary }}>Premium Membership</span>
+              <span className="font-medium" style={{ color: colors.primary }}>
+                Premium Membership
+              </span>
             </motion.div>
 
             <motion.h2
@@ -498,7 +556,7 @@ const MediaArticles = () => {
               viewport={{ once: true }}
               className="text-4xl font-bold mb-4 bg-clip-text text-transparent"
               style={{
-                backgroundImage: `linear-gradient(135deg, ${colors.primary}, ${colors.accent})`
+                backgroundImage: `linear-gradient(135deg, ${colors.primary}, ${colors.accent})`,
               }}
             >
               Unlock Exclusive Perks
@@ -511,7 +569,8 @@ const MediaArticles = () => {
               viewport={{ once: true }}
               className="text-lg mb-8 max-w-2xl mx-auto text-gray-600"
             >
-              Elevate your experience with early access, premium content, and members-only benefits.
+              Elevate your experience with early access, premium content, and
+              members-only benefits.
             </motion.p>
 
             <motion.div
@@ -524,17 +583,23 @@ const MediaArticles = () => {
               <motion.button
                 whileHover={{
                   scale: 1.03,
-                  boxShadow: `0 5px 20px ${colors.primary}30`
+                  boxShadow: `0 5px 20px ${colors.primary}30`,
                 }}
                 whileTap={{ scale: 0.98 }}
                 className="px-8 py-3.5 rounded-lg font-semibold flex items-center justify-center gap-2"
                 style={{
                   background: `linear-gradient(135deg, ${colors.primary}, ${colors.accent})`,
-                  color: 'white'
+                  color: "white",
                 }}
               >
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                  <path d="M5 13L9 17L19 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M5 13L9 17L19 7"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
                 </svg>
                 Join Now
               </motion.button>
@@ -543,13 +608,13 @@ const MediaArticles = () => {
                 whileHover={{
                   scale: 1.03,
                   backgroundColor: `${colors.primary}08`,
-                  borderColor: colors.primary
+                  borderColor: colors.primary,
                 }}
                 whileTap={{ scale: 0.98 }}
                 className="px-8 py-3.5 rounded-lg font-semibold border-2"
                 style={{
                   borderColor: colors.primary,
-                  color: colors.primary
+                  color: colors.primary,
                 }}
               >
                 See Features
